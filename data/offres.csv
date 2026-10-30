@@ -483,29 +483,12 @@ totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;3;1
 totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;6;15.86;base;0.1837;confirme;2026-10-30
 totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;9;19.88;base;0.1823;confirme;2026-10-30
 totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;12;23.76;base;0.1823;confirme;2026-10-30
-totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;15;27.4;base;0.1823;confirme;2026-10-30
-totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;18;31.14;base;0.1823;confirme;2026-10-30
-totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;24;39.14;base;0.1823;confirme;2026-10-30
-totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;30;46.47;base;0.1823;confirme;2026-10-30
-totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;36;53.88;base;0.1823;confirme;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;3;12.13;hp;0.1965;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;3;12.13;hc;0.1467;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;6;15.86;hp;0.1965;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;6;15.86;hc;0.1467;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;9;19.88;hp;0.1965;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;9;19.88;hc;0.1467;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;12;23.76;hp;0.1965;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;12;23.76;hc;0.1467;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;15;27.4;hp;0.1965;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;15;27.4;hc;0.1467;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;18;31.14;hp;0.1965;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;18;31.14;hc;0.1467;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;24;39.14;hp;0.1965;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;24;39.14;hc;0.1467;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;30;46.47;hp;0.1965;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;30;46.47;hc;0.1467;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;36;53.88;hp;0.1965;conflit;2026-10-30
-totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;36;53.88;hc;0.1467;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;6;15.86;hp;0.1965;confirme;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;6;15.86;hc;0.1467;confirme;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;9;20.16;hp;0.1965;confirme;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;9;20.16;hc;0.1467;confirme;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;12;24.39;hp;0.1965;confirme;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;12;24.39;hc;0.1467;confirme;2026-10-30
 geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;3;12.15;base;0.1837;confirme;2026-10-30
 geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;6;15.9;base;0.1837;confirme;2026-10-30
 geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;9;19.99;base;0.1823;confirme;2026-10-30

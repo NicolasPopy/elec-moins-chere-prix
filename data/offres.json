@@ -2762,7 +2762,7 @@
    "option": "base",
    "type_prix": "indexe_trv",
    "duree_prix_garanti_mois": null,
-   "indexation": "kWh HT inférieur au TRV",
+   "indexation": "Abonnement et kWh HT indexés sur le Tarif Bleu ; kWh HT 10 % moins cher que le TRV pendant 3 ans",
    "energie_verte": null,
    "engagement": "sans engagement",
    "plages_horaires": null,
@@ -2794,60 +2794,37 @@
      "prix_kwh": {
       "base": 0.1823
      }
-    },
-    {
-     "kva": 15,
-     "abonnement_mois": 27.4,
-     "prix_kwh": {
-      "base": 0.1823
-     }
-    },
-    {
-     "kva": 18,
-     "abonnement_mois": 31.14,
-     "prix_kwh": {
-      "base": 0.1823
-     }
-    },
-    {
-     "kva": 24,
-     "abonnement_mois": 39.14,
-     "prix_kwh": {
-      "base": 0.1823
-     }
-    },
-    {
-     "kva": 30,
-     "abonnement_mois": 46.47,
-     "prix_kwh": {
-      "base": 0.1823
-     }
-    },
-    {
-     "kva": 36,
-     "abonnement_mois": 53.88,
-     "prix_kwh": {
-      "base": 0.1823
-     }
     }
    ],
    "promotions": [],
-   "avantages": [],
+   "avantages": [
+    "Prix du carburant plafonné à 1,99 €/L en 2026 dans les stations TotalEnergies (200 € de remise maximum par client)",
+    "Carte de recharge Charge+ offerte",
+    "Application mobile de suivi de consommation"
+   ],
    "verification": "confirme",
    "sources": [
     {
-     "url": "https://www.jechange.fr/energie/electricite/moins-cher",
-     "type": "comparateur",
+     "url": "https://www.totalenergies.fr/particuliers/electricite/offres-d-electricite/offre-access-electricite",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     },
     {
-     "url": "https://www.fournisseurs-electricite.com/contrat-electricite/prix",
-     "type": "comparateur",
+     "url": "https://www.totalenergies.fr/fileadmin/Digital/Groupe/PDF/Documents_contractuels/Particuliers/Tarifs_TotalEnergies/fr/grille-tarifaire-access-particuliers.pdf",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
-   "derniere_verif": "2026-10-30"
+   "notes": [
+    "Grille officielle du 30/09/2026 : puissances de 3 à 12 kVA seulement.",
+    "Prix affichés remise de 10 % HT incluse : réservée aux nouvelles souscriptions en ligne, France métropolitaine hors Corse, non cumulable. Sans la remise, les prix sont ceux du Tarif Bleu."
+   ],
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille officielle TotalEnergies du 30/09/2026 fournie par Nicolas."
+   }
   },
   {
    "id": "totalenergies-access-hphc",
@@ -2856,19 +2833,11 @@
    "option": "hphc",
    "type_prix": "indexe_trv",
    "duree_prix_garanti_mois": null,
-   "indexation": "kWh HT inférieur au TRV",
+   "indexation": "Abonnement et kWh HT indexés sur le Tarif Bleu ; kWh HT 10 % moins cher que le TRV pendant 3 ans",
    "energie_verte": null,
    "engagement": "sans engagement",
    "plages_horaires": "Créneau d'heures creuses fixé par Enedis pour chaque compteur (8 h/jour, voir programmationHoraireHC).",
    "grille": [
-    {
-     "kva": 3,
-     "abonnement_mois": 12.13,
-     "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
-     }
-    },
     {
      "kva": 6,
      "abonnement_mois": 15.86,
@@ -2879,7 +2848,7 @@
     },
     {
      "kva": 9,
-     "abonnement_mois": 19.88,
+     "abonnement_mois": 20.16,
      "prix_kwh": {
       "hp": 0.1965,
       "hc": 0.1467
@@ -2887,47 +2856,7 @@
     },
     {
      "kva": 12,
-     "abonnement_mois": 23.76,
-     "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
-     }
-    },
-    {
-     "kva": 15,
-     "abonnement_mois": 27.4,
-     "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
-     }
-    },
-    {
-     "kva": 18,
-     "abonnement_mois": 31.14,
-     "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
-     }
-    },
-    {
-     "kva": 24,
-     "abonnement_mois": 39.14,
-     "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
-     }
-    },
-    {
-     "kva": 30,
-     "abonnement_mois": 46.47,
-     "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
-     }
-    },
-    {
-     "kva": 36,
-     "abonnement_mois": 53.88,
+     "abonnement_mois": 24.39,
      "prix_kwh": {
       "hp": 0.1965,
       "hc": 0.1467
@@ -2935,24 +2864,35 @@
     }
    ],
    "promotions": [],
-   "avantages": [],
-   "verification": "conflit",
+   "avantages": [
+    "Prix du carburant plafonné à 1,99 €/L en 2026 dans les stations TotalEnergies (200 € de remise maximum par client)",
+    "Carte de recharge Charge+ offerte",
+    "Application mobile de suivi de consommation"
+   ],
+   "verification": "confirme",
    "sources": [
     {
-     "url": "https://www.jechange.fr/energie/electricite/moins-cher",
-     "type": "comparateur",
+     "url": "https://www.totalenergies.fr/particuliers/electricite/offres-d-electricite/offre-access-electricite",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     },
     {
-     "url": "https://elecompare.fr/tarifs",
-     "type": "comparateur",
+     "url": "https://www.totalenergies.fr/fileadmin/Digital/Groupe/PDF/Documents_contractuels/Particuliers/Tarifs_TotalEnergies/fr/grille-tarifaire-access-particuliers.pdf",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
    "notes": [
-    "Autre relevé : HP 0,1977 / HC 0,1455 € et abonnement 15,69 €/mois à 6 kVA."
+    "Grille officielle du 30/09/2026 : puissances de 6 à 12 kVA seulement.",
+    "Prix affichés remise de 10 % HT incluse : réservée aux nouvelles souscriptions en ligne, France métropolitaine hors Corse, non cumulable. Sans la remise, les prix sont ceux du Tarif Bleu.",
+    "Ancien relevé d'un comparateur (HP 0,1977 / HC 0,1455 €, abonnement 15,69 €) écarté."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille officielle TotalEnergies du 30/09/2026 fournie par Nicolas."
+   }
   },
   {
    "id": "geg-elec-verte-fixe-3-ans-base",
