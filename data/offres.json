@@ -4228,92 +4228,34 @@
    "plages_horaires": "Créneau d'heures creuses fixé par Enedis pour chaque compteur (8 h/jour, voir programmationHoraireHC).",
    "grille": [
     {
-     "kva": 3,
-     "abonnement_mois": 16.41,
-     "prix_kwh": {
-      "hp": 0.2105,
-      "hc": 0.1702
-     }
-    },
-    {
      "kva": 6,
-     "abonnement_mois": 21.06,
+     "abonnement_mois": 15.86,
      "prix_kwh": {
-      "hp": 0.2105,
-      "hc": 0.1702
-     }
-    },
-    {
-     "kva": 9,
-     "abonnement_mois": 25.69,
-     "prix_kwh": {
-      "hp": 0.2105,
-      "hc": 0.1702
-     }
-    },
-    {
-     "kva": 12,
-     "abonnement_mois": 30.34,
-     "prix_kwh": {
-      "hp": 0.2105,
-      "hc": 0.1702
-     }
-    },
-    {
-     "kva": 15,
-     "abonnement_mois": 34.97,
-     "prix_kwh": {
-      "hp": 0.2105,
-      "hc": 0.1702
-     }
-    },
-    {
-     "kva": 18,
-     "abonnement_mois": 39.61,
-     "prix_kwh": {
-      "hp": 0.2105,
-      "hc": 0.1702
-     }
-    },
-    {
-     "kva": 24,
-     "abonnement_mois": 48.89,
-     "prix_kwh": {
-      "hp": 0.2105,
-      "hc": 0.1702
-     }
-    },
-    {
-     "kva": 30,
-     "abonnement_mois": 58.17,
-     "prix_kwh": {
-      "hp": 0.2105,
-      "hc": 0.1702
-     }
-    },
-    {
-     "kva": 36,
-     "abonnement_mois": 67.45,
-     "prix_kwh": {
-      "hp": 0.2105,
-      "hc": 0.1702
+      "hp": 0.2188,
+      "hc": 0.1717
      }
     }
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "source_unique",
+   "verification": "confirme",
    "sources": [
     {
-     "url": "https://elecompare.fr/tarifs",
-     "type": "comparateur",
+     "url": "https://ekwateur.fr",
+     "type": "officiel, relevé par Nicolas sur le site",
      "consulte_le": "2026-10-30"
     }
    ],
    "notes": [
-    "Nom exact de l'offre HP/HC à confirmer ; abonnement nettement au-dessus du TRV."
+    "Prix TTC relevés sur le site Ekwateur pour 6 kVA. Les autres puissances ne sont pas encore relevées.",
+    "Ancien relevé d'un comparateur écarté (abonnement 21,06 €, HP 0,2105 / HC 0,1702 €)."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Prix relevés sur le site Ekwateur pour 6 kVA."
+   }
   },
   {
    "id": "la-bellenergie-prudence-base",

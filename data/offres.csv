@@ -660,24 +660,8 @@ ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable Fran
 ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;24;39.14;base;0.1906;source_unique;2026-10-30
 ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;30;46.47;base;0.1906;source_unique;2026-10-30
 ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;36;53.88;base;0.1906;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;3;16.41;hp;0.2105;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;3;16.41;hc;0.1702;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;6;21.06;hp;0.2105;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;6;21.06;hc;0.1702;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;9;25.69;hp;0.2105;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;9;25.69;hc;0.1702;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;12;30.34;hp;0.2105;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;12;30.34;hc;0.1702;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;15;34.97;hp;0.2105;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;15;34.97;hc;0.1702;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;18;39.61;hp;0.2105;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;18;39.61;hc;0.1702;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;24;48.89;hp;0.2105;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;24;48.89;hc;0.1702;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;30;58.17;hp;0.2105;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;30;58.17;hc;0.1702;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;36;67.45;hp;0.2105;source_unique;2026-10-30
-ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;36;67.45;hc;0.1702;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;6;15.86;hp;0.2188;confirme;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;6;15.86;hc;0.1717;confirme;2026-10-30
 la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;3;16.63;base;0.1968;conflit;2026-10-30
 la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;6;20.36;base;0.1968;conflit;2026-10-30
 la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;9;24.38;base;0.1953;conflit;2026-10-30

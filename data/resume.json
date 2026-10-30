@@ -342,17 +342,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 690.93,
-    "cout_annuel_promo_deduite": 690.93,
-    "cout_3_ans_promo_deduite": 2072.79,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -773,17 +762,6 @@
     "verification": "conflit"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1086.14,
-    "cout_annuel_promo_deduite": 1086.14,
-    "cout_3_ans_promo_deduite": 3258.41,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -1180,17 +1158,6 @@
     "cout_3_ans_promo_deduite": 5321.88,
     "promo_an1": 0,
     "verification": "conflit"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1777.75,
-    "cout_annuel_promo_deduite": 1777.75,
-    "cout_3_ans_promo_deduite": 5333.26,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "edf-zen-fixe-hphc",
@@ -1624,6 +1591,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ekwateur-hphc",
+    "fournisseur": "Ekwateur",
+    "offre": "Électricité 100 % renouvelable",
+    "option": "hphc",
+    "cout_annuel": 699.64,
+    "cout_annuel_promo_deduite": 699.64,
+    "cout_3_ans_promo_deduite": 2098.92,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-zen-fixe-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -1699,17 +1677,6 @@
     "cout_3_ans_promo_deduite": 2208.96,
     "promo_an1": 0,
     "verification": "conflit"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 746.73,
-    "cout_annuel_promo_deduite": 746.73,
-    "cout_3_ans_promo_deduite": 2240.19,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -2110,6 +2077,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ekwateur-hphc",
+    "fournisseur": "Ekwateur",
+    "offre": "Électricité 100 % renouvelable",
+    "option": "hphc",
+    "cout_annuel": 1107.1,
+    "cout_annuel_promo_deduite": 1107.1,
+    "cout_3_ans_promo_deduite": 3321.29,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-zen-fixe-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -2141,17 +2119,6 @@
     "cout_3_ans_promo_deduite": 3389.76,
     "promo_an1": 0,
     "verification": "conflit"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1141.94,
-    "cout_annuel_promo_deduite": 1141.94,
-    "cout_3_ans_promo_deduite": 3425.81,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "mint-hphc",
@@ -2596,6 +2563,17 @@
     "verification": "conflit"
    },
    {
+    "id": "ekwateur-hphc",
+    "fournisseur": "Ekwateur",
+    "offre": "Électricité 100 % renouvelable",
+    "option": "hphc",
+    "cout_annuel": 1820.14,
+    "cout_annuel_promo_deduite": 1820.14,
+    "cout_3_ans_promo_deduite": 5460.43,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-zen-fixe-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -2603,17 +2581,6 @@
     "cout_annuel": 1826.38,
     "cout_annuel_promo_deduite": 1826.38,
     "cout_3_ans_promo_deduite": 5479.15,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1833.55,
-    "cout_annuel_promo_deduite": 1833.55,
-    "cout_3_ans_promo_deduite": 5500.66,
     "promo_an1": 0,
     "verification": "source_unique"
    },
@@ -3115,17 +3082,6 @@
     "verification": "conflit"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 802.29,
-    "cout_annuel_promo_deduite": 802.29,
-    "cout_3_ans_promo_deduite": 2406.87,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
@@ -3544,17 +3500,6 @@
     "cout_3_ans_promo_deduite": 3514.23,
     "promo_an1": 0,
     "verification": "conflit"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1197.5,
-    "cout_annuel_promo_deduite": 1197.5,
-    "cout_3_ans_promo_deduite": 3592.49,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "mint-hphc",
@@ -3995,17 +3940,6 @@
     "cout_annuel": 1874.62,
     "cout_annuel_promo_deduite": 1874.62,
     "cout_3_ans_promo_deduite": 5623.87,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1889.11,
-    "cout_annuel_promo_deduite": 1889.11,
-    "cout_3_ans_promo_deduite": 5667.34,
     "promo_an1": 0,
     "verification": "source_unique"
    },
@@ -4507,17 +4441,6 @@
     "verification": "conflit"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 858.09,
-    "cout_annuel_promo_deduite": 858.09,
-    "cout_3_ans_promo_deduite": 2574.27,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
@@ -4960,17 +4883,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1253.3,
-    "cout_annuel_promo_deduite": 1253.3,
-    "cout_3_ans_promo_deduite": 3759.89,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -5400,17 +5312,6 @@
     "cout_3_ans_promo_deduite": 5811.36,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1944.91,
-    "cout_annuel_promo_deduite": 1944.91,
-    "cout_3_ans_promo_deduite": 5834.74,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "mint-hphc",
@@ -5899,17 +5800,6 @@
     "verification": "source_unique"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 913.65,
-    "cout_annuel_promo_deduite": 913.65,
-    "cout_3_ans_promo_deduite": 2740.95,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -6306,17 +6196,6 @@
     "cout_3_ans_promo_deduite": 3884.85,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1308.86,
-    "cout_annuel_promo_deduite": 1308.86,
-    "cout_3_ans_promo_deduite": 3926.57,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "ohm-serenite-fixe-base",
@@ -6726,17 +6605,6 @@
     "cout_3_ans_promo_deduite": 5942.4,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 2000.47,
-    "cout_annuel_promo_deduite": 2000.47,
-    "cout_3_ans_promo_deduite": 6001.42,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "mint-hphc",
@@ -7236,17 +7104,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 969.33,
-    "cout_annuel_promo_deduite": 969.33,
-    "cout_3_ans_promo_deduite": 2907.99,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "enercoop-base",
     "fournisseur": "Enercoop",
     "offre": "Offre Base",
@@ -7645,17 +7502,6 @@
     "verification": "conflit"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1364.54,
-    "cout_annuel_promo_deduite": 1364.54,
-    "cout_3_ans_promo_deduite": 4093.61,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -8052,17 +7898,6 @@
     "cout_3_ans_promo_deduite": 6077.04,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 2056.15,
-    "cout_annuel_promo_deduite": 2056.15,
-    "cout_3_ans_promo_deduite": 6168.46,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "mint-hphc",
@@ -8562,17 +8397,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1080.69,
-    "cout_annuel_promo_deduite": 1080.69,
-    "cout_3_ans_promo_deduite": 3242.07,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "enercoop-base",
     "fournisseur": "Enercoop",
     "offre": "Offre Base",
@@ -8971,17 +8795,6 @@
     "verification": "conflit"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1475.9,
-    "cout_annuel_promo_deduite": 1475.9,
-    "cout_3_ans_promo_deduite": 4427.69,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -9378,17 +9191,6 @@
     "cout_3_ans_promo_deduite": 6365.04,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 2167.51,
-    "cout_annuel_promo_deduite": 2167.51,
-    "cout_3_ans_promo_deduite": 6502.54,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "mint-hphc",
@@ -9888,17 +9690,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1192.05,
-    "cout_annuel_promo_deduite": 1192.05,
-    "cout_3_ans_promo_deduite": 3576.15,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "enercoop-base",
     "fournisseur": "Enercoop",
     "offre": "Offre Base",
@@ -10304,17 +10095,6 @@
     "cout_annuel": 1573.26,
     "cout_annuel_promo_deduite": 1573.26,
     "cout_3_ans_promo_deduite": 4719.78,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1587.26,
-    "cout_annuel_promo_deduite": 1587.26,
-    "cout_3_ans_promo_deduite": 4761.77,
     "promo_an1": 0,
     "verification": "source_unique"
    },
@@ -10726,17 +10506,6 @@
     "cout_3_ans_promo_deduite": 6825.72,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 2278.87,
-    "cout_annuel_promo_deduite": 2278.87,
-    "cout_3_ans_promo_deduite": 6836.62,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "ohm-serenite-fixe-base",
@@ -11214,17 +10983,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1303.41,
-    "cout_annuel_promo_deduite": 1303.41,
-    "cout_3_ans_promo_deduite": 3910.23,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "enercoop-base",
     "fournisseur": "Enercoop",
     "offre": "Offre Base",
@@ -11656,17 +11414,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 1698.62,
-    "cout_annuel_promo_deduite": 1698.62,
-    "cout_3_ans_promo_deduite": 5095.85,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "enercoop-base",
     "fournisseur": "Enercoop",
     "offre": "Offre Base",
@@ -12052,17 +11799,6 @@
     "cout_3_ans_promo_deduite": 7092.48,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "ekwateur-hphc",
-    "fournisseur": "Ekwateur",
-    "offre": "Électricité 100 % renouvelable",
-    "option": "hphc",
-    "cout_annuel": 2390.23,
-    "cout_annuel_promo_deduite": 2390.23,
-    "cout_3_ans_promo_deduite": 7170.7,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "ohm-serenite-fixe-base",
