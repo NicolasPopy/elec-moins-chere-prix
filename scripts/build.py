@@ -134,7 +134,8 @@ def annual(o, kva, conso):
         hc = PROFILS["hphc"]
         energie = conso * ((1 - hc) * pk["hp"] + hc * pk["hc"])
     promo = sum(p.get("valeur_an1_eur") or 0 for p in o.get("promotions", []))
-    return round(12 * r["abonnement_mois"] + energie, 2), round(12 * r["abonnement_mois"] + energie - promo, 2)
+    an = 12 * r["abonnement_mois"] + energie
+    return round(an, 2), round(an - promo, 2), round(3 * an - promo, 2), promo
 
 
 def resume(d):
@@ -151,6 +152,7 @@ def resume(d):
                 if a:
                     rows.append({"id": o["id"], "fournisseur": names[o["fournisseur"]], "offre": o["offre"],
                                  "option": o["option"], "cout_annuel": a[0], "cout_annuel_promo_deduite": a[1],
+                                 "cout_3_ans_promo_deduite": a[2], "promo_an1": a[3],
                                  "verification": o["verification"]})
             rows.sort(key=lambda x: x["cout_annuel_promo_deduite"])
             out["classements"][f"{kva}kVA_{conso}kWh"] = rows

@@ -71,7 +71,8 @@ tbody tr:hover { background: var(--accent-soft); }
 .chip.source_unique { background: var(--warn-soft); color: var(--warn); }
 .chip.conflit { background: var(--bad-soft); color: var(--bad); }
 .chip.type { background: transparent; border: 1px solid var(--line); color: var(--muted); }
-.manual { display: block; margin-top: 5px; font-size: 12px; color: var(--ok); line-height: 1.35; }
+.promo-in { display: block; font: 12px var(--f-body); color: var(--ok); margin-top: 2px; white-space: normal; }
+.sans { display: block; font: 12px var(--f-body); color: var(--muted); white-space: normal; }
 .promo { color: var(--ok); font-size: 13px; font-weight: 500; }
 .na { color: var(--muted); }
 details { font-size: 13px; color: var(--muted); }
@@ -117,7 +118,8 @@ details a { color: var(--accent); word-break: break-all; }
         <th data-k="option">Option</th>
         <th data-k="abo">Abonnement / mois</th>
         <th>Prix du kWh</th>
-        <th data-k="cout" aria-sort="ascending">Coût annuel estimé</th>
+        <th data-k="cout" aria-sort="ascending">Coût 1re année</th>
+        <th data-k="cout3">Coût sur 3 ans</th>
         <th>Promotion</th>
         <th data-k="ver">Fiabilité</th>
         <th>Détails</th>
@@ -136,7 +138,7 @@ details a { color: var(--accent); word-break: break-all; }
 <script>
 const PAYLOAD = /*__DATA__*/null;
 (function () {
-  if (!PAYLOAD) { document.getElementById("rows").innerHTML = '<tr><td colspan="8" class="empty">Données absentes : lancez scripts/build.py.</td></tr>'; return; }
+  if (!PAYLOAD) { document.getElementById("rows").innerHTML = '<tr><td colspan="9" class="empty">Données absentes : lancez scripts/build.py.</td></tr>'; return; }
   const D = PAYLOAD.data, R = PAYLOAD.resume, M = D.meta;
   const names = Object.fromEntries(D.fournisseurs.map(f => [f.id, f.nom]));
   const OPT_LABEL = { base: "Base", hphc: "Heures creuses", tempo: "Tempo", saisons: "Saisons", saisons_rouge: "Saisons + jours rouges", week_end: "Week-end", flex: "Flex (jours Sobriété)" };
@@ -152,7 +154,7 @@ const PAYLOAD = /*__DATA__*/null;
   M.puissances_kva.forEach(k => $("kva").add(new Option(k + " kVA", k, false, k === 6)));
   [...new Set(D.offres.map(o => o.option))].forEach(o => $("opt").add(new Option(OPT_LABEL[o] || o, o)));
   R.hypotheses.consommations_kwh.forEach(c => $("conso").add(new Option(c.toLocaleString("fr-FR") + " kWh", c, false, c === 4500)));
-  $("hyp").textContent = `Coût annuel estimé = 12 abonnements + consommation × prix du kWh, promotion de la 1re année déduite. Hypothèse pour l'option Heures creuses : ${Math.round(HC * 100)} % de la consommation en heures creuses. Les options Tempo, Saisons, Week-end et Flex dépendent de votre profil heure par heure : utilisez le comparatif à partir de votre courbe de charge Enedis.`;
+  $("hyp").textContent = `Coût 1re année = 12 abonnements + consommation × prix du kWh, moins la promotion de bienvenue (comptée une seule fois, la 1re année). Coût sur 3 ans = 3 années aux prix d'aujourd'hui, moins cette même promotion : les révisions de prix futures ne sont pas connues, et une offre à prix fixe peut rester stable alors qu'une offre indexée suivra le Tarif Bleu. Hypothèse pour l'option Heures creuses : ${Math.round(HC * 100)} % de la consommation en heures creuses. Les options Tempo, Saisons, Week-end et Flex dépendent de votre profil heure par heure : utilisez le comparatif à partir de votre courbe de charge Enedis.`;
   $("warn").textContent = M.avertissement;
 
   const state = { sort: "cout", dir: 1 };
@@ -166,7 +168,8 @@ const PAYLOAD = /*__DATA__*/null;
     else if (o.option === "hphc") e = conso * ((1 - HC) * p.hp + HC * p.hc);
     else return null;
     const promo = (o.promotions || []).reduce((s, x) => s + (x.valeur_an1_eur || 0), 0);
-    return 12 * row.abonnement_mois + e - promo;
+    const an = 12 * row.abonnement_mois + e;
+    return { an1: an - promo, sans: an, promo, an3: 3 * an - promo };
   }
   function priceList(o, p) {
     return '<dl class="prices">' + Object.entries(p).map(([k, v]) => {
@@ -184,7 +187,7 @@ const PAYLOAD = /*__DATA__*/null;
       return { o, row, nom: names[o.fournisseur] + " " + o.offre, abo: row?.abonnement_mois ?? Infinity, cout: row ? cost(o, row, conso) : null };
     }).filter(x => x.row && (!opt || x.o.option === opt) && (!ver || x.o.verification === ver)
       && (!q || x.nom.toLowerCase().includes(q)));
-    const key = { nom: x => x.nom, option: x => x.o.option, abo: x => x.abo, cout: x => x.cout ?? Infinity, ver: x => x.o.verification };
+    const key = { nom: x => x.nom, option: x => x.o.option, abo: x => x.abo, cout: x => x.cout?.an1 ?? Infinity, cout3: x => x.cout?.an3 ?? Infinity, ver: x => x.o.verification };
     const f = key[state.sort];
     list.sort((a, b) => { const A = f(a), B = f(b); return (A > B ? 1 : A < B ? -1 : 0) * state.dir || a.nom.localeCompare(b.nom); });
 
@@ -195,38 +198,39 @@ const PAYLOAD = /*__DATA__*/null;
         o.indexation, o.duree_prix_garanti_mois ? `Prix garanti ${o.duree_prix_garanti_mois} mois` : null,
         o.energie_verte ? `Électricité verte (${o.energie_verte.niveau}) : ${o.energie_verte.detail}` : null,
         o.plages_horaires, ...(o.avantages || []),
-        o.verification_manuelle?.commentaire ? `Vérification manuelle : ${o.verification_manuelle.commentaire}` : null, ...(o.notes || []), `Engagement : ${o.engagement}`, `Vérifiée le ${fmtDate(o.derniere_verif)}`
+        ...(o.notes || []), `Engagement : ${o.engagement}`, `Vérifiée le ${fmtDate(o.derniere_verif)}`
       ].filter(Boolean);
       return `<tr>
         <td class="offer"><b>${esc(names[o.fournisseur])}</b><span>${esc(o.offre)}</span></td>
         <td>${esc(OPT_LABEL[o.option] || o.option)}<br><span class="chip type">${esc(TYPE_LABEL[o.type_prix])}</span></td>
         <td class="num">${eur(row.abonnement_mois)}${row.ouvert_nouveaux_clients === false ? '<span class="closed">Fermé aux nouveaux clients</span>' : ""}</td>
         <td>${priceList(o, row.prix_kwh)}</td>
-        <td class="num">${cout == null ? '<span class="na">selon profil</span>' : eur(cout, 0)}</td>
+        <td class="num">${cout == null ? '<span class="na">selon profil</span>' : eur(cout.an1, 0) + (cout.promo ? `<span class="promo-in">dont promo 1re année −${eur(cout.promo, 0)}</span><span class="sans">${eur(cout.sans, 0)} sans promo</span>` : "")}</td>
+        <td class="num">${cout == null ? '<span class="na">selon profil</span>' : eur(cout.an3, 0) + (cout.promo ? `<span class="sans">promo comptée 1 fois</span>` : "")}</td>
         <td>${promo}</td>
-        <td><span class="chip ${o.verification}">${VER_LABEL[o.verification]}</span>${o.verification_manuelle ? `<span class="manual">✓ Vérifiée par ${esc(o.verification_manuelle.par)}<br>le ${fmtDate(o.verification_manuelle.le)}</span>` : ""}</td>
+        <td><span class="chip ${o.verification}">${VER_LABEL[o.verification]}</span></td>
         <td><details><summary>Voir</summary><ul>${det.map(d => `<li>${esc(d)}</li>`).join("")}
           ${o.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(new URL(s.url).hostname.replace("www.", ""))}</a> (${s.type})</li>`).join("")}</ul></details></td>
       </tr>`;
-    }).join("") : '<tr><td colspan="8" class="empty">Aucune offre ne correspond à ces filtres.</td></tr>';
+    }).join("") : '<tr><td colspan="9" class="empty">Aucune offre ne correspond à ces filtres.</td></tr>';
 
     const best = optn => {
       let b = null;
       D.offres.filter(o => o.option === optn && (!ver || o.verification === ver)).forEach(o => {
         const row = o.grille.find(g => g.kva === kva && g.ouvert_nouveaux_clients !== false);
-        const c = row && cost(o, row, conso);
-        if (c != null && (!b || c < b.c)) b = { o, c };
+        const k = row && cost(o, row, conso);
+        if (k && (!b || k.an1 < b.c)) b = { o, c: k.an1, promo: k.promo };
       });
       return b;
     };
     const trv = D.offres.find(o => o.id === (kva <= 6 ? "edf-tarif-bleu-base" : "edf-tarif-bleu-hphc"));
-    const trvC = trv && cost(trv, trv.grille.find(g => g.kva === kva), conso);
+    const trvC = trv && cost(trv, trv.grille.find(g => g.kva === kva), conso)?.an1;
     const cards = [["Base la moins chère", best("base")], ["Heures creuses la moins chère", best("hphc")]].map(([t, b]) => `
       <article><h2>${t}</h2>${b ? `<div class="who">${esc(names[b.o.fournisseur])} · ${esc(b.o.offre)}</div>
-        <div class="num">${eur(b.c, 0)} / an</div>
-        <div class="sub">${trvC ? `${eur(trvC - b.c, 0)} de moins que le Tarif Bleu ${kva <= 6 ? "Base" : "HP/HC"}` : ""}</div>` : '<div class="sub">Aucune offre ouverte à cette puissance.</div>'}</article>`);
+        <div class="num">${eur(b.c, 0)} la 1re année</div>
+        <div class="sub">${b.promo ? `Promo de ${eur(b.promo, 0)} incluse. ` : ""}${trvC ? `${eur(trvC - b.c, 0)} de moins que le Tarif Bleu ${kva <= 6 ? "Base" : "HP/HC"}` : ""}</div>` : '<div class="sub">Aucune offre ouverte à cette puissance.</div>'}</article>`);
     cards.push(`<article><h2>Tarif réglementé (référence)</h2><div class="who">EDF Tarif Bleu ${kva <= 6 ? "Base" : "Heures creuses"}</div>
-      <div class="num">${eur(trvC, 0)} / an</div><div class="sub">${conso.toLocaleString("fr-FR")} kWh à ${kva} kVA</div></article>`);
+      <div class="num">${eur(trvC, 0)} par an</div><div class="sub">${conso.toLocaleString("fr-FR")} kWh à ${kva} kVA</div></article>`);
     $("best").innerHTML = cards.join("");
   }
 
