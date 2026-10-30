@@ -130,7 +130,7 @@
     "cout_annuel_promo_deduite": 616.98,
     "cout_3_ans_promo_deduite": 1850.94,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -550,7 +550,7 @@
     "cout_annuel_promo_deduite": 994.12,
     "cout_3_ans_promo_deduite": 2982.35,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -970,7 +970,7 @@
     "cout_annuel_promo_deduite": 1654.1,
     "cout_3_ans_promo_deduite": 4962.31,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -1368,7 +1368,7 @@
     "cout_annuel_promo_deduite": 661.74,
     "cout_3_ans_promo_deduite": 1985.22,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -1854,7 +1854,7 @@
     "cout_annuel_promo_deduite": 1038.88,
     "cout_3_ans_promo_deduite": 3116.63,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -2340,7 +2340,7 @@
     "cout_annuel_promo_deduite": 1698.86,
     "cout_3_ans_promo_deduite": 5096.59,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -2771,7 +2771,7 @@
     "cout_annuel_promo_deduite": 709.98,
     "cout_3_ans_promo_deduite": 2129.94,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -3246,7 +3246,7 @@
     "cout_annuel_promo_deduite": 1087.12,
     "cout_3_ans_promo_deduite": 3261.35,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -3721,7 +3721,7 @@
     "cout_annuel_promo_deduite": 1747.1,
     "cout_3_ans_promo_deduite": 5241.31,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -4163,7 +4163,7 @@
     "cout_annuel_promo_deduite": 756.54,
     "cout_3_ans_promo_deduite": 2269.62,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-base",
@@ -4638,7 +4638,7 @@
     "cout_annuel_promo_deduite": 1133.68,
     "cout_3_ans_promo_deduite": 3401.03,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -5113,7 +5113,7 @@
     "cout_annuel_promo_deduite": 1793.66,
     "cout_3_ans_promo_deduite": 5380.99,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -5544,7 +5544,7 @@
     "cout_annuel_promo_deduite": 800.22,
     "cout_3_ans_promo_deduite": 2400.66,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -5975,7 +5975,7 @@
     "cout_annuel_promo_deduite": 1177.36,
     "cout_3_ans_promo_deduite": 3532.07,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -6417,7 +6417,7 @@
     "cout_annuel_promo_deduite": 1837.34,
     "cout_3_ans_promo_deduite": 5512.03,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -6837,7 +6837,7 @@
     "cout_annuel_promo_deduite": 845.1,
     "cout_3_ans_promo_deduite": 2535.3,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -7268,7 +7268,7 @@
     "cout_annuel_promo_deduite": 1222.24,
     "cout_3_ans_promo_deduite": 3666.71,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -7710,7 +7710,7 @@
     "cout_annuel_promo_deduite": 1882.22,
     "cout_3_ans_promo_deduite": 5646.67,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -8130,7 +8130,7 @@
     "cout_annuel_promo_deduite": 941.1,
     "cout_3_ans_promo_deduite": 2823.3,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -8572,7 +8572,7 @@
     "cout_annuel_promo_deduite": 1318.24,
     "cout_3_ans_promo_deduite": 3954.71,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -9003,7 +9003,7 @@
     "cout_annuel_promo_deduite": 1978.22,
     "cout_3_ans_promo_deduite": 5934.67,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -9423,7 +9423,7 @@
     "cout_annuel_promo_deduite": 1029.06,
     "cout_3_ans_promo_deduite": 3087.18,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -9865,7 +9865,7 @@
     "cout_annuel_promo_deduite": 1406.2,
     "cout_3_ans_promo_deduite": 4218.59,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -10296,7 +10296,7 @@
     "cout_annuel_promo_deduite": 2066.18,
     "cout_3_ans_promo_deduite": 6198.55,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -10716,7 +10716,7 @@
     "cout_annuel_promo_deduite": 1117.98,
     "cout_3_ans_promo_deduite": 3353.94,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -11158,7 +11158,7 @@
     "cout_annuel_promo_deduite": 1495.12,
     "cout_3_ans_promo_deduite": 4485.35,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-hphc",
@@ -11589,7 +11589,7 @@
     "cout_annuel_promo_deduite": 2155.1,
     "cout_3_ans_promo_deduite": 6465.31,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-base",

@@ -3546,12 +3546,12 @@
    "option": "base",
    "type_prix": "indexe_trv",
    "duree_prix_garanti_mois": null,
-   "indexation": null,
+   "indexation": "Abonnement identique au Tarif Bleu ; kWh HT 5 % moins cher que le Tarif Bleu (révisions en février et en août)",
    "energie_verte": {
     "niveau": "standard",
-    "detail": "Garanties d'origine"
+    "detail": "100 % garanties d'origine renouvelables européennes (hydraulique, biomasse, éolien, solaire)"
    },
-   "engagement": "sans engagement",
+   "engagement": "sans engagement, résiliation sans frais",
    "plages_horaires": null,
    "grille": [
     {
@@ -3623,6 +3623,11 @@
    "verification": "confirme",
    "sources": [
     {
+     "url": "https://particuliers.primeo-energie.fr/wp-content/uploads/GT-FD-Offre-Essentielle-Verte.pdf",
+     "type": "officiel",
+     "consulte_le": "2026-10-30"
+    },
+    {
      "url": "https://www.fournisseurs-electricite.com/contrat-electricite/prix",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
@@ -3633,8 +3638,16 @@
      "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
-   "derniere_verif": "2026-10-30"
+   "notes": [
+    "Fiche officielle applicable au 14/09/2026 : abonnement = Tarif Bleu, kWh HT = Tarif Bleu HT − 5 %. Les prix TTC recalculés à partir de cette règle (accise 30,62 €/MWh, TVA 20 %) correspondent exactement aux prix affichés.",
+    "Réservée aux compteurs Linky. Autoproducteurs avec injection : supplément de 9,84 € HT par an."
+   ],
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille et fiche descriptive officielles Essentielle Verte applicables au 14/09/2026."
+   }
   },
   {
    "id": "primeo-essentielle-verte-hphc",
@@ -3643,9 +3656,12 @@
    "option": "hphc",
    "type_prix": "indexe_trv",
    "duree_prix_garanti_mois": null,
-   "indexation": null,
-   "energie_verte": null,
-   "engagement": "sans engagement",
+   "indexation": "Abonnement identique au Tarif Bleu ; kWh HT 5 % moins cher que le Tarif Bleu (révisions en février et en août)",
+   "energie_verte": {
+    "niveau": "standard",
+    "detail": "100 % garanties d'origine renouvelables européennes (hydraulique, biomasse, éolien, solaire)"
+   },
+   "engagement": "sans engagement, résiliation sans frais",
    "plages_horaires": "Créneau d'heures creuses fixé par Enedis pour chaque compteur (8 h/jour, voir programmationHoraireHC).",
    "grille": [
     {
@@ -3723,16 +3739,29 @@
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "source_unique",
+   "verification": "confirme",
    "sources": [
+    {
+     "url": "https://particuliers.primeo-energie.fr/wp-content/uploads/GT-FD-Offre-Essentielle-Verte.pdf",
+     "type": "officiel",
+     "consulte_le": "2026-10-30"
+    },
     {
      "url": "https://elecompare.fr/tarifs",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
-   "derniere_verif": "2026-10-30"
+   "notes": [
+    "Fiche officielle applicable au 14/09/2026 : abonnement = Tarif Bleu, kWh HT = Tarif Bleu HT − 5 %. Les prix TTC recalculés à partir de cette règle (accise 30,62 €/MWh, TVA 20 %) correspondent exactement aux prix affichés.",
+    "Réservée aux compteurs Linky. Autoproducteurs avec injection : supplément de 9,84 € HT par an."
+   ],
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille et fiche descriptive officielles Essentielle Verte applicables au 14/09/2026."
+   }
   },
   {
    "id": "alterna-fixe-1-an-base",
