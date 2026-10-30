@@ -4242,6 +4242,14 @@
       "hp": 0.2188,
       "hc": 0.1717
      }
+    },
+    {
+     "kva": 12,
+     "abonnement_mois": 23.76,
+     "prix_kwh": {
+      "hp": 0.2188,
+      "hc": 0.1717
+     }
     }
    ],
    "promotions": [],
@@ -4255,14 +4263,14 @@
     }
    ],
    "notes": [
-    "Prix TTC relevés sur le site Ekwateur pour 6 et 9 kVA (même prix du kWh). Les autres puissances ne sont pas encore relevées.",
+    "Prix TTC relevés sur le site Ekwateur pour 6, 9 et 12 kVA (même prix du kWh). Les autres puissances ne sont pas encore relevées.",
     "Ancien relevé d'un comparateur écarté (abonnement 21,06 €, HP 0,2105 / HC 0,1702 €)."
    ],
    "derniere_verif": "2026-10-30",
    "verification_manuelle": {
     "par": "Nicolas",
     "le": "2026-10-30",
-    "commentaire": "Prix relevés sur le site Ekwateur pour 6 et 9 kVA."
+    "commentaire": "Prix relevés sur le site Ekwateur pour 6, 9 et 12 kVA."
    }
   },
   {
