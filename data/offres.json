@@ -837,25 +837,33 @@
     }
    ],
    "promotions": [],
-   "avantages": [],
+   "avantages": [
+    "À la fin de la période fixe, EDF propose un nouveau prix fixe d'au moins 1 an, sans démarche"
+   ],
    "verification": "confirme",
    "sources": [
     {
-     "url": "https://www.fournisseurs-electricite.com/fournisseurs/edf/tarifs/comparatif",
-     "type": "comparateur",
+     "url": "https://particulier.edf.fr/fr/accueil/electricite-gaz/zen-fixe.html",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     },
     {
-     "url": "https://selectra.info/energie/fournisseurs/edf/tarifs",
-     "type": "comparateur",
+     "url": "https://particulier.edf.fr/content/dam/2-Actifs/Documents/Offres/Grille-prix-zen-fixe.pdf",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
    "notes": [
-    "Prix du kWh HT fixe 2 ans et 1 mois ; l'abonnement peut évoluer.",
-    "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA)."
+    "Grille officielle applicable au 01/10/2026 pour les nouvelles souscriptions, en nombre limité.",
+    "Prix du kWh HT fixe 2 ans et 1 mois ; l'abonnement peut évoluer (obligations réglementaires).",
+    "Une variante expérimentale à prix fixe 3 ans existe, en nombre limité (non suivie ici)."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille officielle EDF applicable au 01/10/2026."
+   }
   },
   {
    "id": "edf-zen-fixe-hphc",
@@ -869,14 +877,6 @@
    "engagement": "sans engagement",
    "plages_horaires": "Créneau d'heures creuses fixé par Enedis pour chaque compteur (8 h/jour, voir programmationHoraireHC).",
    "grille": [
-    {
-     "kva": 3,
-     "abonnement_mois": 12.13,
-     "prix_kwh": {
-      "hp": 0.2231,
-      "hc": 0.165
-     }
-    },
     {
      "kva": 6,
      "abonnement_mois": 15.86,
@@ -943,20 +943,34 @@
     }
    ],
    "promotions": [],
-   "avantages": [],
-   "verification": "source_unique",
+   "avantages": [
+    "À la fin de la période fixe, EDF propose un nouveau prix fixe d'au moins 1 an, sans démarche"
+   ],
+   "verification": "confirme",
    "sources": [
     {
-     "url": "https://selectra.info/energie/fournisseurs/edf/tarifs",
-     "type": "comparateur",
+     "url": "https://particulier.edf.fr/fr/accueil/electricite-gaz/zen-fixe.html",
+     "type": "officiel",
+     "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://particulier.edf.fr/content/dam/2-Actifs/Documents/Offres/Grille-prix-zen-fixe.pdf",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
    "notes": [
-    "Prix relevés à 9 kVA.",
-    "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA)."
+    "Grille officielle applicable au 01/10/2026 pour les nouvelles souscriptions, en nombre limité.",
+    "Prix du kWh HT fixe 2 ans et 1 mois ; l'abonnement peut évoluer (obligations réglementaires).",
+    "Une variante expérimentale à prix fixe 3 ans existe, en nombre limité (non suivie ici).",
+    "Option heures creuses à partir de 6 kVA."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille officielle EDF applicable au 01/10/2026."
+   }
   },
   {
    "id": "edf-vert-electrique-base",

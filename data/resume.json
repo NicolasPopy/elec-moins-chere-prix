@@ -298,17 +298,6 @@
     "verification": "confirme"
    },
    {
-    "id": "edf-zen-fixe-hphc",
-    "fournisseur": "EDF",
-    "offre": "Zen Fixe",
-    "option": "hphc",
-    "cout_annuel": 656.83,
-    "cout_annuel_promo_deduite": 656.83,
-    "cout_3_ans_promo_deduite": 1970.49,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "urban-solar-base",
     "fournisseur": "Urban Solar Energy",
     "offre": "Électricité avec stockage virtuel",
@@ -729,17 +718,6 @@
     "verification": "confirme"
    },
    {
-    "id": "edf-zen-fixe-hphc",
-    "fournisseur": "EDF",
-    "offre": "Zen Fixe",
-    "option": "hphc",
-    "cout_annuel": 1065.85,
-    "cout_annuel_promo_deduite": 1065.85,
-    "cout_3_ans_promo_deduite": 3197.54,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "edf-zen-fixe-base",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -1158,17 +1136,6 @@
     "cout_3_ans_promo_deduite": 5321.88,
     "promo_an1": 0,
     "verification": "conflit"
-   },
-   {
-    "id": "edf-zen-fixe-hphc",
-    "fournisseur": "EDF",
-    "offre": "Zen Fixe",
-    "option": "hphc",
-    "cout_annuel": 1781.62,
-    "cout_annuel_promo_deduite": 1781.62,
-    "cout_3_ans_promo_deduite": 5344.87,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -1610,7 +1577,7 @@
     "cout_annuel_promo_deduite": 701.59,
     "cout_3_ans_promo_deduite": 2104.77,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -2096,7 +2063,7 @@
     "cout_annuel_promo_deduite": 1110.61,
     "cout_3_ans_promo_deduite": 3331.82,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -2582,7 +2549,7 @@
     "cout_annuel_promo_deduite": 1826.38,
     "cout_3_ans_promo_deduite": 5479.15,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -3024,7 +2991,7 @@
     "cout_annuel_promo_deduite": 749.83,
     "cout_3_ans_promo_deduite": 2249.49,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -3499,7 +3466,7 @@
     "cout_annuel_promo_deduite": 1158.85,
     "cout_3_ans_promo_deduite": 3476.54,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -3974,7 +3941,7 @@
     "cout_annuel_promo_deduite": 1874.62,
     "cout_3_ans_promo_deduite": 5623.87,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -4416,7 +4383,7 @@
     "cout_annuel_promo_deduite": 796.39,
     "cout_3_ans_promo_deduite": 2389.17,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -4891,7 +4858,7 @@
     "cout_annuel_promo_deduite": 1205.41,
     "cout_3_ans_promo_deduite": 3616.22,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -5366,7 +5333,7 @@
     "cout_annuel_promo_deduite": 1921.18,
     "cout_3_ans_promo_deduite": 5763.55,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -5775,7 +5742,7 @@
     "cout_annuel_promo_deduite": 840.07,
     "cout_3_ans_promo_deduite": 2520.21,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -6217,7 +6184,7 @@
     "cout_annuel_promo_deduite": 1249.09,
     "cout_3_ans_promo_deduite": 3747.26,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -6659,7 +6626,7 @@
     "cout_annuel_promo_deduite": 1964.86,
     "cout_3_ans_promo_deduite": 5894.59,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -7068,7 +7035,7 @@
     "cout_annuel_promo_deduite": 884.95,
     "cout_3_ans_promo_deduite": 2654.85,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -7510,7 +7477,7 @@
     "cout_annuel_promo_deduite": 1293.97,
     "cout_3_ans_promo_deduite": 3881.9,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -7952,7 +7919,7 @@
     "cout_annuel_promo_deduite": 2009.74,
     "cout_3_ans_promo_deduite": 6029.23,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -8361,7 +8328,7 @@
     "cout_annuel_promo_deduite": 980.95,
     "cout_3_ans_promo_deduite": 2942.85,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -8803,7 +8770,7 @@
     "cout_annuel_promo_deduite": 1389.97,
     "cout_3_ans_promo_deduite": 4169.9,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -9245,7 +9212,7 @@
     "cout_annuel_promo_deduite": 2105.74,
     "cout_3_ans_promo_deduite": 6317.23,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -9643,7 +9610,7 @@
     "cout_annuel_promo_deduite": 1068.91,
     "cout_3_ans_promo_deduite": 3206.73,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -10096,7 +10063,7 @@
     "cout_annuel_promo_deduite": 1477.93,
     "cout_3_ans_promo_deduite": 4433.78,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -10538,7 +10505,7 @@
     "cout_annuel_promo_deduite": 2193.7,
     "cout_3_ans_promo_deduite": 6581.11,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -10936,7 +10903,7 @@
     "cout_annuel_promo_deduite": 1157.83,
     "cout_3_ans_promo_deduite": 3473.49,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -11389,7 +11356,7 @@
     "cout_annuel_promo_deduite": 1566.85,
     "cout_3_ans_promo_deduite": 4700.54,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
@@ -11831,7 +11798,7 @@
     "cout_annuel_promo_deduite": 2282.62,
     "cout_3_ans_promo_deduite": 6847.87,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-base",
