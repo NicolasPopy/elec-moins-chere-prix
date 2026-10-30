@@ -3121,196 +3121,224 @@
   {
    "id": "plenitude-pleniweb-base",
    "fournisseur": "plenitude",
-   "offre": "PleniWeb Électricité",
+   "offre": "PleniWeb 1 an",
    "option": "base",
-   "type_prix": "indexe_trv",
-   "duree_prix_garanti_mois": null,
-   "indexation": null,
-   "energie_verte": null,
-   "engagement": "sans engagement",
+   "type_prix": "fixe",
+   "duree_prix_garanti_mois": 12,
+   "indexation": "kWh HT 10 % moins cher que le Tarif Bleu d'août 2026 à la souscription, puis abonnement et kWh HT fixes 12 mois",
+   "energie_verte": {
+    "niveau": "standard",
+    "detail": "100 % garanties d'origine renouvelables françaises"
+   },
+   "engagement": "sans engagement, résiliation sans frais",
    "plages_horaires": null,
    "grille": [
     {
      "kva": 3,
      "abonnement_mois": 14.53,
      "prix_kwh": {
-      "base": 0.1837
+      "base": 0.18373
      }
     },
     {
      "kva": 6,
-     "abonnement_mois": 18.26,
+     "abonnement_mois": 18.2625,
      "prix_kwh": {
-      "base": 0.1837
+      "base": 0.18373
      }
     },
     {
      "kva": 9,
-     "abonnement_mois": 22.28,
+     "abonnement_mois": 22.2833,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.18233
      }
     },
     {
      "kva": 12,
-     "abonnement_mois": 26.16,
+     "abonnement_mois": 26.1608,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.18233
      }
     },
     {
      "kva": 15,
-     "abonnement_mois": 29.8,
+     "abonnement_mois": 29.7975,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.18233
      }
     },
     {
      "kva": 18,
-     "abonnement_mois": 33.54,
+     "abonnement_mois": 33.5425,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.18233
      }
     },
     {
      "kva": 24,
-     "abonnement_mois": 41.54,
+     "abonnement_mois": 41.5358,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.18233
      }
     },
     {
      "kva": 30,
      "abonnement_mois": 48.87,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.18233
      }
     },
     {
      "kva": 36,
      "abonnement_mois": 56.81,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.18233
      }
     }
    ],
    "promotions": [],
-   "avantages": [],
+   "avantages": [
+    "Service PleniCoach Maison offert pour une souscription du 26/10 au 12/11/2026"
+   ],
    "verification": "confirme",
    "sources": [
     {
-     "url": "https://www.fournisseurs-electricite.com/contrat-electricite/prix",
-     "type": "comparateur",
+     "url": "https://www.eniplenitude.fr/content/dam/plenitude-fr/documents/pages-offres/offre-pleniweb/offre-pleniweb_1an_elec.pdf",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     },
     {
-     "url": "https://elecompare.fr/tarifs",
-     "type": "comparateur",
+     "url": "https://www.eniplenitude.fr/offres-electricite/pleniweb",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
    "notes": [
-    "Abonnement plus cher que le TRV (18,26 €/mois à 6 kVA) : vérifier."
+    "Grille officielle valable pour les souscriptions du 01/10/2026 au 16/11/2026, en ligne ou sur rappel. Abonnement publié en €/an (converti en €/mois)."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille officielle PleniWeb 1 an (souscriptions du 01/10 au 16/11/2026)."
+   }
   },
   {
    "id": "plenitude-pleniweb-hphc",
    "fournisseur": "plenitude",
-   "offre": "PleniWeb Électricité",
+   "offre": "PleniWeb 1 an",
    "option": "hphc",
-   "type_prix": "indexe_trv",
-   "duree_prix_garanti_mois": null,
-   "indexation": null,
-   "energie_verte": null,
-   "engagement": "sans engagement",
-   "plages_horaires": "Créneau d'heures creuses fixé par Enedis pour chaque compteur (8 h/jour, voir programmationHoraireHC).",
+   "type_prix": "fixe",
+   "duree_prix_garanti_mois": 12,
+   "indexation": "kWh HT 10 % moins cher que le Tarif Bleu d'août 2026 à la souscription, puis abonnement et kWh HT fixes 12 mois",
+   "energie_verte": {
+    "niveau": "standard",
+    "detail": "100 % garanties d'origine renouvelables françaises"
+   },
+   "engagement": "sans engagement, résiliation sans frais",
+   "plages_horaires": "8 heures creuses par jour, créneau Enedis du compteur.",
    "grille": [
     {
      "kva": 3,
      "abonnement_mois": 14.53,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.19648,
+      "hc": 0.14669
      }
     },
     {
      "kva": 6,
-     "abonnement_mois": 18.26,
+     "abonnement_mois": 18.2625,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.19648,
+      "hc": 0.14669
      }
     },
     {
      "kva": 9,
-     "abonnement_mois": 22.28,
+     "abonnement_mois": 22.2833,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.19648,
+      "hc": 0.14669
      }
     },
     {
      "kva": 12,
-     "abonnement_mois": 26.16,
+     "abonnement_mois": 26.1608,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.19648,
+      "hc": 0.14669
      }
     },
     {
      "kva": 15,
-     "abonnement_mois": 29.8,
+     "abonnement_mois": 29.7975,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.19648,
+      "hc": 0.14669
      }
     },
     {
      "kva": 18,
-     "abonnement_mois": 33.54,
+     "abonnement_mois": 33.5425,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.19648,
+      "hc": 0.14669
      }
     },
     {
      "kva": 24,
-     "abonnement_mois": 41.54,
+     "abonnement_mois": 41.5358,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.19648,
+      "hc": 0.14669
      }
     },
     {
      "kva": 30,
      "abonnement_mois": 48.87,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.19648,
+      "hc": 0.14669
      }
     },
     {
      "kva": 36,
      "abonnement_mois": 56.81,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.19648,
+      "hc": 0.14669
      }
     }
    ],
    "promotions": [],
-   "avantages": [],
-   "verification": "source_unique",
+   "avantages": [
+    "Service PleniCoach Maison offert pour une souscription du 26/10 au 12/11/2026"
+   ],
+   "verification": "confirme",
    "sources": [
     {
-     "url": "https://elecompare.fr/tarifs",
-     "type": "comparateur",
+     "url": "https://www.eniplenitude.fr/content/dam/plenitude-fr/documents/pages-offres/offre-pleniweb/offre-pleniweb_1an_elec.pdf",
+     "type": "officiel",
+     "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.eniplenitude.fr/offres-electricite/pleniweb",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
-   "derniere_verif": "2026-10-30"
+   "notes": [
+    "Grille officielle valable pour les souscriptions du 01/10/2026 au 16/11/2026, en ligne ou sur rappel. Abonnement publié en €/an (converti en €/mois).",
+    "Ancien relevé arrondi (HP 0,1965 / HC 0,1467 €) remplacé par les prix exacts."
+   ],
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille officielle PleniWeb 1 an (souscriptions du 01/10 au 16/11/2026)."
+   }
   },
   {
    "id": "dyneff-contrat-plus-base",

@@ -168,13 +168,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 625.77,
-    "cout_annuel_promo_deduite": 625.77,
-    "cout_3_ans_promo_deduite": 1877.31,
+    "cout_annuel": 625.73,
+    "cout_annuel_promo_deduite": 625.73,
+    "cout_3_ans_promo_deduite": 1877.18,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-base",
@@ -201,11 +201,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 633.61,
-    "cout_annuel_promo_deduite": 633.61,
-    "cout_3_ans_promo_deduite": 1900.83,
+    "cout_annuel": 633.68,
+    "cout_annuel_promo_deduite": 633.68,
+    "cout_3_ans_promo_deduite": 1901.05,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -533,13 +533,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 986.9,
-    "cout_annuel_promo_deduite": 986.9,
-    "cout_3_ans_promo_deduite": 2960.69,
+    "cout_annuel": 986.82,
+    "cout_annuel_promo_deduite": 986.82,
+    "cout_3_ans_promo_deduite": 2960.47,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -566,11 +566,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1001.01,
-    "cout_annuel_promo_deduite": 1001.01,
-    "cout_3_ans_promo_deduite": 3003.03,
+    "cout_annuel": 1001.14,
+    "cout_annuel_promo_deduite": 1001.14,
+    "cout_3_ans_promo_deduite": 3003.43,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -920,13 +920,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1618.87,
-    "cout_annuel_promo_deduite": 1618.87,
-    "cout_3_ans_promo_deduite": 4856.62,
+    "cout_annuel": 1618.74,
+    "cout_annuel_promo_deduite": 1618.74,
+    "cout_3_ans_promo_deduite": 4856.21,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-hphc",
@@ -953,11 +953,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1643.96,
-    "cout_annuel_promo_deduite": 1643.96,
-    "cout_3_ans_promo_deduite": 4931.88,
+    "cout_annuel": 1644.2,
+    "cout_annuel_promo_deduite": 1644.2,
+    "cout_3_ans_promo_deduite": 4932.6,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1406,13 +1406,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 670.53,
-    "cout_annuel_promo_deduite": 670.53,
-    "cout_3_ans_promo_deduite": 2011.59,
+    "cout_annuel": 670.52,
+    "cout_annuel_promo_deduite": 670.52,
+    "cout_3_ans_promo_deduite": 2011.55,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-base",
@@ -1439,11 +1439,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 678.37,
-    "cout_annuel_promo_deduite": 678.37,
-    "cout_3_ans_promo_deduite": 2035.11,
+    "cout_annuel": 678.47,
+    "cout_annuel_promo_deduite": 678.47,
+    "cout_3_ans_promo_deduite": 2035.42,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1837,13 +1837,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1031.66,
-    "cout_annuel_promo_deduite": 1031.66,
-    "cout_3_ans_promo_deduite": 3094.97,
+    "cout_annuel": 1031.61,
+    "cout_annuel_promo_deduite": 1031.61,
+    "cout_3_ans_promo_deduite": 3094.84,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -1870,11 +1870,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1045.77,
-    "cout_annuel_promo_deduite": 1045.77,
-    "cout_3_ans_promo_deduite": 3137.31,
+    "cout_annuel": 1045.93,
+    "cout_annuel_promo_deduite": 1045.93,
+    "cout_3_ans_promo_deduite": 3137.8,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2290,13 +2290,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1663.63,
-    "cout_annuel_promo_deduite": 1663.63,
-    "cout_3_ans_promo_deduite": 4990.9,
+    "cout_annuel": 1663.53,
+    "cout_annuel_promo_deduite": 1663.53,
+    "cout_3_ans_promo_deduite": 4990.58,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-hphc",
@@ -2323,11 +2323,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1688.72,
-    "cout_annuel_promo_deduite": 1688.72,
-    "cout_3_ans_promo_deduite": 5066.16,
+    "cout_annuel": 1688.99,
+    "cout_annuel_promo_deduite": 1688.99,
+    "cout_3_ans_promo_deduite": 5066.97,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2831,13 +2831,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
     "cout_annuel": 718.77,
     "cout_annuel_promo_deduite": 718.77,
-    "cout_3_ans_promo_deduite": 2156.31,
+    "cout_3_ans_promo_deduite": 2156.3,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -2853,11 +2853,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 723.11,
-    "cout_annuel_promo_deduite": 723.11,
-    "cout_3_ans_promo_deduite": 2169.33,
+    "cout_annuel": 723.22,
+    "cout_annuel_promo_deduite": 723.22,
+    "cout_3_ans_promo_deduite": 2169.67,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3229,13 +3229,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1079.9,
-    "cout_annuel_promo_deduite": 1079.9,
-    "cout_3_ans_promo_deduite": 3239.69,
+    "cout_annuel": 1079.86,
+    "cout_annuel_promo_deduite": 1079.86,
+    "cout_3_ans_promo_deduite": 3239.59,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -3251,11 +3251,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1087.71,
-    "cout_annuel_promo_deduite": 1087.71,
-    "cout_3_ans_promo_deduite": 3263.13,
+    "cout_annuel": 1087.88,
+    "cout_annuel_promo_deduite": 1087.88,
+    "cout_3_ans_promo_deduite": 3263.65,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3671,13 +3671,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1711.87,
-    "cout_annuel_promo_deduite": 1711.87,
-    "cout_3_ans_promo_deduite": 5135.62,
+    "cout_annuel": 1711.78,
+    "cout_annuel_promo_deduite": 1711.78,
+    "cout_3_ans_promo_deduite": 5135.33,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-hphc",
@@ -3704,11 +3704,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1725.76,
-    "cout_annuel_promo_deduite": 1725.76,
-    "cout_3_ans_promo_deduite": 5177.28,
+    "cout_annuel": 1726.04,
+    "cout_annuel_promo_deduite": 1726.04,
+    "cout_3_ans_promo_deduite": 5178.12,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4223,13 +4223,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 765.33,
-    "cout_annuel_promo_deduite": 765.33,
-    "cout_3_ans_promo_deduite": 2295.99,
+    "cout_annuel": 765.3,
+    "cout_annuel_promo_deduite": 765.3,
+    "cout_3_ans_promo_deduite": 2295.89,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -4245,11 +4245,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 769.67,
-    "cout_annuel_promo_deduite": 769.67,
-    "cout_3_ans_promo_deduite": 2309.01,
+    "cout_annuel": 769.75,
+    "cout_annuel_promo_deduite": 769.75,
+    "cout_3_ans_promo_deduite": 2309.26,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4621,13 +4621,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1126.46,
-    "cout_annuel_promo_deduite": 1126.46,
-    "cout_3_ans_promo_deduite": 3379.37,
+    "cout_annuel": 1126.39,
+    "cout_annuel_promo_deduite": 1126.39,
+    "cout_3_ans_promo_deduite": 3379.18,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -4643,11 +4643,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1134.27,
-    "cout_annuel_promo_deduite": 1134.27,
-    "cout_3_ans_promo_deduite": 3402.81,
+    "cout_annuel": 1134.41,
+    "cout_annuel_promo_deduite": 1134.41,
+    "cout_3_ans_promo_deduite": 3403.24,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5063,13 +5063,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1758.43,
-    "cout_annuel_promo_deduite": 1758.43,
-    "cout_3_ans_promo_deduite": 5275.3,
+    "cout_annuel": 1758.31,
+    "cout_annuel_promo_deduite": 1758.31,
+    "cout_3_ans_promo_deduite": 5274.92,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-hphc",
@@ -5096,11 +5096,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1772.32,
-    "cout_annuel_promo_deduite": 1772.32,
-    "cout_3_ans_promo_deduite": 5316.96,
+    "cout_annuel": 1772.57,
+    "cout_annuel_promo_deduite": 1772.57,
+    "cout_3_ans_promo_deduite": 5317.71,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5593,13 +5593,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 809.01,
-    "cout_annuel_promo_deduite": 809.01,
-    "cout_3_ans_promo_deduite": 2427.03,
+    "cout_annuel": 808.94,
+    "cout_annuel_promo_deduite": 808.94,
+    "cout_3_ans_promo_deduite": 2426.81,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -5615,11 +5615,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 813.35,
-    "cout_annuel_promo_deduite": 813.35,
-    "cout_3_ans_promo_deduite": 2440.05,
+    "cout_annuel": 813.39,
+    "cout_annuel_promo_deduite": 813.39,
+    "cout_3_ans_promo_deduite": 2440.18,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5958,13 +5958,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1170.14,
-    "cout_annuel_promo_deduite": 1170.14,
-    "cout_3_ans_promo_deduite": 3510.41,
+    "cout_annuel": 1170.03,
+    "cout_annuel_promo_deduite": 1170.03,
+    "cout_3_ans_promo_deduite": 3510.1,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -5980,11 +5980,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1177.95,
-    "cout_annuel_promo_deduite": 1177.95,
-    "cout_3_ans_promo_deduite": 3533.85,
+    "cout_annuel": 1178.06,
+    "cout_annuel_promo_deduite": 1178.06,
+    "cout_3_ans_promo_deduite": 3534.16,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6378,13 +6378,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1802.11,
-    "cout_annuel_promo_deduite": 1802.11,
-    "cout_3_ans_promo_deduite": 5406.34,
+    "cout_annuel": 1801.95,
+    "cout_annuel_promo_deduite": 1801.95,
+    "cout_3_ans_promo_deduite": 5405.84,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "geg-elec-verte-fixe-3-ans-hphc",
@@ -6400,11 +6400,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1816.0,
-    "cout_annuel_promo_deduite": 1816.0,
-    "cout_3_ans_promo_deduite": 5448.0,
+    "cout_annuel": 1816.21,
+    "cout_annuel_promo_deduite": 1816.21,
+    "cout_3_ans_promo_deduite": 5448.63,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6886,13 +6886,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 853.89,
-    "cout_annuel_promo_deduite": 853.89,
-    "cout_3_ans_promo_deduite": 2561.67,
+    "cout_annuel": 853.88,
+    "cout_annuel_promo_deduite": 853.88,
+    "cout_3_ans_promo_deduite": 2561.63,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -6908,11 +6908,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 858.23,
-    "cout_annuel_promo_deduite": 858.23,
-    "cout_3_ans_promo_deduite": 2574.69,
+    "cout_annuel": 858.34,
+    "cout_annuel_promo_deduite": 858.34,
+    "cout_3_ans_promo_deduite": 2575.01,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7251,13 +7251,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1215.02,
-    "cout_annuel_promo_deduite": 1215.02,
-    "cout_3_ans_promo_deduite": 3645.05,
+    "cout_annuel": 1214.97,
+    "cout_annuel_promo_deduite": 1214.97,
+    "cout_3_ans_promo_deduite": 3644.92,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -7273,11 +7273,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1222.83,
-    "cout_annuel_promo_deduite": 1222.83,
-    "cout_3_ans_promo_deduite": 3668.49,
+    "cout_annuel": 1222.99,
+    "cout_annuel_promo_deduite": 1222.99,
+    "cout_3_ans_promo_deduite": 3668.98,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7671,13 +7671,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1846.99,
-    "cout_annuel_promo_deduite": 1846.99,
-    "cout_3_ans_promo_deduite": 5540.98,
+    "cout_annuel": 1846.89,
+    "cout_annuel_promo_deduite": 1846.89,
+    "cout_3_ans_promo_deduite": 5540.66,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "geg-elec-verte-fixe-3-ans-hphc",
@@ -7693,11 +7693,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1860.88,
-    "cout_annuel_promo_deduite": 1860.88,
-    "cout_3_ans_promo_deduite": 5582.64,
+    "cout_annuel": 1861.15,
+    "cout_annuel_promo_deduite": 1861.15,
+    "cout_3_ans_promo_deduite": 5583.45,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8179,13 +8179,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 949.89,
-    "cout_annuel_promo_deduite": 949.89,
-    "cout_3_ans_promo_deduite": 2849.67,
+    "cout_annuel": 949.8,
+    "cout_annuel_promo_deduite": 949.8,
+    "cout_3_ans_promo_deduite": 2849.39,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -8201,11 +8201,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 954.23,
-    "cout_annuel_promo_deduite": 954.23,
-    "cout_3_ans_promo_deduite": 2862.69,
+    "cout_annuel": 954.25,
+    "cout_annuel_promo_deduite": 954.25,
+    "cout_3_ans_promo_deduite": 2862.76,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8544,13 +8544,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1311.02,
-    "cout_annuel_promo_deduite": 1311.02,
-    "cout_3_ans_promo_deduite": 3933.05,
+    "cout_annuel": 1310.89,
+    "cout_annuel_promo_deduite": 1310.89,
+    "cout_3_ans_promo_deduite": 3932.68,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-base",
@@ -8577,11 +8577,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1318.83,
-    "cout_annuel_promo_deduite": 1318.83,
-    "cout_3_ans_promo_deduite": 3956.49,
+    "cout_annuel": 1318.91,
+    "cout_annuel_promo_deduite": 1318.91,
+    "cout_3_ans_promo_deduite": 3956.74,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8964,22 +8964,22 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1942.99,
-    "cout_annuel_promo_deduite": 1942.99,
-    "cout_3_ans_promo_deduite": 5828.98,
+    "cout_annuel": 1942.81,
+    "cout_annuel_promo_deduite": 1942.81,
+    "cout_3_ans_promo_deduite": 5828.42,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1956.88,
-    "cout_annuel_promo_deduite": 1956.88,
-    "cout_3_ans_promo_deduite": 5870.64,
+    "cout_annuel": 1957.07,
+    "cout_annuel_promo_deduite": 1957.07,
+    "cout_3_ans_promo_deduite": 5871.21,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9472,13 +9472,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1037.85,
-    "cout_annuel_promo_deduite": 1037.85,
-    "cout_3_ans_promo_deduite": 3113.55,
+    "cout_annuel": 1037.81,
+    "cout_annuel_promo_deduite": 1037.81,
+    "cout_3_ans_promo_deduite": 3113.42,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -9494,11 +9494,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1042.19,
-    "cout_annuel_promo_deduite": 1042.19,
-    "cout_3_ans_promo_deduite": 3126.57,
+    "cout_annuel": 1042.26,
+    "cout_annuel_promo_deduite": 1042.26,
+    "cout_3_ans_promo_deduite": 3126.79,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9837,13 +9837,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1398.98,
-    "cout_annuel_promo_deduite": 1398.98,
-    "cout_3_ans_promo_deduite": 4196.93,
+    "cout_annuel": 1398.9,
+    "cout_annuel_promo_deduite": 1398.9,
+    "cout_3_ans_promo_deduite": 4196.71,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-base",
@@ -9870,11 +9870,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1406.79,
-    "cout_annuel_promo_deduite": 1406.79,
-    "cout_3_ans_promo_deduite": 4220.37,
+    "cout_annuel": 1406.92,
+    "cout_annuel_promo_deduite": 1406.92,
+    "cout_3_ans_promo_deduite": 4220.77,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10257,22 +10257,22 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 2030.95,
-    "cout_annuel_promo_deduite": 2030.95,
-    "cout_3_ans_promo_deduite": 6092.86,
+    "cout_annuel": 2030.82,
+    "cout_annuel_promo_deduite": 2030.82,
+    "cout_3_ans_promo_deduite": 6092.45,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 2044.84,
-    "cout_annuel_promo_deduite": 2044.84,
-    "cout_3_ans_promo_deduite": 6134.52,
+    "cout_annuel": 2045.08,
+    "cout_annuel_promo_deduite": 2045.08,
+    "cout_3_ans_promo_deduite": 6135.24,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10776,13 +10776,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1133.13,
-    "cout_annuel_promo_deduite": 1133.13,
-    "cout_3_ans_promo_deduite": 3399.39,
+    "cout_annuel": 1133.09,
+    "cout_annuel_promo_deduite": 1133.09,
+    "cout_3_ans_promo_deduite": 3399.26,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-base",
@@ -10809,11 +10809,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1137.47,
-    "cout_annuel_promo_deduite": 1137.47,
-    "cout_3_ans_promo_deduite": 3412.41,
+    "cout_annuel": 1137.55,
+    "cout_annuel_promo_deduite": 1137.55,
+    "cout_3_ans_promo_deduite": 3412.64,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11141,13 +11141,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 1494.26,
-    "cout_annuel_promo_deduite": 1494.26,
-    "cout_3_ans_promo_deduite": 4482.77,
+    "cout_annuel": 1494.18,
+    "cout_annuel_promo_deduite": 1494.18,
+    "cout_3_ans_promo_deduite": 4482.55,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -11174,11 +11174,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 1502.07,
-    "cout_annuel_promo_deduite": 1502.07,
-    "cout_3_ans_promo_deduite": 4506.21,
+    "cout_annuel": 1502.2,
+    "cout_annuel_promo_deduite": 1502.2,
+    "cout_3_ans_promo_deduite": 4506.61,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11550,13 +11550,13 @@
    {
     "id": "plenitude-pleniweb-hphc",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "hphc",
-    "cout_annuel": 2126.23,
-    "cout_annuel_promo_deduite": 2126.23,
-    "cout_3_ans_promo_deduite": 6378.7,
+    "cout_annuel": 2126.1,
+    "cout_annuel_promo_deduite": 2126.1,
+    "cout_3_ans_promo_deduite": 6378.29,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "geg-elec-verte-fixe-3-ans-hphc",
@@ -11572,11 +11572,11 @@
    {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
-    "offre": "PleniWeb Électricité",
+    "offre": "PleniWeb 1 an",
     "option": "base",
-    "cout_annuel": 2140.12,
-    "cout_annuel_promo_deduite": 2140.12,
-    "cout_3_ans_promo_deduite": 6420.36,
+    "cout_annuel": 2140.36,
+    "cout_annuel_promo_deduite": 2140.36,
+    "cout_3_ans_promo_deduite": 6421.08,
     "promo_an1": 0,
     "verification": "confirme"
    },

@@ -512,33 +512,33 @@ geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe
 geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;30;46.79;hc;0.1583;confirme;2026-10-30
 geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;36;54.22;hp;0.1983;confirme;2026-10-30
 geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;36;54.22;hc;0.1583;confirme;2026-10-30
-plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;3;14.53;base;0.1837;confirme;2026-10-30
-plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;6;18.26;base;0.1837;confirme;2026-10-30
-plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;9;22.28;base;0.1823;confirme;2026-10-30
-plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;12;26.16;base;0.1823;confirme;2026-10-30
-plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;15;29.8;base;0.1823;confirme;2026-10-30
-plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;18;33.54;base;0.1823;confirme;2026-10-30
-plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;24;41.54;base;0.1823;confirme;2026-10-30
-plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;30;48.87;base;0.1823;confirme;2026-10-30
-plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;36;56.81;base;0.1823;confirme;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;3;14.53;hp;0.1965;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;3;14.53;hc;0.1467;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;6;18.26;hp;0.1965;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;6;18.26;hc;0.1467;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;9;22.28;hp;0.1965;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;9;22.28;hc;0.1467;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;12;26.16;hp;0.1965;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;12;26.16;hc;0.1467;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;15;29.8;hp;0.1965;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;15;29.8;hc;0.1467;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;18;33.54;hp;0.1965;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;18;33.54;hc;0.1467;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;24;41.54;hp;0.1965;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;24;41.54;hc;0.1467;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;30;48.87;hp;0.1965;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;30;48.87;hc;0.1467;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;36;56.81;hp;0.1965;source_unique;2026-10-30
-plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;36;56.81;hc;0.1467;source_unique;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb 1 an;base;fixe;3;14.53;base;0.18373;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb 1 an;base;fixe;6;18.2625;base;0.18373;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb 1 an;base;fixe;9;22.2833;base;0.18233;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb 1 an;base;fixe;12;26.1608;base;0.18233;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb 1 an;base;fixe;15;29.7975;base;0.18233;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb 1 an;base;fixe;18;33.5425;base;0.18233;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb 1 an;base;fixe;24;41.5358;base;0.18233;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb 1 an;base;fixe;30;48.87;base;0.18233;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb 1 an;base;fixe;36;56.81;base;0.18233;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;3;14.53;hp;0.19648;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;3;14.53;hc;0.14669;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;6;18.2625;hp;0.19648;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;6;18.2625;hc;0.14669;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;9;22.2833;hp;0.19648;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;9;22.2833;hc;0.14669;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;12;26.1608;hp;0.19648;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;12;26.1608;hc;0.14669;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;15;29.7975;hp;0.19648;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;15;29.7975;hc;0.14669;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;18;33.5425;hp;0.19648;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;18;33.5425;hc;0.14669;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;24;41.5358;hp;0.19648;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;24;41.5358;hc;0.14669;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;30;48.87;hp;0.19648;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;30;48.87;hc;0.14669;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;36;56.81;hp;0.19648;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb 1 an;hphc;fixe;36;56.81;hc;0.14669;confirme;2026-10-30
 dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;3;12.03;base;0.1907;confirme;2026-10-30
 dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;6;15.65;base;0.1907;confirme;2026-10-30
 dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;9;19.56;base;0.1907;confirme;2026-10-30
