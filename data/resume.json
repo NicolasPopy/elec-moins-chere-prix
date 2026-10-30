@@ -243,17 +243,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 641.56,
-    "cout_annuel_promo_deduite": 641.56,
-    "cout_3_ans_promo_deduite": 1924.68,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -663,17 +652,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1038.36,
-    "cout_annuel_promo_deduite": 1038.36,
-    "cout_3_ans_promo_deduite": 3115.08,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -1070,17 +1048,6 @@
     "cout_3_ans_promo_deduite": 5159.88,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1732.76,
-    "cout_annuel_promo_deduite": 1732.76,
-    "cout_3_ans_promo_deduite": 5198.28,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -1490,17 +1457,6 @@
     "cout_3_ans_promo_deduite": 2050.02,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 686.32,
-    "cout_annuel_promo_deduite": 686.32,
-    "cout_3_ans_promo_deduite": 2058.96,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -1978,17 +1934,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1083.12,
-    "cout_annuel_promo_deduite": 1083.12,
-    "cout_3_ans_promo_deduite": 3249.36,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -2453,17 +2398,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1777.52,
-    "cout_annuel_promo_deduite": 1777.52,
-    "cout_3_ans_promo_deduite": 5332.56,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -2893,17 +2827,6 @@
     "cout_3_ans_promo_deduite": 2189.46,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 730.81,
-    "cout_annuel_promo_deduite": 730.81,
-    "cout_3_ans_promo_deduite": 2192.43,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -3381,17 +3304,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1124.61,
-    "cout_annuel_promo_deduite": 1124.61,
-    "cout_3_ans_promo_deduite": 3373.83,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -3845,17 +3757,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1813.76,
-    "cout_annuel_promo_deduite": 1813.76,
-    "cout_3_ans_promo_deduite": 5441.28,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -4285,17 +4186,6 @@
     "cout_3_ans_promo_deduite": 2329.14,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 777.37,
-    "cout_annuel_promo_deduite": 777.37,
-    "cout_3_ans_promo_deduite": 2332.11,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -4773,17 +4663,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1171.17,
-    "cout_annuel_promo_deduite": 1171.17,
-    "cout_3_ans_promo_deduite": 3513.51,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -5237,17 +5116,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1860.32,
-    "cout_annuel_promo_deduite": 1860.32,
-    "cout_3_ans_promo_deduite": 5580.96,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -5655,17 +5523,6 @@
     "cout_3_ans_promo_deduite": 2460.18,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 821.05,
-    "cout_annuel_promo_deduite": 821.05,
-    "cout_3_ans_promo_deduite": 2463.15,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -6110,17 +5967,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1214.85,
-    "cout_annuel_promo_deduite": 1214.85,
-    "cout_3_ans_promo_deduite": 3644.55,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -6541,17 +6387,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1904.0,
-    "cout_annuel_promo_deduite": 1904.0,
-    "cout_3_ans_promo_deduite": 5712.0,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -6948,17 +6783,6 @@
     "cout_3_ans_promo_deduite": 2594.82,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 865.93,
-    "cout_annuel_promo_deduite": 865.93,
-    "cout_3_ans_promo_deduite": 2597.79,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -7403,17 +7227,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1259.73,
-    "cout_annuel_promo_deduite": 1259.73,
-    "cout_3_ans_promo_deduite": 3779.19,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -7834,17 +7647,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1948.88,
-    "cout_annuel_promo_deduite": 1948.88,
-    "cout_3_ans_promo_deduite": 5846.64,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -8241,17 +8043,6 @@
     "cout_3_ans_promo_deduite": 2882.82,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 961.93,
-    "cout_annuel_promo_deduite": 961.93,
-    "cout_3_ans_promo_deduite": 2885.79,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -8685,17 +8476,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1355.73,
-    "cout_annuel_promo_deduite": 1355.73,
-    "cout_3_ans_promo_deduite": 4067.19,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alterna-fixe-1-an-hphc",
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
@@ -9127,17 +8907,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 2044.88,
-    "cout_annuel_promo_deduite": 2044.88,
-    "cout_3_ans_promo_deduite": 6134.64,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-base",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -9534,17 +9303,6 @@
     "cout_3_ans_promo_deduite": 3146.7,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1049.89,
-    "cout_annuel_promo_deduite": 1049.89,
-    "cout_3_ans_promo_deduite": 3149.67,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -9978,17 +9736,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1443.69,
-    "cout_annuel_promo_deduite": 1443.69,
-    "cout_3_ans_promo_deduite": 4331.07,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alterna-fixe-1-an-hphc",
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
@@ -10418,17 +10165,6 @@
     "cout_3_ans_promo_deduite": 6389.02,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 2132.84,
-    "cout_annuel_promo_deduite": 2132.84,
-    "cout_3_ans_promo_deduite": 6398.52,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -10862,17 +10598,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1145.17,
-    "cout_annuel_promo_deduite": 1145.17,
-    "cout_3_ans_promo_deduite": 3435.51,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-vert-electrique-base",
     "fournisseur": "EDF",
     "offre": "Vert Électrique",
@@ -11293,17 +11018,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 1538.97,
-    "cout_annuel_promo_deduite": 1538.97,
-    "cout_3_ans_promo_deduite": 4616.91,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
@@ -11711,17 +11425,6 @@
     "cout_3_ans_promo_deduite": 6655.78,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "octopus-eco-fixe-base",
-    "fournisseur": "Octopus Energy",
-    "offre": "Eco Fixe",
-    "option": "base",
-    "cout_annuel": 2228.12,
-    "cout_annuel_promo_deduite": 2228.12,
-    "cout_3_ans_promo_deduite": 6684.36,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",

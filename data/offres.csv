@@ -349,51 +349,60 @@ octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;ete_h
 octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;ete_hc;0.1356;confirme;2026-10-30
 octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;rouge_hp;0.6465;confirme;2026-10-30
 octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;rouge_hc;0.1615;confirme;2026-10-30
-octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;3;12.13;base;0.1984;conflit;2026-10-30
-octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;6;15.86;base;0.1984;conflit;2026-10-30
-octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;9;19.88;base;0.1969;conflit;2026-10-30
-octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;12;23.76;base;0.1969;conflit;2026-10-30
-octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;15;27.4;base;0.1969;conflit;2026-10-30
-octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;18;31.14;base;0.1969;conflit;2026-10-30
-octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;24;39.14;base;0.1969;conflit;2026-10-30
-octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;30;46.47;base;0.1969;conflit;2026-10-30
-octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;36;54.41;base;0.1969;conflit;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;3;12.13;hiver_hp;0.2195;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;3;12.13;hiver_hc;0.1626;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;3;12.13;ete_hp;0.1876;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;3;12.13;ete_hc;0.1405;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;6;15.86;hiver_hp;0.2409;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;6;15.86;hiver_hc;0.1773;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;6;15.86;ete_hp;0.1787;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;6;15.86;ete_hc;0.1344;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;9;19.88;hiver_hp;0.2461;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;9;19.88;hiver_hc;0.1809;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;9;19.88;ete_hp;0.1876;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;9;19.88;ete_hc;0.1405;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;12;23.76;hiver_hp;0.2461;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;12;23.76;hiver_hc;0.1809;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;12;23.76;ete_hp;0.1876;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;12;23.76;ete_hc;0.1405;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;15;27.4;hiver_hp;0.2461;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;15;27.4;hiver_hc;0.1809;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;15;27.4;ete_hp;0.1876;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;15;27.4;ete_hc;0.1405;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;18;31.14;hiver_hp;0.2461;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;18;31.14;hiver_hc;0.1809;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;18;31.14;ete_hp;0.1876;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;18;31.14;ete_hc;0.1405;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;24;39.14;hiver_hp;0.2461;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;24;39.14;hiver_hc;0.1809;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;24;39.14;ete_hp;0.1876;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;24;39.14;ete_hc;0.1405;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;30;46.47;hiver_hp;0.2461;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;30;46.47;hiver_hc;0.1809;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;30;46.47;ete_hp;0.1876;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;30;46.47;ete_hc;0.1405;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;36;53.88;hiver_hp;0.2461;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;36;53.88;hiver_hc;0.1809;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;36;53.88;ete_hp;0.1876;source_unique;2026-10-30
-octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;36;53.88;ete_hc;0.1405;source_unique;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;3;12.13;hiver;0.205;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;3;12.13;ete;0.1919;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;6;15.86;hiver;0.2245;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;6;15.86;ete;0.1707;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;9;19.88;hiver;0.2277;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;9;19.88;ete;0.1743;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;12;23.76;hiver;0.2277;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;12;23.76;ete;0.1743;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;15;27.4;hiver;0.2277;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;15;27.4;ete;0.1743;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;18;31.14;hiver;0.2277;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;18;31.14;ete;0.1743;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;24;39.14;hiver;0.2277;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;24;39.14;ete;0.1743;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;30;46.47;hiver;0.2277;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;30;46.47;ete;0.1743;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;36;53.88;hiver;0.2277;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe Base (2 saisons);saisons;fixe;36;53.88;ete;0.1743;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;3;12.13;hiver_hp;0.2195;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;3;12.13;hiver_hc;0.1626;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;3;12.13;ete_hp;0.1876;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;3;12.13;ete_hc;0.1405;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;6;15.86;hiver_hp;0.2409;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;6;15.86;hiver_hc;0.1773;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;6;15.86;ete_hp;0.1787;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;6;15.86;ete_hc;0.1344;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;9;19.88;hiver_hp;0.2461;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;9;19.88;hiver_hc;0.1809;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;9;19.88;ete_hp;0.1876;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;9;19.88;ete_hc;0.1405;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;12;23.76;hiver_hp;0.2461;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;12;23.76;hiver_hc;0.1809;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;12;23.76;ete_hp;0.1876;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;12;23.76;ete_hc;0.1405;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;15;27.4;hiver_hp;0.2461;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;15;27.4;hiver_hc;0.1809;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;15;27.4;ete_hp;0.1876;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;15;27.4;ete_hc;0.1405;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;18;31.14;hiver_hp;0.2461;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;18;31.14;hiver_hc;0.1809;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;18;31.14;ete_hp;0.1876;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;18;31.14;ete_hc;0.1405;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;24;39.14;hiver_hp;0.2461;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;24;39.14;hiver_hc;0.1809;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;24;39.14;ete_hp;0.1876;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;24;39.14;ete_hc;0.1405;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;30;46.47;hiver_hp;0.2461;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;30;46.47;hiver_hc;0.1809;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;30;46.47;ete_hp;0.1876;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;30;46.47;ete_hc;0.1405;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;36;53.88;hiver_hp;0.2461;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;36;53.88;hiver_hc;0.1809;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;36;53.88;ete_hp;0.1876;confirme;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe HP/HC (2 saisons);saisons;fixe;36;53.88;ete_hc;0.1405;confirme;2026-10-30
 octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;3;12.13;base;0.1968;confirme;2026-10-30
 octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;6;15.86;base;0.1968;confirme;2026-10-30
 octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;9;19.88;base;0.1953;confirme;2026-10-30

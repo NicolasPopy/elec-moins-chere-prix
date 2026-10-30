@@ -49,7 +49,9 @@
    "eco_hp": "Jour Éco, heures pleines",
    "eco_hc": "Jour Éco, heures creuses",
    "sobriete_hp": "Jour Sobriété, heures pleines",
-   "sobriete_hc": "Jour Sobriété, heures creuses"
+   "sobriete_hc": "Jour Sobriété, heures creuses",
+   "hiver": "Hiver, toute heure",
+   "ete": "Été, toute heure"
   },
   "types_prix": {
    "reglemente": "Tarif réglementé fixé par l'État (révisé en février et en août)",
@@ -1766,8 +1768,8 @@
    "duree_prix_garanti_mois": 24,
    "indexation": null,
    "energie_verte": null,
-   "engagement": "sans engagement",
-   "plages_horaires": "Été (avril-octobre) : HC 21h-7h et 11h-17h. Hiver (novembre-mars) : HC 21h-7h. Jours rouges identiques aux jours rouges Tempo (22 par hiver).",
+   "engagement": "sans engagement, résiliation sans frais",
+   "plages_horaires": "Été (avril à octobre, 214 jours) : jusqu'à 16 heures creuses par jour (21h-7h et 11h-17h). Hiver (novembre à mars) : 10 heures creuses par jour (21h-7h). 22 jours rouges par an, en hiver et jamais le week-end, identiques aux jours rouges Tempo, annoncés la veille.",
    "grille": [
     {
      "kva": 3,
@@ -1891,121 +1893,141 @@
      "url": "https://elecompare.fr/tarifs",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://octopusenergy.fr/octosaisons-gp",
+     "type": "officiel",
+     "consulte_le": "2026-10-30"
     }
    ],
    "notes": [
-    "Grille officielle applicable au 21/10/2026.",
-    "Prix HT figés 24 mois ; taxes et TURPE peuvent évoluer."
+    "Grille officielle applicable au 21/10/2026. Prix HT abonnement et kWh bloqués 2 ans.",
+    "Nouveaux clients : le contrat démarre sur OctoTempo puis bascule sur OctoSaisons 24 à 48 h après l'activation."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille officielle OctoSaisons du 21/10/2026 et page de l'offre."
+   }
   },
   {
    "id": "octopus-eco-fixe-base",
    "fournisseur": "octopus",
-   "offre": "Eco Fixe",
-   "option": "base",
+   "offre": "Eco Fixe Base (2 saisons)",
+   "option": "saisons",
    "type_prix": "fixe",
    "duree_prix_garanti_mois": 24,
    "indexation": null,
    "energie_verte": null,
-   "engagement": "sans engagement",
-   "plages_horaires": null,
+   "engagement": "sans engagement, résiliation sans frais",
+   "plages_horaires": "Prix unique jour et nuit, différent l'hiver (novembre à mars) et l'été (avril à octobre).",
    "grille": [
     {
      "kva": 3,
      "abonnement_mois": 12.13,
      "prix_kwh": {
-      "base": 0.1984
+      "hiver": 0.205,
+      "ete": 0.1919
      }
     },
     {
      "kva": 6,
      "abonnement_mois": 15.86,
      "prix_kwh": {
-      "base": 0.1984
+      "hiver": 0.2245,
+      "ete": 0.1707
      }
     },
     {
      "kva": 9,
      "abonnement_mois": 19.88,
      "prix_kwh": {
-      "base": 0.1969
+      "hiver": 0.2277,
+      "ete": 0.1743
      }
     },
     {
      "kva": 12,
      "abonnement_mois": 23.76,
      "prix_kwh": {
-      "base": 0.1969
+      "hiver": 0.2277,
+      "ete": 0.1743
      }
     },
     {
      "kva": 15,
      "abonnement_mois": 27.4,
      "prix_kwh": {
-      "base": 0.1969
+      "hiver": 0.2277,
+      "ete": 0.1743
      }
     },
     {
      "kva": 18,
      "abonnement_mois": 31.14,
      "prix_kwh": {
-      "base": 0.1969
+      "hiver": 0.2277,
+      "ete": 0.1743
      }
     },
     {
      "kva": 24,
      "abonnement_mois": 39.14,
      "prix_kwh": {
-      "base": 0.1969
+      "hiver": 0.2277,
+      "ete": 0.1743
      }
     },
     {
      "kva": 30,
      "abonnement_mois": 46.47,
      "prix_kwh": {
-      "base": 0.1969
+      "hiver": 0.2277,
+      "ete": 0.1743
      }
     },
     {
      "kva": 36,
-     "abonnement_mois": 54.41,
+     "abonnement_mois": 53.88,
      "prix_kwh": {
-      "base": 0.1969
+      "hiver": 0.2277,
+      "ete": 0.1743
      }
     }
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "conflit",
+   "verification": "confirme",
    "sources": [
     {
-     "url": "https://a.storyblok.com/f/151412/x/bb8d957709/grille-tarifaire-ecofixe_aout26.pdf",
+     "url": "https://a.storyblok.com/f/151412/x/f9e6edf063/grille-tarifaire-eco-fixe-aout-26-base.pdf",
      "type": "officiel",
-     "consulte_le": "2026-10-30"
-    },
-    {
-     "url": "https://www.fournisseurs-electricite.com/fournisseurs/octopus-energy/tarifs",
-     "type": "comparateur",
      "consulte_le": "2026-10-30"
     }
    ],
    "notes": [
-    "Grille officielle du 03/08/2026 : 0,1984 €. Un comparateur indique 0,2033 € au 01/10/2026 (grille plus récente possible).",
-    "Réservée aux nouveaux clients résidentiels."
+    "Grille officielle applicable au 12/08/2026 : l'option « Base » d'Eco Fixe a désormais un prix d'hiver et un prix d'été (plus de prix unique à l'année).",
+    "Prix HT abonnement et kWh bloqués 2 ans ; taxes et TURPE peuvent évoluer.",
+    "Dans la grille, les prix du kWh sont dans des cellules fusionnées : un prix pour 3 kVA (1 à 5 kVA), un pour 6 kVA, un pour 9 à 36 kVA. Lecture à revérifier sur le PDF si besoin."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille officielle Eco Fixe Base applicable au 12/08/2026."
+   }
   },
   {
    "id": "octopus-eco-fixe-2-saisons",
    "fournisseur": "octopus",
-   "offre": "Eco Fixe",
+   "offre": "Eco Fixe HP/HC (2 saisons)",
    "option": "saisons",
    "type_prix": "fixe",
    "duree_prix_garanti_mois": 24,
    "indexation": null,
    "energie_verte": null,
-   "engagement": "sans engagement",
+   "engagement": "sans engagement, résiliation sans frais",
    "plages_horaires": "Créneau d'heures creuses fixé par Enedis pour chaque compteur (8 h/jour, voir programmationHoraireHC). Hiver nov.-mars, été avril-oct.",
    "grille": [
     {
@@ -2101,18 +2123,25 @@
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "source_unique",
+   "verification": "confirme",
    "sources": [
     {
-     "url": "https://a.storyblok.com/f/151412/x/bb8d957709/grille-tarifaire-ecofixe_aout26.pdf",
+     "url": "https://a.storyblok.com/f/151412/x/d505811345/grille-tarifaire-ecofixe-aout-26-hphc.pdf",
      "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
    "notes": [
-    "Grille officielle du 03/08/2026 ; prix par puissance à revérifier (lecture du PDF ambiguë)."
+    "Grille officielle applicable au 12/08/2026 (identique au relevé précédent).",
+    "Prix HT abonnement et kWh bloqués 2 ans ; taxes et TURPE peuvent évoluer.",
+    "Dans la grille, les prix du kWh sont dans des cellules fusionnées : un prix pour 3 kVA (1 à 5 kVA), un pour 6 kVA, un pour 9 à 36 kVA. Lecture à revérifier sur le PDF si besoin."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille officielle Eco Fixe HP/HC applicable au 12/08/2026."
+   }
   },
   {
    "id": "octopus-intelligent-base",
