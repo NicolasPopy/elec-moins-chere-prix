@@ -3005,6 +3005,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ekwateur-hphc",
+    "fournisseur": "Ekwateur",
+    "offre": "Électricité 100 % renouvelable",
+    "option": "hphc",
+    "cout_annuel": 748.0,
+    "cout_annuel_promo_deduite": 748.0,
+    "cout_3_ans_promo_deduite": 2244.0,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-zen-fixe-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -3465,6 +3476,17 @@
     "cout_annuel": 1147.05,
     "cout_annuel_promo_deduite": 1147.05,
     "cout_3_ans_promo_deduite": 3441.15,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "ekwateur-hphc",
+    "fournisseur": "Ekwateur",
+    "offre": "Électricité 100 % renouvelable",
+    "option": "hphc",
+    "cout_annuel": 1155.46,
+    "cout_annuel_promo_deduite": 1155.46,
+    "cout_3_ans_promo_deduite": 3466.37,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3931,6 +3953,17 @@
     "cout_3_ans_promo_deduite": 5564.88,
     "promo_an1": 0,
     "verification": "conflit"
+   },
+   {
+    "id": "ekwateur-hphc",
+    "fournisseur": "Ekwateur",
+    "offre": "Électricité 100 % renouvelable",
+    "option": "hphc",
+    "cout_annuel": 1868.5,
+    "cout_annuel_promo_deduite": 1868.5,
+    "cout_3_ans_promo_deduite": 5605.51,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-hphc",
