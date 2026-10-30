@@ -265,17 +265,6 @@
     "verification": "confirme"
    },
    {
-    "id": "edf-vert-electrique-hphc",
-    "fournisseur": "EDF",
-    "offre": "Vert Électrique",
-    "option": "hphc",
-    "cout_annuel": 644.02,
-    "cout_annuel_promo_deduite": 644.02,
-    "cout_3_ans_promo_deduite": 1932.06,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
@@ -707,17 +696,6 @@
     "verification": "confirme"
    },
    {
-    "id": "edf-vert-electrique-hphc",
-    "fournisseur": "EDF",
-    "offre": "Vert Électrique",
-    "option": "hphc",
-    "cout_annuel": 1042.79,
-    "cout_annuel_promo_deduite": 1042.79,
-    "cout_3_ans_promo_deduite": 3128.36,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
@@ -1136,17 +1114,6 @@
     "cout_3_ans_promo_deduite": 5219.88,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "edf-vert-electrique-hphc",
-    "fournisseur": "EDF",
-    "offre": "Vert Électrique",
-    "option": "hphc",
-    "cout_annuel": 1740.63,
-    "cout_annuel_promo_deduite": 1740.63,
-    "cout_3_ans_promo_deduite": 5221.9,
-    "promo_an1": 0,
-    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -1588,7 +1555,7 @@
     "cout_annuel_promo_deduite": 688.78,
     "cout_3_ans_promo_deduite": 2066.34,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -2074,7 +2041,7 @@
     "cout_annuel_promo_deduite": 1087.55,
     "cout_3_ans_promo_deduite": 3262.64,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -2549,7 +2516,7 @@
     "cout_annuel_promo_deduite": 1785.39,
     "cout_3_ans_promo_deduite": 5356.18,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -3002,7 +2969,7 @@
     "cout_annuel_promo_deduite": 737.02,
     "cout_3_ans_promo_deduite": 2211.06,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -3488,7 +3455,7 @@
     "cout_annuel_promo_deduite": 1135.79,
     "cout_3_ans_promo_deduite": 3407.36,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -3952,7 +3919,7 @@
     "cout_annuel_promo_deduite": 1833.63,
     "cout_3_ans_promo_deduite": 5500.9,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -4394,7 +4361,7 @@
     "cout_annuel_promo_deduite": 783.58,
     "cout_3_ans_promo_deduite": 2350.74,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -4880,7 +4847,7 @@
     "cout_annuel_promo_deduite": 1182.35,
     "cout_3_ans_promo_deduite": 3547.04,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -5344,7 +5311,7 @@
     "cout_annuel_promo_deduite": 1880.19,
     "cout_3_ans_promo_deduite": 5640.58,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -5764,7 +5731,7 @@
     "cout_annuel_promo_deduite": 827.26,
     "cout_3_ans_promo_deduite": 2481.78,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -6217,7 +6184,7 @@
     "cout_annuel_promo_deduite": 1226.03,
     "cout_3_ans_promo_deduite": 3678.08,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -6648,7 +6615,7 @@
     "cout_annuel_promo_deduite": 1923.87,
     "cout_3_ans_promo_deduite": 5771.62,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -7057,7 +7024,7 @@
     "cout_annuel_promo_deduite": 872.14,
     "cout_3_ans_promo_deduite": 2616.42,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -7510,7 +7477,7 @@
     "cout_annuel_promo_deduite": 1270.91,
     "cout_3_ans_promo_deduite": 3812.72,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -7941,7 +7908,7 @@
     "cout_annuel_promo_deduite": 1968.75,
     "cout_3_ans_promo_deduite": 5906.26,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -8350,7 +8317,7 @@
     "cout_annuel_promo_deduite": 968.14,
     "cout_3_ans_promo_deduite": 2904.42,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -8803,7 +8770,7 @@
     "cout_annuel_promo_deduite": 1366.91,
     "cout_3_ans_promo_deduite": 4100.72,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -9234,7 +9201,7 @@
     "cout_annuel_promo_deduite": 2064.75,
     "cout_3_ans_promo_deduite": 6194.26,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -9643,7 +9610,7 @@
     "cout_annuel_promo_deduite": 1056.1,
     "cout_3_ans_promo_deduite": 3168.3,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -10096,7 +10063,7 @@
     "cout_annuel_promo_deduite": 1454.87,
     "cout_3_ans_promo_deduite": 4364.6,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -10527,7 +10494,7 @@
     "cout_annuel_promo_deduite": 2152.71,
     "cout_3_ans_promo_deduite": 6458.14,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -10925,7 +10892,7 @@
     "cout_annuel_promo_deduite": 1145.02,
     "cout_3_ans_promo_deduite": 3435.06,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-eco-fixe-base",
@@ -11389,7 +11356,7 @@
     "cout_annuel_promo_deduite": 1543.79,
     "cout_3_ans_promo_deduite": 4631.36,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
@@ -11820,7 +11787,7 @@
     "cout_annuel_promo_deduite": 2241.63,
     "cout_3_ans_promo_deduite": 6724.9,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-vert-electrique-base",
