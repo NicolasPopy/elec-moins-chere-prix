@@ -3697,7 +3697,7 @@
    "indexation": null,
    "energie_verte": {
     "niveau": "standard",
-    "detail": "Électricité d'origine française"
+    "detail": "Garanties d'origine de producteurs renouvelables français (éolien, hydraulique, solaire)"
    },
    "engagement": "sans engagement",
    "plages_horaires": null,
@@ -3771,18 +3771,20 @@
    "verification": "confirme",
    "sources": [
     {
-     "url": "https://www.fournisseurs-electricite.com/contrat-electricite/prix",
-     "type": "comparateur",
-     "consulte_le": "2026-10-30"
-    },
-    {
-     "url": "https://elecompare.fr/tarifs",
-     "type": "comparateur",
+     "url": "https://cdn.prod.website-files.com/615af985c108852be8901cfa/6ac8dfff5bf0ec34b3f09655_DOC%20GT%20Mon%20e%CC%81lectricite%CC%81%20franc%CC%A7aise%20010926.pdf",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
-   "derniere_verif": "2026-10-30"
+   "notes": [
+    "Grille officielle applicable au 01/09/2026 pour les nouvelles souscriptions. Prix fixe 1 an."
+   ],
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille tarifaire officielle Alterna applicable au 01/09/2026."
+   }
   },
   {
    "id": "alterna-fixe-1-an-hphc",
@@ -3792,13 +3794,16 @@
    "type_prix": "fixe",
    "duree_prix_garanti_mois": 12,
    "indexation": null,
-   "energie_verte": null,
+   "energie_verte": {
+    "niveau": "standard",
+    "detail": "Garanties d'origine de producteurs renouvelables français (éolien, hydraulique, solaire)"
+   },
    "engagement": "sans engagement",
    "plages_horaires": "Créneau d'heures creuses fixé par Enedis pour chaque compteur (8 h/jour, voir programmationHoraireHC).",
    "grille": [
     {
      "kva": 3,
-     "abonnement_mois": null,
+     "abonnement_mois": 13.93,
      "prix_kwh": {
       "hp": 0.2054,
       "hc": 0.1528
@@ -3814,7 +3819,7 @@
     },
     {
      "kva": 9,
-     "abonnement_mois": 22.5,
+     "abonnement_mois": 22.56,
      "prix_kwh": {
       "hp": 0.2054,
       "hc": 0.1528
@@ -3871,16 +3876,24 @@
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "source_unique",
+   "verification": "confirme",
    "sources": [
     {
-     "url": "https://elecompare.fr/tarifs",
-     "type": "comparateur",
+     "url": "https://cdn.prod.website-files.com/615af985c108852be8901cfa/6ac8dfff5bf0ec34b3f09655_DOC%20GT%20Mon%20e%CC%81lectricite%CC%81%20franc%CC%A7aise%20010926.pdf",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
-   "derniere_verif": "2026-10-30"
+   "notes": [
+    "Grille officielle applicable au 01/09/2026 pour les nouvelles souscriptions. Prix fixe 1 an.",
+    "Option heures creuses disponible dès 3 kVA."
+   ],
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Grille tarifaire officielle Alterna applicable au 01/09/2026."
+   }
   },
   {
    "id": "alpiq-horizon-base",

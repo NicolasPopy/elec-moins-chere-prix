@@ -232,6 +232,17 @@
     "verification": "confirme"
    },
    {
+    "id": "alterna-fixe-1-an-hphc",
+    "fournisseur": "Alterna",
+    "offre": "Mon électricité française – Fixe 1 an",
+    "option": "hphc",
+    "cout_annuel": 638.58,
+    "cout_annuel_promo_deduite": 638.58,
+    "cout_3_ans_promo_deduite": 1915.74,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-eco-fixe-base",
     "fournisseur": "Octopus Energy",
     "offre": "Eco Fixe",
@@ -630,6 +641,17 @@
     "verification": "source_unique"
    },
    {
+    "id": "alterna-fixe-1-an-hphc",
+    "fournisseur": "Alterna",
+    "offre": "Mon électricité française – Fixe 1 an",
+    "option": "hphc",
+    "cout_annuel": 1015.72,
+    "cout_annuel_promo_deduite": 1015.72,
+    "cout_3_ans_promo_deduite": 3047.15,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-tarif-bleu-hphc",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
@@ -1013,6 +1035,17 @@
     "cout_annuel": 1669.96,
     "cout_annuel_promo_deduite": 1669.96,
     "cout_3_ans_promo_deduite": 5009.88,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "alterna-fixe-1-an-hphc",
+    "fournisseur": "Alterna",
+    "offre": "Mon électricité française – Fixe 1 an",
+    "option": "hphc",
+    "cout_annuel": 1675.7,
+    "cout_annuel_promo_deduite": 1675.7,
+    "cout_3_ans_promo_deduite": 5027.11,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1522,7 +1555,7 @@
     "cout_annuel_promo_deduite": 683.34,
     "cout_3_ans_promo_deduite": 2050.02,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-eco-fixe-base",
@@ -1964,7 +1997,7 @@
     "cout_annuel_promo_deduite": 1060.48,
     "cout_3_ans_promo_deduite": 3181.43,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alpiq-horizon-hphc",
@@ -2406,7 +2439,7 @@
     "cout_annuel_promo_deduite": 1720.46,
     "cout_3_ans_promo_deduite": 5161.39,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-base",
@@ -2987,11 +3020,11 @@
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
     "option": "hphc",
-    "cout_annuel": 741.42,
-    "cout_annuel_promo_deduite": 741.42,
-    "cout_3_ans_promo_deduite": 2224.26,
+    "cout_annuel": 742.14,
+    "cout_annuel_promo_deduite": 742.14,
+    "cout_3_ans_promo_deduite": 2226.42,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -3370,17 +3403,6 @@
     "verification": "confirme"
    },
    {
-    "id": "alterna-fixe-1-an-hphc",
-    "fournisseur": "Alterna",
-    "offre": "Mon électricité française – Fixe 1 an",
-    "option": "hphc",
-    "cout_annuel": 1118.56,
-    "cout_annuel_promo_deduite": 1118.56,
-    "cout_3_ans_promo_deduite": 3355.67,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "alpiq-horizon-hphc",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -3390,6 +3412,17 @@
     "cout_3_ans_promo_deduite": 3357.63,
     "promo_an1": 0,
     "verification": "source_unique"
+   },
+   {
+    "id": "alterna-fixe-1-an-hphc",
+    "fournisseur": "Alterna",
+    "offre": "Mon électricité française – Fixe 1 an",
+    "option": "hphc",
+    "cout_annuel": 1119.28,
+    "cout_annuel_promo_deduite": 1119.28,
+    "cout_3_ans_promo_deduite": 3357.83,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -3816,11 +3849,11 @@
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
     "option": "hphc",
-    "cout_annuel": 1778.54,
-    "cout_annuel_promo_deduite": 1778.54,
-    "cout_3_ans_promo_deduite": 5335.63,
+    "cout_annuel": 1779.26,
+    "cout_annuel_promo_deduite": 1779.26,
+    "cout_3_ans_promo_deduite": 5337.79,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -4383,7 +4416,7 @@
     "cout_annuel_promo_deduite": 789.78,
     "cout_3_ans_promo_deduite": 2369.34,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -4781,7 +4814,7 @@
     "cout_annuel_promo_deduite": 1166.92,
     "cout_3_ans_promo_deduite": 3500.75,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -5212,7 +5245,7 @@
     "cout_annuel_promo_deduite": 1826.9,
     "cout_3_ans_promo_deduite": 5480.71,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -5764,7 +5797,7 @@
     "cout_annuel_promo_deduite": 834.54,
     "cout_3_ans_promo_deduite": 2503.62,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-hphc",
@@ -6118,7 +6151,7 @@
     "cout_annuel_promo_deduite": 1211.68,
     "cout_3_ans_promo_deduite": 3635.03,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -6516,7 +6549,7 @@
     "cout_annuel_promo_deduite": 1871.66,
     "cout_3_ans_promo_deduite": 5614.99,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -7057,7 +7090,7 @@
     "cout_annuel_promo_deduite": 880.62,
     "cout_3_ans_promo_deduite": 2641.86,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-hphc",
@@ -7411,7 +7444,7 @@
     "cout_annuel_promo_deduite": 1257.76,
     "cout_3_ans_promo_deduite": 3773.27,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -7809,7 +7842,7 @@
     "cout_annuel_promo_deduite": 1917.74,
     "cout_3_ans_promo_deduite": 5753.23,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -8350,7 +8383,7 @@
     "cout_annuel_promo_deduite": 978.78,
     "cout_3_ans_promo_deduite": 2936.34,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-fixe-hphc",
@@ -8737,7 +8770,7 @@
     "cout_annuel_promo_deduite": 1355.92,
     "cout_3_ans_promo_deduite": 4067.75,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alpiq-horizon-base",
@@ -9102,7 +9135,7 @@
     "cout_annuel_promo_deduite": 2015.9,
     "cout_3_ans_promo_deduite": 6047.71,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -9654,7 +9687,7 @@
     "cout_annuel_promo_deduite": 1069.02,
     "cout_3_ans_promo_deduite": 3207.06,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -10030,7 +10063,7 @@
     "cout_annuel_promo_deduite": 1446.16,
     "cout_3_ans_promo_deduite": 4338.47,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alpiq-horizon-base",
@@ -10406,7 +10439,7 @@
     "cout_annuel_promo_deduite": 2106.14,
     "cout_3_ans_promo_deduite": 6318.43,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -10947,7 +10980,7 @@
     "cout_annuel_promo_deduite": 1160.1,
     "cout_3_ans_promo_deduite": 3480.3,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -11323,7 +11356,7 @@
     "cout_annuel_promo_deduite": 1537.24,
     "cout_3_ans_promo_deduite": 4611.71,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-eco-fixe-base",
@@ -11699,7 +11732,7 @@
     "cout_annuel_promo_deduite": 2197.22,
     "cout_3_ans_promo_deduite": 6591.67,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
