@@ -55,6 +55,7 @@ const ligne = offre.grille.find(g => g.kva === 9);   // { kva, abonnement_mois, 
     "verification": "confirme",             // confirme | source_unique | conflit
     "sources": [ { "url": "…", "type": "officiel", "consulte_le": "2026-10-30" } ],
     "notes": [ "…" ],
+    "mentions": [ "Prix qui varie selon la région" ],   // facultatif : alertes courtes affichées sur la ligne
     "derniere_verif": "2026-10-30"
   } ]
 }

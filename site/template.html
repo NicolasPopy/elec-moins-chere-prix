@@ -204,7 +204,7 @@ const PAYLOAD = /*__DATA__*/null;
       ].filter(Boolean);
       return `<tr>
         <td class="offer"><b>${esc(names[o.fournisseur])}</b><span>${esc(o.offre)}</span></td>
-        <td>${esc(OPT_LABEL[o.option] || o.option)}<br><span class="chip type">${esc(TYPE_LABEL[o.type_prix])}</span>${o.prix_quotidien ? '<span class="daily">Prix qui change chaque jour</span>' : ""}</td>
+        <td>${esc(OPT_LABEL[o.option] || o.option)}<br><span class="chip type">${esc(TYPE_LABEL[o.type_prix])}</span>${(o.mentions || []).map(m => `<span class="daily">${esc(m)}</span>`).join("")}</td>
         <td class="num">${eur(row.abonnement_mois)}${row.ouvert_nouveaux_clients === false ? '<span class="closed">Fermé aux nouveaux clients</span>' : ""}</td>
         <td>${priceList(o, row.prix_kwh)}</td>
         <td class="num">${cout == null ? '<span class="na">selon profil</span>' : eur(cout.an1, 0) + (cout.promo ? `<span class="promo-in">dont promo 1re année −${eur(cout.promo, 0)}</span><span class="sans">${eur(cout.sans, 0)} sans promo</span>` : "")}</td>

@@ -4304,7 +4304,9 @@
     "le": "2026-10-30",
     "commentaire": "Prix relevés sur le site Ekwateur pour 6, 9 et 12 kVA."
    },
-   "prix_quotidien": true
+   "mentions": [
+    "Prix qui change chaque jour"
+   ]
   },
   {
    "id": "la-bellenergie-prudence-base",
@@ -5290,10 +5292,14 @@
     }
    ],
    "notes": [
+    "Prix variable selon la région : la grille affichée n'est pas valable partout, vérifier le prix pour son code postal chez Enercoop.",
     "L'Offre Base d'Enercoop n'a pas d'option heures creuses : ces prix correspondent probablement à une autre offre Enercoop (nom à confirmer).",
     "Abonnement 3 kVA (11,06 €) sous le Tarif Bleu : à vérifier."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "mentions": [
+    "Prix qui varie selon la région"
+   ]
   },
   {
    "id": "urban-solar-base",
