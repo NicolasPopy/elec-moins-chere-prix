@@ -33,7 +33,7 @@ python3 scripts/build.py
 
 ## Vérifications manuelles (priorité absolue)
 
-Une offre qui porte un bloc `verification_manuelle` a été contrôlée à la main par Nicolas. Pour elle :
+Une offre qui porte un bloc `verification_manuelle` a été contrôlée à la main (par Nicolas ou un éditeur via la page d'édition). Pour elle :
 
 - ne jamais modifier `verification`, `verification_manuelle` ni les prix tant que la source officielle indiquée ne change pas ;
 - la sauter dans la rotation pendant 30 jours après `verification_manuelle.le` ;
