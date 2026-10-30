@@ -443,24 +443,24 @@ gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;18;31.14;
 gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;24;39.13;base;0.1823;confirme;2026-10-30
 gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;30;46.46;base;0.1823;confirme;2026-10-30
 gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;36;53.88;base;0.1823;confirme;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;3;12.13;hp;0.1965;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;3;12.13;hc;0.1467;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;6;15.87;hp;0.1965;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;6;15.87;hc;0.1467;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;9;19.88;hp;0.1965;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;9;19.88;hc;0.1467;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;12;23.76;hp;0.1965;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;12;23.76;hc;0.1467;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;15;27.4;hp;0.1965;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;15;27.4;hc;0.1467;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;18;31.14;hp;0.1965;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;18;31.14;hc;0.1467;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;24;39.13;hp;0.1965;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;24;39.13;hc;0.1467;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;30;46.46;hp;0.1965;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;30;46.46;hc;0.1467;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;36;53.88;hp;0.1965;conflit;2026-10-30
-gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;36;53.88;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;3;12.13;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;3;12.13;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;6;15.87;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;6;15.87;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;9;19.88;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;9;19.88;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;12;23.76;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;12;23.76;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;15;27.4;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;15;27.4;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;18;31.14;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;18;31.14;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;24;39.13;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;24;39.13;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;30;46.46;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;30;46.46;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;36;53.88;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;36;53.88;hc;0.1467;confirme;2026-10-30
 gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;3;12.13;hp;0.1965;confirme;2026-10-30
 gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;3;12.13;hc;0.1467;confirme;2026-10-30
 gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;6;15.87;hp;0.1965;confirme;2026-10-30
