@@ -1,0 +1,830 @@
+id;fournisseur;offre;option;type_prix;kva;abonnement_mois_ttc;poste;prix_kwh_ttc;verification;derniere_verif
+edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;3;12.13;base;0.2001;confirme;2026-10-30
+edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;6;15.86;base;0.2001;confirme;2026-10-30
+edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;9;19.88;base;0.1985;confirme;2026-10-30
+edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;12;23.76;base;0.1985;confirme;2026-10-30
+edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;15;27.4;base;0.1985;confirme;2026-10-30
+edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;18;31.14;base;0.1985;confirme;2026-10-30
+edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;24;39.14;base;0.1985;confirme;2026-10-30
+edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;30;46.47;base;0.1985;confirme;2026-10-30
+edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;36;53.88;base;0.1985;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;3;12.13;hp;0.2142;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;3;12.13;hc;0.1589;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;6;15.86;hp;0.2142;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;6;15.86;hc;0.1589;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;9;19.88;hp;0.2142;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;9;19.88;hc;0.1589;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;12;23.76;hp;0.2142;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;12;23.76;hc;0.1589;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;15;27.4;hp;0.2142;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;15;27.4;hc;0.1589;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;18;31.14;hp;0.2142;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;18;31.14;hc;0.1589;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;24;39.14;hp;0.2142;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;24;39.14;hc;0.1589;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;30;46.47;hp;0.2142;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;30;46.47;hc;0.1589;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;36;53.88;hp;0.2142;confirme;2026-10-30
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;36;53.88;hc;0.1589;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;6;15.8;bleu_hp;0.1654;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;6;15.8;bleu_hc;0.1356;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;6;15.8;blanc_hp;0.1921;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;6;15.8;blanc_hc;0.1536;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;6;15.8;rouge_hp;0.7295;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;6;15.8;rouge_hc;0.1615;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;9;19.7;bleu_hp;0.1654;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;9;19.7;bleu_hc;0.1356;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;9;19.7;blanc_hp;0.1921;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;9;19.7;blanc_hc;0.1536;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;9;19.7;rouge_hp;0.7295;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;9;19.7;rouge_hc;0.1615;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;12;23.5;bleu_hp;0.1654;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;12;23.5;bleu_hc;0.1356;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;12;23.5;blanc_hp;0.1921;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;12;23.5;blanc_hc;0.1536;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;12;23.5;rouge_hp;0.7295;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;12;23.5;rouge_hc;0.1615;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;15;27.01;bleu_hp;0.1654;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;15;27.01;bleu_hc;0.1356;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;15;27.01;blanc_hp;0.1921;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;15;27.01;blanc_hc;0.1536;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;15;27.01;rouge_hp;0.7295;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;15;27.01;rouge_hc;0.1615;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;18;30.69;bleu_hp;0.1654;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;18;30.69;bleu_hc;0.1356;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;18;30.69;blanc_hp;0.1921;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;18;30.69;blanc_hc;0.1536;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;18;30.69;rouge_hp;0.7295;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;18;30.69;rouge_hc;0.1615;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;24;38.21;bleu_hp;0.1654;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;24;38.21;bleu_hc;0.1356;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;24;38.21;blanc_hp;0.1921;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;24;38.21;blanc_hc;0.1536;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;24;38.21;rouge_hp;0.7295;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;24;38.21;rouge_hc;0.1615;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;30;45.82;bleu_hp;0.1654;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;30;45.82;bleu_hc;0.1356;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;30;45.82;blanc_hp;0.1921;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;30;45.82;blanc_hc;0.1536;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;30;45.82;rouge_hp;0.7295;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;30;45.82;rouge_hc;0.1615;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;bleu_hp;0.1654;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;bleu_hc;0.1356;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;blanc_hp;0.1921;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;blanc_hc;0.1536;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;rouge_hp;0.7295;confirme;2026-10-30
+edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;rouge_hc;0.1615;confirme;2026-10-30
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;3;12.13;base;0.1925;confirme;2026-10-30
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;6;15.86;base;0.1925;confirme;2026-10-30
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;9;19.88;base;0.1909;confirme;2026-10-30
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;12;23.76;base;0.1909;confirme;2026-10-30
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;15;27.4;base;0.1909;confirme;2026-10-30
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;18;31.14;base;0.1909;confirme;2026-10-30
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;24;39.14;base;0.1909;confirme;2026-10-30
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;30;46.47;base;0.1909;confirme;2026-10-30
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;36;53.88;base;0.1909;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;3;12.13;hp;0.2059;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;3;12.13;hc;0.1531;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;6;15.86;hp;0.2059;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;6;15.86;hc;0.1531;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;9;19.88;hp;0.2059;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;9;19.88;hc;0.1531;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;12;23.76;hp;0.2059;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;12;23.76;hc;0.1531;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;15;27.4;hp;0.2059;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;15;27.4;hc;0.1531;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;18;31.14;hp;0.2059;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;18;31.14;hc;0.1531;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;24;39.14;hp;0.2059;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;24;39.14;hc;0.1531;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;30;46.47;hp;0.2059;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;30;46.47;hc;0.1531;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;36;53.88;hp;0.2059;confirme;2026-10-30
+edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;36;53.88;hc;0.1531;confirme;2026-10-30
+edf-zen-fixe-base;EDF;Zen Fixe;base;fixe;3;12.13;base;0.2082;confirme;2026-10-30
+edf-zen-fixe-base;EDF;Zen Fixe;base;fixe;6;15.86;base;0.2082;confirme;2026-10-30
+edf-zen-fixe-base;EDF;Zen Fixe;base;fixe;9;19.88;base;0.2065;confirme;2026-10-30
+edf-zen-fixe-base;EDF;Zen Fixe;base;fixe;12;23.76;base;0.2065;confirme;2026-10-30
+edf-zen-fixe-base;EDF;Zen Fixe;base;fixe;15;27.4;base;0.2065;confirme;2026-10-30
+edf-zen-fixe-base;EDF;Zen Fixe;base;fixe;18;31.14;base;0.2065;confirme;2026-10-30
+edf-zen-fixe-base;EDF;Zen Fixe;base;fixe;24;39.14;base;0.2065;confirme;2026-10-30
+edf-zen-fixe-base;EDF;Zen Fixe;base;fixe;30;46.47;base;0.2065;confirme;2026-10-30
+edf-zen-fixe-base;EDF;Zen Fixe;base;fixe;36;53.88;base;0.2065;confirme;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;3;12.13;hp;0.2231;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;3;12.13;hc;0.165;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;6;15.86;hp;0.2231;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;6;15.86;hc;0.165;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;9;19.88;hp;0.2231;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;9;19.88;hc;0.165;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;12;23.76;hp;0.2231;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;12;23.76;hc;0.165;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;15;27.4;hp;0.2231;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;15;27.4;hc;0.165;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;18;31.14;hp;0.2231;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;18;31.14;hc;0.165;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;24;39.14;hp;0.2231;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;24;39.14;hc;0.165;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;30;46.47;hp;0.2231;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;30;46.47;hc;0.165;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;36;53.88;hp;0.2231;source_unique;2026-10-30
+edf-zen-fixe-hphc;EDF;Zen Fixe;hphc;fixe;36;53.88;hc;0.165;source_unique;2026-10-30
+edf-vert-electrique-base;EDF;Vert Électrique;base;variable;3;12.13;base;0.2022;confirme;2026-10-30
+edf-vert-electrique-base;EDF;Vert Électrique;base;variable;6;15.86;base;0.2022;confirme;2026-10-30
+edf-vert-electrique-base;EDF;Vert Électrique;base;variable;9;19.88;base;0.2007;confirme;2026-10-30
+edf-vert-electrique-base;EDF;Vert Électrique;base;variable;12;23.76;base;0.2007;confirme;2026-10-30
+edf-vert-electrique-base;EDF;Vert Électrique;base;variable;15;27.4;base;0.2007;confirme;2026-10-30
+edf-vert-electrique-base;EDF;Vert Électrique;base;variable;18;31.14;base;0.2007;confirme;2026-10-30
+edf-vert-electrique-base;EDF;Vert Électrique;base;variable;24;39.14;base;0.2007;confirme;2026-10-30
+edf-vert-electrique-base;EDF;Vert Électrique;base;variable;30;46.47;base;0.2007;confirme;2026-10-30
+edf-vert-electrique-base;EDF;Vert Électrique;base;variable;36;53.88;base;0.2007;confirme;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;3;12.13;hp;0.2206;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;3;12.13;hc;0.1543;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;6;15.86;hp;0.2206;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;6;15.86;hc;0.1543;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;9;19.88;hp;0.2206;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;9;19.88;hc;0.1543;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;12;23.76;hp;0.2206;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;12;23.76;hc;0.1543;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;15;27.4;hp;0.2206;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;15;27.4;hc;0.1543;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;18;31.14;hp;0.2206;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;18;31.14;hc;0.1543;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;24;39.14;hp;0.2206;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;24;39.14;hc;0.1543;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;30;46.47;hp;0.2206;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;30;46.47;hc;0.1543;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;36;53.88;hp;0.2206;source_unique;2026-10-30
+edf-vert-electrique-hphc;EDF;Vert Électrique;hphc;variable;36;53.88;hc;0.1543;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;3;12.13;semaine;0.2285;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;3;12.13;week_end;0.171;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;6;15.86;semaine;0.2285;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;6;15.86;week_end;0.171;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;9;19.88;semaine;0.2285;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;9;19.88;week_end;0.171;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;12;23.76;semaine;0.2285;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;12;23.76;week_end;0.171;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;15;27.4;semaine;0.2285;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;15;27.4;week_end;0.171;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;18;31.14;semaine;0.2285;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;18;31.14;week_end;0.171;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;24;39.14;semaine;0.2285;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;24;39.14;week_end;0.171;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;30;46.47;semaine;0.2285;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;30;46.47;week_end;0.171;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;36;53.88;semaine;0.2285;source_unique;2026-10-30
+edf-zen-week-end;EDF;Zen Week-End;week_end;variable;36;53.88;week_end;0.171;source_unique;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;3;12.13;semaine;0.2259;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;3;12.13;week_end;0.1691;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;6;15.86;semaine;0.2259;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;6;15.86;week_end;0.1691;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;9;19.88;semaine;0.2259;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;9;19.88;week_end;0.1691;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;12;23.76;semaine;0.2259;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;12;23.76;week_end;0.1691;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;15;27.4;semaine;0.2259;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;15;27.4;week_end;0.1691;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;18;31.14;semaine;0.2259;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;18;31.14;week_end;0.1691;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;24;39.14;semaine;0.2259;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;24;39.14;week_end;0.1691;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;30;46.47;semaine;0.2259;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;30;46.47;week_end;0.1691;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;36;53.88;semaine;0.2259;confirme;2026-10-30
+edf-zen-week-end-plus;EDF;Zen Week-End Plus;week_end;variable;36;53.88;week_end;0.1691;confirme;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;3;12.13;semaine;0.2171;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;3;12.13;week_end;0.163;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;6;15.86;semaine;0.2171;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;6;15.86;week_end;0.163;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;9;19.88;semaine;0.2171;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;9;19.88;week_end;0.163;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;12;23.76;semaine;0.2171;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;12;23.76;week_end;0.163;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;15;27.4;semaine;0.2171;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;15;27.4;week_end;0.163;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;18;31.14;semaine;0.2171;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;18;31.14;week_end;0.163;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;24;39.14;semaine;0.2171;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;24;39.14;week_end;0.163;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;30;46.47;semaine;0.2171;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;30;46.47;week_end;0.163;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;36;53.88;semaine;0.2171;source_unique;2026-10-30
+edf-vert-electrique-week-end;EDF;Vert Électrique Week-End;week_end;variable;36;53.88;week_end;0.163;source_unique;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;3;12.13;eco_hp;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;3;12.13;eco_hc;0.1595;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;3;12.13;sobriete_hp;0.7467;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;3;12.13;sobriete_hc;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;6;15.86;eco_hp;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;6;15.86;eco_hc;0.1595;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;6;15.86;sobriete_hp;0.7467;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;6;15.86;sobriete_hc;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;9;19.88;eco_hp;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;9;19.88;eco_hc;0.1595;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;9;19.88;sobriete_hp;0.7467;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;9;19.88;sobriete_hc;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;12;23.76;eco_hp;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;12;23.76;eco_hc;0.1595;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;12;23.76;sobriete_hp;0.7467;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;12;23.76;sobriete_hc;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;15;27.4;eco_hp;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;15;27.4;eco_hc;0.1595;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;15;27.4;sobriete_hp;0.7467;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;15;27.4;sobriete_hc;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;18;31.14;eco_hp;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;18;31.14;eco_hc;0.1595;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;18;31.14;sobriete_hp;0.7467;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;18;31.14;sobriete_hc;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;24;39.14;eco_hp;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;24;39.14;eco_hc;0.1595;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;24;39.14;sobriete_hp;0.7467;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;24;39.14;sobriete_hc;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;30;46.47;eco_hp;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;30;46.47;eco_hc;0.1595;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;30;46.47;sobriete_hp;0.7467;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;30;46.47;sobriete_hc;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;36;53.88;eco_hp;0.2142;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;36;53.88;eco_hc;0.1595;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;36;53.88;sobriete_hp;0.7467;confirme;2026-10-30
+edf-zen-flex;EDF;Zen Flex;flex;indexe_trv;36;53.88;sobriete_hc;0.2142;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;3;12.13;ete_hp;0.1588;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;3;12.13;ete_hc;0.1405;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;3;12.13;ete_hsc;0.0991;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;3;12.13;hiver_hp;0.2722;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;3;12.13;hiver_hc;0.2131;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;3;12.13;hiver_hsc;0.1992;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;6;15.86;ete_hp;0.1588;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;6;15.86;ete_hc;0.1405;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;6;15.86;ete_hsc;0.0991;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;6;15.86;hiver_hp;0.2722;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;6;15.86;hiver_hc;0.2131;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;6;15.86;hiver_hsc;0.1992;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;9;19.88;ete_hp;0.1588;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;9;19.88;ete_hc;0.1405;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;9;19.88;ete_hsc;0.0991;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;9;19.88;hiver_hp;0.2722;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;9;19.88;hiver_hc;0.2131;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;9;19.88;hiver_hsc;0.1992;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;12;23.76;ete_hp;0.1588;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;12;23.76;ete_hc;0.1405;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;12;23.76;ete_hsc;0.0991;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;12;23.76;hiver_hp;0.2722;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;12;23.76;hiver_hc;0.2131;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;12;23.76;hiver_hsc;0.1992;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;15;27.4;ete_hp;0.1588;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;15;27.4;ete_hc;0.1405;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;15;27.4;ete_hsc;0.0991;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;15;27.4;hiver_hp;0.2722;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;15;27.4;hiver_hc;0.2131;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;15;27.4;hiver_hsc;0.1992;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;18;31.14;ete_hp;0.1588;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;18;31.14;ete_hc;0.1405;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;18;31.14;ete_hsc;0.0991;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;18;31.14;hiver_hp;0.2722;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;18;31.14;hiver_hc;0.2131;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;18;31.14;hiver_hsc;0.1992;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;24;39.14;ete_hp;0.1588;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;24;39.14;ete_hc;0.1405;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;24;39.14;ete_hsc;0.0991;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;24;39.14;hiver_hp;0.2722;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;24;39.14;hiver_hc;0.2131;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;24;39.14;hiver_hsc;0.1992;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;30;46.47;ete_hp;0.1588;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;30;46.47;ete_hc;0.1405;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;30;46.47;ete_hsc;0.0991;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;30;46.47;hiver_hp;0.2722;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;30;46.47;hiver_hc;0.2131;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;30;46.47;hiver_hsc;0.1992;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;36;53.88;ete_hp;0.1588;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;36;53.88;ete_hc;0.1405;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;36;53.88;ete_hsc;0.0991;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;36;53.88;hiver_hp;0.2722;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;36;53.88;hiver_hc;0.2131;confirme;2026-10-30
+edf-zen-estival;EDF;Zen Estival;saisons;variable;36;53.88;hiver_hsc;0.1992;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;3;12.13;hiver_hp;0.1921;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;3;12.13;hiver_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;3;12.13;ete_hp;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;3;12.13;ete_hc;0.1356;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;3;12.13;rouge_hp;0.6465;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;3;12.13;rouge_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;6;15.86;hiver_hp;0.1921;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;6;15.86;hiver_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;6;15.86;ete_hp;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;6;15.86;ete_hc;0.1356;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;6;15.86;rouge_hp;0.6465;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;6;15.86;rouge_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;9;19.88;hiver_hp;0.1921;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;9;19.88;hiver_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;9;19.88;ete_hp;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;9;19.88;ete_hc;0.1356;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;9;19.88;rouge_hp;0.6465;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;9;19.88;rouge_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;12;23.76;hiver_hp;0.1921;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;12;23.76;hiver_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;12;23.76;ete_hp;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;12;23.76;ete_hc;0.1356;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;12;23.76;rouge_hp;0.6465;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;12;23.76;rouge_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;15;27.4;hiver_hp;0.1921;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;15;27.4;hiver_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;15;27.4;ete_hp;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;15;27.4;ete_hc;0.1356;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;15;27.4;rouge_hp;0.6465;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;15;27.4;rouge_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;18;31.14;hiver_hp;0.1921;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;18;31.14;hiver_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;18;31.14;ete_hp;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;18;31.14;ete_hc;0.1356;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;18;31.14;rouge_hp;0.6465;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;18;31.14;rouge_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;24;39.14;hiver_hp;0.1921;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;24;39.14;hiver_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;24;39.14;ete_hp;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;24;39.14;ete_hc;0.1356;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;24;39.14;rouge_hp;0.6465;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;24;39.14;rouge_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;30;46.47;hiver_hp;0.1921;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;30;46.47;hiver_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;30;46.47;ete_hp;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;30;46.47;ete_hc;0.1356;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;30;46.47;rouge_hp;0.6465;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;30;46.47;rouge_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;hiver_hp;0.1921;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;hiver_hc;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;ete_hp;0.1615;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;ete_hc;0.1356;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;rouge_hp;0.6465;confirme;2026-10-30
+octopus-octosaisons;Octopus Energy;OctoSaisons;saisons_rouge;fixe;36;53.88;rouge_hc;0.1615;confirme;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;3;12.13;base;0.1984;conflit;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;6;15.86;base;0.1984;conflit;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;9;19.88;base;0.1969;conflit;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;12;23.76;base;0.1969;conflit;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;15;27.4;base;0.1969;conflit;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;18;31.14;base;0.1969;conflit;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;24;39.14;base;0.1969;conflit;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;30;46.47;base;0.1969;conflit;2026-10-30
+octopus-eco-fixe-base;Octopus Energy;Eco Fixe;base;fixe;36;54.41;base;0.1969;conflit;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;3;12.13;hiver_hp;0.2195;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;3;12.13;hiver_hc;0.1626;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;3;12.13;ete_hp;0.1876;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;3;12.13;ete_hc;0.1405;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;6;15.86;hiver_hp;0.2409;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;6;15.86;hiver_hc;0.1773;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;6;15.86;ete_hp;0.1787;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;6;15.86;ete_hc;0.1344;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;9;19.88;hiver_hp;0.2461;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;9;19.88;hiver_hc;0.1809;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;9;19.88;ete_hp;0.1876;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;9;19.88;ete_hc;0.1405;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;12;23.76;hiver_hp;0.2461;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;12;23.76;hiver_hc;0.1809;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;12;23.76;ete_hp;0.1876;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;12;23.76;ete_hc;0.1405;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;15;27.4;hiver_hp;0.2461;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;15;27.4;hiver_hc;0.1809;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;15;27.4;ete_hp;0.1876;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;15;27.4;ete_hc;0.1405;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;18;31.14;hiver_hp;0.2461;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;18;31.14;hiver_hc;0.1809;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;18;31.14;ete_hp;0.1876;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;18;31.14;ete_hc;0.1405;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;24;39.14;hiver_hp;0.2461;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;24;39.14;hiver_hc;0.1809;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;24;39.14;ete_hp;0.1876;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;24;39.14;ete_hc;0.1405;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;30;46.47;hiver_hp;0.2461;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;30;46.47;hiver_hc;0.1809;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;30;46.47;ete_hp;0.1876;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;30;46.47;ete_hc;0.1405;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;36;53.88;hiver_hp;0.2461;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;36;53.88;hiver_hc;0.1809;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;36;53.88;ete_hp;0.1876;source_unique;2026-10-30
+octopus-eco-fixe-2-saisons;Octopus Energy;Eco Fixe;saisons;fixe;36;53.88;ete_hc;0.1405;source_unique;2026-10-30
+octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;3;12.13;base;0.1968;confirme;2026-10-30
+octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;6;15.86;base;0.1968;confirme;2026-10-30
+octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;9;19.88;base;0.1953;confirme;2026-10-30
+octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;12;23.76;base;0.1953;confirme;2026-10-30
+octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;15;27.4;base;0.1953;confirme;2026-10-30
+octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;18;31.14;base;0.1953;confirme;2026-10-30
+octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;24;39.14;base;0.1953;confirme;2026-10-30
+octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;30;46.47;base;0.1953;confirme;2026-10-30
+octopus-intelligent-base;Octopus Energy;Intelligent Octopus;base;fixe;36;53.88;base;0.1953;confirme;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;3;12.13;hp;0.2106;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;3;12.13;hc;0.1565;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;6;15.86;hp;0.2106;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;6;15.86;hc;0.1565;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;9;19.88;hp;0.2106;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;9;19.88;hc;0.1565;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;12;23.76;hp;0.2106;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;12;23.76;hc;0.1565;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;15;27.4;hp;0.2106;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;15;27.4;hc;0.1565;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;18;31.14;hp;0.2106;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;18;31.14;hc;0.1565;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;24;39.14;hp;0.2106;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;24;39.14;hc;0.1565;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;30;46.47;hp;0.2106;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;30;46.47;hc;0.1565;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;36;53.88;hp;0.2106;source_unique;2026-10-30
+octopus-intelligent-hphc;Octopus Energy;Intelligent Octopus;hphc;fixe;36;53.88;hc;0.1565;source_unique;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-base;Gaz de Bordeaux;Novafixe Bonus Élec;base;fixe;3;12.13;base;0.1837;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-base;Gaz de Bordeaux;Novafixe Bonus Élec;base;fixe;6;15.87;base;0.1837;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-base;Gaz de Bordeaux;Novafixe Bonus Élec;base;fixe;9;19.88;base;0.1823;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-base;Gaz de Bordeaux;Novafixe Bonus Élec;base;fixe;12;23.76;base;0.1823;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-base;Gaz de Bordeaux;Novafixe Bonus Élec;base;fixe;15;27.4;base;0.1823;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-base;Gaz de Bordeaux;Novafixe Bonus Élec;base;fixe;18;31.14;base;0.1823;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-base;Gaz de Bordeaux;Novafixe Bonus Élec;base;fixe;24;39.13;base;0.1823;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-base;Gaz de Bordeaux;Novafixe Bonus Élec;base;fixe;30;46.46;base;0.1823;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-base;Gaz de Bordeaux;Novafixe Bonus Élec;base;fixe;36;53.88;base;0.1823;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;3;12.13;base;0.1837;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;6;15.87;base;0.1837;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;9;19.88;base;0.1823;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;12;23.76;base;0.1823;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;15;27.4;base;0.1823;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;18;31.14;base;0.1823;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;24;39.13;base;0.1823;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;30;46.46;base;0.1823;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-base;Gaz de Bordeaux;Novafixe Élec;base;fixe;36;53.88;base;0.1823;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;3;12.13;hp;0.1965;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;3;12.13;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;6;15.87;hp;0.1965;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;6;15.87;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;9;19.88;hp;0.1965;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;9;19.88;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;12;23.76;hp;0.1965;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;12;23.76;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;15;27.4;hp;0.1965;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;15;27.4;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;18;31.14;hp;0.1965;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;18;31.14;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;24;39.13;hp;0.1965;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;24;39.13;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;30;46.46;hp;0.1965;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;30;46.46;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;36;53.88;hp;0.1965;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-bonus-hphc;Gaz de Bordeaux;Novafixe Bonus Élec;hphc;fixe;36;53.88;hc;0.1467;conflit;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;3;12.13;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;3;12.13;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;6;15.87;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;6;15.87;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;9;19.88;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;9;19.88;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;12;23.76;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;12;23.76;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;15;27.4;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;15;27.4;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;18;31.14;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;18;31.14;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;24;39.13;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;24;39.13;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;30;46.46;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;30;46.46;hc;0.1467;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;36;53.88;hp;0.1965;confirme;2026-10-30
+gaz-de-bordeaux-novafixe-hphc;Gaz de Bordeaux;Novafixe Élec;hphc;fixe;36;53.88;hc;0.1467;confirme;2026-10-30
+totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;3;12.13;base;0.1837;confirme;2026-10-30
+totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;6;15.86;base;0.1837;confirme;2026-10-30
+totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;9;19.88;base;0.1823;confirme;2026-10-30
+totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;12;23.76;base;0.1823;confirme;2026-10-30
+totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;15;27.4;base;0.1823;confirme;2026-10-30
+totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;18;31.14;base;0.1823;confirme;2026-10-30
+totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;24;39.14;base;0.1823;confirme;2026-10-30
+totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;30;46.47;base;0.1823;confirme;2026-10-30
+totalenergies-access-base;TotalEnergies;Access Électricité;base;indexe_trv;36;53.88;base;0.1823;confirme;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;3;12.13;hp;0.1965;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;3;12.13;hc;0.1467;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;6;15.86;hp;0.1965;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;6;15.86;hc;0.1467;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;9;19.88;hp;0.1965;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;9;19.88;hc;0.1467;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;12;23.76;hp;0.1965;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;12;23.76;hc;0.1467;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;15;27.4;hp;0.1965;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;15;27.4;hc;0.1467;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;18;31.14;hp;0.1965;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;18;31.14;hc;0.1467;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;24;39.14;hp;0.1965;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;24;39.14;hc;0.1467;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;30;46.47;hp;0.1965;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;30;46.47;hc;0.1467;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;36;53.88;hp;0.1965;conflit;2026-10-30
+totalenergies-access-hphc;TotalEnergies;Access Électricité;hphc;indexe_trv;36;53.88;hc;0.1467;conflit;2026-10-30
+geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;3;12.15;base;0.1837;confirme;2026-10-30
+geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;6;15.9;base;0.1837;confirme;2026-10-30
+geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;9;19.99;base;0.1823;confirme;2026-10-30
+geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;12;23.9;base;0.1823;confirme;2026-10-30
+geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;15;27.55;base;0.1823;confirme;2026-10-30
+geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;18;31.32;base;0.1823;confirme;2026-10-30
+geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;24;39.43;base;0.1823;confirme;2026-10-30
+geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;30;46.79;base;0.1823;confirme;2026-10-30
+geg-elec-verte-fixe-3-ans-base;GEG;Mon Offre Elec Verte – Fixe 3 ans;base;fixe;36;54.22;base;0.1823;confirme;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;3;12.15;hp;0.1983;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;3;12.15;hc;0.1583;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;6;15.9;hp;0.1983;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;6;15.9;hc;0.1583;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;9;19.99;hp;0.1983;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;9;19.99;hc;0.1583;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;12;23.9;hp;0.1983;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;12;23.9;hc;0.1583;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;15;27.55;hp;0.1983;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;15;27.55;hc;0.1583;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;18;31.32;hp;0.1983;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;18;31.32;hc;0.1583;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;24;39.43;hp;0.1983;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;24;39.43;hc;0.1583;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;30;46.79;hp;0.1983;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;30;46.79;hc;0.1583;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;36;54.22;hp;0.1983;source_unique;2026-10-30
+geg-elec-verte-fixe-3-ans-hphc;GEG;Mon Offre Elec Verte – Fixe 3 ans;hphc;fixe;36;54.22;hc;0.1583;source_unique;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;3;14.53;base;0.1837;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;6;18.26;base;0.1837;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;9;22.28;base;0.1823;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;12;26.16;base;0.1823;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;15;29.8;base;0.1823;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;18;33.54;base;0.1823;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;24;41.54;base;0.1823;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;30;48.87;base;0.1823;confirme;2026-10-30
+plenitude-pleniweb-base;Plenitude;PleniWeb Électricité;base;indexe_trv;36;56.81;base;0.1823;confirme;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;3;14.53;hp;0.1965;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;3;14.53;hc;0.1467;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;6;18.26;hp;0.1965;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;6;18.26;hc;0.1467;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;9;22.28;hp;0.1965;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;9;22.28;hc;0.1467;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;12;26.16;hp;0.1965;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;12;26.16;hc;0.1467;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;15;29.8;hp;0.1965;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;15;29.8;hc;0.1467;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;18;33.54;hp;0.1965;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;18;33.54;hc;0.1467;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;24;41.54;hp;0.1965;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;24;41.54;hc;0.1467;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;30;48.87;hp;0.1965;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;30;48.87;hc;0.1467;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;36;56.81;hp;0.1965;source_unique;2026-10-30
+plenitude-pleniweb-hphc;Plenitude;PleniWeb Électricité;hphc;indexe_trv;36;56.81;hc;0.1467;source_unique;2026-10-30
+dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;3;12.03;base;0.1907;confirme;2026-10-30
+dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;6;15.65;base;0.1907;confirme;2026-10-30
+dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;9;19.56;base;0.1907;confirme;2026-10-30
+dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;12;23.32;base;0.1907;confirme;2026-10-30
+dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;15;26.84;base;0.1907;confirme;2026-10-30
+dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;18;30.49;base;0.1907;confirme;2026-10-30
+dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;24;38.24;base;0.1907;confirme;2026-10-30
+dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;30;45.37;base;0.1907;confirme;2026-10-30
+dyneff-contrat-plus-base;Dyneff;Contrat+ Électricité;base;variable;36;52.54;base;0.1907;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;3;12.03;hp;0.1965;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;3;12.03;hc;0.1603;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;6;15.65;hp;0.1965;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;6;15.65;hc;0.1603;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;9;19.56;hp;0.1965;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;9;19.56;hc;0.1603;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;12;23.32;hp;0.1965;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;12;23.32;hc;0.1603;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;15;26.84;hp;0.1965;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;15;26.84;hc;0.1603;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;18;30.49;hp;0.1965;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;18;30.49;hc;0.1603;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;24;38.24;hp;0.1965;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;24;38.24;hc;0.1603;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;30;45.37;hp;0.1965;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;30;45.37;hc;0.1603;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;36;52.54;hp;0.1965;confirme;2026-10-30
+dyneff-contrat-plus-hphc;Dyneff;Contrat+ Électricité;hphc;variable;36;52.54;hc;0.1603;confirme;2026-10-30
+primeo-essentielle-verte-base;Primeo Énergie;Essentielle Verte;base;indexe_trv;3;12.13;base;0.1919;confirme;2026-10-30
+primeo-essentielle-verte-base;Primeo Énergie;Essentielle Verte;base;indexe_trv;6;15.86;base;0.1919;confirme;2026-10-30
+primeo-essentielle-verte-base;Primeo Énergie;Essentielle Verte;base;indexe_trv;9;19.88;base;0.1904;confirme;2026-10-30
+primeo-essentielle-verte-base;Primeo Énergie;Essentielle Verte;base;indexe_trv;12;23.76;base;0.1904;confirme;2026-10-30
+primeo-essentielle-verte-base;Primeo Énergie;Essentielle Verte;base;indexe_trv;15;27.4;base;0.1904;confirme;2026-10-30
+primeo-essentielle-verte-base;Primeo Énergie;Essentielle Verte;base;indexe_trv;18;31.14;base;0.1904;confirme;2026-10-30
+primeo-essentielle-verte-base;Primeo Énergie;Essentielle Verte;base;indexe_trv;24;39.14;base;0.1904;confirme;2026-10-30
+primeo-essentielle-verte-base;Primeo Énergie;Essentielle Verte;base;indexe_trv;30;46.47;base;0.1904;confirme;2026-10-30
+primeo-essentielle-verte-base;Primeo Énergie;Essentielle Verte;base;indexe_trv;36;53.88;base;0.1904;confirme;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;3;12.13;hp;0.2054;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;3;12.13;hc;0.1528;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;6;15.86;hp;0.2054;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;6;15.86;hc;0.1528;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;9;19.88;hp;0.2054;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;9;19.88;hc;0.1528;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;12;23.76;hp;0.2054;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;12;23.76;hc;0.1528;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;15;27.4;hp;0.2054;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;15;27.4;hc;0.1528;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;18;31.14;hp;0.2054;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;18;31.14;hc;0.1528;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;24;39.14;hp;0.2054;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;24;39.14;hc;0.1528;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;30;46.47;hp;0.2054;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;30;46.47;hc;0.1528;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;36;53.88;hp;0.2054;source_unique;2026-10-30
+primeo-essentielle-verte-hphc;Primeo Énergie;Essentielle Verte;hphc;indexe_trv;36;53.88;hc;0.1528;source_unique;2026-10-30
+alterna-fixe-1-an-base;Alterna;Mon électricité française – Fixe 1 an;base;fixe;3;13.93;base;0.1919;confirme;2026-10-30
+alterna-fixe-1-an-base;Alterna;Mon électricité française – Fixe 1 an;base;fixe;6;17.66;base;0.1919;confirme;2026-10-30
+alterna-fixe-1-an-base;Alterna;Mon électricité française – Fixe 1 an;base;fixe;9;22.28;base;0.1904;confirme;2026-10-30
+alterna-fixe-1-an-base;Alterna;Mon électricité française – Fixe 1 an;base;fixe;12;26.16;base;0.1904;confirme;2026-10-30
+alterna-fixe-1-an-base;Alterna;Mon électricité française – Fixe 1 an;base;fixe;15;29.8;base;0.1904;confirme;2026-10-30
+alterna-fixe-1-an-base;Alterna;Mon électricité française – Fixe 1 an;base;fixe;18;33.54;base;0.1904;confirme;2026-10-30
+alterna-fixe-1-an-base;Alterna;Mon électricité française – Fixe 1 an;base;fixe;24;41.54;base;0.1904;confirme;2026-10-30
+alterna-fixe-1-an-base;Alterna;Mon électricité française – Fixe 1 an;base;fixe;30;48.87;base;0.1904;confirme;2026-10-30
+alterna-fixe-1-an-base;Alterna;Mon électricité française – Fixe 1 an;base;fixe;36;56.28;base;0.1904;confirme;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;3;;hp;0.2054;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;3;;hc;0.1528;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;6;17.66;hp;0.2054;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;6;17.66;hc;0.1528;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;9;22.5;hp;0.2054;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;9;22.5;hc;0.1528;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;12;26.53;hp;0.2054;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;12;26.53;hc;0.1528;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;15;30.26;hp;0.2054;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;15;30.26;hc;0.1528;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;18;34.1;hp;0.2054;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;18;34.1;hc;0.1528;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;24;42.28;hp;0.2054;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;24;42.28;hc;0.1528;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;30;49.8;hp;0.2054;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;30;49.8;hc;0.1528;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;36;57.39;hp;0.2054;source_unique;2026-10-30
+alterna-fixe-1-an-hphc;Alterna;Mon électricité française – Fixe 1 an;hphc;fixe;36;57.39;hc;0.1528;source_unique;2026-10-30
+alpiq-horizon-base;Alpiq;Électricité Horizon;base;indexe_trv;3;12.13;base;0.1993;confirme;2026-10-30
+alpiq-horizon-base;Alpiq;Électricité Horizon;base;indexe_trv;6;15.86;base;0.1993;confirme;2026-10-30
+alpiq-horizon-base;Alpiq;Électricité Horizon;base;indexe_trv;9;19.88;base;0.1977;confirme;2026-10-30
+alpiq-horizon-base;Alpiq;Électricité Horizon;base;indexe_trv;12;23.76;base;0.1977;confirme;2026-10-30
+alpiq-horizon-base;Alpiq;Électricité Horizon;base;indexe_trv;15;27.4;base;0.1977;confirme;2026-10-30
+alpiq-horizon-base;Alpiq;Électricité Horizon;base;indexe_trv;18;31.14;base;0.1977;confirme;2026-10-30
+alpiq-horizon-base;Alpiq;Électricité Horizon;base;indexe_trv;24;39.14;base;0.1977;confirme;2026-10-30
+alpiq-horizon-base;Alpiq;Électricité Horizon;base;indexe_trv;30;46.47;base;0.1977;confirme;2026-10-30
+alpiq-horizon-base;Alpiq;Électricité Horizon;base;indexe_trv;36;53.88;base;0.1977;confirme;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;6;15.86;hp;0.2133;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;6;15.86;hc;0.1583;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;9;19.88;hp;0.2133;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;9;19.88;hc;0.1583;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;12;23.76;hp;0.2133;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;12;23.76;hc;0.1583;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;15;27.4;hp;0.2133;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;15;27.4;hc;0.1583;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;18;31.14;hp;0.2133;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;18;31.14;hc;0.1583;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;24;39.14;hp;0.2133;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;24;39.14;hc;0.1583;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;30;46.47;hp;0.2133;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;30;46.47;hc;0.1583;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;36;53.88;hp;0.2133;source_unique;2026-10-30
+alpiq-horizon-hphc;Alpiq;Électricité Horizon;hphc;indexe_trv;36;53.88;hc;0.1583;source_unique;2026-10-30
+ekwateur-renouvelable-europe-base;Ekwateur;Électricité 100 % renouvelable Europe;base;fixe;3;12.13;base;0.1753;confirme;2026-10-30
+ekwateur-renouvelable-europe-base;Ekwateur;Électricité 100 % renouvelable Europe;base;fixe;6;15.86;base;0.1753;confirme;2026-10-30
+ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;3;12.13;base;0.1838;source_unique;2026-10-30
+ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;6;15.86;base;0.1838;source_unique;2026-10-30
+ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;9;19.88;base;0.1906;source_unique;2026-10-30
+ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;12;23.76;base;0.1906;source_unique;2026-10-30
+ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;15;27.4;base;0.1906;source_unique;2026-10-30
+ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;18;31.14;base;0.1906;source_unique;2026-10-30
+ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;24;39.14;base;0.1906;source_unique;2026-10-30
+ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;30;46.47;base;0.1906;source_unique;2026-10-30
+ekwateur-renouvelable-france-base;Ekwateur;Électricité 100 % renouvelable France;base;fixe;36;53.88;base;0.1906;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;3;16.41;hp;0.2105;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;3;16.41;hc;0.1702;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;6;21.06;hp;0.2105;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;6;21.06;hc;0.1702;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;9;25.69;hp;0.2105;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;9;25.69;hc;0.1702;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;12;30.34;hp;0.2105;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;12;30.34;hc;0.1702;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;15;34.97;hp;0.2105;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;15;34.97;hc;0.1702;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;18;39.61;hp;0.2105;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;18;39.61;hc;0.1702;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;24;48.89;hp;0.2105;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;24;48.89;hc;0.1702;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;30;58.17;hp;0.2105;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;30;58.17;hc;0.1702;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;36;67.45;hp;0.2105;source_unique;2026-10-30
+ekwateur-hphc;Ekwateur;Électricité 100 % renouvelable;hphc;fixe;36;67.45;hc;0.1702;source_unique;2026-10-30
+la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;3;16.63;base;0.1968;conflit;2026-10-30
+la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;6;20.36;base;0.1968;conflit;2026-10-30
+la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;9;24.38;base;0.1953;conflit;2026-10-30
+la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;12;28.26;base;0.1953;conflit;2026-10-30
+la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;15;31.9;base;0.1953;conflit;2026-10-30
+la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;18;35.64;base;0.1953;conflit;2026-10-30
+la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;24;43.64;base;0.1953;conflit;2026-10-30
+la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;30;50.97;base;0.1953;conflit;2026-10-30
+la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;36;58.38;base;0.1953;conflit;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;3;12.13;base;0.1821;conflit;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;6;15.86;base;0.1821;conflit;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;9;19.88;base;0.1807;conflit;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;12;23.76;base;0.1807;conflit;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;15;27.4;base;0.1807;conflit;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;18;31.14;base;0.1807;conflit;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;24;39.14;base;0.1807;conflit;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;30;46.47;base;0.1807;conflit;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;36;53.88;base;0.1807;conflit;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;6;16.05;hp;0.1947;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;6;16.05;hc;0.1455;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;9;20.16;hp;0.1947;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;9;20.16;hc;0.1455;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;12;24.13;hp;0.1947;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;12;24.13;hc;0.1455;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;15;27.86;hp;0.1947;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;15;27.86;hc;0.1455;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;18;31.7;hp;0.1947;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;18;31.7;hc;0.1455;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;24;39.88;hp;0.1947;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;24;39.88;hc;0.1455;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;30;47.4;hp;0.1947;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;30;47.4;hc;0.1455;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;36;54.99;hp;0.1947;source_unique;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;36;54.99;hc;0.1455;source_unique;2026-10-30
+ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;3;12.15;base;0.2183;conflit;2026-10-30
+ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;6;15.88;base;0.2183;conflit;2026-10-30
+ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;9;19.9;base;0.2183;conflit;2026-10-30
+ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;12;23.78;base;0.2183;conflit;2026-10-30
+ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;15;27.42;base;0.2183;conflit;2026-10-30
+ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;18;31.16;base;0.2183;conflit;2026-10-30
+ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;24;39.16;base;0.2183;conflit;2026-10-30
+ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;30;46.49;base;0.2183;conflit;2026-10-30
+ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;36;53.89;base;0.2183;conflit;2026-10-30
+happ-e-1-an-base;Happ-e;Électricité 1 an;base;fixe;3;14.86;base;0.2273;confirme;2026-10-30
+happ-e-1-an-base;Happ-e;Électricité 1 an;base;fixe;6;18.45;base;0.2273;confirme;2026-10-30
+happ-e-1-an-base;Happ-e;Électricité 1 an;base;fixe;9;22.05;base;0.2273;confirme;2026-10-30
+happ-e-1-an-base;Happ-e;Électricité 1 an;base;fixe;12;25.64;base;0.2273;confirme;2026-10-30
+happ-e-1-an-base;Happ-e;Électricité 1 an;base;fixe;15;29.24;base;0.2273;confirme;2026-10-30
+happ-e-1-an-base;Happ-e;Électricité 1 an;base;fixe;18;32.83;base;0.2273;confirme;2026-10-30
+happ-e-1-an-base;Happ-e;Électricité 1 an;base;fixe;24;40.02;base;0.2273;confirme;2026-10-30
+happ-e-1-an-base;Happ-e;Électricité 1 an;base;fixe;30;47.21;base;0.2273;confirme;2026-10-30
+happ-e-1-an-base;Happ-e;Électricité 1 an;base;fixe;36;54.4;base;0.2273;confirme;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;3;14.86;hp;0.2402;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;3;14.86;hc;0.1887;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;6;18.45;hp;0.2402;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;6;18.45;hc;0.1887;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;9;22.05;hp;0.2402;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;9;22.05;hc;0.1887;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;12;25.64;hp;0.2402;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;12;25.64;hc;0.1887;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;15;29.24;hp;0.2402;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;15;29.24;hc;0.1887;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;18;32.83;hp;0.2402;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;18;32.83;hc;0.1887;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;24;40.02;hp;0.2402;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;24;40.02;hc;0.1887;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;30;47.21;hp;0.2402;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;30;47.21;hc;0.1887;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;36;54.4;hp;0.2402;source_unique;2026-10-30
+happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;36;54.4;hc;0.1887;source_unique;2026-10-30
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;3;11.99;base;0.233;conflit;2026-10-30
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;6;15.58;base;0.233;conflit;2026-10-30
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;9;19.18;base;0.2347;conflit;2026-10-30
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;12;22.77;base;0.2347;conflit;2026-10-30
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;15;26.37;base;0.2347;conflit;2026-10-30
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;18;29.96;base;0.2347;conflit;2026-10-30
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;24;37.15;base;0.2347;conflit;2026-10-30
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;30;44.34;base;0.2347;conflit;2026-10-30
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;36;51.53;base;0.2347;conflit;2026-10-30
+ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;3;18.24;base;0.24;conflit;2026-10-30
+ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;6;25.1;base;0.24;conflit;2026-10-30
+ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;9;34.1;base;0.2385;conflit;2026-10-30
+ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;12;43.36;base;0.2385;conflit;2026-10-30
+ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;15;49.75;base;0.2385;conflit;2026-10-30
+ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;18;54.61;base;0.2385;conflit;2026-10-30
+ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;24;65.52;base;0.2385;conflit;2026-10-30
+ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;30;78.92;base;0.2385;conflit;2026-10-30
+ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;36;88.75;base;0.2385;conflit;2026-10-30
+enercoop-base;Enercoop;Offre Base;base;variable;3;9.77;base;0.2541;confirme;2026-10-30
+enercoop-base;Enercoop;Offre Base;base;variable;6;15.16;base;0.2541;confirme;2026-10-30
+enercoop-base;Enercoop;Offre Base;base;variable;9;20.63;base;0.2571;confirme;2026-10-30
+enercoop-base;Enercoop;Offre Base;base;variable;12;25.99;base;0.2571;confirme;2026-10-30
+enercoop-base;Enercoop;Offre Base;base;variable;15;31.21;base;0.2571;confirme;2026-10-30
+enercoop-base;Enercoop;Offre Base;base;variable;18;36.53;base;0.2571;confirme;2026-10-30
+enercoop-base;Enercoop;Offre Base;base;variable;24;47.23;base;0.2571;confirme;2026-10-30
+enercoop-base;Enercoop;Offre Base;base;variable;30;57.89;base;0.2571;confirme;2026-10-30
+enercoop-base;Enercoop;Offre Base;base;variable;36;68.56;base;0.2571;confirme;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;3;11.06;hp;0.2776;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;3;11.06;hc;0.1898;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;6;18.11;hp;0.2776;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;6;18.11;hc;0.1898;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;9;24.33;hp;0.2776;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;9;24.33;hc;0.1898;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;12;30.92;hp;0.2776;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;12;30.92;hc;0.1898;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;15;35.36;hp;0.2776;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;15;35.36;hc;0.1898;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;18;41.52;hp;0.2776;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;18;41.52;hc;0.1898;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;24;52.7;hp;0.2776;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;24;52.7;hc;0.1898;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;30;64.73;hp;0.2776;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;30;64.73;hc;0.1898;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;36;76.77;hp;0.2776;source_unique;2026-10-30
+enercoop-hphc;Enercoop;Offre Heures creuses;hphc;variable;36;76.77;hc;0.1898;source_unique;2026-10-30
+urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;3;13.31;base;0.2001;confirme;2026-10-30
+urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;6;17.08;base;0.2001;confirme;2026-10-30
+urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;9;21.15;base;0.1985;confirme;2026-10-30
+urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;12;25.07;base;0.1985;confirme;2026-10-30
+urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;15;28.75;base;0.1985;confirme;2026-10-30
+urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;18;32.54;base;0.1985;confirme;2026-10-30
+urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;24;40.62;base;0.1985;confirme;2026-10-30
+urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;30;48.05;base;0.1985;confirme;2026-10-30
+urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;36;55.54;base;0.1985;confirme;2026-10-30
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;3;;base;0.19;source_unique;2026-10-30
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;6;;base;0.19;source_unique;2026-10-30
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;9;;base;0.19;source_unique;2026-10-30
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;12;;base;0.19;source_unique;2026-10-30
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;15;;base;0.19;source_unique;2026-10-30
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;18;;base;0.19;source_unique;2026-10-30
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;24;;base;0.19;source_unique;2026-10-30
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;30;;base;0.19;source_unique;2026-10-30
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;36;;base;0.19;source_unique;2026-10-30

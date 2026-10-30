@@ -1,0 +1,239 @@
+<title>Prix de l'électricité</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout : bandeau de synthèse (meilleurs prix pour la puissance choisie), barre de filtres collante, tableau des offres. */
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --fg: #17202b; --muted: #5b6676; --line: #dde2e9;
+  --accent: #0b6e74; --accent-soft: #e2f1f1;
+  --ok: #1d7a46; --ok-soft: #e3f3e9; --warn: #9a6400; --warn-soft: #fbf0d9; --bad: #b3261e; --bad-soft: #fbe5e3;
+  --tempo-bleu: #2f6fd6; --tempo-blanc: #8a94a3; --tempo-rouge: #c8322b;
+  --f-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f141a; --surface: #161d25; --fg: #e6ebf1; --muted: #98a3b2; --line: #2a3440;
+  --accent: #4fc3c7; --accent-soft: #143033;
+  --ok: #6fd39a; --ok-soft: #133022; --warn: #f0b85a; --warn-soft: #33270f; --bad: #ff8a80; --bad-soft: #3a1a18;
+  --tempo-bleu: #6fa0ff; --tempo-blanc: #b6bfcc; --tempo-rouge: #ff7a70; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f141a; --surface: #161d25; --fg: #e6ebf1; --muted: #98a3b2; --line: #2a3440;
+  --accent: #4fc3c7; --accent-soft: #143033;
+  --ok: #6fd39a; --ok-soft: #133022; --warn: #f0b85a; --warn-soft: #33270f; --bad: #ff8a80; --bad-soft: #3a1a18;
+  --tempo-bleu: #6fa0ff; --tempo-blanc: #b6bfcc; --tempo-rouge: #ff7a70; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--f-body); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-block: 28px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+h1 { font: 700 clamp(1.7rem, 3.4vw, 2.4rem)/1.1 var(--f-display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+.stamp { font: 500 13px var(--f-mono); color: var(--muted); }
+.stamp b { color: var(--fg); font-weight: 500; }
+.lede { color: var(--muted); max-width: 68ch; margin: 8px 0 0; }
+
+.best { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-top: 22px; }
+.best article { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; min-width: 0; }
+.best h2 { font: 600 11px var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+.best .who { font: 600 16px/1.3 var(--f-display); }
+.best .num { font: 500 22px var(--f-mono); color: var(--accent); margin-top: 4px; font-variant-numeric: tabular-nums; }
+.best .sub { font-size: 13px; color: var(--muted); }
+
+.controls { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; padding-block: 14px; margin-top: 18px; border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.controls label { display: grid; gap: 3px; font-size: 12px; color: var(--muted); font-weight: 500; }
+select, input[type=search] { font: 14px var(--f-body); color: var(--fg); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 7px; padding: 7px 9px; min-width: 0; }
+input[type=search] { width: 220px; max-width: 100%; }
+select:focus-visible, input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.count { margin-left: auto; font: 13px var(--f-mono); color: var(--muted); align-self: center; }
+
+.tablebox { overflow-x: auto; margin-top: 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 860px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 11px var(--f-body); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); background: var(--surface);
+  position: sticky; top: 0; cursor: pointer; white-space: nowrap; user-select: none; }
+th[aria-sort="ascending"]::after { content: " ↑"; } th[aria-sort="descending"]::after { content: " ↓"; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:hover { background: var(--accent-soft); }
+.offer b { display: block; font-weight: 600; }
+.offer span { color: var(--muted); font-size: 13px; }
+.num { font-family: var(--f-mono); font-size: 13.5px; white-space: nowrap; }
+.prices { display: grid; grid-template-columns: auto auto; gap: 1px 10px; font: 13px var(--f-mono); }
+.prices dt { color: var(--muted); font-family: var(--f-body); font-size: 12.5px; }
+.prices dd { margin: 0; text-align: right; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: 1px; }
+.chip { display: inline-block; font-size: 12px; font-weight: 500; padding: 2px 8px; border-radius: 99px; white-space: nowrap; }
+.chip.confirme { background: var(--ok-soft); color: var(--ok); }
+.chip.source_unique { background: var(--warn-soft); color: var(--warn); }
+.chip.conflit { background: var(--bad-soft); color: var(--bad); }
+.chip.type { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+.promo { color: var(--ok); font-size: 13px; font-weight: 500; }
+.na { color: var(--muted); }
+details { font-size: 13px; color: var(--muted); }
+details summary { cursor: pointer; color: var(--accent); }
+details ul { margin: 6px 0 0; padding-left: 18px; }
+details a { color: var(--accent); word-break: break-all; }
+.closed { font-size: 12px; color: var(--warn); display: block; }
+
+.foot { margin-top: 28px; display: grid; gap: 10px; color: var(--muted); font-size: 13.5px; max-width: 78ch; }
+.foot code { font: 12.5px var(--f-mono); background: var(--surface); border: 1px solid var(--line); padding: 1px 5px; border-radius: 4px; word-break: break-all; }
+.empty { padding: 30px; text-align: center; color: var(--muted); }
+@media (max-width: 560px) { .count { margin-left: 0; width: 100%; } input[type=search] { width: 100%; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Prix de l'électricité</h1>
+    <div class="stamp">Mis à jour le <b id="maj">—</b></div>
+  </header>
+  <p class="lede">Grilles TTC des offres d'électricité pour les particuliers en France métropolitaine, relevées chaque jour sur les sites des fournisseurs et des comparateurs. Choisissez votre puissance de compteur pour voir les abonnements et prix du kWh qui vous concernent.</p>
+
+  <section class="best" id="best" aria-label="Meilleurs prix pour la puissance choisie"></section>
+
+  <div class="controls">
+    <label for="kva">Puissance
+      <select id="kva"></select></label>
+    <label for="opt">Option
+      <select id="opt"><option value="">Toutes</option></select></label>
+    <label for="conso">Consommation annuelle
+      <select id="conso"></select></label>
+    <label for="ver">Fiabilité
+      <select id="ver"><option value="">Toutes</option><option value="confirme">Confirmée seulement</option></select></label>
+    <label for="q">Recherche
+      <input type="search" id="q" placeholder="Fournisseur ou offre"></label>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="tablebox">
+    <table>
+      <thead><tr>
+        <th data-k="nom">Fournisseur · offre</th>
+        <th data-k="option">Option</th>
+        <th data-k="abo">Abonnement / mois</th>
+        <th>Prix du kWh</th>
+        <th data-k="cout" aria-sort="ascending">Coût annuel estimé</th>
+        <th>Promotion</th>
+        <th data-k="ver">Fiabilité</th>
+        <th>Détails</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <div class="foot">
+    <p id="hyp"></p>
+    <p>Données brutes, libres de réutilisation : <code>data/offres.json</code> (base complète), <code>data/offres.csv</code> (une ligne par offre, puissance et poste horaire), <code>data/resume.json</code> (classements), historique quotidien dans <code>data/historique/</code>.</p>
+    <p id="warn"></p>
+  </div>
+</div>
+
+<script>
+const PAYLOAD = /*__DATA__*/null;
+(function () {
+  if (!PAYLOAD) { document.getElementById("rows").innerHTML = '<tr><td colspan="8" class="empty">Données absentes : lancez scripts/build.py.</td></tr>'; return; }
+  const D = PAYLOAD.data, R = PAYLOAD.resume, M = D.meta;
+  const names = Object.fromEntries(D.fournisseurs.map(f => [f.id, f.nom]));
+  const OPT_LABEL = { base: "Base", hphc: "Heures creuses", tempo: "Tempo", saisons: "Saisons", saisons_rouge: "Saisons + jours rouges", week_end: "Week-end", flex: "Flex (jours Sobriété)" };
+  const TYPE_LABEL = { reglemente: "Réglementé", indexe_trv: "Indexé TRV", fixe: "Prix fixe", variable: "Variable" };
+  const VER_LABEL = { confirme: "Confirmée", source_unique: "1 source", conflit: "À vérifier" };
+  const HC = R.hypotheses.part_heures_creuses_hphc;
+  const $ = id => document.getElementById(id);
+  const eur = (v, d = 2) => v == null ? "—" : v.toLocaleString("fr-FR", { minimumFractionDigits: d, maximumFractionDigits: d }) + " €";
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const fmtDate = s => new Date(s + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+
+  $("maj").textContent = fmtDate(M.mis_a_jour_le);
+  M.puissances_kva.forEach(k => $("kva").add(new Option(k + " kVA", k, false, k === 6)));
+  [...new Set(D.offres.map(o => o.option))].forEach(o => $("opt").add(new Option(OPT_LABEL[o] || o, o)));
+  R.hypotheses.consommations_kwh.forEach(c => $("conso").add(new Option(c.toLocaleString("fr-FR") + " kWh", c, false, c === 4500)));
+  $("hyp").textContent = `Coût annuel estimé = 12 abonnements + consommation × prix du kWh, promotion de la 1re année déduite. Hypothèse pour l'option Heures creuses : ${Math.round(HC * 100)} % de la consommation en heures creuses. Les options Tempo, Saisons, Week-end et Flex dépendent de votre profil heure par heure : utilisez le comparatif à partir de votre courbe de charge Enedis.`;
+  $("warn").textContent = M.avertissement;
+
+  const state = { sort: "cout", dir: 1 };
+  try { const s = JSON.parse(localStorage.getItem("prix-elec-filtres") || "{}");
+    ["kva", "opt", "conso", "ver"].forEach(k => { if (s[k] != null && [...$(k).options].some(o => o.value == s[k])) $(k).value = s[k]; }); } catch (e) {}
+
+  function cost(o, row, conso) {
+    if (!row || row.abonnement_mois == null) return null;
+    const p = row.prix_kwh; let e;
+    if (o.option === "base") e = conso * p.base;
+    else if (o.option === "hphc") e = conso * ((1 - HC) * p.hp + HC * p.hc);
+    else return null;
+    const promo = (o.promotions || []).reduce((s, x) => s + (x.valeur_an1_eur || 0), 0);
+    return 12 * row.abonnement_mois + e - promo;
+  }
+  function priceList(o, p) {
+    return '<dl class="prices">' + Object.entries(p).map(([k, v]) => {
+      const c = k.startsWith("bleu") ? "--tempo-bleu" : k.startsWith("blanc") ? "--tempo-blanc" : k.startsWith("rouge") ? "--tempo-rouge" : null;
+      const lab = (M.postes[k] || k).replace("heures pleines", "HP").replace("heures creuses", "HC").replace("heures super creuses", "super creuses");
+      return `<dt>${c ? `<span class="dot" style="background:var(${c})"></span>` : ""}${esc(lab)}</dt><dd>${v.toFixed(4).replace(".", ",")}</dd>`;
+    }).join("") + "</dl>";
+  }
+
+  function render() {
+    const kva = +$("kva").value, opt = $("opt").value, conso = +$("conso").value, ver = $("ver").value, q = $("q").value.trim().toLowerCase();
+    try { localStorage.setItem("prix-elec-filtres", JSON.stringify({ kva, opt, conso, ver })); } catch (e) {}
+    let list = D.offres.map(o => {
+      const row = o.grille.find(g => g.kva === kva);
+      return { o, row, nom: names[o.fournisseur] + " " + o.offre, abo: row?.abonnement_mois ?? Infinity, cout: row ? cost(o, row, conso) : null };
+    }).filter(x => x.row && (!opt || x.o.option === opt) && (!ver || x.o.verification === ver)
+      && (!q || x.nom.toLowerCase().includes(q)));
+    const key = { nom: x => x.nom, option: x => x.o.option, abo: x => x.abo, cout: x => x.cout ?? Infinity, ver: x => x.o.verification };
+    const f = key[state.sort];
+    list.sort((a, b) => { const A = f(a), B = f(b); return (A > B ? 1 : A < B ? -1 : 0) * state.dir || a.nom.localeCompare(b.nom); });
+
+    $("count").textContent = `${list.length} offre${list.length > 1 ? "s" : ""} à ${kva} kVA`;
+    $("rows").innerHTML = list.length ? list.map(({ o, row, cout }) => {
+      const promo = (o.promotions || []).map(p => `<div class="promo">${esc(p.description)}</div><div class="na" style="font-size:12px">${esc(p.conditions || "")}${p.date_fin ? " Jusqu'au " + fmtDate(p.date_fin) + "." : ""}</div>`).join("") || '<span class="na">—</span>';
+      const det = [
+        o.indexation, o.duree_prix_garanti_mois ? `Prix garanti ${o.duree_prix_garanti_mois} mois` : null,
+        o.energie_verte ? `Électricité verte (${o.energie_verte.niveau}) : ${o.energie_verte.detail}` : null,
+        o.plages_horaires, ...(o.avantages || []), ...(o.notes || []), `Engagement : ${o.engagement}`, `Vérifiée le ${fmtDate(o.derniere_verif)}`
+      ].filter(Boolean);
+      return `<tr>
+        <td class="offer"><b>${esc(names[o.fournisseur])}</b><span>${esc(o.offre)}</span></td>
+        <td>${esc(OPT_LABEL[o.option] || o.option)}<br><span class="chip type">${esc(TYPE_LABEL[o.type_prix])}</span></td>
+        <td class="num">${eur(row.abonnement_mois)}${row.ouvert_nouveaux_clients === false ? '<span class="closed">Fermé aux nouveaux clients</span>' : ""}</td>
+        <td>${priceList(o, row.prix_kwh)}</td>
+        <td class="num">${cout == null ? '<span class="na">selon profil</span>' : eur(cout, 0)}</td>
+        <td>${promo}</td>
+        <td><span class="chip ${o.verification}">${VER_LABEL[o.verification]}</span></td>
+        <td><details><summary>Voir</summary><ul>${det.map(d => `<li>${esc(d)}</li>`).join("")}
+          ${o.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(new URL(s.url).hostname.replace("www.", ""))}</a> (${s.type})</li>`).join("")}</ul></details></td>
+      </tr>`;
+    }).join("") : '<tr><td colspan="8" class="empty">Aucune offre ne correspond à ces filtres.</td></tr>';
+
+    const best = optn => {
+      let b = null;
+      D.offres.filter(o => o.option === optn && (!ver || o.verification === ver)).forEach(o => {
+        const row = o.grille.find(g => g.kva === kva && g.ouvert_nouveaux_clients !== false);
+        const c = row && cost(o, row, conso);
+        if (c != null && (!b || c < b.c)) b = { o, c };
+      });
+      return b;
+    };
+    const trv = D.offres.find(o => o.id === (kva <= 6 ? "edf-tarif-bleu-base" : "edf-tarif-bleu-hphc"));
+    const trvC = trv && cost(trv, trv.grille.find(g => g.kva === kva), conso);
+    const cards = [["Base la moins chère", best("base")], ["Heures creuses la moins chère", best("hphc")]].map(([t, b]) => `
+      <article><h2>${t}</h2>${b ? `<div class="who">${esc(names[b.o.fournisseur])} · ${esc(b.o.offre)}</div>
+        <div class="num">${eur(b.c, 0)} / an</div>
+        <div class="sub">${trvC ? `${eur(trvC - b.c, 0)} de moins que le Tarif Bleu ${kva <= 6 ? "Base" : "HP/HC"}` : ""}</div>` : '<div class="sub">Aucune offre ouverte à cette puissance.</div>'}</article>`);
+    cards.push(`<article><h2>Tarif réglementé (référence)</h2><div class="who">EDF Tarif Bleu ${kva <= 6 ? "Base" : "Heures creuses"}</div>
+      <div class="num">${eur(trvC, 0)} / an</div><div class="sub">${conso.toLocaleString("fr-FR")} kWh à ${kva} kVA</div></article>`);
+    $("best").innerHTML = cards.join("");
+  }
+
+  document.querySelectorAll("th[data-k]").forEach(th => th.addEventListener("click", () => {
+    const k = th.dataset.k; state.dir = state.sort === k ? -state.dir : 1; state.sort = k;
+    document.querySelectorAll("th").forEach(t => t.removeAttribute("aria-sort"));
+    th.setAttribute("aria-sort", state.dir > 0 ? "ascending" : "descending"); render();
+  }));
+  ["kva", "opt", "conso", "ver", "q"].forEach(id => $(id).addEventListener("input", render));
+  render();
+})();
+</script>
