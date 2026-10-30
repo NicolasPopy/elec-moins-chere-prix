@@ -704,31 +704,31 @@ la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;18;35.64;ba
 la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;24;43.64;base;0.1953;conflit;2026-10-30
 la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;30;50.97;base;0.1953;conflit;2026-10-30
 la-bellenergie-prudence-base;la bellenergie;Prudence;base;indexe_trv;36;58.38;base;0.1953;conflit;2026-10-30
-mint-base;Mint Énergie;Online & Green;base;indexe_trv;3;12.13;base;0.1821;conflit;2026-10-30
-mint-base;Mint Énergie;Online & Green;base;indexe_trv;6;15.86;base;0.1821;conflit;2026-10-30
-mint-base;Mint Énergie;Online & Green;base;indexe_trv;9;19.88;base;0.1807;conflit;2026-10-30
-mint-base;Mint Énergie;Online & Green;base;indexe_trv;12;23.76;base;0.1807;conflit;2026-10-30
-mint-base;Mint Énergie;Online & Green;base;indexe_trv;15;27.4;base;0.1807;conflit;2026-10-30
-mint-base;Mint Énergie;Online & Green;base;indexe_trv;18;31.14;base;0.1807;conflit;2026-10-30
-mint-base;Mint Énergie;Online & Green;base;indexe_trv;24;39.14;base;0.1807;conflit;2026-10-30
-mint-base;Mint Énergie;Online & Green;base;indexe_trv;30;46.47;base;0.1807;conflit;2026-10-30
-mint-base;Mint Énergie;Online & Green;base;indexe_trv;36;53.88;base;0.1807;conflit;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;6;16.05;hp;0.1947;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;6;16.05;hc;0.1455;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;9;20.16;hp;0.1947;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;9;20.16;hc;0.1455;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;12;24.13;hp;0.1947;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;12;24.13;hc;0.1455;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;15;27.86;hp;0.1947;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;15;27.86;hc;0.1455;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;18;31.7;hp;0.1947;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;18;31.7;hc;0.1455;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;24;39.88;hp;0.1947;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;24;39.88;hc;0.1455;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;30;47.4;hp;0.1947;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;30;47.4;hc;0.1455;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;36;54.99;hp;0.1947;source_unique;2026-10-30
-mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;36;54.99;hc;0.1455;source_unique;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;3;12.13;base;0.2164;confirme;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;6;15.86;base;0.2164;confirme;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;9;19.88;base;0.2147;confirme;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;12;23.76;base;0.2147;confirme;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;15;27.4;base;0.2147;confirme;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;18;31.14;base;0.2147;confirme;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;24;39.14;base;0.2147;confirme;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;30;46.47;base;0.2147;confirme;2026-10-30
+mint-base;Mint Énergie;Online & Green;base;indexe_trv;36;53.88;base;0.2147;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;6;16.05;hp;0.232;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;6;16.05;hc;0.1711;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;9;20.16;hp;0.232;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;9;20.16;hc;0.1711;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;12;24.13;hp;0.232;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;12;24.13;hc;0.1711;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;15;27.86;hp;0.232;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;15;27.86;hc;0.1711;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;18;31.7;hp;0.232;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;18;31.7;hc;0.1711;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;24;39.88;hp;0.232;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;24;39.88;hc;0.1711;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;30;47.4;hp;0.232;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;30;47.4;hc;0.1711;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;36;54.99;hp;0.232;confirme;2026-10-30
+mint-hphc;Mint Énergie;Online & Green;hphc;indexe_trv;36;54.99;hc;0.1711;confirme;2026-10-30
 ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;3;12.15;base;0.2183;conflit;2026-10-30
 ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;6;15.88;base;0.2183;conflit;2026-10-30
 ohm-serenite-fixe-base;OHM Énergie;OHM Sérénité Fixe 1 an;base;fixe;9;19.9;base;0.2183;conflit;2026-10-30

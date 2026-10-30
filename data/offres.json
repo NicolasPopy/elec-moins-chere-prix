@@ -4466,97 +4466,98 @@
    "option": "base",
    "type_prix": "indexe_trv",
    "duree_prix_garanti_mois": null,
-   "indexation": null,
+   "indexation": "kWh HT = TRV HT + 10 % ; abonnement HT indexé sur le TRV (révisions au 1er février et au 1er août)",
    "energie_verte": {
     "niveau": "standard",
-    "detail": "Garanties d'origine"
+    "detail": "25 % d'électricité verte, garanties d'origine françaises, un arbre planté à la souscription"
    },
-   "engagement": "sans engagement",
+   "engagement": "sans engagement, résiliation sans frais",
    "plages_horaires": null,
    "grille": [
     {
      "kva": 3,
      "abonnement_mois": 12.13,
      "prix_kwh": {
-      "base": 0.1821
+      "base": 0.2164
      }
     },
     {
      "kva": 6,
      "abonnement_mois": 15.86,
      "prix_kwh": {
-      "base": 0.1821
+      "base": 0.2164
      }
     },
     {
      "kva": 9,
      "abonnement_mois": 19.88,
      "prix_kwh": {
-      "base": 0.1807
+      "base": 0.2147
      }
     },
     {
      "kva": 12,
      "abonnement_mois": 23.76,
      "prix_kwh": {
-      "base": 0.1807
+      "base": 0.2147
      }
     },
     {
      "kva": 15,
      "abonnement_mois": 27.4,
      "prix_kwh": {
-      "base": 0.1807
+      "base": 0.2147
      }
     },
     {
      "kva": 18,
      "abonnement_mois": 31.14,
      "prix_kwh": {
-      "base": 0.1807
+      "base": 0.2147
      }
     },
     {
      "kva": 24,
      "abonnement_mois": 39.14,
      "prix_kwh": {
-      "base": 0.1807
+      "base": 0.2147
      }
     },
     {
      "kva": 30,
      "abonnement_mois": 46.47,
      "prix_kwh": {
-      "base": 0.1807
+      "base": 0.2147
      }
     },
     {
      "kva": 36,
      "abonnement_mois": 53.88,
      "prix_kwh": {
-      "base": 0.1807
+      "base": 0.2147
      }
     }
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "conflit",
+   "verification": "confirme",
    "sources": [
     {
-     "url": "https://elecompare.fr/tarifs",
-     "type": "comparateur",
-     "consulte_le": "2026-10-30"
-    },
-    {
-     "url": "https://www.fournisseurs-electricite.com/contrat-electricite/prix",
-     "type": "comparateur",
+     "url": "https://www.mint-energie.com/wp-content/uploads/2026/10/MINT_ENERGIE_Fiche_Tarifs_27900_ONLINE_GREEN.pdf",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
    "notes": [
-    "Un autre comparateur indique 0,2164 € pour « Online & Green » : il s'agit peut-être de deux offres Mint différentes."
+    "Grille officielle applicable au 20/10/2026, réservée aux nouveaux clients résidentiels.",
+    "Le prix de 0,1821 € relevé par un comparateur correspond à une autre offre Mint, non suivie pour l'instant."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Fiche tarifs officielle Online & Green applicable au 20/10/2026."
+   }
   },
   {
    "id": "mint-hphc",
@@ -4565,88 +4566,99 @@
    "option": "hphc",
    "type_prix": "indexe_trv",
    "duree_prix_garanti_mois": null,
-   "indexation": null,
-   "energie_verte": null,
-   "engagement": "sans engagement",
+   "indexation": "kWh HT = TRV HT + 10 % ; abonnement HT indexé sur le TRV (révisions au 1er février et au 1er août)",
+   "energie_verte": {
+    "niveau": "standard",
+    "detail": "25 % d'électricité verte, garanties d'origine françaises, un arbre planté à la souscription"
+   },
+   "engagement": "sans engagement, résiliation sans frais",
    "plages_horaires": "Créneau d'heures creuses fixé par Enedis pour chaque compteur (8 h/jour, voir programmationHoraireHC).",
    "grille": [
     {
      "kva": 6,
      "abonnement_mois": 16.05,
      "prix_kwh": {
-      "hp": 0.1947,
-      "hc": 0.1455
+      "hp": 0.232,
+      "hc": 0.1711
      }
     },
     {
      "kva": 9,
      "abonnement_mois": 20.16,
      "prix_kwh": {
-      "hp": 0.1947,
-      "hc": 0.1455
+      "hp": 0.232,
+      "hc": 0.1711
      }
     },
     {
      "kva": 12,
      "abonnement_mois": 24.13,
      "prix_kwh": {
-      "hp": 0.1947,
-      "hc": 0.1455
+      "hp": 0.232,
+      "hc": 0.1711
      }
     },
     {
      "kva": 15,
      "abonnement_mois": 27.86,
      "prix_kwh": {
-      "hp": 0.1947,
-      "hc": 0.1455
+      "hp": 0.232,
+      "hc": 0.1711
      }
     },
     {
      "kva": 18,
      "abonnement_mois": 31.7,
      "prix_kwh": {
-      "hp": 0.1947,
-      "hc": 0.1455
+      "hp": 0.232,
+      "hc": 0.1711
      }
     },
     {
      "kva": 24,
      "abonnement_mois": 39.88,
      "prix_kwh": {
-      "hp": 0.1947,
-      "hc": 0.1455
+      "hp": 0.232,
+      "hc": 0.1711
      }
     },
     {
      "kva": 30,
      "abonnement_mois": 47.4,
      "prix_kwh": {
-      "hp": 0.1947,
-      "hc": 0.1455
+      "hp": 0.232,
+      "hc": 0.1711
      }
     },
     {
      "kva": 36,
      "abonnement_mois": 54.99,
      "prix_kwh": {
-      "hp": 0.1947,
-      "hc": 0.1455
+      "hp": 0.232,
+      "hc": 0.1711
      }
     }
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "source_unique",
+   "verification": "confirme",
    "sources": [
     {
-     "url": "https://elecompare.fr/tarifs",
-     "type": "comparateur",
+     "url": "https://www.mint-energie.com/wp-content/uploads/2026/10/MINT_ENERGIE_Fiche_Tarifs_27900_ONLINE_GREEN.pdf",
+     "type": "officiel",
      "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
-   "derniere_verif": "2026-10-30"
+   "notes": [
+    "Grille officielle applicable au 20/10/2026 ; pas d'option HP/HC en 3 kVA.",
+    "Ancienne valeur erronée (HP 0,1947 / HC 0,1455 €) corrigée."
+   ],
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Fiche tarifs officielle Online & Green applicable au 20/10/2026."
+   }
   },
   {
    "id": "ohm-serenite-fixe-base",

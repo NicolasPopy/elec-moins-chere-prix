@@ -57,15 +57,6 @@
     "verification": "conflit"
    },
    {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 600.81,
-    "cout_annuel_promo_deduite": 600.81,
-    "verification": "conflit"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-base",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -291,6 +282,15 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 686.56,
+    "cout_annuel_promo_deduite": 686.56,
+    "verification": "confirme"
+   },
+   {
     "id": "ekwateur-hphc",
     "fournisseur": "Ekwateur",
     "offre": "Électricité 100 % renouvelable",
@@ -416,15 +416,6 @@
     "option": "hphc",
     "cout_annuel": 958.1,
     "cout_annuel_promo_deduite": 958.1,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 965.01,
-    "cout_annuel_promo_deduite": 965.01,
     "verification": "conflit"
    },
    {
@@ -671,6 +662,15 @@
     "verification": "source_unique"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1119.36,
+    "cout_annuel_promo_deduite": 1119.36,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -778,15 +778,6 @@
     "option": "hphc",
     "cout_annuel": 1590.07,
     "cout_annuel_promo_deduite": 1590.07,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1602.36,
-    "cout_annuel_promo_deduite": 1602.36,
     "verification": "conflit"
    },
    {
@@ -1033,6 +1024,15 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1876.76,
+    "cout_annuel_promo_deduite": 1876.76,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -1125,15 +1125,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 639.99,
-    "cout_annuel_promo_deduite": 639.99,
-    "verification": "source_unique"
-   },
-   {
     "id": "totalenergies-access-hphc",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -1150,15 +1141,6 @@
     "cout_annuel": 641.85,
     "cout_annuel_promo_deduite": 641.85,
     "verification": "confirme"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 645.57,
-    "cout_annuel_promo_deduite": 645.57,
-    "verification": "conflit"
    },
    {
     "id": "totalenergies-access-base",
@@ -1404,6 +1386,24 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 723.88,
+    "cout_annuel_promo_deduite": 723.88,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 731.32,
+    "cout_annuel_promo_deduite": 731.32,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -1514,15 +1514,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 997.9,
-    "cout_annuel_promo_deduite": 997.9,
-    "verification": "source_unique"
-   },
-   {
     "id": "totalenergies-access-hphc",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -1539,15 +1530,6 @@
     "cout_annuel": 1002.98,
     "cout_annuel_promo_deduite": 1002.98,
     "verification": "confirme"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1009.77,
-    "cout_annuel_promo_deduite": 1009.77,
-    "verification": "conflit"
    },
    {
     "id": "totalenergies-access-base",
@@ -1811,6 +1793,24 @@
     "verification": "source_unique"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1148.9,
+    "cout_annuel_promo_deduite": 1148.9,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1164.12,
+    "cout_annuel_promo_deduite": 1164.12,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -1903,15 +1903,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1624.25,
-    "cout_annuel_promo_deduite": 1624.25,
-    "verification": "source_unique"
-   },
-   {
     "id": "totalenergies-access-hphc",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -1928,15 +1919,6 @@
     "cout_annuel": 1634.95,
     "cout_annuel_promo_deduite": 1634.95,
     "verification": "confirme"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1647.12,
-    "cout_annuel_promo_deduite": 1647.12,
-    "verification": "conflit"
    },
    {
     "id": "totalenergies-access-base",
@@ -2200,6 +2182,24 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1892.7,
+    "cout_annuel_promo_deduite": 1892.7,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1921.52,
+    "cout_annuel_promo_deduite": 1921.52,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -2283,15 +2283,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 689.31,
-    "cout_annuel_promo_deduite": 689.31,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -2307,15 +2298,6 @@
     "option": "hphc",
     "cout_annuel": 689.97,
     "cout_annuel_promo_deduite": 689.97,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 690.31,
-    "cout_annuel_promo_deduite": 690.31,
     "verification": "conflit"
    },
    {
@@ -2562,6 +2544,24 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 773.2,
+    "cout_annuel_promo_deduite": 773.2,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 775.31,
+    "cout_annuel_promo_deduite": 775.31,
+    "verification": "confirme"
+   },
+   {
     "id": "la-bellenergie-prudence-base",
     "fournisseur": "la bellenergie",
     "offre": "Prudence",
@@ -2663,15 +2663,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1047.22,
-    "cout_annuel_promo_deduite": 1047.22,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -2687,15 +2678,6 @@
     "option": "hphc",
     "cout_annuel": 1051.1,
     "cout_annuel_promo_deduite": 1051.1,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1051.71,
-    "cout_annuel_promo_deduite": 1051.71,
     "verification": "conflit"
    },
    {
@@ -2960,6 +2942,24 @@
     "verification": "source_unique"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1198.22,
+    "cout_annuel_promo_deduite": 1198.22,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1204.71,
+    "cout_annuel_promo_deduite": 1204.71,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -3043,15 +3043,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1673.57,
-    "cout_annuel_promo_deduite": 1673.57,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -3067,15 +3058,6 @@
     "option": "hphc",
     "cout_annuel": 1683.07,
     "cout_annuel_promo_deduite": 1683.07,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1684.16,
-    "cout_annuel_promo_deduite": 1684.16,
     "verification": "conflit"
    },
    {
@@ -3340,6 +3322,24 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1942.02,
+    "cout_annuel_promo_deduite": 1942.02,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1956.16,
+    "cout_annuel_promo_deduite": 1956.16,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -3439,24 +3439,6 @@
     "cout_annuel": 736.53,
     "cout_annuel_promo_deduite": 736.53,
     "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 736.87,
-    "cout_annuel_promo_deduite": 736.87,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 736.95,
-    "cout_annuel_promo_deduite": 736.95,
-    "verification": "source_unique"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-base",
@@ -3702,6 +3684,24 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 820.84,
+    "cout_annuel_promo_deduite": 820.84,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 821.87,
+    "cout_annuel_promo_deduite": 821.87,
+    "verification": "confirme"
+   },
+   {
     "id": "la-bellenergie-prudence-base",
     "fournisseur": "la bellenergie",
     "offre": "Prudence",
@@ -3803,15 +3803,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1094.86,
-    "cout_annuel_promo_deduite": 1094.86,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -3827,15 +3818,6 @@
     "option": "hphc",
     "cout_annuel": 1097.66,
     "cout_annuel_promo_deduite": 1097.66,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1098.27,
-    "cout_annuel_promo_deduite": 1098.27,
     "verification": "conflit"
    },
    {
@@ -4091,6 +4073,24 @@
     "verification": "conflit"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1245.86,
+    "cout_annuel_promo_deduite": 1245.86,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1251.27,
+    "cout_annuel_promo_deduite": 1251.27,
+    "verification": "confirme"
+   },
+   {
     "id": "ekwateur-hphc",
     "fournisseur": "Ekwateur",
     "offre": "Électricité 100 % renouvelable",
@@ -4183,15 +4183,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1721.21,
-    "cout_annuel_promo_deduite": 1721.21,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -4207,15 +4198,6 @@
     "option": "hphc",
     "cout_annuel": 1729.63,
     "cout_annuel_promo_deduite": 1729.63,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1730.72,
-    "cout_annuel_promo_deduite": 1730.72,
     "verification": "conflit"
    },
    {
@@ -4480,6 +4462,24 @@
     "verification": "source_unique"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1989.66,
+    "cout_annuel_promo_deduite": 1989.66,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 2002.72,
+    "cout_annuel_promo_deduite": 2002.72,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -4579,24 +4579,6 @@
     "cout_annuel": 780.21,
     "cout_annuel_promo_deduite": 780.21,
     "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 780.55,
-    "cout_annuel_promo_deduite": 780.55,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 781.71,
-    "cout_annuel_promo_deduite": 781.71,
-    "verification": "source_unique"
    },
    {
     "id": "dyneff-contrat-plus-hphc",
@@ -4842,6 +4824,24 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 865.55,
+    "cout_annuel_promo_deduite": 865.55,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 865.6,
+    "cout_annuel_promo_deduite": 865.6,
+    "verification": "confirme"
+   },
+   {
     "id": "la-bellenergie-prudence-base",
     "fournisseur": "la bellenergie",
     "offre": "Prudence",
@@ -4943,15 +4943,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1139.62,
-    "cout_annuel_promo_deduite": 1139.62,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -4967,15 +4958,6 @@
     "option": "hphc",
     "cout_annuel": 1141.34,
     "cout_annuel_promo_deduite": 1141.34,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1141.95,
-    "cout_annuel_promo_deduite": 1141.95,
     "verification": "conflit"
    },
    {
@@ -5231,6 +5213,24 @@
     "verification": "conflit"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1290.62,
+    "cout_annuel_promo_deduite": 1290.62,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1294.95,
+    "cout_annuel_promo_deduite": 1294.95,
+    "verification": "confirme"
+   },
+   {
     "id": "ekwateur-hphc",
     "fournisseur": "Ekwateur",
     "offre": "Électricité 100 % renouvelable",
@@ -5323,15 +5323,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1765.97,
-    "cout_annuel_promo_deduite": 1765.97,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -5347,15 +5338,6 @@
     "option": "hphc",
     "cout_annuel": 1773.31,
     "cout_annuel_promo_deduite": 1773.31,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1774.4,
-    "cout_annuel_promo_deduite": 1774.4,
     "verification": "conflit"
    },
    {
@@ -5620,6 +5602,24 @@
     "verification": "source_unique"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 2034.42,
+    "cout_annuel_promo_deduite": 2034.42,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 2046.4,
+    "cout_annuel_promo_deduite": 2046.4,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -5719,24 +5719,6 @@
     "cout_annuel": 825.09,
     "cout_annuel_promo_deduite": 825.09,
     "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 825.43,
-    "cout_annuel_promo_deduite": 825.43,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 827.79,
-    "cout_annuel_promo_deduite": 827.79,
-    "verification": "source_unique"
    },
    {
     "id": "dyneff-contrat-plus-hphc",
@@ -5982,6 +5964,24 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 910.43,
+    "cout_annuel_promo_deduite": 910.43,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 911.68,
+    "cout_annuel_promo_deduite": 911.68,
+    "verification": "confirme"
+   },
+   {
     "id": "la-bellenergie-prudence-base",
     "fournisseur": "la bellenergie",
     "offre": "Prudence",
@@ -6083,15 +6083,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1185.7,
-    "cout_annuel_promo_deduite": 1185.7,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -6107,15 +6098,6 @@
     "option": "hphc",
     "cout_annuel": 1186.22,
     "cout_annuel_promo_deduite": 1186.22,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1186.83,
-    "cout_annuel_promo_deduite": 1186.83,
     "verification": "conflit"
    },
    {
@@ -6371,6 +6353,24 @@
     "verification": "conflit"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1336.7,
+    "cout_annuel_promo_deduite": 1336.7,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1339.83,
+    "cout_annuel_promo_deduite": 1339.83,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -6463,15 +6463,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1812.05,
-    "cout_annuel_promo_deduite": 1812.05,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -6487,15 +6478,6 @@
     "option": "hphc",
     "cout_annuel": 1818.19,
     "cout_annuel_promo_deduite": 1818.19,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1819.28,
-    "cout_annuel_promo_deduite": 1819.28,
     "verification": "conflit"
    },
    {
@@ -6760,6 +6742,24 @@
     "verification": "source_unique"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 2080.5,
+    "cout_annuel_promo_deduite": 2080.5,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 2091.28,
+    "cout_annuel_promo_deduite": 2091.28,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -6870,15 +6870,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 921.43,
-    "cout_annuel_promo_deduite": 921.43,
-    "verification": "conflit"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-base",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -6895,15 +6886,6 @@
     "cout_annuel": 925.43,
     "cout_annuel_promo_deduite": 925.43,
     "verification": "confirme"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 925.95,
-    "cout_annuel_promo_deduite": 925.95,
-    "verification": "source_unique"
    },
    {
     "id": "geg-elec-verte-fixe-3-ans-base",
@@ -7122,6 +7104,24 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1006.43,
+    "cout_annuel_promo_deduite": 1006.43,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1009.84,
+    "cout_annuel_promo_deduite": 1009.84,
+    "verification": "confirme"
+   },
+   {
     "id": "la-bellenergie-prudence-base",
     "fournisseur": "la bellenergie",
     "offre": "Prudence",
@@ -7239,24 +7239,6 @@
     "cout_annuel": 1282.22,
     "cout_annuel_promo_deduite": 1282.22,
     "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1282.83,
-    "cout_annuel_promo_deduite": 1282.83,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1283.86,
-    "cout_annuel_promo_deduite": 1283.86,
-    "verification": "source_unique"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-base",
@@ -7511,6 +7493,24 @@
     "verification": "conflit"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1434.86,
+    "cout_annuel_promo_deduite": 1434.86,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1435.83,
+    "cout_annuel_promo_deduite": 1435.83,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -7603,15 +7603,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1910.21,
-    "cout_annuel_promo_deduite": 1910.21,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -7627,15 +7618,6 @@
     "option": "hphc",
     "cout_annuel": 1914.19,
     "cout_annuel_promo_deduite": 1914.19,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1915.28,
-    "cout_annuel_promo_deduite": 1915.28,
     "verification": "conflit"
    },
    {
@@ -7900,6 +7882,24 @@
     "verification": "source_unique"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 2178.66,
+    "cout_annuel_promo_deduite": 2178.66,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 2187.28,
+    "cout_annuel_promo_deduite": 2187.28,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -8010,15 +8010,6 @@
     "verification": "conflit"
    },
    {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1009.39,
-    "cout_annuel_promo_deduite": 1009.39,
-    "verification": "conflit"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-base",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -8035,15 +8026,6 @@
     "cout_annuel": 1013.39,
     "cout_annuel_promo_deduite": 1013.39,
     "verification": "confirme"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1016.19,
-    "cout_annuel_promo_deduite": 1016.19,
-    "verification": "source_unique"
    },
    {
     "id": "geg-elec-verte-fixe-3-ans-base",
@@ -8262,6 +8244,15 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1094.39,
+    "cout_annuel_promo_deduite": 1094.39,
+    "verification": "confirme"
+   },
+   {
     "id": "la-bellenergie-prudence-base",
     "fournisseur": "la bellenergie",
     "offre": "Prudence",
@@ -8269,6 +8260,15 @@
     "cout_annuel": 1099.89,
     "cout_annuel_promo_deduite": 1099.89,
     "verification": "conflit"
+   },
+   {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1100.08,
+    "cout_annuel_promo_deduite": 1100.08,
+    "verification": "confirme"
    },
    {
     "id": "ohm-serenite-fixe-base",
@@ -8379,24 +8379,6 @@
     "cout_annuel": 1370.18,
     "cout_annuel_promo_deduite": 1370.18,
     "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1370.79,
-    "cout_annuel_promo_deduite": 1370.79,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1374.1,
-    "cout_annuel_promo_deduite": 1374.1,
-    "verification": "source_unique"
    },
    {
     "id": "dyneff-contrat-plus-hphc",
@@ -8651,6 +8633,24 @@
     "verification": "conflit"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1523.79,
+    "cout_annuel_promo_deduite": 1523.79,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1525.1,
+    "cout_annuel_promo_deduite": 1525.1,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -8743,15 +8743,6 @@
     "verification": "confirme"
    },
    {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 2000.45,
-    "cout_annuel_promo_deduite": 2000.45,
-    "verification": "source_unique"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-hphc",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -8767,15 +8758,6 @@
     "option": "hphc",
     "cout_annuel": 2002.15,
     "cout_annuel_promo_deduite": 2002.15,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 2003.24,
-    "cout_annuel_promo_deduite": 2003.24,
     "verification": "conflit"
    },
    {
@@ -9031,6 +9013,24 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 2268.9,
+    "cout_annuel_promo_deduite": 2268.9,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 2275.24,
+    "cout_annuel_promo_deduite": 2275.24,
+    "verification": "confirme"
+   },
+   {
     "id": "ekwateur-hphc",
     "fournisseur": "Ekwateur",
     "offre": "Électricité 100 % renouvelable",
@@ -9150,15 +9150,6 @@
     "verification": "conflit"
    },
    {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1098.31,
-    "cout_annuel_promo_deduite": 1098.31,
-    "verification": "conflit"
-   },
-   {
     "id": "gaz-de-bordeaux-novafixe-base",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -9193,15 +9184,6 @@
     "cout_annuel": 1107.23,
     "cout_annuel_promo_deduite": 1107.23,
     "verification": "confirme"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1107.27,
-    "cout_annuel_promo_deduite": 1107.27,
-    "verification": "source_unique"
    },
    {
     "id": "geg-elec-verte-fixe-3-ans-hphc",
@@ -9402,6 +9384,15 @@
     "verification": "confirme"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1183.31,
+    "cout_annuel_promo_deduite": 1183.31,
+    "verification": "confirme"
+   },
+   {
     "id": "la-bellenergie-prudence-base",
     "fournisseur": "la bellenergie",
     "offre": "Prudence",
@@ -9409,6 +9400,15 @@
     "cout_annuel": 1188.81,
     "cout_annuel_promo_deduite": 1188.81,
     "verification": "conflit"
+   },
+   {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1191.16,
+    "cout_annuel_promo_deduite": 1191.16,
+    "verification": "confirme"
    },
    {
     "id": "ohm-serenite-fixe-base",
@@ -9521,15 +9521,6 @@
     "verification": "conflit"
    },
    {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 1459.71,
-    "cout_annuel_promo_deduite": 1459.71,
-    "verification": "conflit"
-   },
-   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -9537,15 +9528,6 @@
     "cout_annuel": 1462.6,
     "cout_annuel_promo_deduite": 1462.6,
     "verification": "confirme"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 1465.18,
-    "cout_annuel_promo_deduite": 1465.18,
-    "verification": "source_unique"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-base",
@@ -9791,6 +9773,24 @@
     "verification": "conflit"
    },
    {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 1612.71,
+    "cout_annuel_promo_deduite": 1612.71,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 1616.18,
+    "cout_annuel_promo_deduite": 1616.18,
+    "verification": "confirme"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -9898,24 +9898,6 @@
     "option": "hphc",
     "cout_annuel": 2091.07,
     "cout_annuel_promo_deduite": 2091.07,
-    "verification": "conflit"
-   },
-   {
-    "id": "mint-hphc",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "hphc",
-    "cout_annuel": 2091.53,
-    "cout_annuel_promo_deduite": 2091.53,
-    "verification": "source_unique"
-   },
-   {
-    "id": "mint-base",
-    "fournisseur": "Mint Énergie",
-    "offre": "Online & Green",
-    "option": "base",
-    "cout_annuel": 2092.16,
-    "cout_annuel_promo_deduite": 2092.16,
     "verification": "conflit"
    },
    {
@@ -10168,6 +10150,24 @@
     "option": "base",
     "cout_annuel": 2298.56,
     "cout_annuel_promo_deduite": 2298.56,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-hphc",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "hphc",
+    "cout_annuel": 2359.98,
+    "cout_annuel_promo_deduite": 2359.98,
+    "verification": "confirme"
+   },
+   {
+    "id": "mint-base",
+    "fournisseur": "Mint Énergie",
+    "offre": "Online & Green",
+    "option": "base",
+    "cout_annuel": 2364.16,
+    "cout_annuel_promo_deduite": 2364.16,
     "verification": "confirme"
    },
    {
