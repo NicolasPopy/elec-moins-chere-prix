@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Édition des prix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout : écran de connexion, puis colonne unique — choix de l'offre, formulaire d'édition, validation avec source. */
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --fg: #17202b; --muted: #5b6676; --line: #dde2e9;
+  --accent: #0b6e74; --accent-fg: #ffffff; --accent-soft: #e2f1f1;
+  --ok: #1d7a46; --ok-soft: #e3f3e9; --warn: #9a6400; --warn-soft: #fbf0d9; --bad: #b3261e; --bad-soft: #fbe5e3;
+  --f-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --bg: #0f141a; --surface: #161d25; --fg: #e6ebf1; --muted: #98a3b2; --line: #2a3440;
+  --accent: #4fc3c7; --accent-fg: #0b1a1b; --accent-soft: #143033;
+  --ok: #6fd39a; --ok-soft: #133022; --warn: #f0b85a; --warn-soft: #33270f; --bad: #ff8a80; --bad-soft: #3a1a18; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 var(--f-body); }
+[hidden] { display: none !important; }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 20px; }
+h1 { font: 700 clamp(1.6rem, 3vw, 2.1rem)/1.1 var(--f-display); letter-spacing: -0.02em; margin: 0; }
+h2 { font: 600 12px var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+.muted { color: var(--muted); font-size: 13.5px; }
+section.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; margin-top: 16px; }
+label { display: grid; gap: 4px; font-size: 13px; font-weight: 500; color: var(--muted); }
+input, select, textarea { font: 14px var(--f-body); color: var(--fg); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 7px; padding: 8px 10px; width: 100%; min-width: 0; }
+textarea { min-height: 70px; resize: vertical; }
+input.num { font-family: var(--f-mono); text-align: right; width: 7.5em; padding: 6px 8px; }
+input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+input.invalid { border-color: var(--bad); background: var(--bad-soft); }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+button { font: 600 14px var(--f-body); border-radius: 7px; padding: 9px 14px; cursor: pointer; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
+button.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+button.small { padding: 4px 9px; font-size: 13px; font-weight: 500; }
+button:disabled { opacity: .5; cursor: default; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+.tablebox { overflow-x: auto; }
+table { border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 8px; border-bottom: 1px solid var(--line); text-align: left; white-space: nowrap; }
+th { font: 600 11.5px var(--f-body); color: var(--muted); }
+.msg { margin-top: 12px; padding: 10px 12px; border-radius: 8px; font-size: 14px; }
+.msg.ok { background: var(--ok-soft); color: var(--ok); }
+.msg.bad { background: var(--bad-soft); color: var(--bad); }
+.msg.warn { background: var(--warn-soft); color: var(--warn); }
+.chip { display: inline-block; font-size: 12px; font-weight: 500; padding: 2px 8px; border-radius: 99px; }
+.chip.confirme { background: var(--ok-soft); color: var(--ok); }
+.chip.source_unique { background: var(--warn-soft); color: var(--warn); }
+.chip.conflit { background: var(--bad-soft); color: var(--bad); }
+.promo { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 8px; padding: 10px 0; border-bottom: 1px dashed var(--line); }
+.promo .full { grid-column: 1 / -1; }
+.login { max-width: 420px; }
+code { font: 13px var(--f-mono); }
+@media (max-width: 560px) { .promo { grid-template-columns: 1fr; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Édition des prix</h1>
+    <span class="muted" id="who"></span>
+  </header>
+  <p class="muted">Modifier une offre de la base ElecMoinsChere. Chaque modification exige la source utilisée (lien vers la grille du fournisseur) et est enregistrée dans l'historique GitHub.</p>
+
+  <!-- Connexion -->
+  <section class="card login" id="loginBox" hidden>
+    <h2>Connexion</h2>
+    <form id="loginForm" class="row">
+      <label for="pwd" style="flex:1">Mot de passe<input type="password" id="pwd" autocomplete="current-password" required></label>
+      <button class="primary" type="submit">Se connecter</button>
+    </form>
+    <div id="loginMsg"></div>
+    <p class="muted" style="margin-bottom:0">Mot de passe oublié ou clé expirée ? <button type="button" class="small" id="toSetup">Reconfigurer avec une clé GitHub</button></p>
+  </section>
+
+  <!-- Première configuration -->
+  <section class="card" id="setupBox" hidden>
+    <h2>Première configuration</h2>
+    <p class="muted">Aucun mot de passe n'est encore défini. Collez une clé d'accès GitHub limitée à ce dépôt (droit « Contents : Read and write »), puis choisissez le mot de passe des éditeurs. La clé est chiffrée par ce mot de passe avant d'être enregistrée dans le dépôt : elle n'y apparaît jamais en clair.</p>
+    <form id="setupForm" class="grid2">
+      <label for="pat">Clé d'accès GitHub (commence par github_pat_)<input type="password" id="pat" required autocomplete="off"></label>
+      <label for="newPwd">Mot de passe des éditeurs (12 caractères minimum)<input type="password" id="newPwd" minlength="12" required autocomplete="new-password"></label>
+      <label for="newPwd2">Confirmer le mot de passe<input type="password" id="newPwd2" minlength="12" required autocomplete="new-password"></label>
+      <div class="row"><button class="primary" type="submit">Enregistrer</button></div>
+    </form>
+    <div id="setupMsg"></div>
+  </section>
+
+  <!-- Éditeur -->
+  <div id="app" hidden>
+    <section class="card">
+      <h2>Offre à modifier</h2>
+      <div class="grid2">
+        <label for="filter">Rechercher<input type="search" id="filter" placeholder="Fournisseur, offre ou statut"></label>
+        <label for="offerSel">Offre<select id="offerSel"></select></label>
+      </div>
+      <p class="muted" id="offerInfo"></p>
+    </section>
+
+    <form id="editForm" novalidate>
+      <section class="card">
+        <h2>Description</h2>
+        <div class="grid2">
+          <label for="f_offre">Nom de l'offre<input id="f_offre" required></label>
+          <label for="f_type">Type de prix<select id="f_type">
+            <option value="reglemente">Réglementé</option><option value="indexe_trv">Indexé sur le Tarif Bleu</option>
+            <option value="fixe">Prix fixe</option><option value="variable">Variable</option></select></label>
+          <label for="f_duree">Prix garanti (mois, vide si aucun)<input id="f_duree" inputmode="numeric"></label>
+          <label for="f_eng">Engagement<input id="f_eng"></label>
+        </div>
+        <label for="f_plages" style="margin-top:12px">Plages horaires<textarea id="f_plages"></textarea></label>
+      </section>
+
+      <section class="card">
+        <h2>Grille TTC par puissance</h2>
+        <p class="muted">Abonnement en € TTC par mois, prix du kWh en € TTC (4 décimales). Laissez l'abonnement vide s'il est inconnu.</p>
+        <div class="tablebox"><table id="gridTable"></table></div>
+        <div class="row" style="margin-top:10px">
+          <label for="addKva">Ajouter une puissance<select id="addKva"></select></label>
+          <button type="button" class="small" id="addRow">Ajouter la ligne</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Promotions en cours</h2>
+        <div id="promos"></div>
+        <button type="button" class="small" id="addPromo" style="margin-top:10px">Ajouter une promotion</button>
+      </section>
+
+      <section class="card">
+        <h2>Avantages et notes</h2>
+        <div class="grid2">
+          <label for="f_av">Avantages (un par ligne)<textarea id="f_av"></textarea></label>
+          <label for="f_notes">Notes (une par ligne)<textarea id="f_notes"></textarea></label>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Valider la modification</h2>
+        <div class="grid2">
+          <label for="f_src">Source utilisée (URL de la grille ou de la page de l'offre) *<input id="f_src" type="url" placeholder="https://…" required></label>
+          <label for="f_par">Votre nom *<input id="f_par" required autocomplete="name"></label>
+        </div>
+        <label for="f_com" style="margin-top:12px">Commentaire (facultatif)<input id="f_com" placeholder="Ex. : grille PDF applicable au 01/11/2026"></label>
+        <div class="row" style="margin-top:14px">
+          <button class="primary" type="submit" id="saveBtn">Valider et enregistrer</button>
+          <button type="button" id="resetBtn">Annuler les changements</button>
+        </div>
+        <div id="saveMsg"></div>
+      </section>
+    </form>
+  </div>
+</div>
+
+<script>
+(() => {
+  const OWNER = "NicolasPopy", REPO = "elec-moins-chere-prix", BRANCH = "main";
+  const DATA_PATH = "data/offres.json", ACCESS_PATH = "editeur/acces.json";
+  const API = `https://api.github.com/repos/${OWNER}/${REPO}/contents/`;
+  const ITER = 600000;
+  const $ = id => document.getElementById(id);
+  const enc = new TextEncoder(), dec = new TextDecoder();
+  const b64 = u8 => btoa(String.fromCharCode(...u8));
+  const ub64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+  const utf8b64 = s => { const u = enc.encode(s); let out = ""; for (let i = 0; i < u.length; i += 0x8000) out += String.fromCharCode(...u.subarray(i, i + 0x8000)); return btoa(out); };
+  const b64utf8 = s => dec.decode(ub64(s.replace(/\n/g, "")));
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const today = () => new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Paris" });
+  const show = (el, cls, text) => { el.innerHTML = text ? `<div class="msg ${cls}">${text}</div>` : ""; };
+  const store = { get: k => { try { return sessionStorage.getItem(k); } catch (e) { return null; } },
+                  set: (k, v) => { try { sessionStorage.setItem(k, v); } catch (e) {} } };
+
+  // ---------- Chiffrement de la clé GitHub par le mot de passe ----------
+  async function deriveKey(pwd, salt, iter) {
+    const base = await crypto.subtle.importKey("raw", enc.encode(pwd), "PBKDF2", false, ["deriveKey"]);
+    return crypto.subtle.deriveKey({ name: "PBKDF2", salt, iterations: iter, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["encrypt", "decrypt"]);
+  }
+  async function encryptToken(token, pwd) {
+    const salt = crypto.getRandomValues(new Uint8Array(16)), iv = crypto.getRandomValues(new Uint8Array(12));
+    const key = await deriveKey(pwd, salt, ITER);
+    const data = new Uint8Array(await crypto.subtle.encrypt({ name: "AES-GCM", iv }, key, enc.encode(token)));
+    return { v: 1, kdf: "PBKDF2-SHA256", iter: ITER, salt: b64(salt), iv: b64(iv), data: b64(data) };
+  }
+  async function decryptToken(acc, pwd) {
+    const key = await deriveKey(pwd, ub64(acc.salt), acc.iter);
+    return dec.decode(await crypto.subtle.decrypt({ name: "AES-GCM", iv: ub64(acc.iv) }, key, ub64(acc.data)));
+  }
+
+  // ---------- API GitHub ----------
+  let TOKEN = null;
+  async function gh(path, opts = {}, token = TOKEN) {
+    const r = await fetch(API + path + (opts.method ? "" : `?ref=${BRANCH}&t=${Date.now()}`), {
+      ...opts, headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" } });
+    if (r.status === 404 && !opts.method) return null;
+    if (!r.ok) { const e = new Error((await r.json().catch(() => ({}))).message || r.statusText); e.status = r.status; throw e; }
+    return r.json();
+  }
+  const put = (path, text, sha, message, token) => gh(path, { method: "PUT", body: JSON.stringify({ message, content: utf8b64(text), sha: sha || undefined, branch: BRANCH }) }, token);
+
+  // ---------- Démarrage ----------
+  let ACCESS = null;
+  async function boot() {
+    try {
+      const r = await fetch("acces.json?t=" + Date.now());
+      ACCESS = r.ok ? await r.json() : null;
+    } catch (e) { ACCESS = null; }
+    const saved = store.get("gh-editeur");
+    if (saved) { TOKEN = saved; return start(); }
+    if (ACCESS) $("loginBox").hidden = false; else $("setupBox").hidden = false;
+  }
+
+  $("loginForm").addEventListener("submit", async ev => {
+    ev.preventDefault(); show($("loginMsg"), "", "");
+    const btn = ev.submitter; btn.disabled = true; btn.textContent = "Vérification…";
+    try { TOKEN = await decryptToken(ACCESS, $("pwd").value); }
+    catch (e) { show($("loginMsg"), "bad", "Mot de passe incorrect."); btn.disabled = false; btn.textContent = "Se connecter"; return; }
+    store.set("gh-editeur", TOKEN); $("pwd").value = ""; $("loginBox").hidden = true; start();
+  });
+
+  $("toSetup").addEventListener("click", () => { $("loginBox").hidden = true; $("setupBox").hidden = false; });
+  $("setupForm").addEventListener("submit", async ev => {
+    ev.preventDefault(); const m = $("setupMsg");
+    const pat = $("pat").value.trim(), p1 = $("newPwd").value, p2 = $("newPwd2").value;
+    if (p1.length < 12) return show(m, "bad", "Le mot de passe doit faire au moins 12 caractères.");
+    if (p1 !== p2) return show(m, "bad", "Les deux mots de passe sont différents.");
+    show(m, "warn", "Vérification de la clé et chiffrement…");
+    try {
+      const cur = await gh(ACCESS_PATH, {}, pat);           // vérifie aussi que la clé lit le dépôt
+      const acc = await encryptToken(pat, p1);
+      await put(ACCESS_PATH, JSON.stringify(acc, null, 1) + "\n", cur?.sha, "Éditeur : configuration du mot de passe", pat);
+      TOKEN = pat; store.set("gh-editeur", pat); $("pat").value = $("newPwd").value = $("newPwd2").value = "";
+      $("setupBox").hidden = true; start();
+    } catch (e) {
+      show(m, "bad", e.status === 401 ? "Clé refusée par GitHub : vérifiez-la ou recréez-la." :
+        e.status === 403 || e.status === 404 ? "Cette clé n'a pas le droit d'écrire dans le dépôt elec-moins-chere-prix (droit « Contents : Read and write » requis)." :
+        "Erreur : " + esc(e.message));
+    }
+  });
+
+  // ---------- Éditeur ----------
+  let DATA = null, SHA = null, CUR = null;
+  const names = () => Object.fromEntries(DATA.fournisseurs.map(f => [f.id, f.nom]));
+  const VER = { confirme: "Confirmée", source_unique: "1 source", conflit: "À vérifier" };
+
+  async function load() {
+    const f = await gh(DATA_PATH);
+    DATA = JSON.parse(b64utf8(f.content)); SHA = f.sha;
+  }
+  async function start() {
+    $("app").hidden = false;
+    $("who").textContent = "Connecté · ";
+    $("who").insertAdjacentHTML("beforeend", '<button class="small" id="logout" type="button">Se déconnecter</button>');
+    $("logout").onclick = () => { try { sessionStorage.clear(); } catch (e) {} location.reload(); };
+    try { await load(); }
+    catch (e) {
+      try { sessionStorage.clear(); } catch (_) {}
+      $("app").hidden = true; (ACCESS ? $("loginBox") : $("setupBox")).hidden = false;
+      return show(ACCESS ? $("loginMsg") : $("setupMsg"), "bad", e.status === 401 ? "La clé GitHub a expiré ou a été révoquée : refaites la configuration." : "Impossible de lire la base : " + esc(e.message));
+    }
+    try { $("f_par").value = localStorage.getItem("editeur-nom") || ""; } catch (e) {}
+    DATA.meta.puissances_kva.forEach(k => $("addKva").add(new Option(k + " kVA", k)));
+    fillOffers(); pick($("offerSel").value);
+  }
+  function fillOffers(keep) {
+    const n = names(), q = $("filter").value.trim().toLowerCase(), sel = $("offerSel");
+    const prev = keep || sel.value; sel.innerHTML = "";
+    DATA.offres.filter(o => !q || `${n[o.fournisseur]} ${o.offre} ${o.option} ${VER[o.verification]}`.toLowerCase().includes(q))
+      .sort((a, b) => (n[a.fournisseur] + a.offre + a.option).localeCompare(n[b.fournisseur] + b.offre + b.option))
+      .forEach(o => sel.add(new Option(`${n[o.fournisseur]} · ${o.offre} (${DATA.meta.options[o.option] ? o.option : o.option}) — ${VER[o.verification]}`, o.id)));
+    if ([...sel.options].some(x => x.value === prev)) sel.value = prev;
+  }
+  $("filter").addEventListener("input", () => { fillOffers(); if ($("offerSel").value && $("offerSel").value !== CUR?.id) pick($("offerSel").value); });
+  $("offerSel").addEventListener("change", () => pick($("offerSel").value));
+  $("resetBtn").addEventListener("click", () => pick(CUR.id));
+
+  function postesOf(o) {
+    const first = o.grille.find(g => g.prix_kwh) || { prix_kwh: {} };
+    return Object.keys(first.prix_kwh);
+  }
+  function pick(id) {
+    if (!id) return;
+    const o = DATA.offres.find(x => x.id === id);
+    CUR = JSON.parse(JSON.stringify(o));
+    show($("saveMsg"), "", "");
+    $("offerInfo").innerHTML = `<span class="chip ${o.verification}">${VER[o.verification]}</span> · option <b>${esc(DATA.meta.options[o.option] || o.option)}</b> · dernière vérification le ${esc(o.derniere_verif)} · identifiant <code>${esc(o.id)}</code>`;
+    $("f_offre").value = o.offre; $("f_type").value = o.type_prix; $("f_duree").value = o.duree_prix_garanti_mois ?? "";
+    $("f_eng").value = o.engagement || ""; $("f_plages").value = o.plages_horaires || "";
+    $("f_av").value = (o.avantages || []).join("\n"); $("f_notes").value = (o.notes || []).join("\n");
+    $("f_src").value = ""; $("f_com").value = "";
+    drawGrid(); drawPromos();
+  }
+
+  function drawGrid() {
+    const postes = postesOf(CUR), P = DATA.meta.postes;
+    CUR.grille.sort((a, b) => a.kva - b.kva);
+    $("gridTable").innerHTML = `<thead><tr><th>kVA</th><th>Abonnement €/mois</th>${postes.map(p => `<th>${esc(P[p] || p)}</th>`).join("")}<th></th></tr></thead><tbody>` +
+      CUR.grille.map((g, i) => `<tr><td><b>${g.kva}</b>${g.ouvert_nouveaux_clients === false ? ' <span class="muted">(fermé)</span>' : ""}</td>
+        <td><input class="num" data-i="${i}" data-k="abo" value="${g.abonnement_mois ?? ""}" inputmode="decimal" aria-label="Abonnement ${g.kva} kVA"></td>
+        ${postes.map(p => `<td><input class="num" data-i="${i}" data-k="${p}" value="${g.prix_kwh?.[p] ?? ""}" inputmode="decimal" aria-label="${esc(P[p] || p)} ${g.kva} kVA"></td>`).join("")}
+        <td><button type="button" class="small" data-del="${i}">Retirer</button></td></tr>`).join("") + "</tbody>";
+    const used = new Set(CUR.grille.map(g => g.kva));
+    [...$("addKva").options].forEach(o => o.disabled = used.has(+o.value));
+    const firstFree = [...$("addKva").options].find(o => !o.disabled); if (firstFree) $("addKva").value = firstFree.value;
+    $("addRow").disabled = !firstFree;
+  }
+  $("gridTable").addEventListener("click", ev => {
+    const i = ev.target.dataset.del; if (i == null) return;
+    readGrid(); CUR.grille.splice(+i, 1); drawGrid();
+  });
+  $("addRow").addEventListener("click", () => {
+    readGrid(); const k = +$("addKva").value; if (CUR.grille.some(g => g.kva === k)) return;
+    const postes = postesOf(CUR); CUR.grille.push({ kva: k, abonnement_mois: null, prix_kwh: Object.fromEntries(postes.map(p => [p, null])) }); drawGrid();
+  });
+  const num = v => { const s = String(v).trim().replace(",", "."); return s === "" ? null : Number(s); };
+  function readGrid() {
+    document.querySelectorAll("#gridTable input").forEach(inp => {
+      const g = CUR.grille[+inp.dataset.i], v = num(inp.value);
+      if (inp.dataset.k === "abo") g.abonnement_mois = v; else g.prix_kwh[inp.dataset.k] = v;
+    });
+  }
+
+  function drawPromos() {
+    $("promos").innerHTML = (CUR.promotions || []).map((p, i) => `<div class="promo" data-p="${i}">
+      <label>Description<input data-f="description" value="${esc(p.description)}"></label>
+      <label>Valeur 1re année (€)<input data-f="valeur_an1_eur" class="num" style="width:100%" value="${p.valeur_an1_eur ?? ""}" inputmode="decimal"></label>
+      <label>Fin de l'offre<input data-f="date_fin" type="date" value="${esc(p.date_fin || "")}"></label>
+      <label class="full">Conditions<input data-f="conditions" value="${esc(p.conditions || "")}"></label>
+      <label>Lien de la promotion<input data-f="source" type="url" value="${esc(p.source || "")}"></label>
+      <label style="align-content:end"><span><input type="checkbox" data-f="nouveaux_clients" ${p.nouveaux_clients !== false ? "checked" : ""} style="width:auto"> Nouveaux clients seulement</span></label>
+      <div style="align-self:end"><button type="button" class="small" data-delp="${i}">Retirer la promotion</button></div>
+    </div>`).join("") || '<p class="muted">Aucune promotion.</p>';
+  }
+  function readPromos() {
+    CUR.promotions = [...document.querySelectorAll("#promos .promo")].map(div => {
+      const f = n => div.querySelector(`[data-f="${n}"]`);
+      return { description: f("description").value.trim(), valeur_an1_eur: num(f("valeur_an1_eur").value) ?? 0, type: "promotion",
+        nouveaux_clients: f("nouveaux_clients").checked, date_fin: f("date_fin").value || null,
+        conditions: f("conditions").value.trim(), source: f("source").value.trim() };
+    });
+  }
+  $("promos").addEventListener("click", ev => { const i = ev.target.dataset.delp; if (i == null) return; readPromos(); CUR.promotions.splice(+i, 1); drawPromos(); });
+  $("addPromo").addEventListener("click", () => { readPromos(); (CUR.promotions ||= []).push({ description: "", valeur_an1_eur: 0, nouveaux_clients: true, date_fin: null, conditions: "", source: "" }); drawPromos(); });
+
+  // ---------- Validation et enregistrement ----------
+  function check() {
+    const errs = [], warns = [], f = DATA.meta.fiscalite || { tva: 0.2, accise_kwh_ht: 0.0306 };
+    const ref = DATA.offres.find(o => o.id === "edf-tarif-bleu-hphc");
+    const tabo = Object.fromEntries((ref?.grille || []).map(g => [g.kva, g.abonnement_mois]));
+    document.querySelectorAll("#gridTable input").forEach(i => i.classList.remove("invalid"));
+    if (!$("f_offre").value.trim()) errs.push("Le nom de l'offre est vide.");
+    if (!CUR.grille.length) errs.push("La grille doit contenir au moins une puissance.");
+    CUR.grille.forEach((g, i) => {
+      const bad = k => document.querySelector(`#gridTable input[data-i="${i}"][data-k="${k}"]`)?.classList.add("invalid");
+      if (g.abonnement_mois != null && !(g.abonnement_mois >= 5 && g.abonnement_mois <= 150)) { errs.push(`${g.kva} kVA : abonnement ${g.abonnement_mois} hors bornes (5 à 150 €).`); bad("abo"); }
+      if (g.abonnement_mois != null && tabo[g.kva] && g.abonnement_mois / tabo[g.kva] < 0.85) warns.push(`${g.kva} kVA : abonnement bien plus bas que le Tarif Bleu (${tabo[g.kva]} €). Est-il bien TTC ?`);
+      Object.entries(g.prix_kwh).forEach(([k, v]) => {
+        if (v == null || !(v >= 0.04 && v <= 1.2)) { errs.push(`${g.kva} kVA : prix « ${DATA.meta.postes[k] || k} » manquant ou hors bornes.`); bad(k); }
+        else if (v / (1 + f.tva) - f.accise_kwh_ht < 0.045) warns.push(`${g.kva} kVA : prix « ${DATA.meta.postes[k] || k} » très bas (${v} €). Est-il bien TTC ?`);
+      });
+    });
+    let url; try { url = new URL($("f_src").value.trim()); } catch (e) {}
+    if (!url || url.protocol !== "https:") errs.push("Indiquez la source utilisée : une adresse complète commençant par https://.");
+    if (!$("f_par").value.trim()) errs.push("Indiquez votre nom.");
+    const d = $("f_duree").value.trim(); if (d && !/^\d+$/.test(d)) errs.push("Prix garanti : nombre de mois entier.");
+    (CUR.promotions || []).forEach((p, i) => { if (!p.description) errs.push(`Promotion ${i + 1} : description vide.`); });
+    return { errs, warns };
+  }
+
+  let pendingWarn = null;
+  $("editForm").addEventListener("submit", async ev => {
+    ev.preventDefault(); readGrid(); readPromos();
+    const { errs, warns } = check(), m = $("saveMsg");
+    if (errs.length) { pendingWarn = null; return show(m, "bad", "<b>À corriger :</b><br>" + errs.map(esc).join("<br>")); }
+    const sig = warns.join("|");
+    if (warns.length && pendingWarn !== sig) { pendingWarn = sig; return show(m, "warn", "<b>À vérifier :</b><br>" + warns.map(esc).join("<br>") + "<br>Cliquez à nouveau sur « Valider et enregistrer » pour confirmer."); }
+    pendingWarn = null;
+
+    const par = $("f_par").value.trim(), src = $("f_src").value.trim(), d = today();
+    try { localStorage.setItem("editeur-nom", par); } catch (e) {}
+    const btn = $("saveBtn"); btn.disabled = true; btn.textContent = "Enregistrement…";
+    try {
+      await load();                                           // repart de la dernière version publiée
+      const o = DATA.offres.find(x => x.id === CUR.id);
+      if (!o) throw new Error("Cette offre n'existe plus dans la base.");
+      Object.assign(o, {
+        offre: $("f_offre").value.trim(), type_prix: $("f_type").value,
+        duree_prix_garanti_mois: $("f_duree").value.trim() ? +$("f_duree").value : null,
+        engagement: $("f_eng").value.trim() || "sans engagement", plages_horaires: $("f_plages").value.trim() || null,
+        grille: CUR.grille.map(g => ({ ...g })), promotions: CUR.promotions,
+        avantages: $("f_av").value.split("\n").map(s => s.trim()).filter(Boolean),
+        notes: $("f_notes").value.split("\n").map(s => s.trim()).filter(Boolean),
+        verification: "confirme", derniere_verif: d,
+        verification_manuelle: { par, le: d, commentaire: $("f_com").value.trim() || "Modifiée via la page d'édition." },
+        sources: [{ url: src, type: "officiel, relevé par " + par, consulte_le: d }, ...(o.sources || []).filter(s => s.url !== src)]
+      });
+      DATA.meta.mis_a_jour_le = d;
+      const n = names();
+      await put(DATA_PATH, JSON.stringify(DATA, null, 1), SHA, `Édition manuelle : ${n[o.fournisseur]} ${o.offre} (${o.option}) par ${par}\n\nSource : ${src}`);
+      await load(); fillOffers(o.id); pick(o.id);
+      show(m, "ok", `Enregistré. L'offre est passée en « Confirmée ». La page publique et les fichiers dérivés se mettent à jour d'ici 2 à 3 minutes.`);
+    } catch (e) {
+      show(m, "bad", e.status === 409 ? "La base a été modifiée entre-temps. Rechargez la page et refaites la modification." :
+        e.status === 401 ? "La clé GitHub a expiré ou a été révoquée : déconnectez-vous et refaites la configuration." :
+        "Échec de l'enregistrement : " + esc(e.message));
+    } finally { btn.disabled = false; btn.textContent = "Valider et enregistrer"; }
+  });
+
+  boot();
+})();
+</script>
+</html>

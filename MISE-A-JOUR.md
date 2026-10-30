@@ -29,7 +29,7 @@ python3 scripts/build.py
 
 - Corriger toute erreur. Lire le `CHANGELOG.md` du jour : un écart de prix de plus de 10 % sur une offre doit être confirmé par une seconde source avant publication.
 - Mettre `meta.mis_a_jour_le` à la date du jour avant le build.
-- Commit : `Prix du AAAA-MM-JJ : <résumé court des changements>` puis push sur `main`.
+- Commit : `Prix du AAAA-MM-JJ : <résumé court des changements>`, puis `git pull --rebase origin main` (une personne a pu modifier une offre via la page d'édition entre-temps ; en cas de conflit sur une offre, garder la version humaine) et push sur `main`.
 
 ## Vérifications manuelles (priorité absolue)
 
