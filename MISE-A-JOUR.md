@@ -17,7 +17,7 @@ Suivie chaque matin par la tâche planifiée Claude. Objectif : que `data/offres
 ## 3. Promotions (chaque jour)
 
 - Chercher les promotions en cours (remise, mois offerts, bonus de bienvenue) sur le site des fournisseurs suivis et un comparateur.
-- Renseigner `description`, `valeur_an1_eur` (valeur sur 12 mois : 2 mois d'abonnement offerts à 6 kVA = 2 × abonnement mensuel), `nouveaux_clients`, `date_fin`, `conditions`, `source`.
+- Renseigner `description`, `valeur_an1_eur` (montant fixe en €), `mois_abonnement_offerts` (pour « X mois d'abonnement offerts » : la valeur est calculée à chaque puissance), `nouveaux_clients`, `date_fin`, `conditions`, `source`. Une promotion dont `date_fin` est dépassée n'est plus comptée dans les coûts ; la retirer.
 - Retirer les promotions expirées. Ignorer les codes de parrainage personnels.
 
 ## 4. Construire, contrôler, publier

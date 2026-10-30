@@ -56,7 +56,7 @@ th { font: 600 11.5px var(--f-body); color: var(--muted); }
 .chip.confirme { background: var(--ok-soft); color: var(--ok); }
 .chip.source_unique { background: var(--warn-soft); color: var(--warn); }
 .chip.conflit { background: var(--bad-soft); color: var(--bad); }
-.promo { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 8px; padding: 10px 0; border-bottom: 1px dashed var(--line); }
+.promo { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 8px; padding: 10px 0; border-bottom: 1px dashed var(--line); }
 .promo .full { grid-column: 1 / -1; }
 .login { max-width: 420px; }
 code { font: 13px var(--f-mono); }
@@ -330,7 +330,8 @@ code { font: 13px var(--f-mono); }
   function drawPromos() {
     $("promos").innerHTML = (CUR.promotions || []).map((p, i) => `<div class="promo" data-p="${i}">
       <label>Description<input data-f="description" value="${esc(p.description)}"></label>
-      <label>Valeur 1re année (€)<input data-f="valeur_an1_eur" class="num" style="width:100%" value="${p.valeur_an1_eur ?? ""}" inputmode="decimal"></label>
+      <label>Montant offert (€)<input data-f="valeur_an1_eur" class="num" style="width:100%" value="${p.valeur_an1_eur ?? ""}" inputmode="decimal"></label>
+      <label>Mois d'abonnement offerts<input data-f="mois_abonnement_offerts" class="num" style="width:100%" value="${p.mois_abonnement_offerts ?? ""}" inputmode="numeric"></label>
       <label>Fin de l'offre<input data-f="date_fin" type="date" value="${esc(p.date_fin || "")}"></label>
       <label class="full">Conditions<input data-f="conditions" value="${esc(p.conditions || "")}"></label>
       <label>Lien de la promotion<input data-f="source" type="url" value="${esc(p.source || "")}"></label>
@@ -341,7 +342,7 @@ code { font: 13px var(--f-mono); }
   function readPromos() {
     CUR.promotions = [...document.querySelectorAll("#promos .promo")].map(div => {
       const f = n => div.querySelector(`[data-f="${n}"]`);
-      return { description: f("description").value.trim(), valeur_an1_eur: num(f("valeur_an1_eur").value) ?? 0, type: "promotion",
+      return { description: f("description").value.trim(), valeur_an1_eur: num(f("valeur_an1_eur").value) ?? 0, mois_abonnement_offerts: num(f("mois_abonnement_offerts").value) || undefined, type: "promotion",
         nouveaux_clients: f("nouveaux_clients").checked, date_fin: f("date_fin").value || null,
         conditions: f("conditions").value.trim(), source: f("source").value.trim() };
     });

@@ -69,7 +69,8 @@
    "tva": 0.2,
    "accise_kwh_ht": 0.0306,
    "note": "Tous les prix de la base sont TTC (TVA 20 % sur abonnement et kWh, accise sur l'électricité incluse). Accise déduite de la fiche officielle Mint Online & Green du 20/10/2026, qui imprime HTT et TTC côte à côte. Le build signale tout prix qui ressemble à un HT."
-  }
+  },
+  "promotions_verifiees_le": "2026-10-30"
  },
  "fournisseurs": [
   {
@@ -2429,7 +2430,7 @@
      "type": "bonus_facture",
      "nouveaux_clients": true,
      "date_fin": "2026-11-30",
-     "conditions": "Souscription du 01/10 au 30/11/2026, France métropolitaine hors Corse, toujours client au 11e mois, non cumulable avec le parrainage.",
+     "conditions": "Souscription du 01/10 au 30/11/2026, France métropolitaine hors Corse, toujours client au 11e mois, non cumulable avec le parrainage. Revérifiée le 30/10/2026.",
      "source": "https://www.gazdebordeaux.fr/nos-offres-d-energie/electricite/offre-electricite-prix-fixe-bonus"
     }
    ],
@@ -2659,7 +2660,7 @@
      "type": "bonus_facture",
      "nouveaux_clients": true,
      "date_fin": "2026-11-30",
-     "conditions": "Souscription du 01/10 au 30/11/2026, France métropolitaine hors Corse, toujours client au 11e mois, non cumulable avec le parrainage.",
+     "conditions": "Souscription du 01/10 au 30/11/2026, France métropolitaine hors Corse, toujours client au 11e mois, non cumulable avec le parrainage. Revérifiée le 30/10/2026.",
      "source": "https://www.gazdebordeaux.fr/nos-offres-d-energie/electricite/offre-electricite-prix-fixe-bonus"
     }
    ],
@@ -4783,7 +4784,8 @@
     }
    ],
    "notes": [
-    "Autre relevé : 0,2249 €."
+    "Autre relevé : 0,2249 €.",
+    "Promotion OHM en cours (20 € après 1 an) réservée à l'offre OHM Sérénité Fixe 2 ans, non suivie ici ; remise de 100 € réservée aux souscriptions électricité + gaz du 02/10 au 31/12/2026."
    ],
    "derniere_verif": "2026-10-30"
   },
@@ -5055,7 +5057,18 @@
      }
     }
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "description": "2 mois d'abonnement TTC offerts",
+     "valeur_an1_eur": 0,
+     "mois_abonnement_offerts": 2,
+     "type": "promotion",
+     "nouveaux_clients": true,
+     "date_fin": "2026-11-07",
+     "conditions": "Souscription à Élec Référence 3 ans (aussi valable sur Happy Week-End et les offres Gaz/Duo Référence 3 ans), jusqu'au 7 novembre 2026.",
+     "source": "https://particuliers.engie.fr/promo-ete-2026.html"
+    }
+   ],
    "avantages": [],
    "verification": "conflit",
    "sources": [
@@ -5253,7 +5266,17 @@
      }
     }
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "description": "40 € de remise sur la 1re facture avec le code TOASTY26",
+     "valeur_an1_eur": 40,
+     "type": "code_partenaire",
+     "nouveaux_clients": true,
+     "date_fin": null,
+     "conditions": "Code partenaire publié sur une page Enercoop dédiée (à partir du 4 octobre) ; offres concernées, public visé et date de fin non précisés, à confirmer auprès d'Enercoop.",
+     "source": "https://www.enercoop.fr/enercoop-toasty"
+    }
+   ],
    "avantages": [],
    "verification": "confirme",
    "sources": [
@@ -5367,7 +5390,17 @@
      }
     }
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "description": "40 € de remise sur la 1re facture avec le code TOASTY26",
+     "valeur_an1_eur": 40,
+     "type": "code_partenaire",
+     "nouveaux_clients": true,
+     "date_fin": null,
+     "conditions": "Code partenaire publié sur une page Enercoop dédiée (à partir du 4 octobre) ; offres concernées, public visé et date de fin non précisés, à confirmer auprès d'Enercoop.",
+     "source": "https://www.enercoop.fr/enercoop-toasty"
+    }
+   ],
    "avantages": [],
    "verification": "source_unique",
    "sources": [

@@ -169,7 +169,8 @@ const PAYLOAD = /*__DATA__*/null;
     if (o.option === "base") e = conso * p.base;
     else if (o.option === "hphc") e = conso * ((1 - HC) * p.hp + HC * p.hc);
     else return null;
-    const promo = (o.promotions || []).reduce((s, x) => s + (x.valeur_an1_eur || 0), 0);
+    const promo = (o.promotions || []).filter(x => !x.date_fin || x.date_fin >= M.mis_a_jour_le)
+      .reduce((s, x) => s + (x.valeur_an1_eur || 0) + (x.mois_abonnement_offerts || 0) * row.abonnement_mois, 0);
     const an = 12 * row.abonnement_mois + e;
     return { an1: an - promo, sans: an, promo, an3: 3 * an - promo };
   }

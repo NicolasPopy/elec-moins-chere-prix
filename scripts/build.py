@@ -123,6 +123,13 @@ def check_ttc(d):
     return out
 
 
+_DREF = [None]
+
+
+def d_ref():
+    return _DREF[0] or ""
+
+
 def annual(o, kva, conso):
     r = next((g for g in o["grille"] if g["kva"] == kva), None)
     if not r or r.get("abonnement_mois") is None or o["option"] not in PROFILS:
@@ -133,7 +140,8 @@ def annual(o, kva, conso):
     else:
         hc = PROFILS["hphc"]
         energie = conso * ((1 - hc) * pk["hp"] + hc * pk["hc"])
-    promo = sum(p.get("valeur_an1_eur") or 0 for p in o.get("promotions", []))
+    promo = sum((p.get("valeur_an1_eur") or 0) + (p.get("mois_abonnement_offerts") or 0) * r["abonnement_mois"]
+                for p in o.get("promotions", []) if not p.get("date_fin") or p["date_fin"] >= d_ref())
     an = 12 * r["abonnement_mois"] + energie
     return round(an, 2), round(an - promo, 2), round(3 * an - promo, 2), promo
 
@@ -198,6 +206,7 @@ def diff(old, new):
 
 def main():
     d = load(DATA)
+    _DREF[0] = d["meta"]["mis_a_jour_le"]
     err, warn = validate(d)
     for w in warn:
         print("AVERTISSEMENT", w)

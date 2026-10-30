@@ -19,7 +19,7 @@
     "cout_annuel": 596.97,
     "cout_annuel_promo_deduite": 496.97,
     "cout_3_ans_promo_deduite": 1690.91,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -30,7 +30,7 @@
     "cout_annuel": 604.81,
     "cout_annuel_promo_deduite": 504.81,
     "cout_3_ans_promo_deduite": 1714.43,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -347,10 +347,32 @@
     "offre": "Elec Référence 3 ans",
     "option": "base",
     "cout_annuel": 726.38,
-    "cout_annuel_promo_deduite": 726.38,
-    "cout_3_ans_promo_deduite": 2179.14,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 702.4,
+    "cout_3_ans_promo_deduite": 2155.16,
+    "promo_an1": 23.98,
     "verification": "conflit"
+   },
+   {
+    "id": "enercoop-base",
+    "fournisseur": "Enercoop",
+    "offre": "Offre Base",
+    "option": "base",
+    "cout_annuel": 752.49,
+    "cout_annuel_promo_deduite": 712.49,
+    "cout_3_ans_promo_deduite": 2217.47,
+    "promo_an1": 40.0,
+    "verification": "confirme"
+   },
+   {
+    "id": "enercoop-hphc",
+    "fournisseur": "Enercoop",
+    "offre": "Offre Heures creuses",
+    "option": "hphc",
+    "cout_annuel": 756.48,
+    "cout_annuel_promo_deduite": 716.48,
+    "cout_3_ans_promo_deduite": 2229.44,
+    "promo_an1": 40.0,
+    "verification": "source_unique"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -375,28 +397,6 @@
     "verification": "confirme"
    },
    {
-    "id": "enercoop-base",
-    "fournisseur": "Enercoop",
-    "offre": "Offre Base",
-    "option": "base",
-    "cout_annuel": 752.49,
-    "cout_annuel_promo_deduite": 752.49,
-    "cout_3_ans_promo_deduite": 2257.47,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "enercoop-hphc",
-    "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
-    "option": "hphc",
-    "cout_annuel": 756.48,
-    "cout_annuel_promo_deduite": 756.48,
-    "cout_3_ans_promo_deduite": 2269.44,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "ilek-enrfixe-plus-base",
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
@@ -417,7 +417,7 @@
     "cout_annuel": 958.1,
     "cout_annuel_promo_deduite": 858.1,
     "cout_3_ans_promo_deduite": 2774.29,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -428,7 +428,7 @@
     "cout_annuel": 972.21,
     "cout_annuel_promo_deduite": 872.21,
     "cout_3_ans_promo_deduite": 2816.63,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -740,6 +740,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1192.38,
+    "cout_annuel_promo_deduite": 1168.4,
+    "cout_3_ans_promo_deduite": 3553.16,
+    "promo_an1": 23.98,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -749,17 +760,6 @@
     "cout_3_ans_promo_deduite": 3555.18,
     "promo_an1": 0,
     "verification": "source_unique"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1192.38,
-    "cout_annuel_promo_deduite": 1192.38,
-    "cout_3_ans_promo_deduite": 3577.14,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -778,9 +778,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1255.49,
-    "cout_annuel_promo_deduite": 1255.49,
-    "cout_3_ans_promo_deduite": 3766.46,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1215.49,
+    "cout_3_ans_promo_deduite": 3726.46,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -789,9 +789,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1260.69,
-    "cout_annuel_promo_deduite": 1260.69,
-    "cout_3_ans_promo_deduite": 3782.07,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1220.69,
+    "cout_3_ans_promo_deduite": 3742.07,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -815,7 +815,7 @@
     "cout_annuel": 1590.07,
     "cout_annuel_promo_deduite": 1490.07,
     "cout_3_ans_promo_deduite": 4670.22,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -826,7 +826,7 @@
     "cout_annuel": 1615.16,
     "cout_annuel_promo_deduite": 1515.16,
     "cout_3_ans_promo_deduite": 4745.48,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -1149,6 +1149,17 @@
     "verification": "source_unique"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2007.88,
+    "cout_annuel_promo_deduite": 1983.9,
+    "cout_3_ans_promo_deduite": 5999.66,
+    "promo_an1": 23.98,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -1160,26 +1171,26 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2007.88,
-    "cout_annuel_promo_deduite": 2007.88,
-    "cout_3_ans_promo_deduite": 6023.64,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2128.75,
-    "cout_annuel_promo_deduite": 2128.75,
-    "cout_3_ans_promo_deduite": 6386.26,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2088.75,
+    "cout_3_ans_promo_deduite": 6346.26,
+    "promo_an1": 40.0,
     "verification": "source_unique"
+   },
+   {
+    "id": "enercoop-base",
+    "fournisseur": "Enercoop",
+    "offre": "Offre Base",
+    "option": "base",
+    "cout_annuel": 2150.04,
+    "cout_annuel_promo_deduite": 2110.04,
+    "cout_3_ans_promo_deduite": 6410.12,
+    "promo_an1": 40.0,
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -1191,17 +1202,6 @@
     "cout_3_ans_promo_deduite": 6416.64,
     "promo_an1": 0,
     "verification": "conflit"
-   },
-   {
-    "id": "enercoop-base",
-    "fournisseur": "Enercoop",
-    "offre": "Offre Base",
-    "option": "base",
-    "cout_annuel": 2150.04,
-    "cout_annuel_promo_deduite": 2150.04,
-    "cout_3_ans_promo_deduite": 6450.12,
-    "promo_an1": 0,
-    "verification": "confirme"
    }
   ],
   "6kVA_2500kWh": [
@@ -1213,7 +1213,7 @@
     "cout_annuel": 641.85,
     "cout_annuel_promo_deduite": 541.85,
     "cout_3_ans_promo_deduite": 1825.55,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -1224,7 +1224,7 @@
     "cout_annuel": 649.69,
     "cout_annuel_promo_deduite": 549.69,
     "cout_3_ans_promo_deduite": 1849.07,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -1607,10 +1607,21 @@
     "offre": "Elec Référence 3 ans",
     "option": "base",
     "cout_annuel": 769.46,
-    "cout_annuel_promo_deduite": 769.46,
-    "cout_3_ans_promo_deduite": 2308.38,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 738.3,
+    "cout_3_ans_promo_deduite": 2277.22,
+    "promo_an1": 31.16,
     "verification": "conflit"
+   },
+   {
+    "id": "enercoop-base",
+    "fournisseur": "Enercoop",
+    "offre": "Offre Base",
+    "option": "base",
+    "cout_annuel": 817.17,
+    "cout_annuel_promo_deduite": 777.17,
+    "cout_3_ans_promo_deduite": 2411.51,
+    "promo_an1": 40.0,
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -1635,25 +1646,14 @@
     "verification": "confirme"
    },
    {
-    "id": "enercoop-base",
-    "fournisseur": "Enercoop",
-    "offre": "Offre Base",
-    "option": "base",
-    "cout_annuel": 817.17,
-    "cout_annuel_promo_deduite": 817.17,
-    "cout_3_ans_promo_deduite": 2451.51,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 841.08,
-    "cout_annuel_promo_deduite": 841.08,
-    "cout_3_ans_promo_deduite": 2523.24,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 801.08,
+    "cout_3_ans_promo_deduite": 2483.24,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -1677,7 +1677,7 @@
     "cout_annuel": 1002.98,
     "cout_annuel_promo_deduite": 902.98,
     "cout_3_ans_promo_deduite": 2908.93,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -1688,7 +1688,7 @@
     "cout_annuel": 1017.09,
     "cout_annuel_promo_deduite": 917.09,
     "cout_3_ans_promo_deduite": 2951.27,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -2066,6 +2066,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1235.46,
+    "cout_annuel_promo_deduite": 1204.3,
+    "cout_3_ans_promo_deduite": 3675.22,
+    "promo_an1": 31.16,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -2075,17 +2086,6 @@
     "cout_3_ans_promo_deduite": 3684.42,
     "promo_an1": 0,
     "verification": "source_unique"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1235.46,
-    "cout_annuel_promo_deduite": 1235.46,
-    "cout_3_ans_promo_deduite": 3706.38,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -2104,9 +2104,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1325.37,
-    "cout_annuel_promo_deduite": 1325.37,
-    "cout_3_ans_promo_deduite": 3976.11,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1285.37,
+    "cout_3_ans_promo_deduite": 3936.11,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -2115,9 +2115,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1340.09,
-    "cout_annuel_promo_deduite": 1340.09,
-    "cout_3_ans_promo_deduite": 4020.26,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1300.09,
+    "cout_3_ans_promo_deduite": 3980.26,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -2141,7 +2141,7 @@
     "cout_annuel": 1634.95,
     "cout_annuel_promo_deduite": 1534.95,
     "cout_3_ans_promo_deduite": 4804.86,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -2152,7 +2152,7 @@
     "cout_annuel": 1660.04,
     "cout_annuel_promo_deduite": 1560.04,
     "cout_3_ans_promo_deduite": 4880.12,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -2541,6 +2541,17 @@
     "verification": "source_unique"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2050.96,
+    "cout_annuel_promo_deduite": 2019.8,
+    "cout_3_ans_promo_deduite": 6121.72,
+    "promo_an1": 31.16,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -2552,25 +2563,14 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2050.96,
-    "cout_annuel_promo_deduite": 2050.96,
-    "cout_3_ans_promo_deduite": 6152.88,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2213.35,
-    "cout_annuel_promo_deduite": 2213.35,
-    "cout_3_ans_promo_deduite": 6640.06,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2173.35,
+    "cout_3_ans_promo_deduite": 6600.06,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -2579,9 +2579,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 2214.72,
-    "cout_annuel_promo_deduite": 2214.72,
-    "cout_3_ans_promo_deduite": 6644.16,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2174.72,
+    "cout_3_ans_promo_deduite": 6604.16,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -2605,7 +2605,7 @@
     "cout_annuel": 689.97,
     "cout_annuel_promo_deduite": 589.97,
     "cout_3_ans_promo_deduite": 1969.91,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -2616,7 +2616,7 @@
     "cout_annuel": 694.31,
     "cout_annuel_promo_deduite": 594.31,
     "cout_3_ans_promo_deduite": 1982.93,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -2961,6 +2961,17 @@
     "verification": "confirme"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 816.91,
+    "cout_annuel_promo_deduite": 778.55,
+    "cout_3_ans_promo_deduite": 2412.37,
+    "promo_an1": 38.36,
+    "verification": "conflit"
+   },
+   {
     "id": "la-bellenergie-prudence-base",
     "fournisseur": "la bellenergie",
     "offre": "Prudence",
@@ -2979,17 +2990,6 @@
     "cout_annuel": 784.55,
     "cout_annuel_promo_deduite": 784.55,
     "cout_3_ans_promo_deduite": 2353.65,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 816.91,
-    "cout_annuel_promo_deduite": 816.91,
-    "cout_3_ans_promo_deduite": 2450.73,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -3021,9 +3021,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 890.31,
-    "cout_annuel_promo_deduite": 890.31,
-    "cout_3_ans_promo_deduite": 2670.93,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 850.31,
+    "cout_3_ans_promo_deduite": 2630.93,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -3032,9 +3032,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 915.72,
-    "cout_annuel_promo_deduite": 915.72,
-    "cout_3_ans_promo_deduite": 2747.16,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 875.72,
+    "cout_3_ans_promo_deduite": 2707.16,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -3058,7 +3058,7 @@
     "cout_annuel": 1051.1,
     "cout_annuel_promo_deduite": 951.1,
     "cout_3_ans_promo_deduite": 3053.29,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -3069,7 +3069,7 @@
     "cout_annuel": 1058.91,
     "cout_annuel_promo_deduite": 958.91,
     "cout_3_ans_promo_deduite": 3076.73,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -3436,6 +3436,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1286.31,
+    "cout_annuel_promo_deduite": 1247.95,
+    "cout_3_ans_promo_deduite": 3820.57,
+    "promo_an1": 38.36,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -3445,17 +3456,6 @@
     "cout_3_ans_promo_deduite": 3814.02,
     "promo_an1": 0,
     "verification": "source_unique"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1286.31,
-    "cout_annuel_promo_deduite": 1286.31,
-    "cout_3_ans_promo_deduite": 3858.93,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -3474,9 +3474,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1404.51,
-    "cout_annuel_promo_deduite": 1404.51,
-    "cout_3_ans_promo_deduite": 4213.53,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1364.51,
+    "cout_3_ans_promo_deduite": 4173.53,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -3485,9 +3485,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1414.73,
-    "cout_annuel_promo_deduite": 1414.73,
-    "cout_3_ans_promo_deduite": 4244.18,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1374.73,
+    "cout_3_ans_promo_deduite": 4204.18,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -3511,7 +3511,7 @@
     "cout_annuel": 1683.07,
     "cout_annuel_promo_deduite": 1583.07,
     "cout_3_ans_promo_deduite": 4949.22,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -3522,7 +3522,7 @@
     "cout_annuel": 1696.96,
     "cout_annuel_promo_deduite": 1596.96,
     "cout_3_ans_promo_deduite": 4990.88,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -3900,6 +3900,17 @@
     "verification": "source_unique"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2107.76,
+    "cout_annuel_promo_deduite": 2069.4,
+    "cout_3_ans_promo_deduite": 6284.92,
+    "promo_an1": 38.36,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -3911,25 +3922,14 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2107.76,
-    "cout_annuel_promo_deduite": 2107.76,
-    "cout_3_ans_promo_deduite": 6323.28,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2287.99,
-    "cout_annuel_promo_deduite": 2287.99,
-    "cout_3_ans_promo_deduite": 6863.98,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2247.99,
+    "cout_3_ans_promo_deduite": 6823.98,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -3938,9 +3938,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 2304.36,
-    "cout_annuel_promo_deduite": 2304.36,
-    "cout_3_ans_promo_deduite": 6913.08,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2264.36,
+    "cout_3_ans_promo_deduite": 6873.08,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -3964,7 +3964,7 @@
     "cout_annuel": 736.53,
     "cout_annuel_promo_deduite": 636.53,
     "cout_3_ans_promo_deduite": 2109.59,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -3975,7 +3975,7 @@
     "cout_annuel": 740.87,
     "cout_annuel_promo_deduite": 640.87,
     "cout_3_ans_promo_deduite": 2122.61,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -4298,6 +4298,17 @@
     "verification": "confirme"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 859.99,
+    "cout_annuel_promo_deduite": 814.45,
+    "cout_3_ans_promo_deduite": 2534.43,
+    "promo_an1": 45.54,
+    "verification": "conflit"
+   },
+   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -4342,17 +4353,6 @@
     "verification": "conflit"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 859.99,
-    "cout_annuel_promo_deduite": 859.99,
-    "cout_3_ans_promo_deduite": 2579.97,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -4380,9 +4380,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 954.63,
-    "cout_annuel_promo_deduite": 954.63,
-    "cout_3_ans_promo_deduite": 2863.89,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 914.63,
+    "cout_3_ans_promo_deduite": 2823.89,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -4391,9 +4391,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 994.8,
-    "cout_annuel_promo_deduite": 994.8,
-    "cout_3_ans_promo_deduite": 2984.4,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 954.8,
+    "cout_3_ans_promo_deduite": 2944.4,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -4417,7 +4417,7 @@
     "cout_annuel": 1097.66,
     "cout_annuel_promo_deduite": 997.66,
     "cout_3_ans_promo_deduite": 3192.97,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -4428,7 +4428,7 @@
     "cout_annuel": 1105.47,
     "cout_annuel_promo_deduite": 1005.47,
     "cout_3_ans_promo_deduite": 3216.41,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -4795,6 +4795,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1329.39,
+    "cout_annuel_promo_deduite": 1283.85,
+    "cout_3_ans_promo_deduite": 3942.63,
+    "promo_an1": 45.54,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -4804,17 +4815,6 @@
     "cout_3_ans_promo_deduite": 3943.26,
     "promo_an1": 0,
     "verification": "source_unique"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1329.39,
-    "cout_annuel_promo_deduite": 1329.39,
-    "cout_3_ans_promo_deduite": 3988.17,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -4833,9 +4833,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1468.83,
-    "cout_annuel_promo_deduite": 1468.83,
-    "cout_3_ans_promo_deduite": 4406.49,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1428.83,
+    "cout_3_ans_promo_deduite": 4366.49,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -4844,9 +4844,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1493.81,
-    "cout_annuel_promo_deduite": 1493.81,
-    "cout_3_ans_promo_deduite": 4481.42,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1453.81,
+    "cout_3_ans_promo_deduite": 4441.42,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -4870,7 +4870,7 @@
     "cout_annuel": 1729.63,
     "cout_annuel_promo_deduite": 1629.63,
     "cout_3_ans_promo_deduite": 5088.9,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -4881,7 +4881,7 @@
     "cout_annuel": 1743.52,
     "cout_annuel_promo_deduite": 1643.52,
     "cout_3_ans_promo_deduite": 5130.56,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -5259,6 +5259,17 @@
     "verification": "source_unique"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2150.84,
+    "cout_annuel_promo_deduite": 2105.3,
+    "cout_3_ans_promo_deduite": 6406.98,
+    "promo_an1": 45.54,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -5270,25 +5281,14 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2150.84,
-    "cout_annuel_promo_deduite": 2150.84,
-    "cout_3_ans_promo_deduite": 6452.52,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2367.07,
-    "cout_annuel_promo_deduite": 2367.07,
-    "cout_3_ans_promo_deduite": 7101.22,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2327.07,
+    "cout_3_ans_promo_deduite": 7061.22,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -5297,9 +5297,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 2368.68,
-    "cout_annuel_promo_deduite": 2368.68,
-    "cout_3_ans_promo_deduite": 7106.04,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2328.68,
+    "cout_3_ans_promo_deduite": 7066.04,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -5323,7 +5323,7 @@
     "cout_annuel": 780.21,
     "cout_annuel_promo_deduite": 680.21,
     "cout_3_ans_promo_deduite": 2240.63,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -5334,7 +5334,7 @@
     "cout_annuel": 784.55,
     "cout_annuel_promo_deduite": 684.55,
     "cout_3_ans_promo_deduite": 2253.65,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -5624,6 +5624,17 @@
     "verification": "confirme"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 903.19,
+    "cout_annuel_promo_deduite": 850.45,
+    "cout_3_ans_promo_deduite": 2656.83,
+    "promo_an1": 52.74,
+    "verification": "conflit"
+   },
+   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -5668,17 +5679,6 @@
     "verification": "conflit"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 903.19,
-    "cout_annuel_promo_deduite": 903.19,
-    "cout_3_ans_promo_deduite": 2709.57,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -5706,9 +5706,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1017.27,
-    "cout_annuel_promo_deduite": 1017.27,
-    "cout_3_ans_promo_deduite": 3051.81,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 977.27,
+    "cout_3_ans_promo_deduite": 3011.81,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -5717,9 +5717,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1048.08,
-    "cout_annuel_promo_deduite": 1048.08,
-    "cout_3_ans_promo_deduite": 3144.24,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1008.08,
+    "cout_3_ans_promo_deduite": 3104.24,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -5743,7 +5743,7 @@
     "cout_annuel": 1141.34,
     "cout_annuel_promo_deduite": 1041.34,
     "cout_3_ans_promo_deduite": 3324.01,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -5754,7 +5754,7 @@
     "cout_annuel": 1149.15,
     "cout_annuel_promo_deduite": 1049.15,
     "cout_3_ans_promo_deduite": 3347.45,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -6088,6 +6088,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1372.59,
+    "cout_annuel_promo_deduite": 1319.85,
+    "cout_3_ans_promo_deduite": 4065.03,
+    "promo_an1": 52.74,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -6097,17 +6108,6 @@
     "cout_3_ans_promo_deduite": 4072.86,
     "promo_an1": 0,
     "verification": "source_unique"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1372.59,
-    "cout_annuel_promo_deduite": 1372.59,
-    "cout_3_ans_promo_deduite": 4117.77,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -6126,9 +6126,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1531.47,
-    "cout_annuel_promo_deduite": 1531.47,
-    "cout_3_ans_promo_deduite": 4594.41,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1491.47,
+    "cout_3_ans_promo_deduite": 4554.41,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -6137,9 +6137,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1547.09,
-    "cout_annuel_promo_deduite": 1547.09,
-    "cout_3_ans_promo_deduite": 4641.26,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1507.09,
+    "cout_3_ans_promo_deduite": 4601.26,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -6163,7 +6163,7 @@
     "cout_annuel": 1773.31,
     "cout_annuel_promo_deduite": 1673.31,
     "cout_3_ans_promo_deduite": 5219.94,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -6174,7 +6174,7 @@
     "cout_annuel": 1787.2,
     "cout_annuel_promo_deduite": 1687.2,
     "cout_3_ans_promo_deduite": 5261.6,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -6519,6 +6519,17 @@
     "verification": "source_unique"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2194.04,
+    "cout_annuel_promo_deduite": 2141.3,
+    "cout_3_ans_promo_deduite": 6529.38,
+    "promo_an1": 52.74,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -6530,25 +6541,14 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2194.04,
-    "cout_annuel_promo_deduite": 2194.04,
-    "cout_3_ans_promo_deduite": 6582.12,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2420.35,
-    "cout_annuel_promo_deduite": 2420.35,
-    "cout_3_ans_promo_deduite": 7261.06,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2380.35,
+    "cout_3_ans_promo_deduite": 7221.06,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -6557,9 +6557,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 2431.32,
-    "cout_annuel_promo_deduite": 2431.32,
-    "cout_3_ans_promo_deduite": 7293.96,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2391.32,
+    "cout_3_ans_promo_deduite": 7253.96,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -6583,7 +6583,7 @@
     "cout_annuel": 825.09,
     "cout_annuel_promo_deduite": 725.09,
     "cout_3_ans_promo_deduite": 2375.27,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -6594,7 +6594,7 @@
     "cout_annuel": 829.43,
     "cout_annuel_promo_deduite": 729.43,
     "cout_3_ans_promo_deduite": 2388.29,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -6862,6 +6862,17 @@
     "verification": "confirme"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 946.27,
+    "cout_annuel_promo_deduite": 886.35,
+    "cout_3_ans_promo_deduite": 2778.89,
+    "promo_an1": 59.92,
+    "verification": "conflit"
+   },
+   {
     "id": "urban-solar-base",
     "fournisseur": "Urban Solar Energy",
     "offre": "Électricité avec stockage virtuel",
@@ -6928,17 +6939,6 @@
     "verification": "conflit"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 946.27,
-    "cout_annuel_promo_deduite": 946.27,
-    "cout_3_ans_promo_deduite": 2838.81,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -6966,9 +6966,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1081.11,
-    "cout_annuel_promo_deduite": 1081.11,
-    "cout_3_ans_promo_deduite": 3243.33,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1041.11,
+    "cout_3_ans_promo_deduite": 3203.33,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -6977,9 +6977,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1122.0,
-    "cout_annuel_promo_deduite": 1122.0,
-    "cout_3_ans_promo_deduite": 3366.0,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1082.0,
+    "cout_3_ans_promo_deduite": 3326.0,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -7003,7 +7003,7 @@
     "cout_annuel": 1186.22,
     "cout_annuel_promo_deduite": 1086.22,
     "cout_3_ans_promo_deduite": 3458.65,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -7014,7 +7014,7 @@
     "cout_annuel": 1194.03,
     "cout_annuel_promo_deduite": 1094.03,
     "cout_3_ans_promo_deduite": 3482.09,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -7337,6 +7337,17 @@
     "verification": "confirme"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1415.67,
+    "cout_annuel_promo_deduite": 1355.75,
+    "cout_3_ans_promo_deduite": 4187.09,
+    "promo_an1": 59.92,
+    "verification": "conflit"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -7359,17 +7370,6 @@
     "verification": "source_unique"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1415.67,
-    "cout_annuel_promo_deduite": 1415.67,
-    "cout_3_ans_promo_deduite": 4247.01,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -7386,9 +7386,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1595.31,
-    "cout_annuel_promo_deduite": 1595.31,
-    "cout_3_ans_promo_deduite": 4785.93,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1555.31,
+    "cout_3_ans_promo_deduite": 4745.93,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -7397,9 +7397,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1621.01,
-    "cout_annuel_promo_deduite": 1621.01,
-    "cout_3_ans_promo_deduite": 4863.02,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1581.01,
+    "cout_3_ans_promo_deduite": 4823.02,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -7423,7 +7423,7 @@
     "cout_annuel": 1818.19,
     "cout_annuel_promo_deduite": 1718.19,
     "cout_3_ans_promo_deduite": 5354.58,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -7434,7 +7434,7 @@
     "cout_annuel": 1832.08,
     "cout_annuel_promo_deduite": 1732.08,
     "cout_3_ans_promo_deduite": 5396.24,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -7768,6 +7768,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2237.12,
+    "cout_annuel_promo_deduite": 2177.2,
+    "cout_3_ans_promo_deduite": 6651.44,
+    "promo_an1": 59.92,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -7790,25 +7801,14 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2237.12,
-    "cout_annuel_promo_deduite": 2237.12,
-    "cout_3_ans_promo_deduite": 6711.36,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2494.27,
-    "cout_annuel_promo_deduite": 2494.27,
-    "cout_3_ans_promo_deduite": 7482.82,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2454.27,
+    "cout_3_ans_promo_deduite": 7442.82,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -7817,9 +7817,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 2495.16,
-    "cout_annuel_promo_deduite": 2495.16,
-    "cout_3_ans_promo_deduite": 7485.48,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2455.16,
+    "cout_3_ans_promo_deduite": 7445.48,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -7843,7 +7843,7 @@
     "cout_annuel": 920.97,
     "cout_annuel_promo_deduite": 820.97,
     "cout_3_ans_promo_deduite": 2662.91,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -7854,7 +7854,7 @@
     "cout_annuel": 925.31,
     "cout_annuel_promo_deduite": 825.31,
     "cout_3_ans_promo_deduite": 2675.93,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -8023,6 +8023,17 @@
     "verification": "confirme"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1032.55,
+    "cout_annuel_promo_deduite": 958.25,
+    "cout_3_ans_promo_deduite": 3023.35,
+    "promo_an1": 74.3,
+    "verification": "conflit"
+   },
+   {
     "id": "alpiq-horizon-hphc",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -8188,17 +8199,6 @@
     "verification": "conflit"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1032.55,
-    "cout_annuel_promo_deduite": 1032.55,
-    "cout_3_ans_promo_deduite": 3097.65,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -8226,9 +8226,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1209.51,
-    "cout_annuel_promo_deduite": 1209.51,
-    "cout_3_ans_promo_deduite": 3628.53,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1169.51,
+    "cout_3_ans_promo_deduite": 3588.53,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -8237,9 +8237,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1256.16,
-    "cout_annuel_promo_deduite": 1256.16,
-    "cout_3_ans_promo_deduite": 3768.48,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1216.16,
+    "cout_3_ans_promo_deduite": 3728.48,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -8263,7 +8263,7 @@
     "cout_annuel": 1282.1,
     "cout_annuel_promo_deduite": 1182.1,
     "cout_3_ans_promo_deduite": 3746.29,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -8274,7 +8274,7 @@
     "cout_annuel": 1289.91,
     "cout_annuel_promo_deduite": 1189.91,
     "cout_3_ans_promo_deduite": 3769.73,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -8575,6 +8575,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1501.95,
+    "cout_annuel_promo_deduite": 1427.65,
+    "cout_3_ans_promo_deduite": 4431.55,
+    "promo_an1": 74.3,
+    "verification": "conflit"
+   },
+   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -8619,17 +8630,6 @@
     "verification": "source_unique"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1501.95,
-    "cout_annuel_promo_deduite": 1501.95,
-    "cout_3_ans_promo_deduite": 4505.85,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -8646,9 +8646,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1723.71,
-    "cout_annuel_promo_deduite": 1723.71,
-    "cout_3_ans_promo_deduite": 5171.13,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1683.71,
+    "cout_3_ans_promo_deduite": 5131.13,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -8657,9 +8657,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1755.17,
-    "cout_annuel_promo_deduite": 1755.17,
-    "cout_3_ans_promo_deduite": 5265.5,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1715.17,
+    "cout_3_ans_promo_deduite": 5225.5,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -8683,7 +8683,7 @@
     "cout_annuel": 1914.07,
     "cout_annuel_promo_deduite": 1814.07,
     "cout_3_ans_promo_deduite": 5642.22,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -8694,7 +8694,7 @@
     "cout_annuel": 1927.96,
     "cout_annuel_promo_deduite": 1827.96,
     "cout_3_ans_promo_deduite": 5683.88,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -9028,6 +9028,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2323.4,
+    "cout_annuel_promo_deduite": 2249.1,
+    "cout_3_ans_promo_deduite": 6895.9,
+    "promo_an1": 74.3,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -9050,25 +9061,14 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2323.4,
-    "cout_annuel_promo_deduite": 2323.4,
-    "cout_3_ans_promo_deduite": 6970.2,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "enercoop-base",
     "fournisseur": "Enercoop",
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 2623.56,
-    "cout_annuel_promo_deduite": 2623.56,
-    "cout_3_ans_promo_deduite": 7870.68,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2583.56,
+    "cout_3_ans_promo_deduite": 7830.68,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -9077,9 +9077,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2628.43,
-    "cout_annuel_promo_deduite": 2628.43,
-    "cout_3_ans_promo_deduite": 7885.3,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2588.43,
+    "cout_3_ans_promo_deduite": 7845.3,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -9103,7 +9103,7 @@
     "cout_annuel": 1008.93,
     "cout_annuel_promo_deduite": 908.93,
     "cout_3_ans_promo_deduite": 2926.79,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -9114,7 +9114,7 @@
     "cout_annuel": 1013.27,
     "cout_annuel_promo_deduite": 913.27,
     "cout_3_ans_promo_deduite": 2939.81,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -9204,6 +9204,17 @@
     "cout_3_ans_promo_deduite": 3090.45,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1118.83,
+    "cout_annuel_promo_deduite": 1030.15,
+    "cout_3_ans_promo_deduite": 3267.81,
+    "promo_an1": 88.68,
+    "verification": "conflit"
    },
    {
     "id": "primeo-essentielle-verte-base",
@@ -9448,17 +9459,6 @@
     "verification": "conflit"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1118.83,
-    "cout_annuel_promo_deduite": 1118.83,
-    "cout_3_ans_promo_deduite": 3356.49,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -9486,9 +9486,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1337.43,
-    "cout_annuel_promo_deduite": 1337.43,
-    "cout_3_ans_promo_deduite": 4012.29,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1297.43,
+    "cout_3_ans_promo_deduite": 3972.29,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -9497,9 +9497,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1400.52,
-    "cout_annuel_promo_deduite": 1400.52,
-    "cout_3_ans_promo_deduite": 4201.56,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1360.52,
+    "cout_3_ans_promo_deduite": 4161.56,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -9523,7 +9523,7 @@
     "cout_annuel": 1370.06,
     "cout_annuel_promo_deduite": 1270.06,
     "cout_3_ans_promo_deduite": 4010.17,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -9534,7 +9534,7 @@
     "cout_annuel": 1377.87,
     "cout_annuel_promo_deduite": 1277.87,
     "cout_3_ans_promo_deduite": 4033.61,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -9835,6 +9835,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1588.23,
+    "cout_annuel_promo_deduite": 1499.55,
+    "cout_3_ans_promo_deduite": 4676.01,
+    "promo_an1": 88.68,
+    "verification": "conflit"
+   },
+   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -9879,17 +9890,6 @@
     "verification": "source_unique"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1588.23,
-    "cout_annuel_promo_deduite": 1588.23,
-    "cout_3_ans_promo_deduite": 4764.69,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -9906,9 +9906,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1851.63,
-    "cout_annuel_promo_deduite": 1851.63,
-    "cout_3_ans_promo_deduite": 5554.89,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1811.63,
+    "cout_3_ans_promo_deduite": 5514.89,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -9917,9 +9917,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1899.53,
-    "cout_annuel_promo_deduite": 1899.53,
-    "cout_3_ans_promo_deduite": 5698.58,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1859.53,
+    "cout_3_ans_promo_deduite": 5658.58,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -9943,7 +9943,7 @@
     "cout_annuel": 2002.03,
     "cout_annuel_promo_deduite": 1902.03,
     "cout_3_ans_promo_deduite": 5906.1,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -9954,7 +9954,7 @@
     "cout_annuel": 2015.92,
     "cout_annuel_promo_deduite": 1915.92,
     "cout_3_ans_promo_deduite": 5947.76,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -10288,6 +10288,17 @@
     "verification": "conflit"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2409.68,
+    "cout_annuel_promo_deduite": 2321.0,
+    "cout_3_ans_promo_deduite": 7140.36,
+    "promo_an1": 88.68,
+    "verification": "conflit"
+   },
+   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -10310,25 +10321,14 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2409.68,
-    "cout_annuel_promo_deduite": 2409.68,
-    "cout_3_ans_promo_deduite": 7229.04,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "enercoop-base",
     "fournisseur": "Enercoop",
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 2751.48,
-    "cout_annuel_promo_deduite": 2751.48,
-    "cout_3_ans_promo_deduite": 8254.44,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2711.48,
+    "cout_3_ans_promo_deduite": 8214.44,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -10337,9 +10337,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2772.79,
-    "cout_annuel_promo_deduite": 2772.79,
-    "cout_3_ans_promo_deduite": 8318.38,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2732.79,
+    "cout_3_ans_promo_deduite": 8278.38,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -10363,7 +10363,7 @@
     "cout_annuel": 1097.97,
     "cout_annuel_promo_deduite": 997.97,
     "cout_3_ans_promo_deduite": 3193.91,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -10374,7 +10374,7 @@
     "cout_annuel": 1102.31,
     "cout_annuel_promo_deduite": 1002.31,
     "cout_3_ans_promo_deduite": 3206.93,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -10398,6 +10398,17 @@
     "cout_3_ans_promo_deduite": 3293.91,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1205.11,
+    "cout_annuel_promo_deduite": 1102.05,
+    "cout_3_ans_promo_deduite": 3512.27,
+    "promo_an1": 103.06,
+    "verification": "conflit"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-base",
@@ -10708,17 +10719,6 @@
     "verification": "conflit"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1205.11,
-    "cout_annuel_promo_deduite": 1205.11,
-    "cout_3_ans_promo_deduite": 3615.33,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -10746,9 +10746,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1465.47,
-    "cout_annuel_promo_deduite": 1465.47,
-    "cout_3_ans_promo_deduite": 4396.41,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1425.47,
+    "cout_3_ans_promo_deduite": 4356.41,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -10757,9 +10757,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 1545.0,
-    "cout_annuel_promo_deduite": 1545.0,
-    "cout_3_ans_promo_deduite": 4635.0,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1505.0,
+    "cout_3_ans_promo_deduite": 4595.0,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -10783,7 +10783,7 @@
     "cout_annuel": 1459.1,
     "cout_annuel_promo_deduite": 1359.1,
     "cout_3_ans_promo_deduite": 4277.29,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -10794,7 +10794,7 @@
     "cout_annuel": 1466.91,
     "cout_annuel_promo_deduite": 1366.91,
     "cout_3_ans_promo_deduite": 4300.73,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -11073,6 +11073,17 @@
     "verification": "confirme"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1674.51,
+    "cout_annuel_promo_deduite": 1571.45,
+    "cout_3_ans_promo_deduite": 4920.47,
+    "promo_an1": 103.06,
+    "verification": "conflit"
+   },
+   {
     "id": "edf-zen-fixe-base",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -11139,17 +11150,6 @@
     "verification": "source_unique"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1674.51,
-    "cout_annuel_promo_deduite": 1674.51,
-    "cout_3_ans_promo_deduite": 5023.53,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -11166,9 +11166,9 @@
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 1979.67,
-    "cout_annuel_promo_deduite": 1979.67,
-    "cout_3_ans_promo_deduite": 5939.01,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 1939.67,
+    "cout_3_ans_promo_deduite": 5899.01,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -11177,9 +11177,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2044.01,
-    "cout_annuel_promo_deduite": 2044.01,
-    "cout_3_ans_promo_deduite": 6132.02,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2004.01,
+    "cout_3_ans_promo_deduite": 6092.02,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
@@ -11203,7 +11203,7 @@
     "cout_annuel": 2091.07,
     "cout_annuel_promo_deduite": 1991.07,
     "cout_3_ans_promo_deduite": 6173.22,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -11214,7 +11214,7 @@
     "cout_annuel": 2104.96,
     "cout_annuel_promo_deduite": 2004.96,
     "cout_3_ans_promo_deduite": 6214.88,
-    "promo_an1": 100,
+    "promo_an1": 100.0,
     "verification": "confirme"
    },
    {
@@ -11537,6 +11537,17 @@
     "verification": "confirme"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2495.96,
+    "cout_annuel_promo_deduite": 2392.9,
+    "cout_3_ans_promo_deduite": 7384.82,
+    "promo_an1": 103.06,
+    "verification": "conflit"
+   },
+   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -11570,25 +11581,14 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2495.96,
-    "cout_annuel_promo_deduite": 2495.96,
-    "cout_3_ans_promo_deduite": 7487.88,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "enercoop-base",
     "fournisseur": "Enercoop",
     "offre": "Offre Base",
     "option": "base",
     "cout_annuel": 2879.52,
-    "cout_annuel_promo_deduite": 2879.52,
-    "cout_3_ans_promo_deduite": 8638.56,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2839.52,
+    "cout_3_ans_promo_deduite": 8598.56,
+    "promo_an1": 40.0,
     "verification": "confirme"
    },
    {
@@ -11597,9 +11597,9 @@
     "offre": "Offre Heures creuses",
     "option": "hphc",
     "cout_annuel": 2917.27,
-    "cout_annuel_promo_deduite": 2917.27,
-    "cout_3_ans_promo_deduite": 8751.82,
-    "promo_an1": 0,
+    "cout_annuel_promo_deduite": 2877.27,
+    "cout_3_ans_promo_deduite": 8711.82,
+    "promo_an1": 40.0,
     "verification": "source_unique"
    },
    {
