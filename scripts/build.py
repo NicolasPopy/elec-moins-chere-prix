@@ -99,7 +99,28 @@ def validate(d):
                 warn.append(f"{p} non revérifiée depuis {age} jours")
         except Exception:
             err.append(f"{p} date derniere_verif invalide")
+    warn += check_ttc(d)
     return err, warn
+
+
+def check_ttc(d):
+    """Repère les prix probablement saisis HT au lieu de TTC.
+    kWh : HT implicite = TTC / (1 + TVA) - accise ; un prix HT saisi par erreur donne un HT implicite anormalement bas.
+    Abonnement : comparé à l'abonnement TTC du Tarif Bleu à la même puissance ; un HT est environ 20 à 30 % plus bas."""
+    f = d["meta"].get("fiscalite", {})
+    tva, acc = f.get("tva", 0.20), f.get("accise_kwh_ht", 0.0306)
+    ref = next((o for o in d["offres"] if o["id"] == "edf-tarif-bleu-hphc"), None)
+    tabo = {g["kva"]: g["abonnement_mois"] for g in ref["grille"]} if ref else {}
+    out = []
+    for o in d["offres"]:
+        for g in o["grille"]:
+            for k, v in g["prix_kwh"].items():
+                if v / (1 + tva) - acc < 0.045:
+                    out.append(f"[{o['id']}] {g['kva']} kVA {k} = {v} € : prix très bas, vérifier qu'il est bien TTC")
+            a, t = g.get("abonnement_mois"), tabo.get(g["kva"])
+            if a and t and a / t < 0.85:
+                out.append(f"[{o['id']}] {g['kva']} kVA abonnement {a} € < 85 % du Tarif Bleu ({t} €) : vérifier qu'il est bien TTC")
+    return out
 
 
 def annual(o, kva, conso):

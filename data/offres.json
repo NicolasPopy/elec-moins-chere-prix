@@ -62,7 +62,12 @@
    "source_unique": "Une seule source trouvée",
    "conflit": "Les sources divergent : valeur retenue = la plus fiable, l'autre est en note"
   },
-  "avertissement": "Prix relevés automatiquement sur les sites des fournisseurs et des comparateurs. Vérifier sur le site du fournisseur avant de souscrire."
+  "avertissement": "Prix relevés automatiquement sur les sites des fournisseurs et des comparateurs. Vérifier sur le site du fournisseur avant de souscrire.",
+  "fiscalite": {
+   "tva": 0.2,
+   "accise_kwh_ht": 0.0306,
+   "note": "Tous les prix de la base sont TTC (TVA 20 % sur abonnement et kWh, accise sur l'électricité incluse). Accise déduite de la fiche officielle Mint Online & Green du 20/10/2026, qui imprime HTT et TTC côte à côte. Le build signale tout prix qui ressemble à un HT."
+  }
  },
  "fournisseurs": [
   {
@@ -3136,15 +3141,22 @@
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "source_unique",
+   "verification": "confirme",
    "sources": [
     {
      "url": "https://www.jechange.fr/energie/electricite/moins-cher",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/geg/tarifs/geg-mon-offre-elec-verte-fixe-3-ans",
+     "type": "comparateur",
+     "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
+   "notes": [
+    "Prix TTC confirmés à 6 kVA par une seconde source (HP 0,1983 / HC 0,1583 €, abonnement 15,90 €/mois)."
+   ],
    "derniere_verif": "2026-10-30"
   },
   {
@@ -5235,9 +5247,17 @@
      "url": "https://elecompare.fr/tarifs",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/enercoop/tarifs/enercoop-offre-base",
+     "type": "comparateur",
+     "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
+   "notes": [
+    "Abonnement 6 kVA (15,16 € TTC) confirmé. Abonnement 3 kVA (9,77 €) nettement sous le Tarif Bleu : à vérifier sur la grille officielle Enercoop.",
+    "Un comparateur indique 0,25406 € TTC/kWh (arrondi 0,2541 €)."
+   ],
    "derniere_verif": "2026-10-30"
   },
   {
@@ -5338,7 +5358,10 @@
      "consulte_le": "2026-10-30"
     }
    ],
-   "notes": [],
+   "notes": [
+    "L'Offre Base d'Enercoop n'a pas d'option heures creuses : ces prix correspondent probablement à une autre offre Enercoop (nom à confirmer).",
+    "Abonnement 3 kVA (11,06 €) sous le Tarif Bleu : à vérifier."
+   ],
    "derniere_verif": "2026-10-30"
   },
   {

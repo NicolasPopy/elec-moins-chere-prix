@@ -108,7 +108,7 @@
     "option": "hphc",
     "cout_annuel": 609.55,
     "cout_annuel_promo_deduite": 609.55,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -470,7 +470,7 @@
     "option": "hphc",
     "cout_annuel": 980.55,
     "cout_annuel_promo_deduite": 980.55,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -841,7 +841,7 @@
     "option": "hphc",
     "cout_annuel": 1629.8,
     "cout_annuel_promo_deduite": 1629.8,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -1194,7 +1194,7 @@
     "option": "hphc",
     "cout_annuel": 654.55,
     "cout_annuel_promo_deduite": 654.55,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -1583,7 +1583,7 @@
     "option": "hphc",
     "cout_annuel": 1025.55,
     "cout_annuel_promo_deduite": 1025.55,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -1981,7 +1981,7 @@
     "option": "hphc",
     "cout_annuel": 1674.8,
     "cout_annuel_promo_deduite": 1674.8,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -2343,7 +2343,7 @@
     "option": "hphc",
     "cout_annuel": 703.63,
     "cout_annuel_promo_deduite": 703.63,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -2723,7 +2723,7 @@
     "option": "hphc",
     "cout_annuel": 1074.63,
     "cout_annuel_promo_deduite": 1074.63,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -3112,7 +3112,7 @@
     "option": "hphc",
     "cout_annuel": 1723.88,
     "cout_annuel_promo_deduite": 1723.88,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -3483,7 +3483,7 @@
     "option": "hphc",
     "cout_annuel": 750.55,
     "cout_annuel_promo_deduite": 750.55,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -3863,7 +3863,7 @@
     "option": "hphc",
     "cout_annuel": 1121.55,
     "cout_annuel_promo_deduite": 1121.55,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -4252,7 +4252,7 @@
     "option": "hphc",
     "cout_annuel": 1770.8,
     "cout_annuel_promo_deduite": 1770.8,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -4623,7 +4623,7 @@
     "option": "hphc",
     "cout_annuel": 794.35,
     "cout_annuel_promo_deduite": 794.35,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-base",
@@ -5003,7 +5003,7 @@
     "option": "hphc",
     "cout_annuel": 1165.35,
     "cout_annuel_promo_deduite": 1165.35,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -5392,7 +5392,7 @@
     "option": "hphc",
     "cout_annuel": 1814.6,
     "cout_annuel_promo_deduite": 1814.6,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -5763,7 +5763,7 @@
     "option": "hphc",
     "cout_annuel": 839.59,
     "cout_annuel_promo_deduite": 839.59,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-base",
@@ -6143,7 +6143,7 @@
     "option": "hphc",
     "cout_annuel": 1210.59,
     "cout_annuel_promo_deduite": 1210.59,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -6532,7 +6532,7 @@
     "option": "hphc",
     "cout_annuel": 1859.84,
     "cout_annuel_promo_deduite": 1859.84,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -6912,7 +6912,7 @@
     "option": "hphc",
     "cout_annuel": 936.91,
     "cout_annuel_promo_deduite": 936.91,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -7283,7 +7283,7 @@
     "option": "hphc",
     "cout_annuel": 1307.91,
     "cout_annuel_promo_deduite": 1307.91,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -7681,7 +7681,7 @@
     "option": "hphc",
     "cout_annuel": 1957.16,
     "cout_annuel_promo_deduite": 1957.16,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -8052,7 +8052,7 @@
     "option": "hphc",
     "cout_annuel": 1025.23,
     "cout_annuel_promo_deduite": 1025.23,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -8423,7 +8423,7 @@
     "option": "hphc",
     "cout_annuel": 1396.23,
     "cout_annuel_promo_deduite": 1396.23,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -8821,7 +8821,7 @@
     "option": "hphc",
     "cout_annuel": 2045.48,
     "cout_annuel_promo_deduite": 2045.48,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -9192,7 +9192,7 @@
     "option": "hphc",
     "cout_annuel": 1114.39,
     "cout_annuel_promo_deduite": 1114.39,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -9563,7 +9563,7 @@
     "option": "hphc",
     "cout_annuel": 1485.39,
     "cout_annuel_promo_deduite": 1485.39,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-base",
@@ -9952,7 +9952,7 @@
     "option": "hphc",
     "cout_annuel": 2134.64,
     "cout_annuel_promo_deduite": 2134.64,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
