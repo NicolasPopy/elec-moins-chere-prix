@@ -57,6 +57,14 @@ def validate(d):
             err.append(f"{p} type_prix inconnu : {o.get('type_prix')}")
         if o.get("verification") not in VERIF:
             err.append(f"{p} verification inconnue : {o.get('verification')}")
+        vm = o.get("verification_manuelle")
+        if vm is not None:
+            try:
+                datetime.date.fromisoformat(vm.get("le", ""))
+            except Exception:
+                err.append(f"{p} verification_manuelle.le doit être une date AAAA-MM-JJ")
+            if not vm.get("par"):
+                err.append(f"{p} verification_manuelle.par manquant")
         if not o.get("sources"):
             err.append(f"{p} aucune source")
         if not o.get("grille"):

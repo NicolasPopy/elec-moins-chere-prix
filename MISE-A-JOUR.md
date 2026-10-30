@@ -31,6 +31,14 @@ python3 scripts/build.py
 - Mettre `meta.mis_a_jour_le` à la date du jour avant le build.
 - Commit : `Prix du AAAA-MM-JJ : <résumé court des changements>` puis push sur `main`.
 
+## Vérifications manuelles (priorité absolue)
+
+Une offre qui porte un bloc `verification_manuelle` a été contrôlée à la main par Nicolas. Pour elle :
+
+- ne jamais modifier `verification`, `verification_manuelle` ni les prix tant que la source officielle indiquée ne change pas ;
+- la sauter dans la rotation pendant 30 jours après `verification_manuelle.le` ;
+- si une source officielle publie ensuite une nouvelle grille (révision du TRV, nouvelle grille du fournisseur), mettre à jour les prix, retirer le bloc `verification_manuelle`, passer `verification` à `confirme` ou `source_unique` selon les sources, et le signaler dans le message de commit.
+
 ## Règles
 
 - Prix **TTC**, France métropolitaine continentale, clients résidentiels.

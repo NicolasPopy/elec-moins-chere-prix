@@ -76,6 +76,7 @@ tbody tr:hover { background: var(--accent-soft); }
 .chip.source_unique { background: var(--warn-soft); color: var(--warn); }
 .chip.conflit { background: var(--bad-soft); color: var(--bad); }
 .chip.type { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+.manual { display: block; margin-top: 5px; font-size: 12px; color: var(--ok); line-height: 1.35; }
 .promo { color: var(--ok); font-size: 13px; font-weight: 500; }
 .na { color: var(--muted); }
 details { font-size: 13px; color: var(--muted); }
@@ -198,7 +199,8 @@ const PAYLOAD = {"data":{"meta":{"nom":"ElecMoinsChere — base des prix de l'é
       const det = [
         o.indexation, o.duree_prix_garanti_mois ? `Prix garanti ${o.duree_prix_garanti_mois} mois` : null,
         o.energie_verte ? `Électricité verte (${o.energie_verte.niveau}) : ${o.energie_verte.detail}` : null,
-        o.plages_horaires, ...(o.avantages || []), ...(o.notes || []), `Engagement : ${o.engagement}`, `Vérifiée le ${fmtDate(o.derniere_verif)}`
+        o.plages_horaires, ...(o.avantages || []),
+        o.verification_manuelle?.commentaire ? `Vérification manuelle : ${o.verification_manuelle.commentaire}` : null, ...(o.notes || []), `Engagement : ${o.engagement}`, `Vérifiée le ${fmtDate(o.derniere_verif)}`
       ].filter(Boolean);
       return `<tr>
         <td class="offer"><b>${esc(names[o.fournisseur])}</b><span>${esc(o.offre)}</span></td>
@@ -207,7 +209,7 @@ const PAYLOAD = {"data":{"meta":{"nom":"ElecMoinsChere — base des prix de l'é
         <td>${priceList(o, row.prix_kwh)}</td>
         <td class="num">${cout == null ? '<span class="na">selon profil</span>' : eur(cout, 0)}</td>
         <td>${promo}</td>
-        <td><span class="chip ${o.verification}">${VER_LABEL[o.verification]}</span></td>
+        <td><span class="chip ${o.verification}">${VER_LABEL[o.verification]}</span>${o.verification_manuelle ? `<span class="manual">✓ Vérifiée par ${esc(o.verification_manuelle.par)}<br>le ${fmtDate(o.verification_manuelle.le)}</span>` : ""}</td>
         <td><details><summary>Voir</summary><ul>${det.map(d => `<li>${esc(d)}</li>`).join("")}
           ${o.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(new URL(s.url).hostname.replace("www.", ""))}</a> (${s.type})</li>`).join("")}</ul></details></td>
       </tr>`;

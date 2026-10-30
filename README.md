@@ -70,6 +70,18 @@ Les postes horaires (`base`, `hp`, `hc`, `bleu_hp`, `ete_hsc`, `week_end`…) so
 
 Vérifiez toujours sur le site du fournisseur avant de souscrire.
 
+### Vérifier une offre soi-même
+
+1. Sur la page, ouvrez **Détails** de l'offre : notes et liens vers les sources.
+2. Comparez avec la **grille tarifaire officielle** du fournisseur (PDF « grille tarifaire » ou « fiche descriptive de l'offre », sur la page de l'offre), en contrôlant : prix **TTC**, bonne **puissance**, bonne **option**, date d'application.
+3. Dans `data/offres.json` (sur GitHub : ouvrir le fichier → crayon ✏️ → Ctrl+F sur l'`id` de l'offre), corrigez les prix si besoin, mettez `"verification": "confirme"`, ajoutez la source officielle dans `sources`, et ajoutez :
+
+```json
+"verification_manuelle": { "par": "Nicolas", "le": "2026-10-30", "commentaire": "Grille officielle PDF du 21/10/2026" },
+```
+
+4. **Commit changes**. La validation automatique contrôle le fichier (onglet *Actions*, coche verte) et la tâche quotidienne régénère la page. Une offre vérifiée à la main n'est plus modifiée par la mise à jour automatique, sauf si le fournisseur publie une nouvelle grille.
+
 ## Mettre à jour
 
 La mise à jour quotidienne suit [`MISE-A-JOUR.md`](MISE-A-JOUR.md) : modifier `data/offres.json`, puis
