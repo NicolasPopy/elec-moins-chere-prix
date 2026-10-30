@@ -27,7 +27,7 @@
     "option": "base",
     "cout_annuel": 604.81,
     "cout_annuel_promo_deduite": 504.81,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "ekwateur-renouvelable-europe-base",
@@ -389,7 +389,7 @@
     "option": "base",
     "cout_annuel": 972.21,
     "cout_annuel_promo_deduite": 872.21,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "ekwateur-renouvelable-europe-base",
@@ -751,7 +751,7 @@
     "option": "base",
     "cout_annuel": 1615.16,
     "cout_annuel_promo_deduite": 1515.16,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "ekwateur-renouvelable-europe-base",
@@ -1113,7 +1113,7 @@
     "option": "base",
     "cout_annuel": 649.69,
     "cout_annuel_promo_deduite": 549.69,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "ekwateur-renouvelable-europe-base",
@@ -1502,7 +1502,7 @@
     "option": "base",
     "cout_annuel": 1017.09,
     "cout_annuel_promo_deduite": 917.09,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "ekwateur-renouvelable-europe-base",
@@ -1891,7 +1891,7 @@
     "option": "base",
     "cout_annuel": 1660.04,
     "cout_annuel_promo_deduite": 1560.04,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "ekwateur-renouvelable-europe-base",
@@ -2280,7 +2280,7 @@
     "option": "base",
     "cout_annuel": 694.31,
     "cout_annuel_promo_deduite": 594.31,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -2660,7 +2660,7 @@
     "option": "base",
     "cout_annuel": 1058.91,
     "cout_annuel_promo_deduite": 958.91,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -3040,7 +3040,7 @@
     "option": "base",
     "cout_annuel": 1696.96,
     "cout_annuel_promo_deduite": 1596.96,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -3420,7 +3420,7 @@
     "option": "base",
     "cout_annuel": 740.87,
     "cout_annuel_promo_deduite": 640.87,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-hphc",
@@ -3800,7 +3800,7 @@
     "option": "base",
     "cout_annuel": 1105.47,
     "cout_annuel_promo_deduite": 1005.47,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -4180,7 +4180,7 @@
     "option": "base",
     "cout_annuel": 1743.52,
     "cout_annuel_promo_deduite": 1643.52,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -4560,7 +4560,7 @@
     "option": "base",
     "cout_annuel": 784.55,
     "cout_annuel_promo_deduite": 684.55,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-hphc",
@@ -4940,7 +4940,7 @@
     "option": "base",
     "cout_annuel": 1149.15,
     "cout_annuel_promo_deduite": 1049.15,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -5320,7 +5320,7 @@
     "option": "base",
     "cout_annuel": 1787.2,
     "cout_annuel_promo_deduite": 1687.2,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -5700,7 +5700,7 @@
     "option": "base",
     "cout_annuel": 829.43,
     "cout_annuel_promo_deduite": 729.43,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-hphc",
@@ -6080,7 +6080,7 @@
     "option": "base",
     "cout_annuel": 1194.03,
     "cout_annuel_promo_deduite": 1094.03,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -6460,7 +6460,7 @@
     "option": "base",
     "cout_annuel": 1832.08,
     "cout_annuel_promo_deduite": 1732.08,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -6840,7 +6840,7 @@
     "option": "base",
     "cout_annuel": 925.31,
     "cout_annuel_promo_deduite": 825.31,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-hphc",
@@ -7220,7 +7220,7 @@
     "option": "base",
     "cout_annuel": 1289.91,
     "cout_annuel_promo_deduite": 1189.91,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-hphc",
@@ -7600,7 +7600,7 @@
     "option": "base",
     "cout_annuel": 1927.96,
     "cout_annuel_promo_deduite": 1827.96,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -7980,7 +7980,7 @@
     "option": "base",
     "cout_annuel": 1013.27,
     "cout_annuel_promo_deduite": 913.27,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-hphc",
@@ -8360,7 +8360,7 @@
     "option": "base",
     "cout_annuel": 1377.87,
     "cout_annuel_promo_deduite": 1277.87,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-hphc",
@@ -8740,7 +8740,7 @@
     "option": "base",
     "cout_annuel": 2015.92,
     "cout_annuel_promo_deduite": 1915.92,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -9120,7 +9120,7 @@
     "option": "base",
     "cout_annuel": 1102.31,
     "cout_annuel_promo_deduite": 1002.31,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-hphc",
@@ -9500,7 +9500,7 @@
     "option": "base",
     "cout_annuel": 1466.91,
     "cout_annuel_promo_deduite": 1366.91,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-hphc",
@@ -9880,7 +9880,7 @@
     "option": "base",
     "cout_annuel": 2104.96,
     "cout_annuel_promo_deduite": 2004.96,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-hphc",

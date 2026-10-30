@@ -2381,7 +2381,7 @@
     }
    ],
    "avantages": [],
-   "verification": "conflit",
+   "verification": "confirme",
    "sources": [
     {
      "url": "https://www.jechange.fr/energie/electricite/moins-cher",
@@ -2405,9 +2405,14 @@
     }
    ],
    "notes": [
-    "Un comparateur affiche 0,1805 € (Base) et 0,1929/0,1442 € (HP/HC) : écart à lever."
+    "Valeurs confirmées à la main le 30/10/2026 ; l'autre relevé d'un comparateur (Base 0,1805 €) est écarté."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-10-30",
+   "verification_manuelle": {
+    "par": "Nicolas",
+    "le": "2026-10-30",
+    "commentaire": "Prix Base et abonnement 6 kVA contrôlés à la main."
+   }
   },
   {
    "id": "gaz-de-bordeaux-novafixe-base",
