@@ -1,5 +1,5 @@
 {
- "mis_a_jour_le": "2026-10-30",
+ "mis_a_jour_le": "2026-10-31",
  "hypotheses": {
   "part_heures_creuses_hphc": 0.32,
   "consommations_kwh": [
@@ -196,7 +196,29 @@
     "cout_annuel_promo_deduite": 628.78,
     "cout_3_ans_promo_deduite": 1886.34,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 631.56,
+    "cout_annuel_promo_deduite": 631.56,
+    "cout_3_ans_promo_deduite": 1894.68,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 632.73,
+    "cout_annuel_promo_deduite": 632.73,
+    "cout_3_ans_promo_deduite": 1898.19,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -320,26 +342,15 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 691.55,
-    "cout_annuel_promo_deduite": 691.55,
-    "cout_3_ans_promo_deduite": 2074.65,
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 701.74,
+    "cout_annuel_promo_deduite": 701.74,
+    "cout_3_ans_promo_deduite": 2105.22,
     "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 691.56,
-    "cout_annuel_promo_deduite": 691.56,
-    "cout_3_ans_promo_deduite": 2074.68,
-    "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -350,7 +361,18 @@
     "cout_annuel_promo_deduite": 702.4,
     "cout_3_ans_promo_deduite": 2155.16,
     "promo_an1": 23.98,
-    "verification": "conflit"
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "base",
+    "cout_annuel": 710.69,
+    "cout_annuel_promo_deduite": 710.69,
+    "cout_3_ans_promo_deduite": 2132.07,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "enercoop-base",
@@ -375,28 +397,6 @@
     "verification": "source_unique"
    },
    {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 737.62,
-    "cout_annuel_promo_deduite": 737.62,
-    "cout_3_ans_promo_deduite": 2212.86,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 746.57,
-    "cout_annuel_promo_deduite": 746.57,
-    "cout_3_ans_promo_deduite": 2239.71,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "ilek-enrfixe-plus-base",
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
@@ -405,7 +405,7 @@
     "cout_annuel_promo_deduite": 818.88,
     "cout_3_ans_promo_deduite": 2456.64,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "3kVA_4500kWh": [
@@ -605,7 +605,7 @@
     "cout_annuel_promo_deduite": 1015.36,
     "cout_3_ans_promo_deduite": 3046.07,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -615,6 +615,17 @@
     "cout_annuel": 1015.72,
     "cout_annuel_promo_deduite": 1015.72,
     "cout_3_ans_promo_deduite": 3047.15,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1025.16,
+    "cout_annuel_promo_deduite": 1025.16,
+    "cout_3_ans_promo_deduite": 3075.48,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -650,6 +661,17 @@
     "cout_3_ans_promo_deduite": 3093.48,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1032.93,
+    "cout_annuel_promo_deduite": 1032.93,
+    "cout_3_ans_promo_deduite": 3098.79,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -707,17 +729,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1085.16,
-    "cout_annuel_promo_deduite": 1085.16,
-    "cout_3_ans_promo_deduite": 3255.48,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -729,15 +740,26 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1128.15,
-    "cout_annuel_promo_deduite": 1128.15,
-    "cout_3_ans_promo_deduite": 3384.45,
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 1149.18,
+    "cout_annuel_promo_deduite": 1149.18,
+    "cout_3_ans_promo_deduite": 3447.54,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "base",
+    "cout_annuel": 1165.29,
+    "cout_annuel_promo_deduite": 1165.29,
+    "cout_3_ans_promo_deduite": 3495.87,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -748,28 +770,6 @@
     "cout_annuel_promo_deduite": 1168.4,
     "cout_3_ans_promo_deduite": 3553.16,
     "promo_an1": 23.98,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 1185.06,
-    "cout_annuel_promo_deduite": 1185.06,
-    "cout_3_ans_promo_deduite": 3555.18,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 1201.17,
-    "cout_annuel_promo_deduite": 1201.17,
-    "cout_3_ans_promo_deduite": 3603.51,
-    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -803,7 +803,7 @@
     "cout_annuel_promo_deduite": 1298.88,
     "cout_3_ans_promo_deduite": 3896.64,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "3kVA_8000kWh": [
@@ -1014,7 +1014,7 @@
     "cout_annuel_promo_deduite": 1691.86,
     "cout_3_ans_promo_deduite": 5075.59,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -1024,6 +1024,17 @@
     "cout_annuel": 1702.36,
     "cout_annuel_promo_deduite": 1702.36,
     "cout_3_ans_promo_deduite": 5107.08,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1713.96,
+    "cout_annuel_promo_deduite": 1713.96,
+    "cout_3_ans_promo_deduite": 5141.88,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1048,6 +1059,17 @@
     "cout_3_ans_promo_deduite": 5159.88,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1733.28,
+    "cout_annuel_promo_deduite": 1733.28,
+    "cout_3_ans_promo_deduite": 5199.84,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "alpiq-horizon-base",
@@ -1094,17 +1116,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1773.96,
-    "cout_annuel_promo_deduite": 1773.96,
-    "cout_3_ans_promo_deduite": 5321.88,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-zen-fixe-base",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -1127,26 +1138,26 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1892.2,
-    "cout_annuel_promo_deduite": 1892.2,
-    "cout_3_ans_promo_deduite": 5676.6,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 1968.08,
-    "cout_annuel_promo_deduite": 1968.08,
-    "cout_3_ans_promo_deduite": 5904.24,
+    "cout_annuel": 1932.2,
+    "cout_annuel_promo_deduite": 1932.2,
+    "cout_3_ans_promo_deduite": 5796.6,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "base",
+    "cout_annuel": 1960.84,
+    "cout_annuel_promo_deduite": 1960.84,
+    "cout_3_ans_promo_deduite": 5882.52,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -1157,17 +1168,6 @@
     "cout_annuel_promo_deduite": 1983.9,
     "cout_3_ans_promo_deduite": 5999.66,
     "promo_an1": 23.98,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 1996.72,
-    "cout_annuel_promo_deduite": 1996.72,
-    "cout_3_ans_promo_deduite": 5990.16,
-    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -1201,7 +1201,7 @@
     "cout_annuel_promo_deduite": 2138.88,
     "cout_3_ans_promo_deduite": 6416.64,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "6kVA_2500kWh": [
@@ -1401,7 +1401,18 @@
     "cout_annuel_promo_deduite": 673.54,
     "cout_3_ans_promo_deduite": 2020.62,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 676.32,
+    "cout_annuel_promo_deduite": 676.32,
+    "cout_3_ans_promo_deduite": 2028.96,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -1423,7 +1434,7 @@
     "cout_annuel_promo_deduite": 679.57,
     "cout_3_ans_promo_deduite": 2038.71,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -1558,6 +1569,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 719.15,
+    "cout_annuel_promo_deduite": 719.15,
+    "cout_3_ans_promo_deduite": 2157.45,
+    "promo_an1": 0,
+    "verification": "conflit"
+   },
+   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -1580,28 +1602,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 736.31,
-    "cout_annuel_promo_deduite": 736.31,
-    "cout_3_ans_promo_deduite": 2208.93,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 736.32,
-    "cout_annuel_promo_deduite": 736.32,
-    "cout_3_ans_promo_deduite": 2208.96,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
@@ -1610,7 +1610,29 @@
     "cout_annuel_promo_deduite": 738.3,
     "cout_3_ans_promo_deduite": 2277.22,
     "promo_an1": 31.16,
-    "verification": "conflit"
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 744.82,
+    "cout_annuel_promo_deduite": 744.82,
+    "cout_3_ans_promo_deduite": 2234.46,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "base",
+    "cout_annuel": 753.77,
+    "cout_annuel_promo_deduite": 753.77,
+    "cout_3_ans_promo_deduite": 2261.31,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "enercoop-base",
@@ -1621,28 +1643,6 @@
     "cout_annuel_promo_deduite": 777.17,
     "cout_3_ans_promo_deduite": 2411.51,
     "promo_an1": 40.0,
-    "verification": "confirme"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 780.7,
-    "cout_annuel_promo_deduite": 780.7,
-    "cout_3_ans_promo_deduite": 2342.1,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 789.65,
-    "cout_annuel_promo_deduite": 789.65,
-    "cout_3_ans_promo_deduite": 2368.95,
-    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -1665,7 +1665,7 @@
     "cout_annuel_promo_deduite": 901.2,
     "cout_3_ans_promo_deduite": 2703.6,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "6kVA_4500kWh": [
@@ -1876,7 +1876,7 @@
     "cout_annuel_promo_deduite": 1060.12,
     "cout_3_ans_promo_deduite": 3180.35,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -1890,6 +1890,17 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1069.92,
+    "cout_annuel_promo_deduite": 1069.92,
+    "cout_3_ans_promo_deduite": 3209.76,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "alpiq-horizon-hphc",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -1898,7 +1909,7 @@
     "cout_annuel_promo_deduite": 1070.97,
     "cout_3_ans_promo_deduite": 3212.91,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -2022,17 +2033,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1129.92,
-    "cout_annuel_promo_deduite": 1129.92,
-    "cout_3_ans_promo_deduite": 3389.76,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -2042,6 +2042,17 @@
     "cout_3_ans_promo_deduite": 3446.71,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1155.75,
+    "cout_annuel_promo_deduite": 1155.75,
+    "cout_3_ans_promo_deduite": 3467.25,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -2055,15 +2066,15 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1172.91,
-    "cout_annuel_promo_deduite": 1172.91,
-    "cout_3_ans_promo_deduite": 3518.73,
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 1192.26,
+    "cout_annuel_promo_deduite": 1192.26,
+    "cout_3_ans_promo_deduite": 3576.78,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -2074,27 +2085,16 @@
     "cout_annuel_promo_deduite": 1204.3,
     "cout_3_ans_promo_deduite": 3675.22,
     "promo_an1": 31.16,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 1228.14,
-    "cout_annuel_promo_deduite": 1228.14,
-    "cout_3_ans_promo_deduite": 3684.42,
-    "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1244.25,
-    "cout_annuel_promo_deduite": 1244.25,
-    "cout_3_ans_promo_deduite": 3732.75,
+    "cout_annuel": 1208.37,
+    "cout_annuel_promo_deduite": 1208.37,
+    "cout_3_ans_promo_deduite": 3625.11,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2129,7 +2129,7 @@
     "cout_annuel_promo_deduite": 1381.2,
     "cout_3_ans_promo_deduite": 4143.6,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "6kVA_8000kWh": [
@@ -2351,7 +2351,7 @@
     "cout_annuel_promo_deduite": 1736.62,
     "cout_3_ans_promo_deduite": 5209.87,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -2373,7 +2373,18 @@
     "cout_annuel_promo_deduite": 1755.92,
     "cout_3_ans_promo_deduite": 5267.76,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1758.72,
+    "cout_annuel_promo_deduite": 1758.72,
+    "cout_3_ans_promo_deduite": 5276.16,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -2453,17 +2464,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1818.72,
-    "cout_annuel_promo_deduite": 1818.72,
-    "cout_3_ans_promo_deduite": 5456.16,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "ekwateur-hphc",
     "fournisseur": "Ekwateur",
     "offre": "Électricité 100 % renouvelable",
@@ -2508,6 +2508,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1919.8,
+    "cout_annuel_promo_deduite": 1919.8,
+    "cout_3_ans_promo_deduite": 5759.4,
+    "promo_an1": 0,
+    "verification": "conflit"
+   },
+   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -2519,26 +2530,26 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1936.96,
-    "cout_annuel_promo_deduite": 1936.96,
-    "cout_3_ans_promo_deduite": 5810.88,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 2011.16,
-    "cout_annuel_promo_deduite": 2011.16,
-    "cout_3_ans_promo_deduite": 6033.48,
+    "cout_annuel": 1975.28,
+    "cout_annuel_promo_deduite": 1975.28,
+    "cout_3_ans_promo_deduite": 5925.84,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "base",
+    "cout_annuel": 2003.92,
+    "cout_annuel_promo_deduite": 2003.92,
+    "cout_3_ans_promo_deduite": 6011.76,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -2549,17 +2560,6 @@
     "cout_annuel_promo_deduite": 2019.8,
     "cout_3_ans_promo_deduite": 6121.72,
     "promo_an1": 31.16,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 2039.8,
-    "cout_annuel_promo_deduite": 2039.8,
-    "cout_3_ans_promo_deduite": 6119.4,
-    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -2593,7 +2593,7 @@
     "cout_annuel_promo_deduite": 2221.2,
     "cout_3_ans_promo_deduite": 6663.6,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "9kVA_2500kWh": [
@@ -2774,15 +2774,15 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 721.78,
-    "cout_annuel_promo_deduite": 721.78,
-    "cout_3_ans_promo_deduite": 2165.34,
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 720.81,
+    "cout_annuel_promo_deduite": 720.81,
+    "cout_3_ans_promo_deduite": 2162.43,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -2792,6 +2792,17 @@
     "cout_annuel": 723.22,
     "cout_annuel_promo_deduite": 723.22,
     "cout_3_ans_promo_deduite": 2169.67,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 725.14,
+    "cout_annuel_promo_deduite": 725.14,
+    "cout_3_ans_promo_deduite": 2175.42,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2815,7 +2826,7 @@
     "cout_annuel_promo_deduite": 727.81,
     "cout_3_ans_promo_deduite": 2183.43,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -2939,6 +2950,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 763.07,
+    "cout_annuel_promo_deduite": 763.07,
+    "cout_3_ans_promo_deduite": 2289.21,
+    "promo_an1": 0,
+    "verification": "conflit"
+   },
+   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -2969,49 +2991,27 @@
     "cout_annuel_promo_deduite": 778.55,
     "cout_3_ans_promo_deduite": 2412.37,
     "promo_an1": 38.36,
-    "verification": "conflit"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 780.81,
-    "cout_annuel_promo_deduite": 780.81,
-    "cout_3_ans_promo_deduite": 2342.43,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 784.55,
-    "cout_annuel_promo_deduite": 784.55,
-    "cout_3_ans_promo_deduite": 2353.65,
-    "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 823.9,
-    "cout_annuel_promo_deduite": 823.9,
-    "cout_3_ans_promo_deduite": 2471.7,
+    "cout_annuel": 788.02,
+    "cout_annuel_promo_deduite": 788.02,
+    "cout_3_ans_promo_deduite": 2364.06,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 832.85,
-    "cout_annuel_promo_deduite": 832.85,
-    "cout_3_ans_promo_deduite": 2498.55,
+    "cout_annuel": 796.97,
+    "cout_annuel_promo_deduite": 796.97,
+    "cout_3_ans_promo_deduite": 2390.91,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3046,7 +3046,7 @@
     "cout_annuel_promo_deduite": 1005.45,
     "cout_3_ans_promo_deduite": 3016.35,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "9kVA_4500kWh": [
@@ -3238,15 +3238,26 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1111.41,
+    "cout_annuel_promo_deduite": 1111.41,
+    "cout_3_ans_promo_deduite": 3334.23,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-intelligent-hphc",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
     "option": "hphc",
-    "cout_annuel": 1108.36,
-    "cout_annuel_promo_deduite": 1108.36,
-    "cout_3_ans_promo_deduite": 3325.07,
+    "cout_annuel": 1111.72,
+    "cout_annuel_promo_deduite": 1111.72,
+    "cout_3_ans_promo_deduite": 3335.15,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-base",
@@ -3268,7 +3279,7 @@
     "cout_annuel_promo_deduite": 1119.21,
     "cout_3_ans_promo_deduite": 3357.63,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -3392,17 +3403,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1171.41,
-    "cout_annuel_promo_deduite": 1171.41,
-    "cout_3_ans_promo_deduite": 3514.23,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -3412,6 +3412,17 @@
     "cout_3_ans_promo_deduite": 3594.67,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1199.67,
+    "cout_annuel_promo_deduite": 1199.67,
+    "cout_3_ans_promo_deduite": 3599.01,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -3425,15 +3436,15 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1221.15,
-    "cout_annuel_promo_deduite": 1221.15,
-    "cout_3_ans_promo_deduite": 3663.45,
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 1235.46,
+    "cout_annuel_promo_deduite": 1235.46,
+    "cout_3_ans_promo_deduite": 3706.38,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -3444,27 +3455,16 @@
     "cout_annuel_promo_deduite": 1247.95,
     "cout_3_ans_promo_deduite": 3820.57,
     "promo_an1": 38.36,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 1271.34,
-    "cout_annuel_promo_deduite": 1271.34,
-    "cout_3_ans_promo_deduite": 3814.02,
-    "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1287.45,
-    "cout_annuel_promo_deduite": 1287.45,
-    "cout_3_ans_promo_deduite": 3862.35,
+    "cout_annuel": 1251.57,
+    "cout_annuel_promo_deduite": 1251.57,
+    "cout_3_ans_promo_deduite": 3754.71,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3499,7 +3499,7 @@
     "cout_annuel_promo_deduite": 1482.45,
     "cout_3_ans_promo_deduite": 4447.35,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "9kVA_8000kWh": [
@@ -3706,11 +3706,11 @@
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
     "option": "hphc",
-    "cout_annuel": 1784.86,
-    "cout_annuel_promo_deduite": 1784.86,
-    "cout_3_ans_promo_deduite": 5354.59,
+    "cout_annuel": 1788.22,
+    "cout_annuel_promo_deduite": 1788.22,
+    "cout_3_ans_promo_deduite": 5364.67,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -3720,6 +3720,17 @@
     "cout_annuel": 1790.56,
     "cout_annuel_promo_deduite": 1790.56,
     "cout_3_ans_promo_deduite": 5371.68,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1794.96,
+    "cout_annuel_promo_deduite": 1794.96,
+    "cout_3_ans_promo_deduite": 5384.88,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3743,7 +3754,7 @@
     "cout_annuel_promo_deduite": 1804.16,
     "cout_3_ans_promo_deduite": 5412.48,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -3812,17 +3823,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1854.96,
-    "cout_annuel_promo_deduite": 1854.96,
-    "cout_3_ans_promo_deduite": 5564.88,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "ekwateur-hphc",
     "fournisseur": "Ekwateur",
     "offre": "Électricité 100 % renouvelable",
@@ -3882,9 +3882,9 @@
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 1985.2,
-    "cout_annuel_promo_deduite": 1985.2,
-    "cout_3_ans_promo_deduite": 5955.6,
+    "cout_annuel": 1963.72,
+    "cout_annuel_promo_deduite": 1963.72,
+    "cout_3_ans_promo_deduite": 5891.16,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -3893,11 +3893,22 @@
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 2054.36,
-    "cout_annuel_promo_deduite": 2054.36,
-    "cout_3_ans_promo_deduite": 6163.08,
+    "cout_annuel": 2018.48,
+    "cout_annuel_promo_deduite": 2018.48,
+    "cout_3_ans_promo_deduite": 6055.44,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "base",
+    "cout_annuel": 2047.12,
+    "cout_annuel_promo_deduite": 2047.12,
+    "cout_3_ans_promo_deduite": 6141.36,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -3908,17 +3919,6 @@
     "cout_annuel_promo_deduite": 2069.4,
     "cout_3_ans_promo_deduite": 6284.92,
     "promo_an1": 38.36,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 2083.0,
-    "cout_annuel_promo_deduite": 2083.0,
-    "cout_3_ans_promo_deduite": 6249.0,
-    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -3952,7 +3952,7 @@
     "cout_annuel_promo_deduite": 2317.2,
     "cout_3_ans_promo_deduite": 6951.6,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "12kVA_2500kWh": [
@@ -4133,15 +4133,15 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 768.34,
-    "cout_annuel_promo_deduite": 768.34,
-    "cout_3_ans_promo_deduite": 2305.02,
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 767.37,
+    "cout_annuel_promo_deduite": 767.37,
+    "cout_3_ans_promo_deduite": 2302.11,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -4151,6 +4151,17 @@
     "cout_annuel": 769.75,
     "cout_annuel_promo_deduite": 769.75,
     "cout_3_ans_promo_deduite": 2309.26,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 772.78,
+    "cout_annuel_promo_deduite": 772.78,
+    "cout_3_ans_promo_deduite": 2318.34,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4174,7 +4185,7 @@
     "cout_annuel_promo_deduite": 774.37,
     "cout_3_ans_promo_deduite": 2323.11,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -4298,6 +4309,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 805.55,
+    "cout_annuel_promo_deduite": 805.55,
+    "cout_3_ans_promo_deduite": 2416.65,
+    "promo_an1": 0,
+    "verification": "conflit"
+   },
+   {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
@@ -4306,7 +4328,7 @@
     "cout_annuel_promo_deduite": 814.45,
     "cout_3_ans_promo_deduite": 2534.43,
     "promo_an1": 45.54,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -4331,46 +4353,24 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 827.37,
-    "cout_annuel_promo_deduite": 827.37,
-    "cout_3_ans_promo_deduite": 2482.11,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 831.11,
-    "cout_annuel_promo_deduite": 831.11,
-    "cout_3_ans_promo_deduite": 2493.33,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 866.98,
-    "cout_annuel_promo_deduite": 866.98,
-    "cout_3_ans_promo_deduite": 2600.94,
+    "cout_annuel": 831.1,
+    "cout_annuel_promo_deduite": 831.1,
+    "cout_3_ans_promo_deduite": 2493.3,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 875.93,
-    "cout_annuel_promo_deduite": 875.93,
-    "cout_3_ans_promo_deduite": 2627.79,
+    "cout_annuel": 840.05,
+    "cout_annuel_promo_deduite": 840.05,
+    "cout_3_ans_promo_deduite": 2520.15,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4405,7 +4405,7 @@
     "cout_annuel_promo_deduite": 1116.57,
     "cout_3_ans_promo_deduite": 3349.71,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "12kVA_4500kWh": [
@@ -4597,15 +4597,26 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1157.97,
+    "cout_annuel_promo_deduite": 1157.97,
+    "cout_3_ans_promo_deduite": 3473.91,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-intelligent-hphc",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
     "option": "hphc",
-    "cout_annuel": 1154.92,
-    "cout_annuel_promo_deduite": 1154.92,
-    "cout_3_ans_promo_deduite": 3464.75,
+    "cout_annuel": 1159.36,
+    "cout_annuel_promo_deduite": 1159.36,
+    "cout_3_ans_promo_deduite": 3478.07,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-base",
@@ -4627,7 +4638,7 @@
     "cout_annuel_promo_deduite": 1165.77,
     "cout_3_ans_promo_deduite": 3497.31,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -4751,13 +4762,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 1217.97,
-    "cout_annuel_promo_deduite": 1217.97,
-    "cout_3_ans_promo_deduite": 3653.91,
+    "cout_annuel": 1242.15,
+    "cout_annuel_promo_deduite": 1242.15,
+    "cout_3_ans_promo_deduite": 3726.45,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -4784,15 +4795,15 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1267.71,
-    "cout_annuel_promo_deduite": 1267.71,
-    "cout_3_ans_promo_deduite": 3803.13,
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 1278.54,
+    "cout_annuel_promo_deduite": 1278.54,
+    "cout_3_ans_promo_deduite": 3835.62,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -4803,27 +4814,16 @@
     "cout_annuel_promo_deduite": 1283.85,
     "cout_3_ans_promo_deduite": 3942.63,
     "promo_an1": 45.54,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 1314.42,
-    "cout_annuel_promo_deduite": 1314.42,
-    "cout_3_ans_promo_deduite": 3943.26,
-    "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1330.53,
-    "cout_annuel_promo_deduite": 1330.53,
-    "cout_3_ans_promo_deduite": 3991.59,
+    "cout_annuel": 1294.65,
+    "cout_annuel_promo_deduite": 1294.65,
+    "cout_3_ans_promo_deduite": 3883.95,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4858,7 +4858,7 @@
     "cout_annuel_promo_deduite": 1593.57,
     "cout_3_ans_promo_deduite": 4780.71,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "12kVA_8000kWh": [
@@ -5065,11 +5065,11 @@
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
     "option": "hphc",
-    "cout_annuel": 1831.42,
-    "cout_annuel_promo_deduite": 1831.42,
-    "cout_3_ans_promo_deduite": 5494.27,
+    "cout_annuel": 1835.86,
+    "cout_annuel_promo_deduite": 1835.86,
+    "cout_3_ans_promo_deduite": 5507.59,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -5079,6 +5079,17 @@
     "cout_annuel": 1837.12,
     "cout_annuel_promo_deduite": 1837.12,
     "cout_3_ans_promo_deduite": 5511.36,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1841.52,
+    "cout_annuel_promo_deduite": 1841.52,
+    "cout_3_ans_promo_deduite": 5524.56,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5102,7 +5113,7 @@
     "cout_annuel_promo_deduite": 1850.72,
     "cout_3_ans_promo_deduite": 5552.16,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -5171,17 +5182,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1901.52,
-    "cout_annuel_promo_deduite": 1901.52,
-    "cout_3_ans_promo_deduite": 5704.56,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "ekwateur-hphc",
     "fournisseur": "Ekwateur",
     "offre": "Électricité 100 % renouvelable",
@@ -5241,9 +5241,9 @@
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 2031.76,
-    "cout_annuel_promo_deduite": 2031.76,
-    "cout_3_ans_promo_deduite": 6095.28,
+    "cout_annuel": 2006.2,
+    "cout_annuel_promo_deduite": 2006.2,
+    "cout_3_ans_promo_deduite": 6018.6,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -5252,11 +5252,22 @@
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 2097.44,
-    "cout_annuel_promo_deduite": 2097.44,
-    "cout_3_ans_promo_deduite": 6292.32,
+    "cout_annuel": 2061.56,
+    "cout_annuel_promo_deduite": 2061.56,
+    "cout_3_ans_promo_deduite": 6184.68,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "base",
+    "cout_annuel": 2090.2,
+    "cout_annuel_promo_deduite": 2090.2,
+    "cout_3_ans_promo_deduite": 6270.6,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -5267,17 +5278,6 @@
     "cout_annuel_promo_deduite": 2105.3,
     "cout_3_ans_promo_deduite": 6406.98,
     "promo_an1": 45.54,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 2126.08,
-    "cout_annuel_promo_deduite": 2126.08,
-    "cout_3_ans_promo_deduite": 6378.24,
-    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -5311,7 +5311,7 @@
     "cout_annuel_promo_deduite": 2428.32,
     "cout_3_ans_promo_deduite": 7284.96,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "15kVA_2500kWh": [
@@ -5470,15 +5470,15 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 812.02,
-    "cout_annuel_promo_deduite": 812.02,
-    "cout_3_ans_promo_deduite": 2436.06,
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 810.93,
+    "cout_annuel_promo_deduite": 810.93,
+    "cout_3_ans_promo_deduite": 2432.79,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -5503,6 +5503,17 @@
     "verification": "confirme"
    },
    {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 817.54,
+    "cout_annuel_promo_deduite": 817.54,
+    "cout_3_ans_promo_deduite": 2452.62,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "alpiq-horizon-hphc",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -5511,7 +5522,7 @@
     "cout_annuel_promo_deduite": 818.05,
     "cout_3_ans_promo_deduite": 2454.15,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -5624,6 +5635,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 845.39,
+    "cout_annuel_promo_deduite": 845.39,
+    "cout_3_ans_promo_deduite": 2536.17,
+    "promo_an1": 0,
+    "verification": "conflit"
+   },
+   {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
@@ -5632,7 +5654,7 @@
     "cout_annuel_promo_deduite": 850.45,
     "cout_3_ans_promo_deduite": 2656.83,
     "promo_an1": 52.74,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-base",
@@ -5657,46 +5679,24 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 871.05,
-    "cout_annuel_promo_deduite": 871.05,
-    "cout_3_ans_promo_deduite": 2613.15,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 874.79,
-    "cout_annuel_promo_deduite": 874.79,
-    "cout_3_ans_promo_deduite": 2624.37,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 910.18,
-    "cout_annuel_promo_deduite": 910.18,
-    "cout_3_ans_promo_deduite": 2730.54,
+    "cout_annuel": 874.3,
+    "cout_annuel_promo_deduite": 874.3,
+    "cout_3_ans_promo_deduite": 2622.9,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 919.13,
-    "cout_annuel_promo_deduite": 919.13,
-    "cout_3_ans_promo_deduite": 2757.39,
+    "cout_annuel": 883.25,
+    "cout_annuel_promo_deduite": 883.25,
+    "cout_3_ans_promo_deduite": 2649.75,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5731,7 +5731,7 @@
     "cout_annuel_promo_deduite": 1193.25,
     "cout_3_ans_promo_deduite": 3579.75,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "15kVA_4500kWh": [
@@ -5901,15 +5901,26 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1201.53,
+    "cout_annuel_promo_deduite": 1201.53,
+    "cout_3_ans_promo_deduite": 3604.59,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-intelligent-hphc",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
     "option": "hphc",
-    "cout_annuel": 1198.6,
-    "cout_annuel_promo_deduite": 1198.6,
-    "cout_3_ans_promo_deduite": 3595.79,
+    "cout_annuel": 1204.12,
+    "cout_annuel_promo_deduite": 1204.12,
+    "cout_3_ans_promo_deduite": 3612.35,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-base",
@@ -5931,7 +5942,7 @@
     "cout_annuel_promo_deduite": 1209.45,
     "cout_3_ans_promo_deduite": 3628.35,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -6044,13 +6055,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 1261.65,
-    "cout_annuel_promo_deduite": 1261.65,
-    "cout_3_ans_promo_deduite": 3784.95,
+    "cout_annuel": 1281.99,
+    "cout_annuel_promo_deduite": 1281.99,
+    "cout_3_ans_promo_deduite": 3845.97,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -6077,17 +6088,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1311.39,
-    "cout_annuel_promo_deduite": 1311.39,
-    "cout_3_ans_promo_deduite": 3934.17,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
@@ -6096,27 +6096,27 @@
     "cout_annuel_promo_deduite": 1319.85,
     "cout_3_ans_promo_deduite": 4065.03,
     "promo_an1": 52.74,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 1357.62,
-    "cout_annuel_promo_deduite": 1357.62,
-    "cout_3_ans_promo_deduite": 4072.86,
+    "cout_annuel": 1321.74,
+    "cout_annuel_promo_deduite": 1321.74,
+    "cout_3_ans_promo_deduite": 3965.22,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1373.73,
-    "cout_annuel_promo_deduite": 1373.73,
-    "cout_3_ans_promo_deduite": 4121.19,
+    "cout_annuel": 1337.85,
+    "cout_annuel_promo_deduite": 1337.85,
+    "cout_3_ans_promo_deduite": 4013.55,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6151,7 +6151,7 @@
     "cout_annuel_promo_deduite": 1670.25,
     "cout_3_ans_promo_deduite": 5010.75,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "15kVA_8000kWh": [
@@ -6336,11 +6336,11 @@
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
     "option": "hphc",
-    "cout_annuel": 1875.1,
-    "cout_annuel_promo_deduite": 1875.1,
-    "cout_3_ans_promo_deduite": 5625.31,
+    "cout_annuel": 1880.62,
+    "cout_annuel_promo_deduite": 1880.62,
+    "cout_3_ans_promo_deduite": 5641.87,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -6350,6 +6350,17 @@
     "cout_annuel": 1880.8,
     "cout_annuel_promo_deduite": 1880.8,
     "cout_3_ans_promo_deduite": 5642.4,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1885.08,
+    "cout_annuel_promo_deduite": 1885.08,
+    "cout_3_ans_promo_deduite": 5655.24,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6373,7 +6384,7 @@
     "cout_annuel_promo_deduite": 1894.4,
     "cout_3_ans_promo_deduite": 5683.2,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -6442,17 +6453,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1945.2,
-    "cout_annuel_promo_deduite": 1945.2,
-    "cout_3_ans_promo_deduite": 5835.6,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-zen-fixe-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -6486,6 +6486,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 2046.04,
+    "cout_annuel_promo_deduite": 2046.04,
+    "cout_3_ans_promo_deduite": 6138.12,
+    "promo_an1": 0,
+    "verification": "conflit"
+   },
+   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -6497,26 +6508,26 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 2075.44,
-    "cout_annuel_promo_deduite": 2075.44,
-    "cout_3_ans_promo_deduite": 6226.32,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 2140.64,
-    "cout_annuel_promo_deduite": 2140.64,
-    "cout_3_ans_promo_deduite": 6421.92,
+    "cout_annuel": 2104.76,
+    "cout_annuel_promo_deduite": 2104.76,
+    "cout_3_ans_promo_deduite": 6314.28,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "base",
+    "cout_annuel": 2133.4,
+    "cout_annuel_promo_deduite": 2133.4,
+    "cout_3_ans_promo_deduite": 6400.2,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -6527,17 +6538,6 @@
     "cout_annuel_promo_deduite": 2141.3,
     "cout_3_ans_promo_deduite": 6529.38,
     "promo_an1": 52.74,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 2169.28,
-    "cout_annuel_promo_deduite": 2169.28,
-    "cout_3_ans_promo_deduite": 6507.84,
-    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -6571,7 +6571,7 @@
     "cout_annuel_promo_deduite": 2505.0,
     "cout_3_ans_promo_deduite": 7515.0,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "18kVA_2500kWh": [
@@ -6730,15 +6730,15 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 856.9,
-    "cout_annuel_promo_deduite": 856.9,
-    "cout_3_ans_promo_deduite": 2570.7,
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 855.93,
+    "cout_annuel_promo_deduite": 855.93,
+    "cout_3_ans_promo_deduite": 2567.79,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -6771,7 +6771,18 @@
     "cout_annuel_promo_deduite": 862.93,
     "cout_3_ans_promo_deduite": 2588.79,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 863.62,
+    "cout_annuel_promo_deduite": 863.62,
+    "cout_3_ans_promo_deduite": 2590.86,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -6870,6 +6881,17 @@
     "cout_annuel_promo_deduite": 886.35,
     "cout_3_ans_promo_deduite": 2778.89,
     "promo_an1": 59.92,
+    "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 886.43,
+    "cout_annuel_promo_deduite": 886.43,
+    "cout_3_ans_promo_deduite": 2659.29,
+    "promo_an1": 0,
     "verification": "conflit"
    },
    {
@@ -6917,46 +6939,24 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 915.93,
-    "cout_annuel_promo_deduite": 915.93,
-    "cout_3_ans_promo_deduite": 2747.79,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 919.67,
-    "cout_annuel_promo_deduite": 919.67,
-    "cout_3_ans_promo_deduite": 2759.01,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 953.26,
-    "cout_annuel_promo_deduite": 953.26,
-    "cout_3_ans_promo_deduite": 2859.78,
+    "cout_annuel": 917.38,
+    "cout_annuel_promo_deduite": 917.38,
+    "cout_3_ans_promo_deduite": 2752.14,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 962.21,
-    "cout_annuel_promo_deduite": 962.21,
-    "cout_3_ans_promo_deduite": 2886.63,
+    "cout_annuel": 926.33,
+    "cout_annuel_promo_deduite": 926.33,
+    "cout_3_ans_promo_deduite": 2778.99,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6991,7 +6991,7 @@
     "cout_annuel_promo_deduite": 1251.57,
     "cout_3_ans_promo_deduite": 3754.71,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "18kVA_4500kWh": [
@@ -7161,15 +7161,26 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1246.53,
+    "cout_annuel_promo_deduite": 1246.53,
+    "cout_3_ans_promo_deduite": 3739.59,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-intelligent-hphc",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
     "option": "hphc",
-    "cout_annuel": 1243.48,
-    "cout_annuel_promo_deduite": 1243.48,
-    "cout_3_ans_promo_deduite": 3730.43,
+    "cout_annuel": 1250.2,
+    "cout_annuel_promo_deduite": 1250.2,
+    "cout_3_ans_promo_deduite": 3750.59,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-base",
@@ -7191,7 +7202,7 @@
     "cout_annuel_promo_deduite": 1254.33,
     "cout_3_ans_promo_deduite": 3762.99,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -7304,13 +7315,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 1306.53,
-    "cout_annuel_promo_deduite": 1306.53,
-    "cout_3_ans_promo_deduite": 3919.59,
+    "cout_annuel": 1323.03,
+    "cout_annuel_promo_deduite": 1323.03,
+    "cout_3_ans_promo_deduite": 3969.09,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -7345,38 +7356,27 @@
     "cout_annuel_promo_deduite": 1355.75,
     "cout_3_ans_promo_deduite": 4187.09,
     "promo_an1": 59.92,
-    "verification": "conflit"
-   },
-   {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1356.27,
-    "cout_annuel_promo_deduite": 1356.27,
-    "cout_3_ans_promo_deduite": 4068.81,
-    "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 1400.7,
-    "cout_annuel_promo_deduite": 1400.7,
-    "cout_3_ans_promo_deduite": 4202.1,
+    "cout_annuel": 1364.82,
+    "cout_annuel_promo_deduite": 1364.82,
+    "cout_3_ans_promo_deduite": 4094.46,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1416.81,
-    "cout_annuel_promo_deduite": 1416.81,
-    "cout_3_ans_promo_deduite": 4250.43,
+    "cout_annuel": 1380.93,
+    "cout_annuel_promo_deduite": 1380.93,
+    "cout_3_ans_promo_deduite": 4142.79,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7411,7 +7411,7 @@
     "cout_annuel_promo_deduite": 1728.57,
     "cout_3_ans_promo_deduite": 5185.71,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "18kVA_8000kWh": [
@@ -7592,17 +7592,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 1919.98,
-    "cout_annuel_promo_deduite": 1919.98,
-    "cout_3_ans_promo_deduite": 5759.95,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "alterna-fixe-1-an-base",
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
@@ -7610,6 +7599,28 @@
     "cout_annuel": 1925.68,
     "cout_annuel_promo_deduite": 1925.68,
     "cout_3_ans_promo_deduite": 5777.04,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 1926.7,
+    "cout_annuel_promo_deduite": 1926.7,
+    "cout_3_ans_promo_deduite": 5780.11,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1930.08,
+    "cout_annuel_promo_deduite": 1930.08,
+    "cout_3_ans_promo_deduite": 5790.24,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7633,7 +7644,7 @@
     "cout_annuel_promo_deduite": 1939.28,
     "cout_3_ans_promo_deduite": 5817.84,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -7702,17 +7713,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1990.08,
-    "cout_annuel_promo_deduite": 1990.08,
-    "cout_3_ans_promo_deduite": 5970.24,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-zen-fixe-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -7746,6 +7746,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 2087.08,
+    "cout_annuel_promo_deduite": 2087.08,
+    "cout_3_ans_promo_deduite": 6261.24,
+    "promo_an1": 0,
+    "verification": "conflit"
+   },
+   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -7757,15 +7768,26 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 2120.32,
-    "cout_annuel_promo_deduite": 2120.32,
-    "cout_3_ans_promo_deduite": 6360.96,
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 2147.84,
+    "cout_annuel_promo_deduite": 2147.84,
+    "cout_3_ans_promo_deduite": 6443.52,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
+   },
+   {
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "base",
+    "cout_annuel": 2176.48,
+    "cout_annuel_promo_deduite": 2176.48,
+    "cout_3_ans_promo_deduite": 6529.44,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -7776,28 +7798,6 @@
     "cout_annuel_promo_deduite": 2177.2,
     "cout_3_ans_promo_deduite": 6651.44,
     "promo_an1": 59.92,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 2183.72,
-    "cout_annuel_promo_deduite": 2183.72,
-    "cout_3_ans_promo_deduite": 6551.16,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 2212.36,
-    "cout_annuel_promo_deduite": 2212.36,
-    "cout_3_ans_promo_deduite": 6637.08,
-    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -7831,7 +7831,7 @@
     "cout_annuel_promo_deduite": 2563.32,
     "cout_3_ans_promo_deduite": 7689.96,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "24kVA_2500kWh": [
@@ -7990,15 +7990,15 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 952.9,
-    "cout_annuel_promo_deduite": 952.9,
-    "cout_3_ans_promo_deduite": 2858.7,
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 951.81,
+    "cout_annuel_promo_deduite": 951.81,
+    "cout_3_ans_promo_deduite": 2855.43,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -8031,7 +8031,7 @@
     "cout_annuel_promo_deduite": 958.25,
     "cout_3_ans_promo_deduite": 3023.35,
     "promo_an1": 74.3,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "alpiq-horizon-hphc",
@@ -8042,7 +8042,7 @@
     "cout_annuel_promo_deduite": 958.93,
     "cout_3_ans_promo_deduite": 2876.79,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -8052,6 +8052,17 @@
     "cout_annuel": 960.94,
     "cout_annuel_promo_deduite": 960.94,
     "cout_3_ans_promo_deduite": 2882.82,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 961.78,
+    "cout_annuel_promo_deduite": 961.78,
+    "cout_3_ans_promo_deduite": 2885.34,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8098,6 +8109,17 @@
     "cout_3_ans_promo_deduite": 2914.29,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 973.91,
+    "cout_annuel_promo_deduite": 973.91,
+    "cout_3_ans_promo_deduite": 2921.73,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -8155,6 +8177,17 @@
     "verification": "confirme"
    },
    {
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 1003.66,
+    "cout_annuel_promo_deduite": 1003.66,
+    "cout_3_ans_promo_deduite": 3010.98,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -8177,46 +8210,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1011.93,
-    "cout_annuel_promo_deduite": 1011.93,
-    "cout_3_ans_promo_deduite": 3035.79,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1015.67,
-    "cout_annuel_promo_deduite": 1015.67,
-    "cout_3_ans_promo_deduite": 3047.01,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 1039.54,
-    "cout_annuel_promo_deduite": 1039.54,
-    "cout_3_ans_promo_deduite": 3118.62,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1048.49,
-    "cout_annuel_promo_deduite": 1048.49,
-    "cout_3_ans_promo_deduite": 3145.47,
+    "cout_annuel": 1012.61,
+    "cout_annuel_promo_deduite": 1012.61,
+    "cout_3_ans_promo_deduite": 3037.83,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8251,7 +8251,7 @@
     "cout_annuel_promo_deduite": 1382.49,
     "cout_3_ans_promo_deduite": 4147.47,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "24kVA_4500kWh": [
@@ -8421,15 +8421,26 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1342.41,
+    "cout_annuel_promo_deduite": 1342.41,
+    "cout_3_ans_promo_deduite": 4027.23,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-intelligent-hphc",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
     "option": "hphc",
-    "cout_annuel": 1339.48,
-    "cout_annuel_promo_deduite": 1339.48,
-    "cout_3_ans_promo_deduite": 4018.43,
+    "cout_annuel": 1348.36,
+    "cout_annuel_promo_deduite": 1348.36,
+    "cout_3_ans_promo_deduite": 4045.07,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-base",
@@ -8451,7 +8462,7 @@
     "cout_annuel_promo_deduite": 1350.33,
     "cout_3_ans_promo_deduite": 4050.99,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -8564,13 +8575,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 1402.53,
-    "cout_annuel_promo_deduite": 1402.53,
-    "cout_3_ans_promo_deduite": 4207.59,
+    "cout_annuel": 1410.51,
+    "cout_annuel_promo_deduite": 1410.51,
+    "cout_3_ans_promo_deduite": 4231.53,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -8583,7 +8594,7 @@
     "cout_annuel_promo_deduite": 1427.65,
     "cout_3_ans_promo_deduite": 4431.55,
     "promo_an1": 74.3,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -8608,35 +8619,24 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1452.27,
-    "cout_annuel_promo_deduite": 1452.27,
-    "cout_3_ans_promo_deduite": 4356.81,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 1486.98,
-    "cout_annuel_promo_deduite": 1486.98,
-    "cout_3_ans_promo_deduite": 4460.94,
+    "cout_annuel": 1451.1,
+    "cout_annuel_promo_deduite": 1451.1,
+    "cout_3_ans_promo_deduite": 4353.3,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1503.09,
-    "cout_annuel_promo_deduite": 1503.09,
-    "cout_3_ans_promo_deduite": 4509.27,
+    "cout_annuel": 1467.21,
+    "cout_annuel_promo_deduite": 1467.21,
+    "cout_3_ans_promo_deduite": 4401.63,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8671,7 +8671,7 @@
     "cout_annuel_promo_deduite": 1859.49,
     "cout_3_ans_promo_deduite": 5578.47,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "24kVA_8000kWh": [
@@ -8852,17 +8852,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 2015.98,
-    "cout_annuel_promo_deduite": 2015.98,
-    "cout_3_ans_promo_deduite": 6047.95,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "alterna-fixe-1-an-base",
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
@@ -8870,6 +8859,28 @@
     "cout_annuel": 2021.68,
     "cout_annuel_promo_deduite": 2021.68,
     "cout_3_ans_promo_deduite": 6065.04,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 2024.86,
+    "cout_annuel_promo_deduite": 2024.86,
+    "cout_3_ans_promo_deduite": 6074.59,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 2025.96,
+    "cout_annuel_promo_deduite": 2025.96,
+    "cout_3_ans_promo_deduite": 6077.88,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8893,7 +8904,7 @@
     "cout_annuel_promo_deduite": 2035.28,
     "cout_3_ans_promo_deduite": 6105.84,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -8962,17 +8973,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 2086.08,
-    "cout_annuel_promo_deduite": 2086.08,
-    "cout_3_ans_promo_deduite": 6258.24,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-zen-fixe-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -8993,6 +8993,17 @@
     "cout_3_ans_promo_deduite": 6365.04,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 2174.56,
+    "cout_annuel_promo_deduite": 2174.56,
+    "cout_3_ans_promo_deduite": 6523.68,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "mint-hphc",
@@ -9017,15 +9028,15 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 2216.32,
-    "cout_annuel_promo_deduite": 2216.32,
-    "cout_3_ans_promo_deduite": 6648.96,
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 2234.12,
+    "cout_annuel_promo_deduite": 2234.12,
+    "cout_3_ans_promo_deduite": 6702.36,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -9036,27 +9047,16 @@
     "cout_annuel_promo_deduite": 2249.1,
     "cout_3_ans_promo_deduite": 6895.9,
     "promo_an1": 74.3,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 2270.0,
-    "cout_annuel_promo_deduite": 2270.0,
-    "cout_3_ans_promo_deduite": 6810.0,
-    "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 2298.64,
-    "cout_annuel_promo_deduite": 2298.64,
-    "cout_3_ans_promo_deduite": 6895.92,
+    "cout_annuel": 2262.76,
+    "cout_annuel_promo_deduite": 2262.76,
+    "cout_3_ans_promo_deduite": 6788.28,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9091,7 +9091,7 @@
     "cout_annuel_promo_deduite": 2694.24,
     "cout_3_ans_promo_deduite": 8082.72,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "30kVA_2500kWh": [
@@ -9214,7 +9214,7 @@
     "cout_annuel_promo_deduite": 1030.15,
     "cout_3_ans_promo_deduite": 3267.81,
     "promo_an1": 88.68,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-base",
@@ -9261,15 +9261,15 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 1040.86,
-    "cout_annuel_promo_deduite": 1040.86,
-    "cout_3_ans_promo_deduite": 3122.58,
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1039.77,
+    "cout_annuel_promo_deduite": 1039.77,
+    "cout_3_ans_promo_deduite": 3119.31,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -9302,7 +9302,7 @@
     "cout_annuel_promo_deduite": 1046.89,
     "cout_3_ans_promo_deduite": 3140.67,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -9327,6 +9327,17 @@
     "verification": "confirme"
    },
    {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 1052.02,
+    "cout_annuel_promo_deduite": 1052.02,
+    "cout_3_ans_promo_deduite": 3156.06,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
@@ -9336,6 +9347,17 @@
     "cout_3_ans_promo_deduite": 3161.67,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1054.19,
+    "cout_annuel_promo_deduite": 1054.19,
+    "cout_3_ans_promo_deduite": 3162.57,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "edf-vert-electrique-hphc",
@@ -9415,6 +9437,17 @@
     "verification": "confirme"
    },
    {
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 1089.94,
+    "cout_annuel_promo_deduite": 1089.94,
+    "cout_3_ans_promo_deduite": 3269.82,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -9426,15 +9459,15 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1099.89,
-    "cout_annuel_promo_deduite": 1099.89,
-    "cout_3_ans_promo_deduite": 3299.67,
+    "cout_annuel": 1098.89,
+    "cout_annuel_promo_deduite": 1098.89,
+    "cout_3_ans_promo_deduite": 3296.67,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -9444,39 +9477,6 @@
     "cout_annuel": 1100.08,
     "cout_annuel_promo_deduite": 1100.08,
     "cout_3_ans_promo_deduite": 3300.24,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1103.63,
-    "cout_annuel_promo_deduite": 1103.63,
-    "cout_3_ans_promo_deduite": 3310.89,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 1125.82,
-    "cout_annuel_promo_deduite": 1125.82,
-    "cout_3_ans_promo_deduite": 3377.46,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 1134.77,
-    "cout_annuel_promo_deduite": 1134.77,
-    "cout_3_ans_promo_deduite": 3404.31,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9511,7 +9511,7 @@
     "cout_annuel_promo_deduite": 1543.29,
     "cout_3_ans_promo_deduite": 4629.87,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "30kVA_4500kWh": [
@@ -9681,15 +9681,15 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 1427.44,
-    "cout_annuel_promo_deduite": 1427.44,
-    "cout_3_ans_promo_deduite": 4282.31,
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1430.37,
+    "cout_annuel_promo_deduite": 1430.37,
+    "cout_3_ans_promo_deduite": 4291.11,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-base",
@@ -9711,7 +9711,18 @@
     "cout_annuel_promo_deduite": 1438.29,
     "cout_3_ans_promo_deduite": 4314.87,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 1438.6,
+    "cout_annuel_promo_deduite": 1438.6,
+    "cout_3_ans_promo_deduite": 4315.79,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -9824,13 +9835,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 1490.49,
-    "cout_annuel_promo_deduite": 1490.49,
-    "cout_3_ans_promo_deduite": 4471.47,
+    "cout_annuel": 1490.79,
+    "cout_annuel_promo_deduite": 1490.79,
+    "cout_3_ans_promo_deduite": 4472.37,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -9843,7 +9854,7 @@
     "cout_annuel_promo_deduite": 1499.55,
     "cout_3_ans_promo_deduite": 4676.01,
     "promo_an1": 88.68,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-base",
@@ -9868,35 +9879,24 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1540.23,
-    "cout_annuel_promo_deduite": 1540.23,
-    "cout_3_ans_promo_deduite": 4620.69,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 1573.26,
-    "cout_annuel_promo_deduite": 1573.26,
-    "cout_3_ans_promo_deduite": 4719.78,
+    "cout_annuel": 1537.38,
+    "cout_annuel_promo_deduite": 1537.38,
+    "cout_3_ans_promo_deduite": 4612.14,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1589.37,
-    "cout_annuel_promo_deduite": 1589.37,
-    "cout_3_ans_promo_deduite": 4768.11,
+    "cout_annuel": 1553.49,
+    "cout_annuel_promo_deduite": 1553.49,
+    "cout_3_ans_promo_deduite": 4660.47,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9931,7 +9931,7 @@
     "cout_annuel_promo_deduite": 2020.29,
     "cout_3_ans_promo_deduite": 6060.87,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "30kVA_8000kWh": [
@@ -10101,17 +10101,6 @@
     "verification": "confirme"
    },
    {
-    "id": "octopus-intelligent-hphc",
-    "fournisseur": "Octopus Energy",
-    "offre": "Intelligent Octopus",
-    "option": "hphc",
-    "cout_annuel": 2103.94,
-    "cout_annuel_promo_deduite": 2103.94,
-    "cout_3_ans_promo_deduite": 6311.83,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
     "id": "alterna-fixe-1-an-hphc",
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
@@ -10130,6 +10119,28 @@
     "cout_annuel": 2109.64,
     "cout_annuel_promo_deduite": 2109.64,
     "cout_3_ans_promo_deduite": 6328.92,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 2113.92,
+    "cout_annuel_promo_deduite": 2113.92,
+    "cout_3_ans_promo_deduite": 6341.76,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "octopus-intelligent-hphc",
+    "fournisseur": "Octopus Energy",
+    "offre": "Intelligent Octopus",
+    "option": "hphc",
+    "cout_annuel": 2115.1,
+    "cout_annuel_promo_deduite": 2115.1,
+    "cout_3_ans_promo_deduite": 6345.31,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10153,7 +10164,7 @@
     "cout_annuel_promo_deduite": 2123.24,
     "cout_3_ans_promo_deduite": 6369.72,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -10222,17 +10233,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 2174.04,
-    "cout_annuel_promo_deduite": 2174.04,
-    "cout_3_ans_promo_deduite": 6522.12,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-zen-fixe-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -10253,6 +10253,17 @@
     "cout_3_ans_promo_deduite": 6628.92,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 2254.84,
+    "cout_annuel_promo_deduite": 2254.84,
+    "cout_3_ans_promo_deduite": 6764.52,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "mint-hphc",
@@ -10277,15 +10288,15 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 2304.28,
-    "cout_annuel_promo_deduite": 2304.28,
-    "cout_3_ans_promo_deduite": 6912.84,
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 2320.4,
+    "cout_annuel_promo_deduite": 2320.4,
+    "cout_3_ans_promo_deduite": 6961.2,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -10296,27 +10307,16 @@
     "cout_annuel_promo_deduite": 2321.0,
     "cout_3_ans_promo_deduite": 7140.36,
     "promo_an1": 88.68,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 2356.28,
-    "cout_annuel_promo_deduite": 2356.28,
-    "cout_3_ans_promo_deduite": 7068.84,
-    "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 2384.92,
-    "cout_annuel_promo_deduite": 2384.92,
-    "cout_3_ans_promo_deduite": 7154.76,
+    "cout_annuel": 2349.04,
+    "cout_annuel_promo_deduite": 2349.04,
+    "cout_3_ans_promo_deduite": 7047.12,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10351,7 +10351,7 @@
     "cout_annuel_promo_deduite": 2855.04,
     "cout_3_ans_promo_deduite": 8565.12,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "36kVA_2500kWh": [
@@ -10408,7 +10408,7 @@
     "cout_annuel_promo_deduite": 1102.05,
     "cout_3_ans_promo_deduite": 3512.27,
     "promo_an1": 103.06,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "gaz-de-bordeaux-novafixe-base",
@@ -10510,6 +10510,17 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1128.69,
+    "cout_annuel_promo_deduite": 1128.69,
+    "cout_3_ans_promo_deduite": 3386.07,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-intelligent-hphc",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
@@ -10518,7 +10529,7 @@
     "cout_annuel_promo_deduite": 1129.78,
     "cout_3_ans_promo_deduite": 3389.34,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -10543,6 +10554,17 @@
     "verification": "confirme"
    },
    {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1135.31,
+    "cout_annuel_promo_deduite": 1135.31,
+    "cout_3_ans_promo_deduite": 3405.93,
+    "promo_an1": 0,
+    "verification": "conflit"
+   },
+   {
     "id": "alpiq-horizon-hphc",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -10551,7 +10573,7 @@
     "cout_annuel_promo_deduite": 1135.81,
     "cout_3_ans_promo_deduite": 3407.43,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -10675,6 +10697,17 @@
     "verification": "confirme"
    },
    {
+    "id": "happ-e-1-an-hphc",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
+    "option": "hphc",
+    "cout_annuel": 1176.22,
+    "cout_annuel_promo_deduite": 1176.22,
+    "cout_3_ans_promo_deduite": 3528.66,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -10686,15 +10719,15 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
+    "id": "happ-e-1-an-base",
+    "fournisseur": "Happ-e",
+    "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1188.81,
-    "cout_annuel_promo_deduite": 1188.81,
-    "cout_3_ans_promo_deduite": 3566.43,
+    "cout_annuel": 1185.17,
+    "cout_annuel_promo_deduite": 1185.17,
+    "cout_3_ans_promo_deduite": 3555.51,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -10704,39 +10737,6 @@
     "cout_annuel": 1191.16,
     "cout_annuel_promo_deduite": 1191.16,
     "cout_3_ans_promo_deduite": 3573.48,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1192.43,
-    "cout_annuel_promo_deduite": 1192.43,
-    "cout_3_ans_promo_deduite": 3577.29,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
-    "id": "happ-e-1-an-hphc",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "hphc",
-    "cout_annuel": 1212.1,
-    "cout_annuel_promo_deduite": 1212.1,
-    "cout_3_ans_promo_deduite": 3636.3,
-    "promo_an1": 0,
-    "verification": "source_unique"
-   },
-   {
-    "id": "happ-e-1-an-base",
-    "fournisseur": "Happ-e",
-    "offre": "Électricité 1 an",
-    "option": "base",
-    "cout_annuel": 1221.05,
-    "cout_annuel_promo_deduite": 1221.05,
-    "cout_3_ans_promo_deduite": 3663.15,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10771,7 +10771,7 @@
     "cout_annuel_promo_deduite": 1661.25,
     "cout_3_ans_promo_deduite": 4983.75,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "36kVA_4500kWh": [
@@ -10949,7 +10949,18 @@
     "cout_annuel_promo_deduite": 1516.36,
     "cout_3_ans_promo_deduite": 4549.07,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1519.29,
+    "cout_annuel_promo_deduite": 1519.29,
+    "cout_3_ans_promo_deduite": 4557.87,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "octopus-intelligent-base",
@@ -10971,7 +10982,7 @@
     "cout_annuel_promo_deduite": 1527.21,
     "cout_3_ans_promo_deduite": 4581.63,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -11081,6 +11092,17 @@
     "cout_annuel_promo_deduite": 1571.45,
     "cout_3_ans_promo_deduite": 4920.47,
     "promo_an1": 103.06,
+    "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1571.91,
+    "cout_annuel_promo_deduite": 1571.91,
+    "cout_3_ans_promo_deduite": 4715.73,
+    "promo_an1": 0,
     "verification": "conflit"
    },
    {
@@ -11093,17 +11115,6 @@
     "cout_3_ans_promo_deduite": 4727.43,
     "promo_an1": 0,
     "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1579.41,
-    "cout_annuel_promo_deduite": 1579.41,
-    "cout_3_ans_promo_deduite": 4738.23,
-    "promo_an1": 0,
-    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -11128,35 +11139,24 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1629.03,
-    "cout_annuel_promo_deduite": 1629.03,
-    "cout_3_ans_promo_deduite": 4887.09,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 1659.54,
-    "cout_annuel_promo_deduite": 1659.54,
-    "cout_3_ans_promo_deduite": 4978.62,
+    "cout_annuel": 1623.66,
+    "cout_annuel_promo_deduite": 1623.66,
+    "cout_3_ans_promo_deduite": 4870.98,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 1675.65,
-    "cout_annuel_promo_deduite": 1675.65,
-    "cout_3_ans_promo_deduite": 5026.95,
+    "cout_annuel": 1639.77,
+    "cout_annuel_promo_deduite": 1639.77,
+    "cout_3_ans_promo_deduite": 4919.31,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11191,7 +11191,7 @@
     "cout_annuel_promo_deduite": 2138.25,
     "cout_3_ans_promo_deduite": 6414.75,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ],
   "36kVA_8000kWh": [
@@ -11369,7 +11369,7 @@
     "cout_annuel_promo_deduite": 2192.86,
     "cout_3_ans_promo_deduite": 6578.59,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -11394,6 +11394,17 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 2202.84,
+    "cout_annuel_promo_deduite": 2202.84,
+    "cout_3_ans_promo_deduite": 6608.52,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-intelligent-base",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
@@ -11413,7 +11424,7 @@
     "cout_annuel_promo_deduite": 2212.16,
     "cout_3_ans_promo_deduite": 6636.48,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -11482,17 +11493,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 2262.96,
-    "cout_annuel_promo_deduite": 2262.96,
-    "cout_3_ans_promo_deduite": 6788.88,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-zen-fixe-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -11513,6 +11513,17 @@
     "cout_3_ans_promo_deduite": 6895.68,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 2335.96,
+    "cout_annuel_promo_deduite": 2335.96,
+    "cout_3_ans_promo_deduite": 7007.88,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "mint-hphc",
@@ -11545,38 +11556,27 @@
     "cout_annuel_promo_deduite": 2392.9,
     "cout_3_ans_promo_deduite": 7384.82,
     "promo_an1": 103.06,
-    "verification": "conflit"
-   },
-   {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 2393.08,
-    "cout_annuel_promo_deduite": 2393.08,
-    "cout_3_ans_promo_deduite": 7179.24,
-    "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "hphc",
-    "cout_annuel": 2442.56,
-    "cout_annuel_promo_deduite": 2442.56,
-    "cout_3_ans_promo_deduite": 7327.68,
+    "cout_annuel": 2406.68,
+    "cout_annuel_promo_deduite": 2406.68,
+    "cout_3_ans_promo_deduite": 7220.04,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
     "option": "base",
-    "cout_annuel": 2471.2,
-    "cout_annuel_promo_deduite": 2471.2,
-    "cout_3_ans_promo_deduite": 7413.6,
+    "cout_annuel": 2435.32,
+    "cout_annuel_promo_deduite": 2435.32,
+    "cout_3_ans_promo_deduite": 7305.96,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11611,7 +11611,7 @@
     "cout_annuel_promo_deduite": 2973.0,
     "cout_3_ans_promo_deduite": 8919.0,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    }
   ]
  }
