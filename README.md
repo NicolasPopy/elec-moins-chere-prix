@@ -71,12 +71,6 @@ Les postes horaires (`base`, `hp`, `hc`, `bleu_hp`, `ete_hsc`, `week_end`…) so
 
 Vérifiez toujours sur le site du fournisseur avant de souscrire.
 
-### Page d'édition (protégée par mot de passe)
-
-`editeur/` (sur GitHub Pages : `https://nicolaspopy.github.io/elec-moins-chere-prix/editeur/`) permet à une personne autorisée de choisir une offre, corriger sa grille, ses promotions, avantages et notes, puis de valider en indiquant **la source utilisée (URL)** et son nom. L'offre passe en « Confirmée » et la modification est enregistrée comme un commit (« Édition manuelle : … par … »). Les fichiers dérivés sont régénérés automatiquement par GitHub Actions.
-
-Sécurité : la page écrit dans le dépôt avec une clé d'accès GitHub (fine-grained, limitée à ce dépôt, droit *Contents : Read and write*). Cette clé est stockée dans `editeur/acces.json` **chiffrée par le mot de passe** (AES-GCM, dérivation PBKDF2 à 600 000 itérations) : sans le mot de passe, impossible d'écrire. Pour couper l'accès, révoquer la clé sur GitHub ; pour changer de mot de passe, « Reconfigurer » sur la page de connexion.
-
 ### Vérifier une offre soi-même
 
 1. Sur la page, ouvrez **Détails** de l'offre : notes et liens vers les sources.

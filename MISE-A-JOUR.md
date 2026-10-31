@@ -29,11 +29,11 @@ python3 scripts/build.py
 
 - Corriger toute erreur. Lire le `CHANGELOG.md` du jour : un écart de prix de plus de 10 % sur une offre doit être confirmé par une seconde source avant publication.
 - Mettre `meta.mis_a_jour_le` à la date du jour avant le build.
-- Commit : `Prix du AAAA-MM-JJ : <résumé court des changements>`, puis `git pull --rebase origin main` (une personne a pu modifier une offre via la page d'édition entre-temps ; en cas de conflit sur une offre, garder la version humaine) et push sur `main`.
+- Commit : `Prix du AAAA-MM-JJ : <résumé court des changements>`, puis `git pull --rebase origin main` (une correction manuelle a pu être publiée entre-temps ; en cas de conflit sur une offre, garder la version manuelle) et push sur `main`.
 
 ## Vérifications manuelles (priorité absolue)
 
-Une offre qui porte un bloc `verification_manuelle` a été contrôlée à la main (par Nicolas ou un éditeur via la page d'édition). Pour elle :
+Une offre qui porte un bloc `verification_manuelle` a été contrôlée à la main par Nicolas. Pour elle :
 
 - ne jamais modifier `verification`, `verification_manuelle` ni les prix tant que la source officielle indiquée ne change pas ;
 - la sauter dans la rotation pendant 30 jours après `verification_manuelle.le` ;
