@@ -2,7 +2,7 @@
  "meta": {
   "nom": "ElecMoinsChere — base des prix de l'électricité",
   "version_schema": 1,
-  "mis_a_jour_le": "2026-10-31",
+  "mis_a_jour_le": "2026-11-01",
   "zone": "France métropolitaine continentale (hors Corse et DOM)",
   "unites": {
    "abonnement_mois": "€ TTC par mois",
@@ -301,14 +301,20 @@
      "url": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-147_TRVE.pdf",
      "type": "officiel",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/edf/tarifs",
+     "type": "comparateur",
+     "consulte_le": "2026-11-01"
     }
    ],
    "notes": [
     "Tarif réglementé en vigueur depuis le 01/08/2026 (délibération CRE 2026-147, +2,51 % TTC).",
     "Option Base fermée aux nouveaux clients au-delà de 6 kVA (9-15 kVA depuis fév. 2025, 18-36 kVA depuis fév. 2026).",
-    "Prochaine révision attendue au 01/02/2027."
+    "Prochaine révision attendue au 01/02/2027.",
+    "01/11/2026 : aucune révision du TRV annoncée ; 6 kVA (15,86 €/mois, 0,2001 €) reconfirmé par fournisseurs-electricite.com."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-11-01"
   },
   {
    "id": "edf-tarif-bleu-hphc",
@@ -418,13 +424,19 @@
      "url": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-147_TRVE.pdf",
      "type": "officiel",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/edf/tarifs",
+     "type": "comparateur",
+     "consulte_le": "2026-11-01"
     }
    ],
    "notes": [
     "Ouvert en 3 kVA depuis le 01/08/2026.",
-    "Abonnement identique à l'option Base depuis août 2025."
+    "Abonnement identique à l'option Base depuis août 2025.",
+    "01/11/2026 : 6 kVA (HP 0,2142 / HC 0,1589 €) reconfirmé par fournisseurs-electricite.com."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-11-01"
   },
   {
    "id": "edf-tempo",
@@ -651,12 +663,18 @@
      "url": "https://selectra.info/energie/fournisseurs/edf/tarifs",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/edf/tarifs",
+     "type": "comparateur",
+     "consulte_le": "2026-11-01"
     }
    ],
    "notes": [
-    "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA)."
+    "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
+    "01/11/2026 : 0,1925 € TTC à 6 kVA reconfirmé (fournisseurs-electricite.com)."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-11-01"
   },
   {
    "id": "edf-zen-online-hphc",
@@ -3045,10 +3063,17 @@
      "url": "https://www.fournisseurs-electricite.com/contrat-electricite/prix",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/",
+     "type": "comparateur",
+     "consulte_le": "2026-11-01"
     }
    ],
-   "notes": [],
-   "derniere_verif": "2026-10-30"
+   "notes": [
+    "01/11/2026 : 6 kVA (0,1837 €, abonnement 190,80 €/an) reconfirmé par fournisseurs-electricite.com (tarifs vérifiés le 18/08/2026)."
+   ],
+   "derniere_verif": "2026-11-01"
   },
   {
    "id": "geg-elec-verte-fixe-3-ans-hphc",
@@ -3469,12 +3494,18 @@
      "url": "https://elecompare.fr/tarifs",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/",
+     "type": "comparateur",
+     "consulte_le": "2026-11-01"
     }
    ],
    "notes": [
-    "Prix non garantis dans le temps."
+    "Prix non garantis dans le temps.",
+    "01/11/2026 : 0,1907 € TTC à 6 kVA reconfirmé (fournisseurs-electricite.com, tarifs vérifiés le 01/10/2026) ; abonnement non affiché, budget annuel cohérent."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-11-01"
   },
   {
    "id": "dyneff-contrat-plus-hphc",
@@ -4808,14 +4839,30 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/ohm-energie/tarifs/ohm-energie-ohm-serenite-fixe-1-an",
      "type": "comparateur",
      "consulte_le": "2026-10-31"
+    },
+    {
+     "url": "https://ohm-energie.com/grilles/elec/2026/10/ELEC-Serenite_Fixe_1an.pdf",
+     "type": "officiel",
+     "consulte_le": "2026-11-01"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/ohm-energie/tarifs/ohm-energie-ohm-serenite-fixe-1-an",
+     "type": "comparateur",
+     "consulte_le": "2026-11-01"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/ohm-energie/tarifs/ohm-energie-ohm-serenite-fixe-1-an",
+     "type": "comparateur",
+     "consulte_le": "2026-11-01"
     }
    ],
    "notes": [
     "Abonnements TTC repris de la grille officielle applicable au 23/10/2026 (identiques chez Kelwatt).",
     "kWh Base : la grille officielle affiche deux prix TTC, 20,01 c€ et 22,12 c€, sans que la lecture du PDF permette de les attribuer aux puissances ; Kelwatt et Selectra donnent 0,2001 € à 3 kVA et 0,2183 € de 6 à 36 kVA (valeur conservée). À vérifier visuellement sur la grille officielle.",
-    "Promotion OHM en cours (20 € après 1 an) réservée à l'offre OHM Sérénité Fixe 2 ans, non suivie ici ; remise de 100 € réservée aux souscriptions électricité + gaz du 02/10 au 31/12/2026."
+    "Promotion OHM en cours (20 € après 1 an) réservée à l'offre OHM Sérénité Fixe 2 ans, non suivie ici ; remise de 100 € réservée aux souscriptions électricité + gaz du 02/10 au 31/12/2026.",
+    "01/11/2026 : JeChange (vérifié le 31/10) et Selectra (relevé le 19/10 dans la grille OHM) donnent tous deux 0,2001 € à 3 kVA et 0,2183 € de 6 à 36 kVA, abonnements identiques à la base. La grille officielle (applicable au 14/10/2026, URL .../ELEC-Serenite_Fixe_1an.pdf) lue en texte ne laisse pas attribuer les prix Base ; le 22,12 c€ relevé le 31/10 n'y a pas été retrouvé. Conflit maintenu jusqu'à lecture visuelle de la grille officielle."
    ],
-   "derniere_verif": "2026-10-31"
+   "derniere_verif": "2026-11-01"
   },
   {
    "id": "happ-e-1-an-base",
@@ -5590,7 +5637,7 @@
     },
     {
      "kva": 6,
-     "abonnement_mois": null,
+     "abonnement_mois": 15.86,
      "prix_kwh": {
       "base": 0.19
      }
@@ -5658,12 +5705,18 @@
      "url": "https://www.jechange.fr/energie/electricite/moins-cher",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/",
+     "type": "comparateur",
+     "consulte_le": "2026-11-01"
     }
    ],
    "notes": [
-    "Abonnement non relevé."
+    "Abonnement relevé à 6 kVA uniquement (190,32 €/an TTC, fournisseurs-electricite.com, 01/11/2026) ; autres puissances non relevées.",
+    "kWh 0,1900 € TTC reconfirmé à 6 kVA le 01/11/2026 (tarifs vérifiés le 25/09/2026 par le comparateur)."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-11-01"
   }
  ]
 }

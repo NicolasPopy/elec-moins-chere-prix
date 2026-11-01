@@ -1,5 +1,5 @@
 {
- "mis_a_jour_le": "2026-10-31",
+ "mis_a_jour_le": "2026-11-01",
  "hypotheses": {
   "part_heures_creuses_hphc": 0.32,
   "consommations_kwh": [
@@ -1360,6 +1360,17 @@
     "verification": "confirme"
    },
    {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 665.32,
+    "cout_annuel_promo_deduite": 665.32,
+    "cout_3_ans_promo_deduite": 1995.96,
+    "promo_an1": 0,
+    "verification": "source_unique"
+   },
+   {
     "id": "primeo-essentielle-verte-base",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -1822,6 +1833,17 @@
     "cout_3_ans_promo_deduite": 3122.51,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1045.32,
+    "cout_annuel_promo_deduite": 1045.32,
+    "cout_3_ans_promo_deduite": 3135.96,
+    "promo_an1": 0,
+    "verification": "source_unique"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -2297,6 +2319,17 @@
     "cout_3_ans_promo_deduite": 5107.06,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1710.32,
+    "cout_annuel_promo_deduite": 1710.32,
+    "cout_3_ans_promo_deduite": 5130.96,
+    "promo_an1": 0,
+    "verification": "source_unique"
    },
    {
     "id": "dyneff-contrat-plus-base",
