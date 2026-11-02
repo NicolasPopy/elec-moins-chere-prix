@@ -1,5 +1,7 @@
 # Évolution des prix
 
+## 2026-11-02
+- Aucun changement de prix.
 ## 2026-11-01
 - `llum-particuliers-base` abonnement (6 kVA) : None → 15.86
 ## 2026-10-31
