@@ -1,5 +1,5 @@
 {
- "mis_a_jour_le": "2026-11-02",
+ "mis_a_jour_le": "2026-11-03",
  "hypotheses": {
   "part_heures_creuses_hphc": 0.32,
   "consommations_kwh": [
@@ -41,17 +41,6 @@
     "cout_annuel": 583.81,
     "cout_annuel_promo_deduite": 583.81,
     "cout_3_ans_promo_deduite": 1751.43,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 596.97,
-    "cout_annuel_promo_deduite": 596.97,
-    "cout_3_ans_promo_deduite": 1790.91,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -388,13 +377,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 756.48,
     "cout_annuel_promo_deduite": 716.48,
     "cout_3_ans_promo_deduite": 2229.44,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -439,17 +428,6 @@
     "cout_annuel": 934.41,
     "cout_annuel_promo_deduite": 934.41,
     "cout_3_ans_promo_deduite": 2803.23,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 958.1,
-    "cout_annuel_promo_deduite": 958.1,
-    "cout_3_ans_promo_deduite": 2874.29,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -775,13 +753,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1255.49,
     "cout_annuel_promo_deduite": 1215.49,
     "cout_3_ans_promo_deduite": 3726.46,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "enercoop-base",
@@ -837,17 +815,6 @@
     "cout_annuel": 1547.96,
     "cout_annuel_promo_deduite": 1547.96,
     "cout_3_ans_promo_deduite": 4643.88,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1590.07,
-    "cout_annuel_promo_deduite": 1590.07,
-    "cout_3_ans_promo_deduite": 4770.22,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1173,13 +1140,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2128.75,
     "cout_annuel_promo_deduite": 2088.75,
     "cout_3_ans_promo_deduite": 6346.26,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "enercoop-base",
@@ -1659,13 +1626,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 841.08,
     "cout_annuel_promo_deduite": 801.08,
     "cout_3_ans_promo_deduite": 2483.24,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -2134,13 +2101,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1340.09,
     "cout_annuel_promo_deduite": 1300.09,
     "cout_3_ans_promo_deduite": 3980.26,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -2598,13 +2565,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2213.35,
     "cout_annuel_promo_deduite": 2173.35,
     "cout_3_ans_promo_deduite": 6600.06,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "enercoop-base",
@@ -3062,13 +3029,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 915.72,
     "cout_annuel_promo_deduite": 875.72,
     "cout_3_ans_promo_deduite": 2707.16,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -3515,13 +3482,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1414.73,
     "cout_annuel_promo_deduite": 1374.73,
     "cout_3_ans_promo_deduite": 4204.18,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -3957,13 +3924,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2287.99,
     "cout_annuel_promo_deduite": 2247.99,
     "cout_3_ans_promo_deduite": 6823.98,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "enercoop-base",
@@ -4421,13 +4388,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 994.8,
     "cout_annuel_promo_deduite": 954.8,
     "cout_3_ans_promo_deduite": 2944.4,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -4874,13 +4841,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1493.81,
     "cout_annuel_promo_deduite": 1453.81,
     "cout_3_ans_promo_deduite": 4441.42,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -5316,13 +5283,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2367.07,
     "cout_annuel_promo_deduite": 2327.07,
     "cout_3_ans_promo_deduite": 7061.22,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "enercoop-base",
@@ -5747,13 +5714,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1048.08,
     "cout_annuel_promo_deduite": 1008.08,
     "cout_3_ans_promo_deduite": 3104.24,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -6167,13 +6134,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1547.09,
     "cout_annuel_promo_deduite": 1507.09,
     "cout_3_ans_promo_deduite": 4601.26,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -6576,13 +6543,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2420.35,
     "cout_annuel_promo_deduite": 2380.35,
     "cout_3_ans_promo_deduite": 7221.06,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "enercoop-base",
@@ -6649,17 +6616,6 @@
     "cout_annuel": 828.17,
     "cout_annuel_promo_deduite": 828.17,
     "cout_3_ans_promo_deduite": 2484.51,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 829.43,
-    "cout_annuel_promo_deduite": 829.43,
-    "cout_3_ans_promo_deduite": 2488.29,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7007,13 +6963,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1122.0,
     "cout_annuel_promo_deduite": 1082.0,
     "cout_3_ans_promo_deduite": 3326.0,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -7058,17 +7014,6 @@
     "cout_annuel": 1186.22,
     "cout_annuel_promo_deduite": 1186.22,
     "cout_3_ans_promo_deduite": 3558.65,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1194.03,
-    "cout_annuel_promo_deduite": 1194.03,
-    "cout_3_ans_promo_deduite": 3582.09,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7427,13 +7372,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1621.01,
     "cout_annuel_promo_deduite": 1581.01,
     "cout_3_ans_promo_deduite": 4823.02,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -7478,17 +7423,6 @@
     "cout_annuel": 1818.19,
     "cout_annuel_promo_deduite": 1818.19,
     "cout_3_ans_promo_deduite": 5454.58,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1832.08,
-    "cout_annuel_promo_deduite": 1832.08,
-    "cout_3_ans_promo_deduite": 5496.24,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7836,13 +7770,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2494.27,
     "cout_annuel_promo_deduite": 2454.27,
     "cout_3_ans_promo_deduite": 7442.82,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "enercoop-base",
@@ -7909,17 +7843,6 @@
     "cout_annuel": 921.17,
     "cout_annuel_promo_deduite": 921.17,
     "cout_3_ans_promo_deduite": 2763.51,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 925.31,
-    "cout_annuel_promo_deduite": 925.31,
-    "cout_3_ans_promo_deduite": 2775.93,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8267,13 +8190,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1256.16,
     "cout_annuel_promo_deduite": 1216.16,
     "cout_3_ans_promo_deduite": 3728.48,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -8318,17 +8241,6 @@
     "cout_annuel": 1282.1,
     "cout_annuel_promo_deduite": 1282.1,
     "cout_3_ans_promo_deduite": 3846.29,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1289.91,
-    "cout_annuel_promo_deduite": 1289.91,
-    "cout_3_ans_promo_deduite": 3869.73,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8687,13 +8599,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1755.17,
     "cout_annuel_promo_deduite": 1715.17,
     "cout_3_ans_promo_deduite": 5225.5,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -8738,17 +8650,6 @@
     "cout_annuel": 1914.07,
     "cout_annuel_promo_deduite": 1914.07,
     "cout_3_ans_promo_deduite": 5742.22,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1927.96,
-    "cout_annuel_promo_deduite": 1927.96,
-    "cout_3_ans_promo_deduite": 5783.88,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9107,13 +9008,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2628.43,
     "cout_annuel_promo_deduite": 2588.43,
     "cout_3_ans_promo_deduite": 7845.3,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -9169,17 +9070,6 @@
     "cout_annuel": 1008.93,
     "cout_annuel_promo_deduite": 1008.93,
     "cout_3_ans_promo_deduite": 3026.79,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1013.27,
-    "cout_annuel_promo_deduite": 1013.27,
-    "cout_3_ans_promo_deduite": 3039.81,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9527,13 +9417,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1400.52,
     "cout_annuel_promo_deduite": 1360.52,
     "cout_3_ans_promo_deduite": 4161.56,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -9589,17 +9479,6 @@
     "cout_annuel": 1376.56,
     "cout_annuel_promo_deduite": 1376.56,
     "cout_3_ans_promo_deduite": 4129.69,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1377.87,
-    "cout_annuel_promo_deduite": 1377.87,
-    "cout_3_ans_promo_deduite": 4133.61,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9947,13 +9826,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1899.53,
     "cout_annuel_promo_deduite": 1859.53,
     "cout_3_ans_promo_deduite": 5658.58,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -9998,17 +9877,6 @@
     "cout_annuel": 2002.03,
     "cout_annuel_promo_deduite": 2002.03,
     "cout_3_ans_promo_deduite": 6006.1,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 2015.92,
-    "cout_annuel_promo_deduite": 2015.92,
-    "cout_3_ans_promo_deduite": 6047.76,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10367,13 +10235,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2772.79,
     "cout_annuel_promo_deduite": 2732.79,
     "cout_3_ans_promo_deduite": 8278.38,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -10441,17 +10309,6 @@
     "cout_annuel_promo_deduite": 1102.05,
     "cout_3_ans_promo_deduite": 3512.27,
     "promo_an1": 103.06,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1102.31,
-    "cout_annuel_promo_deduite": 1102.31,
-    "cout_3_ans_promo_deduite": 3306.93,
-    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -10787,13 +10644,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 1545.0,
     "cout_annuel_promo_deduite": 1505.0,
     "cout_3_ans_promo_deduite": 4595.0,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -10849,17 +10706,6 @@
     "cout_annuel": 1462.6,
     "cout_annuel_promo_deduite": 1462.6,
     "cout_3_ans_promo_deduite": 4387.81,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1466.91,
-    "cout_annuel_promo_deduite": 1466.91,
-    "cout_3_ans_promo_deduite": 4400.73,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11207,13 +11053,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2044.01,
     "cout_annuel_promo_deduite": 2004.01,
     "cout_3_ans_promo_deduite": 6092.02,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
@@ -11258,17 +11104,6 @@
     "cout_annuel": 2091.07,
     "cout_annuel_promo_deduite": 2091.07,
     "cout_3_ans_promo_deduite": 6273.22,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 2104.96,
-    "cout_annuel_promo_deduite": 2104.96,
-    "cout_3_ans_promo_deduite": 6314.88,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11627,13 +11462,13 @@
    {
     "id": "enercoop-hphc",
     "fournisseur": "Enercoop",
-    "offre": "Offre Heures creuses",
+    "offre": "Flexi Watt – heures creuses",
     "option": "hphc",
     "cout_annuel": 2917.27,
     "cout_annuel_promo_deduite": 2877.27,
     "cout_3_ans_promo_deduite": 8711.82,
     "promo_an1": 40.0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "ilek-enrfixe-plus-base",
