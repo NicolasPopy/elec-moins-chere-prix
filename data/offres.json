@@ -2,7 +2,7 @@
  "meta": {
   "nom": "ElecMoinsChere — base des prix de l'électricité",
   "version_schema": 1,
-  "mis_a_jour_le": "2026-11-03",
+  "mis_a_jour_le": "2026-11-04",
   "zone": "France métropolitaine continentale (hors Corse et DOM)",
   "unites": {
    "abonnement_mois": "€ TTC par mois",
@@ -2317,14 +2317,26 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/octopus-energy/tarifs/intelligent-octopus",
      "type": "comparateur",
      "consulte_le": "2026-10-31"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/octopus-energy/tarifs/intelligent-octopus",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/octopus-energy/tarifs/intelligent-octopus",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
     }
    ],
    "notes": [
     "Réservée aux possesseurs de véhicule électrique compatible.",
     "Grille officielle applicable au 01/08/2026 (prix HT bloqués 2 ans), concordante avec Selectra (30/10/2026). Ligne 36 kVA incohérente dans le PDF (TTC 54,41 € en Base et 53,88 € en HP/HC pour le même HTT) : 53,88 € conservé.",
-    "Recharge à 0,08 €/kWh TTC : d'après Selectra seul (absent du PDF)."
+    "Recharge à 0,08 €/kWh TTC : d'après Selectra seul (absent du PDF).",
+    "04/11/2026 : kWh confirmés par JeChange (vérifié le 02/11) et Selectra ; aucune grille Intelligent Octopus plus récente que celle d'août 2026 trouvée. Fiche descriptive officielle : abonnement HT = TRV 01/02/2026, kWh HT = TRV 01/08/2026 − 2 %.",
+    "04/11/2026 : JeChange et Selectra donnent 54,41 € à 36 kVA en Base ; 53,88 € conservé (incohérence du PDF officiel)."
    ],
-   "derniere_verif": "2026-10-31"
+   "derniere_verif": "2026-11-04"
   },
   {
    "id": "octopus-intelligent-hphc",
@@ -2426,15 +2438,27 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/octopus-energy/tarifs/intelligent-octopus",
      "type": "comparateur",
      "consulte_le": "2026-10-31"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/octopus-energy/tarifs/intelligent-octopus",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/octopus-energy/tarifs/intelligent-octopus",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
     }
    ],
    "notes": [
     "Réservée aux possesseurs de véhicule électrique compatible.",
     "Abonnements HP/HC de la grille officielle (légèrement supérieurs à la Base à partir de 9 kVA).",
     "Grille officielle applicable au 01/08/2026 (prix HT bloqués 2 ans), concordante avec Selectra (30/10/2026). Ligne 36 kVA incohérente dans le PDF (TTC 54,41 € en Base et 53,88 € en HP/HC pour le même HTT) : 53,88 € conservé.",
-    "Recharge à 0,08 €/kWh TTC : d'après Selectra seul (absent du PDF)."
+    "Recharge à 0,08 €/kWh TTC : d'après Selectra seul (absent du PDF).",
+    "04/11/2026 : kWh confirmés par JeChange (vérifié le 02/11) et Selectra ; aucune grille Intelligent Octopus plus récente que celle d'août 2026 trouvée. Fiche descriptive officielle : abonnement HT = TRV 01/02/2026, kWh HT = TRV 01/08/2026 − 2 %.",
+    "04/11/2026 : JeChange et Selectra affichent pour le HP/HC de 9 à 30 kVA les mêmes abonnements qu'en Base (19,88 à 46,47 €), écart de 1,4 à 2 % avec la grille officielle lue le 31/10 ; valeurs de la grille officielle conservées."
    ],
-   "derniere_verif": "2026-10-31"
+   "derniere_verif": "2026-11-04"
   },
   {
    "id": "gaz-de-bordeaux-novafixe-bonus-base",
@@ -3153,14 +3177,6 @@
    "plages_horaires": "Créneau d'heures creuses fixé par Enedis pour chaque compteur (8 h/jour, voir programmationHoraireHC).",
    "grille": [
     {
-     "kva": 3,
-     "abonnement_mois": 12.15,
-     "prix_kwh": {
-      "hp": 0.1983,
-      "hc": 0.1583
-     }
-    },
-    {
      "kva": 6,
      "abonnement_mois": 15.9,
      "prix_kwh": {
@@ -3237,13 +3253,24 @@
     {
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/geg/tarifs/geg-mon-offre-elec-verte-fixe-3-ans",
      "type": "comparateur",
-     "consulte_le": "2026-10-30"
+     "consulte_le": "2026-11-04"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/geg/tarifs/geg-mon-offre-elec-verte-fixe-3-ans",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/geg/tarifs/geg-mon-offre-elec-verte-fixe-3-ans",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
     }
    ],
    "notes": [
-    "Prix TTC confirmés à 6 kVA par une seconde source (HP 0,1983 / HC 0,1583 €, abonnement 15,90 €/mois)."
+    "Prix TTC confirmés à 6 kVA par une seconde source (HP 0,1983 / HC 0,1583 €, abonnement 15,90 €/mois).",
+    "04/11/2026 : prix confirmés par JeChange (vérifié le 02/11), Selectra et fournisseurs-electricite.com (03/11). Ligne 3 kVA retirée : HP/HC non proposé en 3 kVA selon JeChange et Selectra. Grille officielle GEG non consultée (site inaccessible)."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-11-04"
   },
   {
    "id": "plenitude-pleniweb-base",
@@ -3667,10 +3694,27 @@
      "url": "https://elecompare.fr/tarifs",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/dyneff/tarifs/contrat-electricite",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/dyneff/tarifs/contrat-electricite",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/dyneff/tarifs/contrat-electricite",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
     }
    ],
-   "notes": [],
-   "derniere_verif": "2026-10-30"
+   "notes": [
+    "04/11/2026 : prix confirmés par JeChange (vérifié le 03/11, grille du 01/10/2026), Selectra et fournisseurs-electricite.com (04/11). JeChange indique que le HP/HC n'est pas proposé en 3 kVA (source unique, ligne conservée). Grille officielle Dyneff non consultée (site inaccessible)."
+   ],
+   "derniere_verif": "2026-11-04"
   },
   {
    "id": "primeo-essentielle-verte-base",
@@ -4187,19 +4231,31 @@
     {
      "url": "https://www.kelwatt.fr/fournisseurs/alpiq/prix/electricite-horizon",
      "type": "comparateur",
-     "consulte_le": "2026-10-31"
+     "consulte_le": "2026-11-04"
     },
     {
      "url": "https://www.jechange.fr/energie/alpiq/tarifs/electricite-horizon",
      "type": "comparateur",
      "consulte_le": "2026-10-31"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/alpiq/tarifs/electricite-horizon",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
+    },
+    {
+     "url": "https://www.hellowatt.fr/fournisseurs/alpiq/electricite-horizon",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
     }
    ],
    "notes": [
     "Prix confirmés par Kelwatt et JeChange (vérifiés le 30/10/2026) ; abonnement identique au TRV.",
-    "Durée de blocage du prix incertaine : Kelwatt indique un kWh HT fixé jusqu'au 30/09/2029, JeChange « prix fixes 1 an »."
+    "Durée de blocage du prix incertaine : Kelwatt indique un kWh HT fixé jusqu'au 30/09/2029, JeChange « prix fixes 1 an ».",
+    "04/11/2026 : prix confirmés par Kelwatt (vérifié le 01/11) et Hellowatt (03/11) ; Selectra indique un kWh HT fixe jusqu'au 30/09/2029. Commercialisation incertaine : Selectra (liste du 02/11) et JeChange ne listent plus qu'Alpiq « Sérénité » (mêmes prix, révisés en février/août). Grille officielle Alpiq non lisible ; offre conservée en attendant confirmation.",
+    "04/11/2026 : Hellowatt donne 0,1992 € (3-6 kVA) contre 0,1993 € chez Kelwatt et Selectra ; 0,1993 conservé."
    ],
-   "derniere_verif": "2026-10-31"
+   "derniere_verif": "2026-11-04"
   },
   {
    "id": "alpiq-horizon-hphc",
@@ -4285,19 +4341,30 @@
     {
      "url": "https://www.kelwatt.fr/fournisseurs/alpiq/prix/electricite-horizon",
      "type": "comparateur",
-     "consulte_le": "2026-10-31"
+     "consulte_le": "2026-11-04"
     },
     {
      "url": "https://www.jechange.fr/energie/alpiq/tarifs/electricite-horizon",
      "type": "comparateur",
      "consulte_le": "2026-10-31"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/alpiq/tarifs/electricite-horizon",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
+    },
+    {
+     "url": "https://www.hellowatt.fr/fournisseurs/alpiq/electricite-horizon",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
     }
    ],
    "notes": [
     "Prix confirmés par Kelwatt et JeChange (vérifiés le 30/10/2026) ; abonnement identique au TRV.",
-    "Durée de blocage du prix incertaine : Kelwatt indique un kWh HT fixé jusqu'au 30/09/2029, JeChange « prix fixes 1 an »."
+    "Durée de blocage du prix incertaine : Kelwatt indique un kWh HT fixé jusqu'au 30/09/2029, JeChange « prix fixes 1 an ».",
+    "04/11/2026 : prix confirmés par Kelwatt (vérifié le 01/11) et Hellowatt (03/11) ; Selectra indique un kWh HT fixe jusqu'au 30/09/2029. Commercialisation incertaine : Selectra (liste du 02/11) et JeChange ne listent plus qu'Alpiq « Sérénité » (mêmes prix, révisés en février/août). Grille officielle Alpiq non lisible ; offre conservée en attendant confirmation."
    ],
-   "derniere_verif": "2026-10-31"
+   "derniere_verif": "2026-11-04"
   },
   {
    "id": "ekwateur-renouvelable-europe-base",
@@ -4854,49 +4921,49 @@
      "kva": 9,
      "abonnement_mois": 18.11,
      "prix_kwh": {
-      "base": 0.2183
+      "base": 0.2212
      }
     },
     {
      "kva": 12,
      "abonnement_mois": 21.65,
      "prix_kwh": {
-      "base": 0.2183
+      "base": 0.2212
      }
     },
     {
      "kva": 15,
      "abonnement_mois": 24.97,
      "prix_kwh": {
-      "base": 0.2183
+      "base": 0.2212
      }
     },
     {
      "kva": 18,
      "abonnement_mois": 28.39,
      "prix_kwh": {
-      "base": 0.2183
+      "base": 0.2212
      }
     },
     {
      "kva": 24,
      "abonnement_mois": 35.68,
      "prix_kwh": {
-      "base": 0.2183
+      "base": 0.2212
      }
     },
     {
      "kva": 30,
      "abonnement_mois": 42.37,
      "prix_kwh": {
-      "base": 0.2183
+      "base": 0.2212
      }
     },
     {
      "kva": 36,
      "abonnement_mois": 49.13,
      "prix_kwh": {
-      "base": 0.2183
+      "base": 0.2212
      }
     }
    ],
@@ -4907,12 +4974,12 @@
     {
      "url": "https://ohm-energie.com/grilles/elec/2026/10/ELEC-Serenite_fixe_1an.pdf",
      "type": "officiel",
-     "consulte_le": "2026-11-03"
+     "consulte_le": "2026-11-04"
     },
     {
      "url": "https://www.kelwatt.fr/fournisseurs/ohm-energie/prix/ohm-energie-ohm-serenite-fixe-1-an",
      "type": "comparateur",
-     "consulte_le": "2026-11-03"
+     "consulte_le": "2026-11-04"
     },
     {
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/ohm-energie/tarifs/ohm-energie-ohm-serenite-fixe-1-an",
@@ -4933,6 +5000,11 @@
      "url": "https://selectra.info/energie/fournisseurs/ohm-energie/tarifs/ohm-energie-ohm-serenite-fixe-1-an",
      "type": "comparateur",
      "consulte_le": "2026-11-01"
+    },
+    {
+     "url": "https://www.hellowatt.fr/fournisseurs/ohm-energie/serenite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
     }
    ],
    "notes": [
@@ -4941,9 +5013,10 @@
     "Promotion OHM en cours (20 € après 1 an) réservée à l'offre OHM Sérénité Fixe 2 ans, non suivie ici ; remise de 100 € réservée aux souscriptions électricité + gaz du 02/10 au 31/12/2026.",
     "01/11/2026 : JeChange (vérifié le 31/10) et Selectra (relevé le 19/10 dans la grille OHM) donnent tous deux 0,2001 € à 3 kVA et 0,2183 € de 6 à 36 kVA, abonnements identiques à la base. La grille officielle (applicable au 14/10/2026, URL .../ELEC-Serenite_Fixe_1an.pdf) lue en texte ne laisse pas attribuer les prix Base ; le 22,12 c€ relevé le 31/10 n'y a pas été retrouvé. Conflit maintenu jusqu'à lecture visuelle de la grille officielle.",
     "02/11/2026 : grille officielle OHM non lisible (accès refusé au téléchargement) ; valeurs inchangées, conflit maintenu.",
-    "03/11/2026 : la grille officielle la plus récente (applicable au 23/10/2026) confirme les abonnements TTC de 3 à 36 kVA (identiques à Kelwatt, tarifs vérifiés le 03/11). Le kWh Base y figure en deux couples HT/TTC (13,61/20,01 c€ et 15,37/22,12 c€) sans puissance associée ; Kelwatt donne toujours 0,2001 € (3 kVA) et 0,2183 € (6-36 kVA). Écart 0,2183/0,2212 non résolu : valeurs inchangées, conflit maintenu."
+    "03/11/2026 : la grille officielle la plus récente (applicable au 23/10/2026) confirme les abonnements TTC de 3 à 36 kVA (identiques à Kelwatt, tarifs vérifiés le 03/11). Le kWh Base y figure en deux couples HT/TTC (13,61/20,01 c€ et 15,37/22,12 c€) sans puissance associée ; Kelwatt donne toujours 0,2001 € (3 kVA) et 0,2183 € (6-36 kVA). Écart 0,2183/0,2212 non résolu : valeurs inchangées, conflit maintenu.",
+    "04/11/2026 : contrôle arithmétique de la grille officielle du 23/10/2026 avec l'accise qu'elle indique (3,062 c€/kWh) : (13,61+3,062)×1,2 = 20,01 et (15,37+3,062)×1,2 = 22,12 c€ TTC ; 0,2183 € (15,13 c€ HT) n'y figure pas. Les comparateurs (Kelwatt vérifié le 04/11, Selectra, JeChange) citent tous une grille antérieure du 19/10/2026. Kwh Base passé à 0,2212 € de 9 à 36 kVA (valeur commune aux deux lectures possibles de la grille, confirmée par Hellowatt du 02/11). 6 kVA inchangé à 0,2183 : la grille donne 0,2001 ou 0,2212 selon la lecture (Hellowatt : 0,2001) ; conflit maintenu jusqu'à lecture visuelle du PDF."
    ],
-   "derniere_verif": "2026-11-03"
+   "derniere_verif": "2026-11-04"
   },
   {
    "id": "happ-e-1-an-base",
@@ -5699,12 +5772,23 @@
      "url": "https://elecompare.fr/tarifs",
      "type": "comparateur",
      "consulte_le": "2026-10-30"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/urban-solar-energy/prix/avec-stockage-virtuel",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/urban-solar-energy/tarifs/avec-stockage-virtuel",
+     "type": "comparateur",
+     "consulte_le": "2026-11-04"
     }
    ],
    "notes": [
-    "Pertinente surtout avec des panneaux solaires."
+    "Pertinente surtout avec des panneaux solaires.",
+    "04/11/2026 : prix confirmés par Kelwatt (vérifié le 02/11) et Selectra (relevé du 03/08/2026). Frais en sus : 299 € TTC de mise en service et 1 € HT/kWc/mois de stockage virtuel (Kelwatt, Selectra)."
    ],
-   "derniere_verif": "2026-10-30"
+   "derniere_verif": "2026-11-04"
   },
   {
    "id": "llum-particuliers-base",

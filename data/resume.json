@@ -1,5 +1,5 @@
 {
- "mis_a_jour_le": "2026-11-03",
+ "mis_a_jour_le": "2026-11-04",
  "hypotheses": {
   "part_heures_creuses_hphc": 0.32,
   "consommations_kwh": [
@@ -96,17 +96,6 @@
     "cout_annuel": 606.65,
     "cout_annuel_promo_deduite": 606.65,
     "cout_3_ans_promo_deduite": 1819.95,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 609.55,
-    "cout_annuel_promo_deduite": 609.55,
-    "cout_3_ans_promo_deduite": 1828.65,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -483,17 +472,6 @@
     "cout_annuel": 976.48,
     "cout_annuel_promo_deduite": 976.48,
     "cout_3_ans_promo_deduite": 2929.45,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 980.55,
-    "cout_annuel_promo_deduite": 980.55,
-    "cout_3_ans_promo_deduite": 2941.65,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -881,17 +859,6 @@
     "cout_annuel": 1623.69,
     "cout_annuel_promo_deduite": 1623.69,
     "cout_3_ans_promo_deduite": 4871.06,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1629.8,
-    "cout_annuel_promo_deduite": 1629.8,
-    "cout_3_ans_promo_deduite": 4889.4,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2954,9 +2921,9 @@
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 763.07,
-    "cout_annuel_promo_deduite": 763.07,
-    "cout_3_ans_promo_deduite": 2289.21,
+    "cout_annuel": 770.32,
+    "cout_annuel_promo_deduite": 770.32,
+    "cout_3_ans_promo_deduite": 2310.96,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -3414,17 +3381,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1199.67,
-    "cout_annuel_promo_deduite": 1199.67,
-    "cout_3_ans_promo_deduite": 3599.01,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -3434,6 +3390,17 @@
     "cout_3_ans_promo_deduite": 3614.13,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1212.72,
+    "cout_annuel_promo_deduite": 1212.72,
+    "cout_3_ans_promo_deduite": 3638.16,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -3882,9 +3849,9 @@
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 1963.72,
-    "cout_annuel_promo_deduite": 1963.72,
-    "cout_3_ans_promo_deduite": 5891.16,
+    "cout_annuel": 1986.92,
+    "cout_annuel_promo_deduite": 1986.92,
+    "cout_3_ans_promo_deduite": 5960.76,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -4313,9 +4280,9 @@
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 805.55,
-    "cout_annuel_promo_deduite": 805.55,
-    "cout_3_ans_promo_deduite": 2416.65,
+    "cout_annuel": 812.8,
+    "cout_annuel_promo_deduite": 812.8,
+    "cout_3_ans_promo_deduite": 2438.4,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -4762,17 +4729,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1242.15,
-    "cout_annuel_promo_deduite": 1242.15,
-    "cout_3_ans_promo_deduite": 3726.45,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -4793,6 +4749,17 @@
     "cout_3_ans_promo_deduite": 3753.81,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1255.2,
+    "cout_annuel_promo_deduite": 1255.2,
+    "cout_3_ans_promo_deduite": 3765.6,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -5241,9 +5208,9 @@
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 2006.2,
-    "cout_annuel_promo_deduite": 2006.2,
-    "cout_3_ans_promo_deduite": 6018.6,
+    "cout_annuel": 2029.4,
+    "cout_annuel_promo_deduite": 2029.4,
+    "cout_3_ans_promo_deduite": 6088.2,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -5635,17 +5602,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 845.39,
-    "cout_annuel_promo_deduite": 845.39,
-    "cout_3_ans_promo_deduite": 2536.17,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
@@ -5655,6 +5611,17 @@
     "cout_3_ans_promo_deduite": 2656.83,
     "promo_an1": 52.74,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 852.64,
+    "cout_annuel_promo_deduite": 852.64,
+    "cout_3_ans_promo_deduite": 2557.92,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -6055,17 +6022,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1281.99,
-    "cout_annuel_promo_deduite": 1281.99,
-    "cout_3_ans_promo_deduite": 3845.97,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -6086,6 +6042,17 @@
     "cout_3_ans_promo_deduite": 3884.85,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1295.04,
+    "cout_annuel_promo_deduite": 1295.04,
+    "cout_3_ans_promo_deduite": 3885.12,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -6486,17 +6453,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 2046.04,
-    "cout_annuel_promo_deduite": 2046.04,
-    "cout_3_ans_promo_deduite": 6138.12,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -6506,6 +6462,17 @@
     "cout_3_ans_promo_deduite": 6139.2,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 2069.24,
+    "cout_annuel_promo_deduite": 2069.24,
+    "cout_3_ans_promo_deduite": 6207.72,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -6873,17 +6840,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 886.43,
-    "cout_annuel_promo_deduite": 886.43,
-    "cout_3_ans_promo_deduite": 2659.29,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "urban-solar-base",
     "fournisseur": "Urban Solar Energy",
     "offre": "Électricité avec stockage virtuel",
@@ -6904,6 +6860,17 @@
     "cout_3_ans_promo_deduite": 2669.79,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 893.68,
+    "cout_annuel_promo_deduite": 893.68,
+    "cout_3_ans_promo_deduite": 2681.04,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -7297,9 +7264,9 @@
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 1323.03,
-    "cout_annuel_promo_deduite": 1323.03,
-    "cout_3_ans_promo_deduite": 3969.09,
+    "cout_annuel": 1336.08,
+    "cout_annuel_promo_deduite": 1336.08,
+    "cout_3_ans_promo_deduite": 4008.24,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -7713,17 +7680,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 2087.08,
-    "cout_annuel_promo_deduite": 2087.08,
-    "cout_3_ans_promo_deduite": 6261.24,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -7733,6 +7689,17 @@
     "cout_3_ans_promo_deduite": 6273.84,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 2110.28,
+    "cout_annuel_promo_deduite": 2110.28,
+    "cout_3_ans_promo_deduite": 6330.84,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -8067,17 +8034,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 973.91,
-    "cout_annuel_promo_deduite": 973.91,
-    "cout_3_ans_promo_deduite": 2921.73,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alterna-fixe-1-an-base",
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
@@ -8109,6 +8065,17 @@
     "cout_3_ans_promo_deduite": 2942.85,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 981.16,
+    "cout_annuel_promo_deduite": 981.16,
+    "cout_3_ans_promo_deduite": 2943.48,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "urban-solar-base",
@@ -8524,9 +8491,9 @@
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 1410.51,
-    "cout_annuel_promo_deduite": 1410.51,
-    "cout_3_ans_promo_deduite": 4231.53,
+    "cout_annuel": 1423.56,
+    "cout_annuel_promo_deduite": 1423.56,
+    "cout_3_ans_promo_deduite": 4270.68,
     "promo_an1": 0,
     "verification": "conflit"
    },
@@ -8929,17 +8896,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 2174.56,
-    "cout_annuel_promo_deduite": 2174.56,
-    "cout_3_ans_promo_deduite": 6523.68,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -8960,6 +8916,17 @@
     "cout_3_ans_promo_deduite": 6561.84,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 2197.76,
+    "cout_annuel_promo_deduite": 2197.76,
+    "cout_3_ans_promo_deduite": 6593.28,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -9272,17 +9239,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1054.19,
-    "cout_annuel_promo_deduite": 1054.19,
-    "cout_3_ans_promo_deduite": 3162.57,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-vert-electrique-hphc",
     "fournisseur": "EDF",
     "offre": "Vert Électrique",
@@ -9303,6 +9259,17 @@
     "cout_3_ans_promo_deduite": 3178.17,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1061.44,
+    "cout_annuel_promo_deduite": 1061.44,
+    "cout_3_ans_promo_deduite": 3184.32,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -9747,17 +9714,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1490.79,
-    "cout_annuel_promo_deduite": 1490.79,
-    "cout_3_ans_promo_deduite": 4472.37,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
@@ -9767,6 +9723,17 @@
     "cout_3_ans_promo_deduite": 4676.01,
     "promo_an1": 88.68,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1503.84,
+    "cout_annuel_promo_deduite": 1503.84,
+    "cout_3_ans_promo_deduite": 4511.52,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -10156,17 +10123,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 2254.84,
-    "cout_annuel_promo_deduite": 2254.84,
-    "cout_3_ans_promo_deduite": 6764.52,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -10187,6 +10143,17 @@
     "cout_3_ans_promo_deduite": 6825.72,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 2278.04,
+    "cout_annuel_promo_deduite": 2278.04,
+    "cout_3_ans_promo_deduite": 6834.12,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -10444,17 +10411,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1135.31,
-    "cout_annuel_promo_deduite": 1135.31,
-    "cout_3_ans_promo_deduite": 3405.93,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "alpiq-horizon-hphc",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -10497,6 +10453,17 @@
     "cout_3_ans_promo_deduite": 3422.43,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1142.56,
+    "cout_annuel_promo_deduite": 1142.56,
+    "cout_3_ans_promo_deduite": 3427.68,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -10974,17 +10941,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1571.91,
-    "cout_annuel_promo_deduite": 1571.91,
-    "cout_3_ans_promo_deduite": 4715.73,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "edf-zen-fixe-base",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -10994,6 +10950,17 @@
     "cout_3_ans_promo_deduite": 4727.43,
     "promo_an1": 0,
     "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1584.96,
+    "cout_annuel_promo_deduite": 1584.96,
+    "cout_3_ans_promo_deduite": 4754.88,
+    "promo_an1": 0,
+    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -11387,9 +11354,9 @@
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
     "option": "base",
-    "cout_annuel": 2335.96,
-    "cout_annuel_promo_deduite": 2335.96,
-    "cout_3_ans_promo_deduite": 7007.88,
+    "cout_annuel": 2359.16,
+    "cout_annuel_promo_deduite": 2359.16,
+    "cout_3_ans_promo_deduite": 7077.48,
     "promo_an1": 0,
     "verification": "conflit"
    },
