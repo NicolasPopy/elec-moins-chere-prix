@@ -8,24 +8,24 @@ edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;18;31.14;base;0.1985;confirme
 edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;24;39.14;base;0.1985;confirme;2026-11-03
 edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;30;46.47;base;0.1985;confirme;2026-11-03
 edf-tarif-bleu-base;EDF;Tarif Bleu;base;reglemente;36;53.88;base;0.1985;confirme;2026-11-03
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;3;12.13;hp;0.2142;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;3;12.13;hc;0.1589;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;6;15.86;hp;0.2142;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;6;15.86;hc;0.1589;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;9;19.88;hp;0.2142;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;9;19.88;hc;0.1589;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;12;23.76;hp;0.2142;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;12;23.76;hc;0.1589;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;15;27.4;hp;0.2142;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;15;27.4;hc;0.1589;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;18;31.14;hp;0.2142;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;18;31.14;hc;0.1589;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;24;39.14;hp;0.2142;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;24;39.14;hc;0.1589;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;30;46.47;hp;0.2142;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;30;46.47;hc;0.1589;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;36;53.88;hp;0.2142;confirme;2026-11-01
-edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;36;53.88;hc;0.1589;confirme;2026-11-01
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;3;12.13;hp;0.2142;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;3;12.13;hc;0.1589;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;6;15.86;hp;0.2142;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;6;15.86;hc;0.1589;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;9;19.88;hp;0.2142;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;9;19.88;hc;0.1589;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;12;23.76;hp;0.2142;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;12;23.76;hc;0.1589;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;15;27.4;hp;0.2142;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;15;27.4;hc;0.1589;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;18;31.14;hp;0.2142;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;18;31.14;hc;0.1589;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;24;39.14;hp;0.2142;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;24;39.14;hc;0.1589;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;30;46.47;hp;0.2142;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;30;46.47;hc;0.1589;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;36;53.88;hp;0.2142;confirme;2026-11-06
+edf-tarif-bleu-hphc;EDF;Tarif Bleu;hphc;reglemente;36;53.88;hc;0.1589;confirme;2026-11-06
 edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;6;15.8;bleu_hp;0.1654;confirme;2026-11-02
 edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;6;15.8;bleu_hc;0.1356;confirme;2026-11-02
 edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;6;15.8;blanc_hp;0.1921;confirme;2026-11-02
@@ -74,15 +74,15 @@ edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;blanc_hp;0.1921;confirm
 edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;blanc_hc;0.1536;confirme;2026-11-02
 edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;rouge_hp;0.7295;confirme;2026-11-02
 edf-tempo;EDF;Tarif Bleu Tempo;tempo;reglemente;36;53.76;rouge_hc;0.1615;confirme;2026-11-02
-edf-zen-online-base;EDF;Zen Online;base;indexe_trv;3;12.13;base;0.1925;confirme;2026-11-01
-edf-zen-online-base;EDF;Zen Online;base;indexe_trv;6;15.86;base;0.1925;confirme;2026-11-01
-edf-zen-online-base;EDF;Zen Online;base;indexe_trv;9;19.88;base;0.1909;confirme;2026-11-01
-edf-zen-online-base;EDF;Zen Online;base;indexe_trv;12;23.76;base;0.1909;confirme;2026-11-01
-edf-zen-online-base;EDF;Zen Online;base;indexe_trv;15;27.4;base;0.1909;confirme;2026-11-01
-edf-zen-online-base;EDF;Zen Online;base;indexe_trv;18;31.14;base;0.1909;confirme;2026-11-01
-edf-zen-online-base;EDF;Zen Online;base;indexe_trv;24;39.14;base;0.1909;confirme;2026-11-01
-edf-zen-online-base;EDF;Zen Online;base;indexe_trv;30;46.47;base;0.1909;confirme;2026-11-01
-edf-zen-online-base;EDF;Zen Online;base;indexe_trv;36;53.88;base;0.1909;confirme;2026-11-01
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;3;12.13;base;0.1925;confirme;2026-11-06
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;6;15.86;base;0.1925;confirme;2026-11-06
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;9;19.88;base;0.1909;confirme;2026-11-06
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;12;23.76;base;0.1909;confirme;2026-11-06
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;15;27.4;base;0.1909;confirme;2026-11-06
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;18;31.14;base;0.1909;confirme;2026-11-06
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;24;39.14;base;0.1909;confirme;2026-11-06
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;30;46.47;base;0.1909;confirme;2026-11-06
+edf-zen-online-base;EDF;Zen Online;base;indexe_trv;36;53.88;base;0.1909;confirme;2026-11-06
 edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;3;12.13;hp;0.2059;confirme;2026-11-02
 edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;3;12.13;hc;0.1531;confirme;2026-11-02
 edf-zen-online-hphc;EDF;Zen Online;hphc;indexe_trv;6;15.86;hp;0.2059;confirme;2026-11-02
