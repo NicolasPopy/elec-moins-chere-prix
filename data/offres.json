@@ -2,7 +2,7 @@
  "meta": {
   "nom": "ElecMoinsChere — base des prix de l'électricité",
   "version_schema": 1,
-  "mis_a_jour_le": "2026-11-06",
+  "mis_a_jour_le": "2026-11-07",
   "zone": "France métropolitaine continentale (hors Corse et DOM)",
   "unites": {
    "abonnement_mois": "€ TTC par mois",
@@ -4916,7 +4916,7 @@
      "kva": 6,
      "abonnement_mois": 14.45,
      "prix_kwh": {
-      "base": 0.2183
+      "base": 0.2212
      }
     },
     {
@@ -4971,17 +4971,17 @@
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "conflit",
+   "verification": "confirme",
    "sources": [
     {
      "url": "https://ohm-energie.com/grilles/elec/2026/10/ELEC-Serenite_fixe_1an.pdf",
      "type": "officiel",
-     "consulte_le": "2026-11-04"
+     "consulte_le": "2026-11-07"
     },
     {
      "url": "https://www.kelwatt.fr/fournisseurs/ohm-energie/prix/ohm-energie-ohm-serenite-fixe-1-an",
      "type": "comparateur",
-     "consulte_le": "2026-11-04"
+     "consulte_le": "2026-11-07"
     },
     {
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/ohm-energie/tarifs/ohm-energie-ohm-serenite-fixe-1-an",
@@ -5001,7 +5001,7 @@
     {
      "url": "https://selectra.info/energie/fournisseurs/ohm-energie/tarifs/ohm-energie-ohm-serenite-fixe-1-an",
      "type": "comparateur",
-     "consulte_le": "2026-11-01"
+     "consulte_le": "2026-11-07"
     },
     {
      "url": "https://www.hellowatt.fr/fournisseurs/ohm-energie/serenite-fixe",
@@ -5017,9 +5017,10 @@
     "02/11/2026 : grille officielle OHM non lisible (accès refusé au téléchargement) ; valeurs inchangées, conflit maintenu.",
     "03/11/2026 : la grille officielle la plus récente (applicable au 23/10/2026) confirme les abonnements TTC de 3 à 36 kVA (identiques à Kelwatt, tarifs vérifiés le 03/11). Le kWh Base y figure en deux couples HT/TTC (13,61/20,01 c€ et 15,37/22,12 c€) sans puissance associée ; Kelwatt donne toujours 0,2001 € (3 kVA) et 0,2183 € (6-36 kVA). Écart 0,2183/0,2212 non résolu : valeurs inchangées, conflit maintenu.",
     "04/11/2026 : contrôle arithmétique de la grille officielle du 23/10/2026 avec l'accise qu'elle indique (3,062 c€/kWh) : (13,61+3,062)×1,2 = 20,01 et (15,37+3,062)×1,2 = 22,12 c€ TTC ; 0,2183 € (15,13 c€ HT) n'y figure pas. Les comparateurs (Kelwatt vérifié le 04/11, Selectra, JeChange) citent tous une grille antérieure du 19/10/2026. Kwh Base passé à 0,2212 € de 9 à 36 kVA (valeur commune aux deux lectures possibles de la grille, confirmée par Hellowatt du 02/11). 6 kVA inchangé à 0,2183 : la grille donne 0,2001 ou 0,2212 selon la lecture (Hellowatt : 0,2001) ; conflit maintenu jusqu'à lecture visuelle du PDF.",
-    "06/11/2026 : grille officielle et comparateurs inaccessibles (accès web refusé pendant la tâche planifiée) ; valeurs inchangées, conflit maintenu."
+    "06/11/2026 : grille officielle et comparateurs inaccessibles (accès web refusé pendant la tâche planifiée) ; valeurs inchangées, conflit maintenu.",
+    "07/11/2026 : conflit levé. Grille officielle applicable au 23/10/2026 (kWh Base 20,01 c€ TTC pour la seule ligne 3 kVA, 22,12 c€ TTC de 6 à 36 kVA, d'après la mise en page), confirmée par Kelwatt (tarifs TTC vérifiés le 06/11/2026, 0,2212 € de 6 à 36 kVA) et Selectra (relevé du 04/11/2026, « 6 à 36 kVA 0,2212 € »). 6 kVA passé de 0,2183 à 0,2212 € ; abonnements inchangés."
    ],
-   "derniere_verif": "2026-11-04"
+   "derniere_verif": "2026-11-07"
   },
   {
    "id": "happ-e-1-an-base",

@@ -1,5 +1,7 @@
 # Évolution des prix
 
+## 2026-11-07
+- `ohm-serenite-fixe-base` base (6 kVA) : 0.2183 → 0.2212
 ## 2026-11-06
 - Aucun changement de prix.
 ## 2026-11-04

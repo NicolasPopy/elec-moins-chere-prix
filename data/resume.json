@@ -1,5 +1,5 @@
 {
- "mis_a_jour_le": "2026-11-06",
+ "mis_a_jour_le": "2026-11-07",
  "hypotheses": {
   "part_heures_creuses_hphc": 0.32,
   "consommations_kwh": [
@@ -196,7 +196,7 @@
     "cout_annuel_promo_deduite": 632.73,
     "cout_3_ans_promo_deduite": 1898.19,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -627,7 +627,7 @@
     "cout_annuel_promo_deduite": 1032.93,
     "cout_3_ans_promo_deduite": 3098.79,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "alpiq-horizon-base",
@@ -1003,7 +1003,7 @@
     "cout_annuel_promo_deduite": 1733.28,
     "cout_3_ans_promo_deduite": 5199.84,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "alpiq-horizon-base",
@@ -1514,17 +1514,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 719.15,
-    "cout_annuel_promo_deduite": 719.15,
-    "cout_3_ans_promo_deduite": 2157.45,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -1532,6 +1521,17 @@
     "cout_annuel": 723.88,
     "cout_annuel_promo_deduite": 723.88,
     "cout_3_ans_promo_deduite": 2171.64,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 726.4,
+    "cout_annuel_promo_deduite": 726.4,
+    "cout_3_ans_promo_deduite": 2179.2,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2000,17 +2000,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1155.75,
-    "cout_annuel_promo_deduite": 1155.75,
-    "cout_3_ans_promo_deduite": 3467.25,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -2018,6 +2007,17 @@
     "cout_annuel": 1164.12,
     "cout_annuel_promo_deduite": 1164.12,
     "cout_3_ans_promo_deduite": 3492.36,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1168.8,
+    "cout_annuel_promo_deduite": 1168.8,
+    "cout_3_ans_promo_deduite": 3506.4,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2475,17 +2475,6 @@
     "verification": "confirme"
    },
    {
-    "id": "ohm-serenite-fixe-base",
-    "fournisseur": "OHM Énergie",
-    "offre": "OHM Sérénité Fixe 1 an",
-    "option": "base",
-    "cout_annuel": 1919.8,
-    "cout_annuel_promo_deduite": 1919.8,
-    "cout_3_ans_promo_deduite": 5759.4,
-    "promo_an1": 0,
-    "verification": "conflit"
-   },
-   {
     "id": "mint-base",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -2493,6 +2482,17 @@
     "cout_annuel": 1921.52,
     "cout_annuel_promo_deduite": 1921.52,
     "cout_3_ans_promo_deduite": 5764.56,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "ohm-serenite-fixe-base",
+    "fournisseur": "OHM Énergie",
+    "offre": "OHM Sérénité Fixe 1 an",
+    "option": "base",
+    "cout_annuel": 1943.0,
+    "cout_annuel_promo_deduite": 1943.0,
+    "cout_3_ans_promo_deduite": 5829.0,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2925,7 +2925,7 @@
     "cout_annuel_promo_deduite": 770.32,
     "cout_3_ans_promo_deduite": 2310.96,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -3400,7 +3400,7 @@
     "cout_annuel_promo_deduite": 1212.72,
     "cout_3_ans_promo_deduite": 3638.16,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -3853,7 +3853,7 @@
     "cout_annuel_promo_deduite": 1986.92,
     "cout_3_ans_promo_deduite": 5960.76,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -4284,7 +4284,7 @@
     "cout_annuel_promo_deduite": 812.8,
     "cout_3_ans_promo_deduite": 2438.4,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -4759,7 +4759,7 @@
     "cout_annuel_promo_deduite": 1255.2,
     "cout_3_ans_promo_deduite": 3765.6,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -5212,7 +5212,7 @@
     "cout_annuel_promo_deduite": 2029.4,
     "cout_3_ans_promo_deduite": 6088.2,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -5621,7 +5621,7 @@
     "cout_annuel_promo_deduite": 852.64,
     "cout_3_ans_promo_deduite": 2557.92,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-base",
@@ -6052,7 +6052,7 @@
     "cout_annuel_promo_deduite": 1295.04,
     "cout_3_ans_promo_deduite": 3885.12,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -6472,7 +6472,7 @@
     "cout_annuel_promo_deduite": 2069.24,
     "cout_3_ans_promo_deduite": 6207.72,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -6870,7 +6870,7 @@
     "cout_annuel_promo_deduite": 893.68,
     "cout_3_ans_promo_deduite": 2681.04,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-base",
@@ -7268,7 +7268,7 @@
     "cout_annuel_promo_deduite": 1336.08,
     "cout_3_ans_promo_deduite": 4008.24,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
@@ -7699,7 +7699,7 @@
     "cout_annuel_promo_deduite": 2110.28,
     "cout_3_ans_promo_deduite": 6330.84,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -8075,7 +8075,7 @@
     "cout_annuel_promo_deduite": 981.16,
     "cout_3_ans_promo_deduite": 2943.48,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "urban-solar-base",
@@ -8495,7 +8495,7 @@
     "cout_annuel_promo_deduite": 1423.56,
     "cout_3_ans_promo_deduite": 4270.68,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
@@ -8926,7 +8926,7 @@
     "cout_annuel_promo_deduite": 2197.76,
     "cout_3_ans_promo_deduite": 6593.28,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -9269,7 +9269,7 @@
     "cout_annuel_promo_deduite": 1061.44,
     "cout_3_ans_promo_deduite": 3184.32,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "alterna-fixe-1-an-base",
@@ -9733,7 +9733,7 @@
     "cout_annuel_promo_deduite": 1503.84,
     "cout_3_ans_promo_deduite": 4511.52,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-base",
@@ -10153,7 +10153,7 @@
     "cout_annuel_promo_deduite": 2278.04,
     "cout_3_ans_promo_deduite": 6834.12,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "happ-e-1-an-hphc",
@@ -10463,7 +10463,7 @@
     "cout_annuel_promo_deduite": 1142.56,
     "cout_3_ans_promo_deduite": 3427.68,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -10960,7 +10960,7 @@
     "cout_annuel_promo_deduite": 1584.96,
     "cout_3_ans_promo_deduite": 4754.88,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-base",
@@ -11358,7 +11358,7 @@
     "cout_annuel_promo_deduite": 2359.16,
     "cout_3_ans_promo_deduite": 7077.48,
     "promo_an1": 0,
-    "verification": "conflit"
+    "verification": "confirme"
    },
    {
     "id": "mint-hphc",
