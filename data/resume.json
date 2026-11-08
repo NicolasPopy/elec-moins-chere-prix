@@ -1,5 +1,5 @@
 {
- "mis_a_jour_le": "2026-11-07",
+ "mis_a_jour_le": "2026-11-08",
  "hypotheses": {
   "part_heures_creuses_hphc": 0.32,
   "consommations_kwh": [
@@ -331,17 +331,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 726.38,
-    "cout_annuel_promo_deduite": 702.4,
-    "cout_3_ans_promo_deduite": 2155.16,
-    "promo_an1": 23.98,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -372,6 +361,17 @@
     "cout_annuel_promo_deduite": 716.48,
     "cout_3_ans_promo_deduite": 2229.44,
     "promo_an1": 40.0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 726.38,
+    "cout_annuel_promo_deduite": 726.38,
+    "cout_3_ans_promo_deduite": 2179.14,
+    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -723,9 +723,9 @@
     "offre": "Elec Référence 3 ans",
     "option": "base",
     "cout_annuel": 1192.38,
-    "cout_annuel_promo_deduite": 1168.4,
-    "cout_3_ans_promo_deduite": 3553.16,
-    "promo_an1": 23.98,
+    "cout_annuel_promo_deduite": 1192.38,
+    "cout_3_ans_promo_deduite": 3577.14,
+    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -1099,9 +1099,9 @@
     "offre": "Elec Référence 3 ans",
     "option": "base",
     "cout_annuel": 2007.88,
-    "cout_annuel_promo_deduite": 1983.9,
-    "cout_3_ans_promo_deduite": 5999.66,
-    "promo_an1": 23.98,
+    "cout_annuel_promo_deduite": 2007.88,
+    "cout_3_ans_promo_deduite": 6023.64,
+    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -1547,17 +1547,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 769.46,
-    "cout_annuel_promo_deduite": 738.3,
-    "cout_3_ans_promo_deduite": 2277.22,
-    "promo_an1": 31.16,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -1576,6 +1565,17 @@
     "cout_annuel": 753.77,
     "cout_annuel_promo_deduite": 753.77,
     "cout_3_ans_promo_deduite": 2261.31,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 769.46,
+    "cout_annuel_promo_deduite": 769.46,
+    "cout_3_ans_promo_deduite": 2308.38,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2033,17 +2033,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1235.46,
-    "cout_annuel_promo_deduite": 1204.3,
-    "cout_3_ans_promo_deduite": 3675.22,
-    "promo_an1": 31.16,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -2051,6 +2040,17 @@
     "cout_annuel": 1208.37,
     "cout_annuel_promo_deduite": 1208.37,
     "cout_3_ans_promo_deduite": 3625.11,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1235.46,
+    "cout_annuel_promo_deduite": 1235.46,
+    "cout_3_ans_promo_deduite": 3706.38,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2524,9 +2524,9 @@
     "offre": "Elec Référence 3 ans",
     "option": "base",
     "cout_annuel": 2050.96,
-    "cout_annuel_promo_deduite": 2019.8,
-    "cout_3_ans_promo_deduite": 6121.72,
-    "promo_an1": 31.16,
+    "cout_annuel_promo_deduite": 2050.96,
+    "cout_3_ans_promo_deduite": 6152.88,
+    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -2950,17 +2950,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 816.91,
-    "cout_annuel_promo_deduite": 778.55,
-    "cout_3_ans_promo_deduite": 2412.37,
-    "promo_an1": 38.36,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -2979,6 +2968,17 @@
     "cout_annuel": 796.97,
     "cout_annuel_promo_deduite": 796.97,
     "cout_3_ans_promo_deduite": 2390.91,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 816.91,
+    "cout_annuel_promo_deduite": 816.91,
+    "cout_3_ans_promo_deduite": 2450.73,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3414,17 +3414,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1286.31,
-    "cout_annuel_promo_deduite": 1247.95,
-    "cout_3_ans_promo_deduite": 3820.57,
-    "promo_an1": 38.36,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -3432,6 +3421,17 @@
     "cout_annuel": 1251.57,
     "cout_annuel_promo_deduite": 1251.57,
     "cout_3_ans_promo_deduite": 3754.71,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1286.31,
+    "cout_annuel_promo_deduite": 1286.31,
+    "cout_3_ans_promo_deduite": 3858.93,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3883,9 +3883,9 @@
     "offre": "Elec Référence 3 ans",
     "option": "base",
     "cout_annuel": 2107.76,
-    "cout_annuel_promo_deduite": 2069.4,
-    "cout_3_ans_promo_deduite": 6284.92,
-    "promo_an1": 38.36,
+    "cout_annuel_promo_deduite": 2107.76,
+    "cout_3_ans_promo_deduite": 6323.28,
+    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -4287,17 +4287,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 859.99,
-    "cout_annuel_promo_deduite": 814.45,
-    "cout_3_ans_promo_deduite": 2534.43,
-    "promo_an1": 45.54,
-    "verification": "confirme"
-   },
-   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -4338,6 +4327,17 @@
     "cout_annuel": 840.05,
     "cout_annuel_promo_deduite": 840.05,
     "cout_3_ans_promo_deduite": 2520.15,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 859.99,
+    "cout_annuel_promo_deduite": 859.99,
+    "cout_3_ans_promo_deduite": 2579.97,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4773,17 +4773,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1329.39,
-    "cout_annuel_promo_deduite": 1283.85,
-    "cout_3_ans_promo_deduite": 3942.63,
-    "promo_an1": 45.54,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -4791,6 +4780,17 @@
     "cout_annuel": 1294.65,
     "cout_annuel_promo_deduite": 1294.65,
     "cout_3_ans_promo_deduite": 3883.95,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1329.39,
+    "cout_annuel_promo_deduite": 1329.39,
+    "cout_3_ans_promo_deduite": 3988.17,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5242,9 +5242,9 @@
     "offre": "Elec Référence 3 ans",
     "option": "base",
     "cout_annuel": 2150.84,
-    "cout_annuel_promo_deduite": 2105.3,
-    "cout_3_ans_promo_deduite": 6406.98,
-    "promo_an1": 45.54,
+    "cout_annuel_promo_deduite": 2150.84,
+    "cout_3_ans_promo_deduite": 6452.52,
+    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -5602,17 +5602,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 903.19,
-    "cout_annuel_promo_deduite": 850.45,
-    "cout_3_ans_promo_deduite": 2656.83,
-    "promo_an1": 52.74,
-    "verification": "confirme"
-   },
-   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -5664,6 +5653,17 @@
     "cout_annuel": 883.25,
     "cout_annuel_promo_deduite": 883.25,
     "cout_3_ans_promo_deduite": 2649.75,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 903.19,
+    "cout_annuel_promo_deduite": 903.19,
+    "cout_3_ans_promo_deduite": 2709.57,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6055,17 +6055,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1372.59,
-    "cout_annuel_promo_deduite": 1319.85,
-    "cout_3_ans_promo_deduite": 4065.03,
-    "promo_an1": 52.74,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -6084,6 +6073,17 @@
     "cout_annuel": 1337.85,
     "cout_annuel_promo_deduite": 1337.85,
     "cout_3_ans_promo_deduite": 4013.55,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1372.59,
+    "cout_annuel_promo_deduite": 1372.59,
+    "cout_3_ans_promo_deduite": 4117.77,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6502,9 +6502,9 @@
     "offre": "Elec Référence 3 ans",
     "option": "base",
     "cout_annuel": 2194.04,
-    "cout_annuel_promo_deduite": 2141.3,
-    "cout_3_ans_promo_deduite": 6529.38,
-    "promo_an1": 52.74,
+    "cout_annuel_promo_deduite": 2194.04,
+    "cout_3_ans_promo_deduite": 6582.12,
+    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -6829,17 +6829,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 946.27,
-    "cout_annuel_promo_deduite": 886.35,
-    "cout_3_ans_promo_deduite": 2778.89,
-    "promo_an1": 59.92,
-    "verification": "confirme"
-   },
-   {
     "id": "urban-solar-base",
     "fournisseur": "Urban Solar Energy",
     "offre": "Électricité avec stockage virtuel",
@@ -6913,6 +6902,17 @@
     "cout_annuel": 926.33,
     "cout_annuel_promo_deduite": 926.33,
     "cout_3_ans_promo_deduite": 2778.99,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 946.27,
+    "cout_annuel_promo_deduite": 946.27,
+    "cout_3_ans_promo_deduite": 2838.81,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7293,17 +7293,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1415.67,
-    "cout_annuel_promo_deduite": 1355.75,
-    "cout_3_ans_promo_deduite": 4187.09,
-    "promo_an1": 59.92,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -7322,6 +7311,17 @@
     "cout_annuel": 1380.93,
     "cout_annuel_promo_deduite": 1380.93,
     "cout_3_ans_promo_deduite": 4142.79,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1415.67,
+    "cout_annuel_promo_deduite": 1415.67,
+    "cout_3_ans_promo_deduite": 4247.01,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7729,9 +7729,9 @@
     "offre": "Elec Référence 3 ans",
     "option": "base",
     "cout_annuel": 2237.12,
-    "cout_annuel_promo_deduite": 2177.2,
-    "cout_3_ans_promo_deduite": 6651.44,
-    "promo_an1": 59.92,
+    "cout_annuel_promo_deduite": 2237.12,
+    "cout_3_ans_promo_deduite": 6711.36,
+    "promo_an1": 0,
     "verification": "confirme"
    },
    {
@@ -7946,17 +7946,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1032.55,
-    "cout_annuel_promo_deduite": 958.25,
-    "cout_3_ans_promo_deduite": 3023.35,
-    "promo_an1": 74.3,
-    "verification": "confirme"
-   },
-   {
     "id": "alpiq-horizon-hphc",
     "fournisseur": "Alpiq",
     "offre": "Électricité Horizon",
@@ -8140,6 +8129,17 @@
     "cout_annuel": 1012.61,
     "cout_annuel_promo_deduite": 1012.61,
     "cout_3_ans_promo_deduite": 3037.83,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1032.55,
+    "cout_annuel_promo_deduite": 1032.55,
+    "cout_3_ans_promo_deduite": 3097.65,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8498,17 +8498,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1501.95,
-    "cout_annuel_promo_deduite": 1427.65,
-    "cout_3_ans_promo_deduite": 4431.55,
-    "promo_an1": 74.3,
-    "verification": "confirme"
-   },
-   {
     "id": "mint-hphc",
     "fournisseur": "Mint Énergie",
     "offre": "Online & Green",
@@ -8549,6 +8538,17 @@
     "cout_annuel": 1467.21,
     "cout_annuel_promo_deduite": 1467.21,
     "cout_3_ans_promo_deduite": 4401.63,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1501.95,
+    "cout_annuel_promo_deduite": 1501.95,
+    "cout_3_ans_promo_deduite": 4505.85,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8940,17 +8940,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2323.4,
-    "cout_annuel_promo_deduite": 2249.1,
-    "cout_3_ans_promo_deduite": 6895.9,
-    "promo_an1": 74.3,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -8958,6 +8947,17 @@
     "cout_annuel": 2262.76,
     "cout_annuel_promo_deduite": 2262.76,
     "cout_3_ans_promo_deduite": 6788.28,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2323.4,
+    "cout_annuel_promo_deduite": 2323.4,
+    "cout_3_ans_promo_deduite": 6970.2,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9093,17 +9093,6 @@
     "cout_annuel_promo_deduite": 1030.15,
     "cout_3_ans_promo_deduite": 3090.45,
     "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1118.83,
-    "cout_annuel_promo_deduite": 1030.15,
-    "cout_3_ans_promo_deduite": 3267.81,
-    "promo_an1": 88.68,
     "verification": "confirme"
    },
    {
@@ -9367,6 +9356,17 @@
     "cout_annuel": 1100.08,
     "cout_annuel_promo_deduite": 1100.08,
     "cout_3_ans_promo_deduite": 3300.24,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1118.83,
+    "cout_annuel_promo_deduite": 1118.83,
+    "cout_3_ans_promo_deduite": 3356.49,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9714,17 +9714,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1588.23,
-    "cout_annuel_promo_deduite": 1499.55,
-    "cout_3_ans_promo_deduite": 4676.01,
-    "promo_an1": 88.68,
-    "verification": "confirme"
-   },
-   {
     "id": "ohm-serenite-fixe-base",
     "fournisseur": "OHM Énergie",
     "offre": "OHM Sérénité Fixe 1 an",
@@ -9776,6 +9765,17 @@
     "cout_annuel": 1553.49,
     "cout_annuel_promo_deduite": 1553.49,
     "cout_3_ans_promo_deduite": 4660.47,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1588.23,
+    "cout_annuel_promo_deduite": 1588.23,
+    "cout_3_ans_promo_deduite": 4764.69,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10167,17 +10167,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2409.68,
-    "cout_annuel_promo_deduite": 2321.0,
-    "cout_3_ans_promo_deduite": 7140.36,
-    "promo_an1": 88.68,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-base",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -10185,6 +10174,17 @@
     "cout_annuel": 2349.04,
     "cout_annuel_promo_deduite": 2349.04,
     "cout_3_ans_promo_deduite": 7047.12,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2409.68,
+    "cout_annuel_promo_deduite": 2409.68,
+    "cout_3_ans_promo_deduite": 7229.04,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10265,17 +10265,6 @@
     "cout_annuel_promo_deduite": 1097.97,
     "cout_3_ans_promo_deduite": 3293.91,
     "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1205.11,
-    "cout_annuel_promo_deduite": 1102.05,
-    "cout_3_ans_promo_deduite": 3512.27,
-    "promo_an1": 103.06,
     "verification": "confirme"
    },
    {
@@ -10594,6 +10583,17 @@
     "cout_annuel": 1191.16,
     "cout_annuel_promo_deduite": 1191.16,
     "cout_3_ans_promo_deduite": 3573.48,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1205.11,
+    "cout_annuel_promo_deduite": 1205.11,
+    "cout_3_ans_promo_deduite": 3615.33,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10930,17 +10930,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1674.51,
-    "cout_annuel_promo_deduite": 1571.45,
-    "cout_3_ans_promo_deduite": 4920.47,
-    "promo_an1": 103.06,
-    "verification": "confirme"
-   },
-   {
     "id": "edf-zen-fixe-base",
     "fournisseur": "EDF",
     "offre": "Zen Fixe",
@@ -11003,6 +10992,17 @@
     "cout_annuel": 1639.77,
     "cout_annuel_promo_deduite": 1639.77,
     "cout_3_ans_promo_deduite": 4919.31,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1674.51,
+    "cout_annuel_promo_deduite": 1674.51,
+    "cout_3_ans_promo_deduite": 5023.53,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11383,17 +11383,6 @@
     "verification": "confirme"
    },
    {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 2495.96,
-    "cout_annuel_promo_deduite": 2392.9,
-    "cout_3_ans_promo_deduite": 7384.82,
-    "promo_an1": 103.06,
-    "verification": "confirme"
-   },
-   {
     "id": "happ-e-1-an-hphc",
     "fournisseur": "Happ-e",
     "offre": "Électricité 1 an",
@@ -11412,6 +11401,17 @@
     "cout_annuel": 2435.32,
     "cout_annuel_promo_deduite": 2435.32,
     "cout_3_ans_promo_deduite": 7305.96,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 2495.96,
+    "cout_annuel_promo_deduite": 2495.96,
+    "cout_3_ans_promo_deduite": 7487.88,
     "promo_an1": 0,
     "verification": "confirme"
    },

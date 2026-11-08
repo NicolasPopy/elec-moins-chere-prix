@@ -2,7 +2,7 @@
  "meta": {
   "nom": "ElecMoinsChere — base des prix de l'électricité",
   "version_schema": 1,
-  "mis_a_jour_le": "2026-11-07",
+  "mis_a_jour_le": "2026-11-08",
   "zone": "France métropolitaine continentale (hors Corse et DOM)",
   "unites": {
    "abonnement_mois": "€ TTC par mois",
@@ -5301,18 +5301,7 @@
      }
     }
    ],
-   "promotions": [
-    {
-     "description": "2 mois d'abonnement TTC offerts",
-     "valeur_an1_eur": 0,
-     "mois_abonnement_offerts": 2,
-     "type": "promotion",
-     "nouveaux_clients": true,
-     "date_fin": "2026-11-07",
-     "conditions": "Souscription à Élec Référence 3 ans (aussi valable sur Happy Week-End et les offres Gaz/Duo Référence 3 ans), jusqu'au 7 novembre 2026.",
-     "source": "https://particuliers.engie.fr/promo-ete-2026.html"
-    }
-   ],
+   "promotions": [],
    "avantages": [],
    "verification": "confirme",
    "sources": [
@@ -5335,7 +5324,8 @@
    "notes": [
     "Grille confirmée par Kelwatt (27/10/2026) et JeChange (19/10/2026), identiques à toutes les puissances.",
     "HelloWatt (grille du 01/10/2026) donne d'autres valeurs à partir de 9 kVA (abonnement 21,32 €/mois, kWh 0,2317 €) : non retenu, deux sources concordent.",
-    "L'ancien « autre relevé » à 0,2099 € correspond au texte d'introduction de JeChange, contredit par sa propre grille."
+    "L'ancien « autre relevé » à 0,2099 € correspond au texte d'introduction de JeChange, contredit par sa propre grille.",
+    "08/11/2026 : promotion « 2 mois d'abonnement offerts » retirée (date de fin 07/11/2026 dépassée). Grille non revérifiée ce jour (pages web inaccessibles)."
    ],
    "derniere_verif": "2026-10-31"
   },
