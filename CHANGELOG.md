@@ -2,7 +2,6 @@
 
 ## 2026-11-08
 - `engie-elec-reference-3-ans-base` promotions : ["2 mois d'abonnement TTC offerts"] → aucune
-
 ## 2026-11-07
 - `ohm-serenite-fixe-base` base (6 kVA) : 0.2183 → 0.2212
 ## 2026-11-06
