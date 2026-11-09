@@ -1,5 +1,8 @@
 # Évolution des prix
 
+## 2026-11-09
+- Aucun changement de prix.
+
 ## 2026-11-08
 - `engie-elec-reference-3-ans-base` promotions : ["2 mois d'abonnement TTC offerts"] → aucune
 ## 2026-11-07
