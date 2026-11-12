@@ -1,5 +1,5 @@
 {
- "mis_a_jour_le": "2026-11-11",
+ "mis_a_jour_le": "2026-11-12",
  "hypotheses": {
   "part_heures_creuses_hphc": 0.32,
   "consommations_kwh": [
@@ -71,9 +71,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 605.05,
-    "cout_annuel_promo_deduite": 605.05,
-    "cout_3_ans_promo_deduite": 1815.15,
+    "cout_annuel": 604.81,
+    "cout_annuel_promo_deduite": 604.81,
+    "cout_3_ans_promo_deduite": 1814.43,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -87,17 +87,6 @@
     "cout_3_ans_promo_deduite": 1815.18,
     "promo_an1": 0,
     "verification": "source_unique"
-   },
-   {
-    "id": "dyneff-contrat-plus-hphc",
-    "fournisseur": "Dyneff",
-    "offre": "Contrat+ Électricité",
-    "option": "hphc",
-    "cout_annuel": 606.65,
-    "cout_annuel_promo_deduite": 606.65,
-    "cout_3_ans_promo_deduite": 1819.95,
-    "promo_an1": 0,
-    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-hphc",
@@ -118,6 +107,17 @@
     "cout_annuel": 618.07,
     "cout_annuel_promo_deduite": 618.07,
     "cout_3_ans_promo_deduite": 1854.21,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 620.56,
+    "cout_annuel_promo_deduite": 620.56,
+    "cout_3_ans_promo_deduite": 1861.68,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -173,17 +173,6 @@
     "cout_annuel": 628.78,
     "cout_annuel_promo_deduite": 628.78,
     "cout_3_ans_promo_deduite": 1886.34,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 631.56,
-    "cout_annuel_promo_deduite": 631.56,
-    "cout_3_ans_promo_deduite": 1894.68,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -265,6 +254,17 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 645.81,
+    "cout_annuel_promo_deduite": 645.81,
+    "cout_3_ans_promo_deduite": 1937.43,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "alterna-fixe-1-an-base",
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
@@ -328,7 +328,7 @@
     "cout_annuel_promo_deduite": 701.74,
     "cout_3_ans_promo_deduite": 2105.22,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -339,7 +339,7 @@
     "cout_annuel_promo_deduite": 710.69,
     "cout_3_ans_promo_deduite": 2132.07,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "enercoop-base",
@@ -368,20 +368,20 @@
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 726.38,
-    "cout_annuel_promo_deduite": 726.38,
-    "cout_3_ans_promo_deduite": 2179.14,
+    "cout_annuel": 744.63,
+    "cout_annuel_promo_deduite": 744.63,
+    "cout_3_ans_promo_deduite": 2233.89,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "ilek-enrfixe-plus-base",
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 818.88,
-    "cout_annuel_promo_deduite": 818.88,
-    "cout_3_ans_promo_deduite": 2456.64,
+    "cout_annuel": 891.63,
+    "cout_annuel_promo_deduite": 891.63,
+    "cout_3_ans_promo_deduite": 2674.89,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -447,9 +447,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 972.45,
-    "cout_annuel_promo_deduite": 972.45,
-    "cout_3_ans_promo_deduite": 2917.35,
+    "cout_annuel": 972.21,
+    "cout_annuel_promo_deduite": 972.21,
+    "cout_3_ans_promo_deduite": 2916.63,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -463,17 +463,6 @@
     "cout_3_ans_promo_deduite": 2917.98,
     "promo_an1": 0,
     "verification": "source_unique"
-   },
-   {
-    "id": "dyneff-contrat-plus-hphc",
-    "fournisseur": "Dyneff",
-    "offre": "Contrat+ Électricité",
-    "option": "hphc",
-    "cout_annuel": 976.48,
-    "cout_annuel_promo_deduite": 976.48,
-    "cout_3_ans_promo_deduite": 2929.45,
-    "promo_an1": 0,
-    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-hphc",
@@ -505,6 +494,17 @@
     "cout_annuel": 996.08,
     "cout_annuel_promo_deduite": 996.08,
     "cout_3_ans_promo_deduite": 2988.23,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1000.56,
+    "cout_annuel_promo_deduite": 1000.56,
+    "cout_3_ans_promo_deduite": 3001.68,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -575,17 +575,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1025.16,
-    "cout_annuel_promo_deduite": 1025.16,
-    "cout_3_ans_promo_deduite": 3075.48,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "edf-tarif-bleu-hphc",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
@@ -652,6 +641,17 @@
     "verification": "confirme"
    },
    {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
+    "option": "base",
+    "cout_annuel": 1046.01,
+    "cout_annuel_promo_deduite": 1046.01,
+    "cout_3_ans_promo_deduite": 3138.03,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-vert-electrique-base",
     "fournisseur": "EDF",
     "offre": "Vert Électrique",
@@ -704,7 +704,7 @@
     "cout_annuel_promo_deduite": 1149.18,
     "cout_3_ans_promo_deduite": 3447.54,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -715,18 +715,7 @@
     "cout_annuel_promo_deduite": 1165.29,
     "cout_3_ans_promo_deduite": 3495.87,
     "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 1192.38,
-    "cout_annuel_promo_deduite": 1192.38,
-    "cout_3_ans_promo_deduite": 3577.14,
-    "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "enercoop-hphc",
@@ -751,13 +740,24 @@
     "verification": "confirme"
    },
    {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 1225.23,
+    "cout_annuel_promo_deduite": 1225.23,
+    "cout_3_ans_promo_deduite": 3675.69,
+    "promo_an1": 0,
+    "verification": "source_unique"
+   },
+   {
     "id": "ilek-enrfixe-plus-base",
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1298.88,
-    "cout_annuel_promo_deduite": 1298.88,
-    "cout_3_ans_promo_deduite": 3896.64,
+    "cout_annuel": 1429.83,
+    "cout_annuel_promo_deduite": 1429.83,
+    "cout_3_ans_promo_deduite": 4289.49,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -823,9 +823,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1615.4,
-    "cout_annuel_promo_deduite": 1615.4,
-    "cout_3_ans_promo_deduite": 4846.2,
+    "cout_annuel": 1615.16,
+    "cout_annuel_promo_deduite": 1615.16,
+    "cout_3_ans_promo_deduite": 4845.48,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -848,17 +848,6 @@
     "cout_annuel": 1618.74,
     "cout_annuel_promo_deduite": 1618.74,
     "cout_3_ans_promo_deduite": 4856.21,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "dyneff-contrat-plus-hphc",
-    "fournisseur": "Dyneff",
-    "offre": "Contrat+ Électricité",
-    "option": "hphc",
-    "cout_annuel": 1623.69,
-    "cout_annuel_promo_deduite": 1623.69,
-    "cout_3_ans_promo_deduite": 4871.06,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -892,6 +881,17 @@
     "cout_annuel": 1657.59,
     "cout_annuel_promo_deduite": 1657.59,
     "cout_3_ans_promo_deduite": 4972.78,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1665.56,
+    "cout_annuel_promo_deduite": 1665.56,
+    "cout_3_ans_promo_deduite": 4996.68,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -962,17 +962,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1713.96,
-    "cout_annuel_promo_deduite": 1713.96,
-    "cout_3_ans_promo_deduite": 5141.88,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "edf-tarif-bleu-hphc",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
@@ -1020,6 +1009,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1746.36,
+    "cout_annuel_promo_deduite": 1746.36,
+    "cout_3_ans_promo_deduite": 5239.08,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1746.36,
     "cout_annuel_promo_deduite": 1746.36,
@@ -1080,7 +1080,7 @@
     "cout_annuel_promo_deduite": 1932.2,
     "cout_3_ans_promo_deduite": 5796.6,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -1091,18 +1091,18 @@
     "cout_annuel_promo_deduite": 1960.84,
     "cout_3_ans_promo_deduite": 5882.52,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 2007.88,
-    "cout_annuel_promo_deduite": 2007.88,
-    "cout_3_ans_promo_deduite": 6023.64,
+    "cout_annuel": 2066.28,
+    "cout_annuel_promo_deduite": 2066.28,
+    "cout_3_ans_promo_deduite": 6198.84,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-hphc",
@@ -1131,9 +1131,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2138.88,
-    "cout_annuel_promo_deduite": 2138.88,
-    "cout_3_ans_promo_deduite": 6416.64,
+    "cout_annuel": 2371.68,
+    "cout_annuel_promo_deduite": 2371.68,
+    "cout_3_ans_promo_deduite": 7115.04,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -1206,6 +1206,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-base",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "base",
+    "cout_annuel": 649.57,
+    "cout_annuel_promo_deduite": 649.57,
+    "cout_3_ans_promo_deduite": 1948.71,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "gaz-de-bordeaux-novafixe-base",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -1228,17 +1239,6 @@
     "verification": "source_unique"
    },
    {
-    "id": "geg-elec-verte-fixe-3-ans-base",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "base",
-    "cout_annuel": 650.05,
-    "cout_annuel_promo_deduite": 650.05,
-    "cout_3_ans_promo_deduite": 1950.15,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -1254,9 +1254,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "hphc",
-    "cout_annuel": 654.55,
-    "cout_annuel_promo_deduite": 654.55,
-    "cout_3_ans_promo_deduite": 1963.65,
+    "cout_annuel": 656.43,
+    "cout_annuel_promo_deduite": 656.43,
+    "cout_3_ans_promo_deduite": 1969.29,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1302,7 +1302,7 @@
     "cout_annuel_promo_deduite": 665.32,
     "cout_3_ans_promo_deduite": 1995.96,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "primeo-essentielle-verte-base",
@@ -1345,17 +1345,6 @@
     "cout_annuel": 673.54,
     "cout_annuel_promo_deduite": 673.54,
     "cout_3_ans_promo_deduite": 2020.62,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 676.32,
-    "cout_annuel_promo_deduite": 676.32,
-    "cout_3_ans_promo_deduite": 2028.96,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1440,6 +1429,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 690.57,
+    "cout_annuel_promo_deduite": 690.57,
+    "cout_3_ans_promo_deduite": 2071.71,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 690.57,
     "cout_annuel_promo_deduite": 690.57,
@@ -1555,7 +1555,7 @@
     "cout_annuel_promo_deduite": 744.82,
     "cout_3_ans_promo_deduite": 2234.46,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -1566,18 +1566,7 @@
     "cout_annuel_promo_deduite": 753.77,
     "cout_3_ans_promo_deduite": 2261.31,
     "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "engie-elec-reference-3-ans-base",
-    "fournisseur": "Engie",
-    "offre": "Elec Référence 3 ans",
-    "option": "base",
-    "cout_annuel": 769.46,
-    "cout_annuel_promo_deduite": 769.46,
-    "cout_3_ans_promo_deduite": 2308.38,
-    "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "enercoop-base",
@@ -1589,6 +1578,17 @@
     "cout_3_ans_promo_deduite": 2411.51,
     "promo_an1": 40.0,
     "verification": "confirme"
+   },
+   {
+    "id": "engie-elec-reference-3-ans-base",
+    "fournisseur": "Engie",
+    "offre": "Elec Référence 3 ans",
+    "option": "base",
+    "cout_annuel": 787.71,
+    "cout_annuel_promo_deduite": 787.71,
+    "cout_3_ans_promo_deduite": 2363.13,
+    "promo_an1": 0,
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-hphc",
@@ -1606,9 +1606,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 901.2,
-    "cout_annuel_promo_deduite": 901.2,
-    "cout_3_ans_promo_deduite": 2703.6,
+    "cout_annuel": 973.95,
+    "cout_annuel_promo_deduite": 973.95,
+    "cout_3_ans_promo_deduite": 2921.85,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -1681,6 +1681,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-base",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "base",
+    "cout_annuel": 1016.97,
+    "cout_annuel_promo_deduite": 1016.97,
+    "cout_3_ans_promo_deduite": 3050.91,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "gaz-de-bordeaux-novafixe-base",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -1703,17 +1714,6 @@
     "verification": "source_unique"
    },
    {
-    "id": "geg-elec-verte-fixe-3-ans-base",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "base",
-    "cout_annuel": 1017.45,
-    "cout_annuel_promo_deduite": 1017.45,
-    "cout_3_ans_promo_deduite": 3052.35,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -1729,9 +1729,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "hphc",
-    "cout_annuel": 1025.55,
-    "cout_annuel_promo_deduite": 1025.55,
-    "cout_3_ans_promo_deduite": 3076.65,
+    "cout_annuel": 1027.49,
+    "cout_annuel_promo_deduite": 1027.49,
+    "cout_3_ans_promo_deduite": 3082.48,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1777,7 +1777,7 @@
     "cout_annuel_promo_deduite": 1045.32,
     "cout_3_ans_promo_deduite": 3135.96,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -1842,17 +1842,6 @@
     "cout_annuel": 1060.48,
     "cout_annuel_promo_deduite": 1060.48,
     "cout_3_ans_promo_deduite": 3181.43,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1069.92,
-    "cout_annuel_promo_deduite": 1069.92,
-    "cout_3_ans_promo_deduite": 3209.76,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1926,6 +1915,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1090.77,
+    "cout_annuel_promo_deduite": 1090.77,
+    "cout_3_ans_promo_deduite": 3272.31,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1090.77,
     "cout_annuel_promo_deduite": 1090.77,
@@ -2030,7 +2030,7 @@
     "cout_annuel_promo_deduite": 1192.26,
     "cout_3_ans_promo_deduite": 3576.78,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -2041,18 +2041,18 @@
     "cout_annuel_promo_deduite": 1208.37,
     "cout_3_ans_promo_deduite": 3625.11,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1235.46,
-    "cout_annuel_promo_deduite": 1235.46,
-    "cout_3_ans_promo_deduite": 3706.38,
+    "cout_annuel": 1268.31,
+    "cout_annuel_promo_deduite": 1268.31,
+    "cout_3_ans_promo_deduite": 3804.93,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -2081,9 +2081,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1381.2,
-    "cout_annuel_promo_deduite": 1381.2,
-    "cout_3_ans_promo_deduite": 4143.6,
+    "cout_annuel": 1512.15,
+    "cout_annuel_promo_deduite": 1512.15,
+    "cout_3_ans_promo_deduite": 4536.45,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -2156,6 +2156,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-base",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "base",
+    "cout_annuel": 1659.92,
+    "cout_annuel_promo_deduite": 1659.92,
+    "cout_3_ans_promo_deduite": 4979.76,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "gaz-de-bordeaux-novafixe-base",
     "fournisseur": "Gaz de Bordeaux",
     "offre": "Novafixe Élec",
@@ -2163,17 +2174,6 @@
     "cout_annuel": 1660.04,
     "cout_annuel_promo_deduite": 1660.04,
     "cout_3_ans_promo_deduite": 4980.12,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-base",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "base",
-    "cout_annuel": 1660.4,
-    "cout_annuel_promo_deduite": 1660.4,
-    "cout_3_ans_promo_deduite": 4981.2,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2215,9 +2215,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "hphc",
-    "cout_annuel": 1674.8,
-    "cout_annuel_promo_deduite": 1674.8,
-    "cout_3_ans_promo_deduite": 5024.4,
+    "cout_annuel": 1676.86,
+    "cout_annuel_promo_deduite": 1676.86,
+    "cout_3_ans_promo_deduite": 5030.57,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2263,7 +2263,7 @@
     "cout_annuel_promo_deduite": 1710.32,
     "cout_3_ans_promo_deduite": 5130.96,
     "promo_an1": 0,
-    "verification": "source_unique"
+    "verification": "confirme"
    },
    {
     "id": "dyneff-contrat-plus-base",
@@ -2343,17 +2343,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1758.72,
-    "cout_annuel_promo_deduite": 1758.72,
-    "cout_3_ans_promo_deduite": 5276.16,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "edf-tarif-bleu-hphc",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
@@ -2401,6 +2390,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1791.12,
+    "cout_annuel_promo_deduite": 1791.12,
+    "cout_3_ans_promo_deduite": 5373.36,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1791.12,
     "cout_annuel_promo_deduite": 1791.12,
@@ -2505,7 +2505,7 @@
     "cout_annuel_promo_deduite": 1975.28,
     "cout_3_ans_promo_deduite": 5925.84,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -2516,18 +2516,18 @@
     "cout_annuel_promo_deduite": 2003.92,
     "cout_3_ans_promo_deduite": 6011.76,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 2050.96,
-    "cout_annuel_promo_deduite": 2050.96,
-    "cout_3_ans_promo_deduite": 6152.88,
+    "cout_annuel": 2109.36,
+    "cout_annuel_promo_deduite": 2109.36,
+    "cout_3_ans_promo_deduite": 6328.08,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-hphc",
@@ -2556,9 +2556,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2221.2,
-    "cout_annuel_promo_deduite": 2221.2,
-    "cout_3_ans_promo_deduite": 6663.6,
+    "cout_annuel": 2454.0,
+    "cout_annuel_promo_deduite": 2454.0,
+    "cout_3_ans_promo_deduite": 7362.0,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -2635,9 +2635,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 695.63,
-    "cout_annuel_promo_deduite": 695.63,
-    "cout_3_ans_promo_deduite": 2086.89,
+    "cout_annuel": 694.31,
+    "cout_annuel_promo_deduite": 694.31,
+    "cout_3_ans_promo_deduite": 2082.93,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2657,9 +2657,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "hphc",
-    "cout_annuel": 703.63,
-    "cout_annuel_promo_deduite": 703.63,
-    "cout_3_ans_promo_deduite": 2110.89,
+    "cout_annuel": 705.75,
+    "cout_annuel_promo_deduite": 705.75,
+    "cout_3_ans_promo_deduite": 2117.25,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2693,6 +2693,17 @@
     "cout_annuel": 711.47,
     "cout_annuel_promo_deduite": 711.47,
     "cout_3_ans_promo_deduite": 2134.41,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 713.56,
+    "cout_annuel_promo_deduite": 713.56,
+    "cout_3_ans_promo_deduite": 2140.68,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2737,17 +2748,6 @@
     "cout_annuel": 718.77,
     "cout_annuel_promo_deduite": 718.77,
     "cout_3_ans_promo_deduite": 2156.3,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 720.81,
-    "cout_annuel_promo_deduite": 720.81,
-    "cout_3_ans_promo_deduite": 2162.43,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2821,6 +2821,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 734.81,
+    "cout_annuel_promo_deduite": 734.81,
+    "cout_3_ans_promo_deduite": 2204.43,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 734.81,
     "cout_annuel_promo_deduite": 734.81,
@@ -2958,7 +2969,7 @@
     "cout_annuel_promo_deduite": 788.02,
     "cout_3_ans_promo_deduite": 2364.06,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -2969,18 +2980,18 @@
     "cout_annuel_promo_deduite": 796.97,
     "cout_3_ans_promo_deduite": 2390.91,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 816.91,
-    "cout_annuel_promo_deduite": 816.91,
-    "cout_3_ans_promo_deduite": 2450.73,
+    "cout_annuel": 835.16,
+    "cout_annuel_promo_deduite": 835.16,
+    "cout_3_ans_promo_deduite": 2505.48,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -3009,9 +3020,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1005.45,
-    "cout_annuel_promo_deduite": 1005.45,
-    "cout_3_ans_promo_deduite": 3016.35,
+    "cout_annuel": 1077.95,
+    "cout_annuel_promo_deduite": 1077.95,
+    "cout_3_ans_promo_deduite": 3233.85,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -3088,9 +3099,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1060.23,
-    "cout_annuel_promo_deduite": 1060.23,
-    "cout_3_ans_promo_deduite": 3180.69,
+    "cout_annuel": 1058.91,
+    "cout_annuel_promo_deduite": 1058.91,
+    "cout_3_ans_promo_deduite": 3176.73,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3110,9 +3121,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "hphc",
-    "cout_annuel": 1074.63,
-    "cout_annuel_promo_deduite": 1074.63,
-    "cout_3_ans_promo_deduite": 3223.89,
+    "cout_annuel": 1076.81,
+    "cout_annuel_promo_deduite": 1076.81,
+    "cout_3_ans_promo_deduite": 3230.44,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3172,6 +3183,17 @@
     "verification": "confirme"
    },
    {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1093.56,
+    "cout_annuel_promo_deduite": 1093.56,
+    "cout_3_ans_promo_deduite": 3280.68,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-base",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -3201,17 +3223,6 @@
     "cout_annuel": 1097.61,
     "cout_annuel_promo_deduite": 1097.61,
     "cout_3_ans_promo_deduite": 3292.83,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1111.41,
-    "cout_annuel_promo_deduite": 1111.41,
-    "cout_3_ans_promo_deduite": 3334.23,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3296,6 +3307,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1131.81,
+    "cout_annuel_promo_deduite": 1131.81,
+    "cout_3_ans_promo_deduite": 3395.43,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1131.81,
     "cout_annuel_promo_deduite": 1131.81,
@@ -3411,7 +3433,7 @@
     "cout_annuel_promo_deduite": 1235.46,
     "cout_3_ans_promo_deduite": 3706.38,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -3422,18 +3444,18 @@
     "cout_annuel_promo_deduite": 1251.57,
     "cout_3_ans_promo_deduite": 3754.71,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1286.31,
-    "cout_annuel_promo_deduite": 1286.31,
-    "cout_3_ans_promo_deduite": 3858.93,
+    "cout_annuel": 1319.16,
+    "cout_annuel_promo_deduite": 1319.16,
+    "cout_3_ans_promo_deduite": 3957.48,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -3462,9 +3484,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1482.45,
-    "cout_annuel_promo_deduite": 1482.45,
-    "cout_3_ans_promo_deduite": 4447.35,
+    "cout_annuel": 1612.95,
+    "cout_annuel_promo_deduite": 1612.95,
+    "cout_3_ans_promo_deduite": 4838.85,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -3541,9 +3563,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1698.28,
-    "cout_annuel_promo_deduite": 1698.28,
-    "cout_3_ans_promo_deduite": 5094.84,
+    "cout_annuel": 1696.96,
+    "cout_annuel_promo_deduite": 1696.96,
+    "cout_3_ans_promo_deduite": 5090.88,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3570,17 +3592,6 @@
     "verification": "confirme"
    },
    {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1723.88,
-    "cout_annuel_promo_deduite": 1723.88,
-    "cout_3_ans_promo_deduite": 5171.64,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
     "offre": "PleniWeb 1 an",
@@ -3588,6 +3599,17 @@
     "cout_annuel": 1726.04,
     "cout_annuel_promo_deduite": 1726.04,
     "cout_3_ans_promo_deduite": 5178.12,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1726.18,
+    "cout_annuel_promo_deduite": 1726.18,
+    "cout_3_ans_promo_deduite": 5178.53,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3610,6 +3632,17 @@
     "cout_annuel": 1750.59,
     "cout_annuel_promo_deduite": 1750.59,
     "cout_3_ans_promo_deduite": 5251.78,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1758.56,
+    "cout_annuel_promo_deduite": 1758.56,
+    "cout_3_ans_promo_deduite": 5275.68,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3691,17 +3724,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1794.96,
-    "cout_annuel_promo_deduite": 1794.96,
-    "cout_3_ans_promo_deduite": 5384.88,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "octopus-intelligent-base",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
@@ -3749,6 +3771,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1826.56,
+    "cout_annuel_promo_deduite": 1826.56,
+    "cout_3_ans_promo_deduite": 5479.68,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1826.56,
     "cout_annuel_promo_deduite": 1826.56,
@@ -3864,7 +3897,7 @@
     "cout_annuel_promo_deduite": 2018.48,
     "cout_3_ans_promo_deduite": 6055.44,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -3875,18 +3908,18 @@
     "cout_annuel_promo_deduite": 2047.12,
     "cout_3_ans_promo_deduite": 6141.36,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 2107.76,
-    "cout_annuel_promo_deduite": 2107.76,
-    "cout_3_ans_promo_deduite": 6323.28,
+    "cout_annuel": 2166.16,
+    "cout_annuel_promo_deduite": 2166.16,
+    "cout_3_ans_promo_deduite": 6498.48,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-hphc",
@@ -3915,9 +3948,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2317.2,
-    "cout_annuel_promo_deduite": 2317.2,
-    "cout_3_ans_promo_deduite": 6951.6,
+    "cout_annuel": 2549.2,
+    "cout_annuel_promo_deduite": 2549.2,
+    "cout_3_ans_promo_deduite": 7647.6,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -3979,6 +4012,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-base",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "base",
+    "cout_annuel": 740.87,
+    "cout_annuel_promo_deduite": 740.87,
+    "cout_3_ans_promo_deduite": 2222.61,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -3990,17 +4034,6 @@
     "verification": "confirme"
    },
    {
-    "id": "geg-elec-verte-fixe-3-ans-base",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "base",
-    "cout_annuel": 742.55,
-    "cout_annuel_promo_deduite": 742.55,
-    "cout_3_ans_promo_deduite": 2227.65,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-hphc",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -4008,17 +4041,6 @@
     "cout_annuel": 744.09,
     "cout_annuel_promo_deduite": 744.09,
     "cout_3_ans_promo_deduite": 2232.27,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 750.55,
-    "cout_annuel_promo_deduite": 750.55,
-    "cout_3_ans_promo_deduite": 2251.65,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4052,6 +4074,28 @@
     "cout_annuel": 757.63,
     "cout_annuel_promo_deduite": 757.63,
     "cout_3_ans_promo_deduite": 2272.89,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 758.66,
+    "cout_annuel_promo_deduite": 758.66,
+    "cout_3_ans_promo_deduite": 2275.98,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 760.12,
+    "cout_annuel_promo_deduite": 760.12,
+    "cout_3_ans_promo_deduite": 2280.36,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4096,17 +4140,6 @@
     "cout_annuel": 765.3,
     "cout_annuel_promo_deduite": 765.3,
     "cout_3_ans_promo_deduite": 2295.89,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 767.37,
-    "cout_annuel_promo_deduite": 767.37,
-    "cout_3_ans_promo_deduite": 2302.11,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4180,6 +4213,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 781.37,
+    "cout_annuel_promo_deduite": 781.37,
+    "cout_3_ans_promo_deduite": 2344.11,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 781.37,
     "cout_annuel_promo_deduite": 781.37,
@@ -4317,7 +4361,7 @@
     "cout_annuel_promo_deduite": 831.1,
     "cout_3_ans_promo_deduite": 2493.3,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -4328,18 +4372,18 @@
     "cout_annuel_promo_deduite": 840.05,
     "cout_3_ans_promo_deduite": 2520.15,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 859.99,
-    "cout_annuel_promo_deduite": 859.99,
-    "cout_3_ans_promo_deduite": 2579.97,
+    "cout_annuel": 878.24,
+    "cout_annuel_promo_deduite": 878.24,
+    "cout_3_ans_promo_deduite": 2634.72,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -4368,9 +4412,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1116.57,
-    "cout_annuel_promo_deduite": 1116.57,
-    "cout_3_ans_promo_deduite": 3349.71,
+    "cout_annuel": 1189.07,
+    "cout_annuel_promo_deduite": 1189.07,
+    "cout_3_ans_promo_deduite": 3567.21,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -4447,9 +4491,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1107.15,
-    "cout_annuel_promo_deduite": 1107.15,
-    "cout_3_ans_promo_deduite": 3321.45,
+    "cout_annuel": 1105.47,
+    "cout_annuel_promo_deduite": 1105.47,
+    "cout_3_ans_promo_deduite": 3316.41,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4461,17 +4505,6 @@
     "cout_annuel": 1111.96,
     "cout_annuel_promo_deduite": 1111.96,
     "cout_3_ans_promo_deduite": 3335.89,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1121.55,
-    "cout_annuel_promo_deduite": 1121.55,
-    "cout_3_ans_promo_deduite": 3364.65,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4494,6 +4527,17 @@
     "cout_annuel": 1133.68,
     "cout_annuel_promo_deduite": 1133.68,
     "cout_3_ans_promo_deduite": 3401.03,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1133.94,
+    "cout_annuel_promo_deduite": 1133.94,
+    "cout_3_ans_promo_deduite": 3401.82,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4531,6 +4575,17 @@
     "verification": "confirme"
    },
    {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1140.12,
+    "cout_annuel_promo_deduite": 1140.12,
+    "cout_3_ans_promo_deduite": 3420.36,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-base",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -4560,17 +4615,6 @@
     "cout_annuel": 1144.17,
     "cout_annuel_promo_deduite": 1144.17,
     "cout_3_ans_promo_deduite": 3432.51,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1157.97,
-    "cout_annuel_promo_deduite": 1157.97,
-    "cout_3_ans_promo_deduite": 3473.91,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4655,6 +4699,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1178.37,
+    "cout_annuel_promo_deduite": 1178.37,
+    "cout_3_ans_promo_deduite": 3535.11,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1178.37,
     "cout_annuel_promo_deduite": 1178.37,
@@ -4770,7 +4825,7 @@
     "cout_annuel_promo_deduite": 1278.54,
     "cout_3_ans_promo_deduite": 3835.62,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -4781,18 +4836,18 @@
     "cout_annuel_promo_deduite": 1294.65,
     "cout_3_ans_promo_deduite": 3883.95,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1329.39,
-    "cout_annuel_promo_deduite": 1329.39,
-    "cout_3_ans_promo_deduite": 3988.17,
+    "cout_annuel": 1362.24,
+    "cout_annuel_promo_deduite": 1362.24,
+    "cout_3_ans_promo_deduite": 4086.72,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -4821,9 +4876,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1593.57,
-    "cout_annuel_promo_deduite": 1593.57,
-    "cout_3_ans_promo_deduite": 4780.71,
+    "cout_annuel": 1724.07,
+    "cout_annuel_promo_deduite": 1724.07,
+    "cout_3_ans_promo_deduite": 5172.21,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -4900,9 +4955,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1745.2,
-    "cout_annuel_promo_deduite": 1745.2,
-    "cout_3_ans_promo_deduite": 5235.6,
+    "cout_annuel": 1743.52,
+    "cout_annuel_promo_deduite": 1743.52,
+    "cout_3_ans_promo_deduite": 5230.56,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4929,17 +4984,6 @@
     "verification": "confirme"
    },
    {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1770.8,
-    "cout_annuel_promo_deduite": 1770.8,
-    "cout_3_ans_promo_deduite": 5312.4,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
     "offre": "PleniWeb 1 an",
@@ -4947,6 +4991,17 @@
     "cout_annuel": 1772.57,
     "cout_annuel_promo_deduite": 1772.57,
     "cout_3_ans_promo_deduite": 5317.71,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1790.68,
+    "cout_annuel_promo_deduite": 1790.68,
+    "cout_3_ans_promo_deduite": 5372.04,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4969,6 +5024,17 @@
     "cout_annuel": 1797.15,
     "cout_annuel_promo_deduite": 1797.15,
     "cout_3_ans_promo_deduite": 5391.46,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1805.12,
+    "cout_annuel_promo_deduite": 1805.12,
+    "cout_3_ans_promo_deduite": 5415.36,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5050,17 +5116,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1841.52,
-    "cout_annuel_promo_deduite": 1841.52,
-    "cout_3_ans_promo_deduite": 5524.56,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "octopus-intelligent-base",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
@@ -5108,6 +5163,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1873.12,
+    "cout_annuel_promo_deduite": 1873.12,
+    "cout_3_ans_promo_deduite": 5619.36,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1873.12,
     "cout_annuel_promo_deduite": 1873.12,
@@ -5223,7 +5289,7 @@
     "cout_annuel_promo_deduite": 2061.56,
     "cout_3_ans_promo_deduite": 6184.68,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -5234,18 +5300,18 @@
     "cout_annuel_promo_deduite": 2090.2,
     "cout_3_ans_promo_deduite": 6270.6,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 2150.84,
-    "cout_annuel_promo_deduite": 2150.84,
-    "cout_3_ans_promo_deduite": 6452.52,
+    "cout_annuel": 2209.24,
+    "cout_annuel_promo_deduite": 2209.24,
+    "cout_3_ans_promo_deduite": 6627.72,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-hphc",
@@ -5274,9 +5340,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2428.32,
-    "cout_annuel_promo_deduite": 2428.32,
-    "cout_3_ans_promo_deduite": 7284.96,
+    "cout_annuel": 2660.32,
+    "cout_annuel_promo_deduite": 2660.32,
+    "cout_3_ans_promo_deduite": 7980.96,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -5342,20 +5408,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 786.35,
-    "cout_annuel_promo_deduite": 786.35,
-    "cout_3_ans_promo_deduite": 2359.05,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 794.35,
-    "cout_annuel_promo_deduite": 794.35,
-    "cout_3_ans_promo_deduite": 2383.05,
+    "cout_annuel": 784.55,
+    "cout_annuel_promo_deduite": 784.55,
+    "cout_3_ans_promo_deduite": 2353.65,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5389,6 +5444,28 @@
     "cout_annuel": 801.31,
     "cout_annuel_promo_deduite": 801.31,
     "cout_3_ans_promo_deduite": 2403.93,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 803.42,
+    "cout_annuel_promo_deduite": 803.42,
+    "cout_3_ans_promo_deduite": 2410.26,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 803.8,
+    "cout_annuel_promo_deduite": 803.8,
+    "cout_3_ans_promo_deduite": 2411.4,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5433,17 +5510,6 @@
     "cout_annuel": 808.94,
     "cout_annuel_promo_deduite": 808.94,
     "cout_3_ans_promo_deduite": 2426.81,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 810.93,
-    "cout_annuel_promo_deduite": 810.93,
-    "cout_3_ans_promo_deduite": 2432.79,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5517,6 +5583,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 825.05,
+    "cout_annuel_promo_deduite": 825.05,
+    "cout_3_ans_promo_deduite": 2475.15,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 825.05,
     "cout_annuel_promo_deduite": 825.05,
@@ -5643,7 +5720,7 @@
     "cout_annuel_promo_deduite": 874.3,
     "cout_3_ans_promo_deduite": 2622.9,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -5654,18 +5731,18 @@
     "cout_annuel_promo_deduite": 883.25,
     "cout_3_ans_promo_deduite": 2649.75,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 903.19,
-    "cout_annuel_promo_deduite": 903.19,
-    "cout_3_ans_promo_deduite": 2709.57,
+    "cout_annuel": 921.44,
+    "cout_annuel_promo_deduite": 921.44,
+    "cout_3_ans_promo_deduite": 2764.32,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -5694,9 +5771,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1193.25,
-    "cout_annuel_promo_deduite": 1193.25,
-    "cout_3_ans_promo_deduite": 3579.75,
+    "cout_annuel": 1265.75,
+    "cout_annuel_promo_deduite": 1265.75,
+    "cout_3_ans_promo_deduite": 3797.25,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -5751,9 +5828,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1150.95,
-    "cout_annuel_promo_deduite": 1150.95,
-    "cout_3_ans_promo_deduite": 3452.85,
+    "cout_annuel": 1149.15,
+    "cout_annuel_promo_deduite": 1149.15,
+    "cout_3_ans_promo_deduite": 3447.45,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5765,17 +5842,6 @@
     "cout_annuel": 1154.2,
     "cout_annuel_promo_deduite": 1154.2,
     "cout_3_ans_promo_deduite": 3462.61,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1165.35,
-    "cout_annuel_promo_deduite": 1165.35,
-    "cout_3_ans_promo_deduite": 3496.05,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5813,6 +5879,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1178.7,
+    "cout_annuel_promo_deduite": 1178.7,
+    "cout_3_ans_promo_deduite": 3536.1,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-zen-online-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Online",
@@ -5831,6 +5908,17 @@
     "cout_annuel": 1180.23,
     "cout_annuel_promo_deduite": 1180.23,
     "cout_3_ans_promo_deduite": 3540.69,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1183.8,
+    "cout_annuel_promo_deduite": 1183.8,
+    "cout_3_ans_promo_deduite": 3551.4,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5864,17 +5952,6 @@
     "cout_annuel": 1187.85,
     "cout_annuel_promo_deduite": 1187.85,
     "cout_3_ans_promo_deduite": 3563.55,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1201.53,
-    "cout_annuel_promo_deduite": 1201.53,
-    "cout_3_ans_promo_deduite": 3604.59,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5959,6 +6036,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1222.05,
+    "cout_annuel_promo_deduite": 1222.05,
+    "cout_3_ans_promo_deduite": 3666.15,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1222.05,
     "cout_annuel_promo_deduite": 1222.05,
@@ -6063,7 +6151,7 @@
     "cout_annuel_promo_deduite": 1321.74,
     "cout_3_ans_promo_deduite": 3965.22,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -6074,18 +6162,18 @@
     "cout_annuel_promo_deduite": 1337.85,
     "cout_3_ans_promo_deduite": 4013.55,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1372.59,
-    "cout_annuel_promo_deduite": 1372.59,
-    "cout_3_ans_promo_deduite": 4117.77,
+    "cout_annuel": 1405.44,
+    "cout_annuel_promo_deduite": 1405.44,
+    "cout_3_ans_promo_deduite": 4216.32,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -6114,9 +6202,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1670.25,
-    "cout_annuel_promo_deduite": 1670.25,
-    "cout_3_ans_promo_deduite": 5010.75,
+    "cout_annuel": 1800.75,
+    "cout_annuel_promo_deduite": 1800.75,
+    "cout_3_ans_promo_deduite": 5402.25,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -6171,9 +6259,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1789.0,
-    "cout_annuel_promo_deduite": 1789.0,
-    "cout_3_ans_promo_deduite": 5367.0,
+    "cout_annuel": 1787.2,
+    "cout_annuel_promo_deduite": 1787.2,
+    "cout_3_ans_promo_deduite": 5361.6,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6200,17 +6288,6 @@
     "verification": "confirme"
    },
    {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1814.6,
-    "cout_annuel_promo_deduite": 1814.6,
-    "cout_3_ans_promo_deduite": 5443.8,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
     "offre": "PleniWeb 1 an",
@@ -6218,6 +6295,17 @@
     "cout_annuel": 1816.21,
     "cout_annuel_promo_deduite": 1816.21,
     "cout_3_ans_promo_deduite": 5448.63,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1835.44,
+    "cout_annuel_promo_deduite": 1835.44,
+    "cout_3_ans_promo_deduite": 5506.32,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6251,6 +6339,17 @@
     "cout_annuel": 1847.68,
     "cout_annuel_promo_deduite": 1847.68,
     "cout_3_ans_promo_deduite": 5543.04,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1848.8,
+    "cout_annuel_promo_deduite": 1848.8,
+    "cout_3_ans_promo_deduite": 5546.4,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6321,17 +6420,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1885.08,
-    "cout_annuel_promo_deduite": 1885.08,
-    "cout_3_ans_promo_deduite": 5655.24,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "octopus-intelligent-base",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
@@ -6379,6 +6467,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1916.8,
+    "cout_annuel_promo_deduite": 1916.8,
+    "cout_3_ans_promo_deduite": 5750.4,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1916.8,
     "cout_annuel_promo_deduite": 1916.8,
@@ -6483,7 +6582,7 @@
     "cout_annuel_promo_deduite": 2104.76,
     "cout_3_ans_promo_deduite": 6314.28,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -6494,18 +6593,18 @@
     "cout_annuel_promo_deduite": 2133.4,
     "cout_3_ans_promo_deduite": 6400.2,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 2194.04,
-    "cout_annuel_promo_deduite": 2194.04,
-    "cout_3_ans_promo_deduite": 6582.12,
+    "cout_annuel": 2252.44,
+    "cout_annuel_promo_deduite": 2252.44,
+    "cout_3_ans_promo_deduite": 6757.32,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-hphc",
@@ -6534,9 +6633,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2505.0,
-    "cout_annuel_promo_deduite": 2505.0,
-    "cout_3_ans_promo_deduite": 7515.0,
+    "cout_annuel": 2737.0,
+    "cout_annuel_promo_deduite": 2737.0,
+    "cout_3_ans_promo_deduite": 8211.0,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -6591,20 +6690,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 831.59,
-    "cout_annuel_promo_deduite": 831.59,
-    "cout_3_ans_promo_deduite": 2494.77,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 839.59,
-    "cout_annuel_promo_deduite": 839.59,
-    "cout_3_ans_promo_deduite": 2518.77,
+    "cout_annuel": 829.43,
+    "cout_annuel_promo_deduite": 829.43,
+    "cout_3_ans_promo_deduite": 2488.29,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6638,6 +6726,17 @@
     "cout_annuel": 846.19,
     "cout_annuel_promo_deduite": 846.19,
     "cout_3_ans_promo_deduite": 2538.57,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 848.68,
+    "cout_annuel_promo_deduite": 848.68,
+    "cout_3_ans_promo_deduite": 2546.04,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6686,13 +6785,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 855.93,
-    "cout_annuel_promo_deduite": 855.93,
-    "cout_3_ans_promo_deduite": 2567.79,
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 855.26,
+    "cout_annuel_promo_deduite": 855.26,
+    "cout_3_ans_promo_deduite": 2565.78,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6766,6 +6865,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 869.93,
+    "cout_annuel_promo_deduite": 869.93,
+    "cout_3_ans_promo_deduite": 2609.79,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 869.93,
     "cout_annuel_promo_deduite": 869.93,
@@ -6892,7 +7002,7 @@
     "cout_annuel_promo_deduite": 917.38,
     "cout_3_ans_promo_deduite": 2752.14,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -6903,18 +7013,18 @@
     "cout_annuel_promo_deduite": 926.33,
     "cout_3_ans_promo_deduite": 2778.99,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 946.27,
-    "cout_annuel_promo_deduite": 946.27,
-    "cout_3_ans_promo_deduite": 2838.81,
+    "cout_annuel": 964.52,
+    "cout_annuel_promo_deduite": 964.52,
+    "cout_3_ans_promo_deduite": 2893.56,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -6943,9 +7053,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1251.57,
-    "cout_annuel_promo_deduite": 1251.57,
-    "cout_3_ans_promo_deduite": 3754.71,
+    "cout_annuel": 1324.07,
+    "cout_annuel_promo_deduite": 1324.07,
+    "cout_3_ans_promo_deduite": 3972.21,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -6989,9 +7099,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1196.19,
-    "cout_annuel_promo_deduite": 1196.19,
-    "cout_3_ans_promo_deduite": 3588.57,
+    "cout_annuel": 1194.03,
+    "cout_annuel_promo_deduite": 1194.03,
+    "cout_3_ans_promo_deduite": 3582.09,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7003,17 +7113,6 @@
     "cout_annuel": 1198.0,
     "cout_annuel_promo_deduite": 1198.0,
     "cout_3_ans_promo_deduite": 3594.01,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1210.59,
-    "cout_annuel_promo_deduite": 1210.59,
-    "cout_3_ans_promo_deduite": 3631.77,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7073,6 +7172,17 @@
     "verification": "confirme"
    },
    {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1228.68,
+    "cout_annuel_promo_deduite": 1228.68,
+    "cout_3_ans_promo_deduite": 3686.04,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-base",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -7106,13 +7216,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1246.53,
-    "cout_annuel_promo_deduite": 1246.53,
-    "cout_3_ans_promo_deduite": 3739.59,
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1235.15,
+    "cout_annuel_promo_deduite": 1235.15,
+    "cout_3_ans_promo_deduite": 3705.44,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7197,6 +7307,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1266.93,
+    "cout_annuel_promo_deduite": 1266.93,
+    "cout_3_ans_promo_deduite": 3800.79,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1266.93,
     "cout_annuel_promo_deduite": 1266.93,
@@ -7301,7 +7422,7 @@
     "cout_annuel_promo_deduite": 1364.82,
     "cout_3_ans_promo_deduite": 4094.46,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -7312,18 +7433,18 @@
     "cout_annuel_promo_deduite": 1380.93,
     "cout_3_ans_promo_deduite": 4142.79,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1415.67,
-    "cout_annuel_promo_deduite": 1415.67,
-    "cout_3_ans_promo_deduite": 4247.01,
+    "cout_annuel": 1448.52,
+    "cout_annuel_promo_deduite": 1448.52,
+    "cout_3_ans_promo_deduite": 4345.56,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -7352,9 +7473,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1728.57,
-    "cout_annuel_promo_deduite": 1728.57,
-    "cout_3_ans_promo_deduite": 5185.71,
+    "cout_annuel": 1859.07,
+    "cout_annuel_promo_deduite": 1859.07,
+    "cout_3_ans_promo_deduite": 5577.21,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -7398,9 +7519,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1834.24,
-    "cout_annuel_promo_deduite": 1834.24,
-    "cout_3_ans_promo_deduite": 5502.72,
+    "cout_annuel": 1832.08,
+    "cout_annuel_promo_deduite": 1832.08,
+    "cout_3_ans_promo_deduite": 5496.24,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7423,17 +7544,6 @@
     "cout_annuel": 1846.89,
     "cout_annuel_promo_deduite": 1846.89,
     "cout_3_ans_promo_deduite": 5540.66,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1859.84,
-    "cout_annuel_promo_deduite": 1859.84,
-    "cout_3_ans_promo_deduite": 5579.52,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7482,6 +7592,17 @@
     "verification": "confirme"
    },
    {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1893.68,
+    "cout_annuel_promo_deduite": 1893.68,
+    "cout_3_ans_promo_deduite": 5681.04,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-base",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -7502,6 +7623,17 @@
     "cout_3_ans_promo_deduite": 5695.44,
     "promo_an1": 0,
     "verification": "source_unique"
+   },
+   {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1899.95,
+    "cout_annuel_promo_deduite": 1899.95,
+    "cout_3_ans_promo_deduite": 5699.86,
+    "promo_an1": 0,
+    "verification": "confirme"
    },
    {
     "id": "edf-zen-online-base",
@@ -7544,17 +7676,6 @@
     "cout_annuel": 1926.7,
     "cout_annuel_promo_deduite": 1926.7,
     "cout_3_ans_promo_deduite": 5780.11,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1930.08,
-    "cout_annuel_promo_deduite": 1930.08,
-    "cout_3_ans_promo_deduite": 5790.24,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7606,6 +7727,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1961.68,
+    "cout_annuel_promo_deduite": 1961.68,
+    "cout_3_ans_promo_deduite": 5885.04,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1961.68,
     "cout_annuel_promo_deduite": 1961.68,
@@ -7710,7 +7842,7 @@
     "cout_annuel_promo_deduite": 2147.84,
     "cout_3_ans_promo_deduite": 6443.52,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -7721,18 +7853,18 @@
     "cout_annuel_promo_deduite": 2176.48,
     "cout_3_ans_promo_deduite": 6529.44,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 2237.12,
-    "cout_annuel_promo_deduite": 2237.12,
-    "cout_3_ans_promo_deduite": 6711.36,
+    "cout_annuel": 2295.52,
+    "cout_annuel_promo_deduite": 2295.52,
+    "cout_3_ans_promo_deduite": 6886.56,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-hphc",
@@ -7761,9 +7893,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2563.32,
-    "cout_annuel_promo_deduite": 2563.32,
-    "cout_3_ans_promo_deduite": 7689.96,
+    "cout_annuel": 2795.32,
+    "cout_annuel_promo_deduite": 2795.32,
+    "cout_3_ans_promo_deduite": 8385.96,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -7818,9 +7950,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 928.91,
-    "cout_annuel_promo_deduite": 928.91,
-    "cout_3_ans_promo_deduite": 2786.73,
+    "cout_annuel": 925.43,
+    "cout_annuel_promo_deduite": 925.43,
+    "cout_3_ans_promo_deduite": 2776.29,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7832,17 +7964,6 @@
     "cout_annuel": 935.63,
     "cout_annuel_promo_deduite": 935.63,
     "cout_3_ans_promo_deduite": 2806.89,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 936.91,
-    "cout_annuel_promo_deduite": 936.91,
-    "cout_3_ans_promo_deduite": 2810.73,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7865,6 +7986,17 @@
     "cout_annuel": 942.19,
     "cout_annuel_promo_deduite": 942.19,
     "cout_3_ans_promo_deduite": 2826.57,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 944.68,
+    "cout_annuel_promo_deduite": 944.68,
+    "cout_3_ans_promo_deduite": 2834.04,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7913,13 +8045,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 951.81,
-    "cout_annuel_promo_deduite": 951.81,
-    "cout_3_ans_promo_deduite": 2855.43,
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 953.42,
+    "cout_annuel_promo_deduite": 953.42,
+    "cout_3_ans_promo_deduite": 2860.26,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7993,6 +8125,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 965.93,
+    "cout_annuel_promo_deduite": 965.93,
+    "cout_3_ans_promo_deduite": 2897.79,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 965.93,
     "cout_annuel_promo_deduite": 965.93,
@@ -8097,7 +8240,7 @@
     "cout_annuel_promo_deduite": 1003.66,
     "cout_3_ans_promo_deduite": 3010.98,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -8130,18 +8273,18 @@
     "cout_annuel_promo_deduite": 1012.61,
     "cout_3_ans_promo_deduite": 3037.83,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1032.55,
-    "cout_annuel_promo_deduite": 1032.55,
-    "cout_3_ans_promo_deduite": 3097.65,
+    "cout_annuel": 1050.8,
+    "cout_annuel_promo_deduite": 1050.8,
+    "cout_3_ans_promo_deduite": 3152.4,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -8170,9 +8313,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1382.49,
-    "cout_annuel_promo_deduite": 1382.49,
-    "cout_3_ans_promo_deduite": 4147.47,
+    "cout_annuel": 1454.99,
+    "cout_annuel_promo_deduite": 1454.99,
+    "cout_3_ans_promo_deduite": 4364.97,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -8212,6 +8355,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-base",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "base",
+    "cout_annuel": 1290.03,
+    "cout_annuel_promo_deduite": 1290.03,
+    "cout_3_ans_promo_deduite": 3870.09,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -8219,28 +8373,6 @@
     "cout_annuel": 1291.0,
     "cout_annuel_promo_deduite": 1291.0,
     "cout_3_ans_promo_deduite": 3873.01,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-base",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "base",
-    "cout_annuel": 1293.51,
-    "cout_annuel_promo_deduite": 1293.51,
-    "cout_3_ans_promo_deduite": 3880.53,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1307.91,
-    "cout_annuel_promo_deduite": 1307.91,
-    "cout_3_ans_promo_deduite": 3923.73,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8300,6 +8432,17 @@
     "verification": "confirme"
    },
    {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1324.68,
+    "cout_annuel_promo_deduite": 1324.68,
+    "cout_3_ans_promo_deduite": 3974.04,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-base",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -8333,13 +8476,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1342.41,
-    "cout_annuel_promo_deduite": 1342.41,
-    "cout_3_ans_promo_deduite": 4027.23,
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1333.31,
+    "cout_annuel_promo_deduite": 1333.31,
+    "cout_3_ans_promo_deduite": 3999.92,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8424,6 +8567,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1362.93,
+    "cout_annuel_promo_deduite": 1362.93,
+    "cout_3_ans_promo_deduite": 4088.79,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1362.93,
     "cout_annuel_promo_deduite": 1362.93,
@@ -8528,7 +8682,7 @@
     "cout_annuel_promo_deduite": 1451.1,
     "cout_3_ans_promo_deduite": 4353.3,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -8539,18 +8693,18 @@
     "cout_annuel_promo_deduite": 1467.21,
     "cout_3_ans_promo_deduite": 4401.63,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1501.95,
-    "cout_annuel_promo_deduite": 1501.95,
-    "cout_3_ans_promo_deduite": 4505.85,
+    "cout_annuel": 1534.8,
+    "cout_annuel_promo_deduite": 1534.8,
+    "cout_3_ans_promo_deduite": 4604.4,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -8579,9 +8733,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1859.49,
-    "cout_annuel_promo_deduite": 1859.49,
-    "cout_3_ans_promo_deduite": 5578.47,
+    "cout_annuel": 1989.99,
+    "cout_annuel_promo_deduite": 1989.99,
+    "cout_3_ans_promo_deduite": 5969.97,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -8625,9 +8779,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1931.56,
-    "cout_annuel_promo_deduite": 1931.56,
-    "cout_3_ans_promo_deduite": 5794.68,
+    "cout_annuel": 1928.08,
+    "cout_annuel_promo_deduite": 1928.08,
+    "cout_3_ans_promo_deduite": 5784.24,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8665,17 +8819,6 @@
     "verification": "confirme"
    },
    {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1957.16,
-    "cout_annuel_promo_deduite": 1957.16,
-    "cout_3_ans_promo_deduite": 5871.48,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "primeo-essentielle-verte-hphc",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -8705,6 +8848,17 @@
     "cout_annuel": 1984.48,
     "cout_annuel_promo_deduite": 1984.48,
     "cout_3_ans_promo_deduite": 5953.44,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1989.68,
+    "cout_annuel_promo_deduite": 1989.68,
+    "cout_3_ans_promo_deduite": 5969.04,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8742,6 +8896,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1998.11,
+    "cout_annuel_promo_deduite": 1998.11,
+    "cout_3_ans_promo_deduite": 5994.34,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "alterna-fixe-1-an-hphc",
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
@@ -8771,17 +8936,6 @@
     "cout_annuel": 2024.86,
     "cout_annuel_promo_deduite": 2024.86,
     "cout_3_ans_promo_deduite": 6074.59,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 2025.96,
-    "cout_annuel_promo_deduite": 2025.96,
-    "cout_3_ans_promo_deduite": 6077.88,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8833,6 +8987,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 2057.68,
+    "cout_annuel_promo_deduite": 2057.68,
+    "cout_3_ans_promo_deduite": 6173.04,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 2057.68,
     "cout_annuel_promo_deduite": 2057.68,
@@ -8937,7 +9102,7 @@
     "cout_annuel_promo_deduite": 2234.12,
     "cout_3_ans_promo_deduite": 6702.36,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -8948,18 +9113,18 @@
     "cout_annuel_promo_deduite": 2262.76,
     "cout_3_ans_promo_deduite": 6788.28,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 2323.4,
-    "cout_annuel_promo_deduite": 2323.4,
-    "cout_3_ans_promo_deduite": 6970.2,
+    "cout_annuel": 2381.8,
+    "cout_annuel_promo_deduite": 2381.8,
+    "cout_3_ans_promo_deduite": 7145.4,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -8988,9 +9153,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2694.24,
-    "cout_annuel_promo_deduite": 2694.24,
-    "cout_3_ans_promo_deduite": 8082.72,
+    "cout_annuel": 2926.24,
+    "cout_annuel_promo_deduite": 2926.24,
+    "cout_3_ans_promo_deduite": 8778.72,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -9045,9 +9210,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1017.23,
-    "cout_annuel_promo_deduite": 1017.23,
-    "cout_3_ans_promo_deduite": 3051.69,
+    "cout_annuel": 1013.39,
+    "cout_annuel_promo_deduite": 1013.39,
+    "cout_3_ans_promo_deduite": 3040.17,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9059,17 +9224,6 @@
     "cout_annuel": 1021.19,
     "cout_annuel_promo_deduite": 1021.19,
     "cout_3_ans_promo_deduite": 3063.57,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1025.23,
-    "cout_annuel_promo_deduite": 1025.23,
-    "cout_3_ans_promo_deduite": 3075.69,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9092,6 +9246,17 @@
     "cout_annuel": 1030.15,
     "cout_annuel_promo_deduite": 1030.15,
     "cout_3_ans_promo_deduite": 3090.45,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1032.64,
+    "cout_annuel_promo_deduite": 1032.64,
+    "cout_3_ans_promo_deduite": 3097.92,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9140,17 +9305,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1039.77,
-    "cout_annuel_promo_deduite": 1039.77,
-    "cout_3_ans_promo_deduite": 3119.31,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
     "offre": "PleniWeb 1 an",
@@ -9158,6 +9312,17 @@
     "cout_annuel": 1042.26,
     "cout_annuel_promo_deduite": 1042.26,
     "cout_3_ans_promo_deduite": 3126.79,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1043.66,
+    "cout_annuel_promo_deduite": 1043.66,
+    "cout_3_ans_promo_deduite": 3130.98,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9220,6 +9385,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1053.89,
+    "cout_annuel_promo_deduite": 1053.89,
+    "cout_3_ans_promo_deduite": 3161.67,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1053.89,
     "cout_annuel_promo_deduite": 1053.89,
@@ -9324,7 +9500,7 @@
     "cout_annuel_promo_deduite": 1089.94,
     "cout_3_ans_promo_deduite": 3269.82,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -9346,7 +9522,7 @@
     "cout_annuel_promo_deduite": 1098.89,
     "cout_3_ans_promo_deduite": 3296.67,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "mint-hphc",
@@ -9364,11 +9540,11 @@
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1118.83,
-    "cout_annuel_promo_deduite": 1118.83,
-    "cout_3_ans_promo_deduite": 3356.49,
+    "cout_annuel": 1137.08,
+    "cout_annuel_promo_deduite": 1137.08,
+    "cout_3_ans_promo_deduite": 3411.24,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -9397,9 +9573,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1543.29,
-    "cout_annuel_promo_deduite": 1543.29,
-    "cout_3_ans_promo_deduite": 4629.87,
+    "cout_annuel": 1615.79,
+    "cout_annuel_promo_deduite": 1615.79,
+    "cout_3_ans_promo_deduite": 4847.37,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -9454,20 +9630,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1381.83,
-    "cout_annuel_promo_deduite": 1381.83,
-    "cout_3_ans_promo_deduite": 4145.49,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1396.23,
-    "cout_annuel_promo_deduite": 1396.23,
-    "cout_3_ans_promo_deduite": 4188.69,
+    "cout_annuel": 1377.99,
+    "cout_annuel_promo_deduite": 1377.99,
+    "cout_3_ans_promo_deduite": 4133.97,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9527,6 +9692,17 @@
     "verification": "confirme"
    },
    {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1412.64,
+    "cout_annuel_promo_deduite": 1412.64,
+    "cout_3_ans_promo_deduite": 4237.92,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-base",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -9560,13 +9736,13 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1430.37,
-    "cout_annuel_promo_deduite": 1430.37,
-    "cout_3_ans_promo_deduite": 4291.11,
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1423.55,
+    "cout_annuel_promo_deduite": 1423.55,
+    "cout_3_ans_promo_deduite": 4270.64,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9651,6 +9827,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1450.89,
+    "cout_annuel_promo_deduite": 1450.89,
+    "cout_3_ans_promo_deduite": 4352.67,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1450.89,
     "cout_annuel_promo_deduite": 1450.89,
@@ -9755,7 +9942,7 @@
     "cout_annuel_promo_deduite": 1537.38,
     "cout_3_ans_promo_deduite": 4612.14,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -9766,18 +9953,18 @@
     "cout_annuel_promo_deduite": 1553.49,
     "cout_3_ans_promo_deduite": 4660.47,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1588.23,
-    "cout_annuel_promo_deduite": 1588.23,
-    "cout_3_ans_promo_deduite": 4764.69,
+    "cout_annuel": 1621.08,
+    "cout_annuel_promo_deduite": 1621.08,
+    "cout_3_ans_promo_deduite": 4863.24,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -9806,9 +9993,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2020.29,
-    "cout_annuel_promo_deduite": 2020.29,
-    "cout_3_ans_promo_deduite": 6060.87,
+    "cout_annuel": 2150.79,
+    "cout_annuel_promo_deduite": 2150.79,
+    "cout_3_ans_promo_deduite": 6452.37,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -9852,9 +10039,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 2019.88,
-    "cout_annuel_promo_deduite": 2019.88,
-    "cout_3_ans_promo_deduite": 6059.64,
+    "cout_annuel": 2016.04,
+    "cout_annuel_promo_deduite": 2016.04,
+    "cout_3_ans_promo_deduite": 6048.12,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9892,17 +10079,6 @@
     "verification": "confirme"
    },
    {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 2045.48,
-    "cout_annuel_promo_deduite": 2045.48,
-    "cout_3_ans_promo_deduite": 6136.44,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "primeo-essentielle-verte-hphc",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -9932,6 +10108,17 @@
     "cout_annuel": 2070.04,
     "cout_annuel_promo_deduite": 2070.04,
     "cout_3_ans_promo_deduite": 6210.12,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 2077.64,
+    "cout_annuel_promo_deduite": 2077.64,
+    "cout_3_ans_promo_deduite": 6232.92,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9969,6 +10156,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 2088.35,
+    "cout_annuel_promo_deduite": 2088.35,
+    "cout_3_ans_promo_deduite": 6265.06,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "alterna-fixe-1-an-hphc",
     "fournisseur": "Alterna",
     "offre": "Mon électricité française – Fixe 1 an",
@@ -9987,17 +10185,6 @@
     "cout_annuel": 2109.64,
     "cout_annuel_promo_deduite": 2109.64,
     "cout_3_ans_promo_deduite": 6328.92,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 2113.92,
-    "cout_annuel_promo_deduite": 2113.92,
-    "cout_3_ans_promo_deduite": 6341.76,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10060,6 +10247,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 2145.64,
+    "cout_annuel_promo_deduite": 2145.64,
+    "cout_3_ans_promo_deduite": 6436.92,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 2145.64,
     "cout_annuel_promo_deduite": 2145.64,
@@ -10164,7 +10362,7 @@
     "cout_annuel_promo_deduite": 2320.4,
     "cout_3_ans_promo_deduite": 6961.2,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -10175,18 +10373,18 @@
     "cout_annuel_promo_deduite": 2349.04,
     "cout_3_ans_promo_deduite": 7047.12,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 2409.68,
-    "cout_annuel_promo_deduite": 2409.68,
-    "cout_3_ans_promo_deduite": 7229.04,
+    "cout_annuel": 2468.08,
+    "cout_annuel_promo_deduite": 2468.08,
+    "cout_3_ans_promo_deduite": 7404.24,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -10215,9 +10413,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2855.04,
-    "cout_annuel_promo_deduite": 2855.04,
-    "cout_3_ans_promo_deduite": 8565.12,
+    "cout_annuel": 3087.04,
+    "cout_annuel_promo_deduite": 3087.04,
+    "cout_3_ans_promo_deduite": 9261.12,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -10272,9 +10470,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1106.39,
-    "cout_annuel_promo_deduite": 1106.39,
-    "cout_3_ans_promo_deduite": 3319.17,
+    "cout_annuel": 1102.31,
+    "cout_annuel_promo_deduite": 1102.31,
+    "cout_3_ans_promo_deduite": 3306.93,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10286,17 +10484,6 @@
     "cout_annuel": 1107.23,
     "cout_annuel_promo_deduite": 1107.23,
     "cout_3_ans_promo_deduite": 3321.69,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1114.39,
-    "cout_annuel_promo_deduite": 1114.39,
-    "cout_3_ans_promo_deduite": 3343.17,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10319,6 +10506,17 @@
     "cout_annuel": 1119.07,
     "cout_annuel_promo_deduite": 1119.07,
     "cout_3_ans_promo_deduite": 3357.21,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1121.56,
+    "cout_annuel_promo_deduite": 1121.56,
+    "cout_3_ans_promo_deduite": 3364.68,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10356,17 +10554,6 @@
     "verification": "confirme"
    },
    {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1128.69,
-    "cout_annuel_promo_deduite": 1128.69,
-    "cout_3_ans_promo_deduite": 3386.07,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "octopus-intelligent-hphc",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
@@ -10385,6 +10572,17 @@
     "cout_annuel": 1133.09,
     "cout_annuel_promo_deduite": 1133.09,
     "cout_3_ans_promo_deduite": 3399.26,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1134.74,
+    "cout_annuel_promo_deduite": 1134.74,
+    "cout_3_ans_promo_deduite": 3404.22,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10458,6 +10656,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1142.81,
+    "cout_annuel_promo_deduite": 1142.81,
+    "cout_3_ans_promo_deduite": 3428.43,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1142.81,
     "cout_annuel_promo_deduite": 1142.81,
@@ -10551,7 +10760,7 @@
     "cout_annuel_promo_deduite": 1176.22,
     "cout_3_ans_promo_deduite": 3528.66,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "mint-base",
@@ -10573,7 +10782,7 @@
     "cout_annuel_promo_deduite": 1185.17,
     "cout_3_ans_promo_deduite": 3555.51,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "mint-hphc",
@@ -10591,11 +10800,11 @@
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1205.11,
-    "cout_annuel_promo_deduite": 1205.11,
-    "cout_3_ans_promo_deduite": 3615.33,
+    "cout_annuel": 1223.36,
+    "cout_annuel_promo_deduite": 1223.36,
+    "cout_3_ans_promo_deduite": 3670.08,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -10624,9 +10833,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 1661.25,
-    "cout_annuel_promo_deduite": 1661.25,
-    "cout_3_ans_promo_deduite": 4983.75,
+    "cout_annuel": 1733.75,
+    "cout_annuel_promo_deduite": 1733.75,
+    "cout_3_ans_promo_deduite": 5201.25,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -10681,20 +10890,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 1470.99,
-    "cout_annuel_promo_deduite": 1470.99,
-    "cout_3_ans_promo_deduite": 4412.97,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 1485.39,
-    "cout_annuel_promo_deduite": 1485.39,
-    "cout_3_ans_promo_deduite": 4456.17,
+    "cout_annuel": 1466.91,
+    "cout_annuel_promo_deduite": 1466.91,
+    "cout_3_ans_promo_deduite": 4400.73,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10743,6 +10941,17 @@
     "verification": "confirme"
    },
    {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 1501.56,
+    "cout_annuel_promo_deduite": 1501.56,
+    "cout_3_ans_promo_deduite": 4504.68,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "plenitude-pleniweb-base",
     "fournisseur": "Plenitude",
     "offre": "PleniWeb 1 an",
@@ -10787,6 +10996,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 1514.63,
+    "cout_annuel_promo_deduite": 1514.63,
+    "cout_3_ans_promo_deduite": 4543.88,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-intelligent-hphc",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
@@ -10794,17 +11014,6 @@
     "cout_annuel": 1516.36,
     "cout_annuel_promo_deduite": 1516.36,
     "cout_3_ans_promo_deduite": 4549.07,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 1519.29,
-    "cout_annuel_promo_deduite": 1519.29,
-    "cout_3_ans_promo_deduite": 4557.87,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10878,6 +11087,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 1539.81,
+    "cout_annuel_promo_deduite": 1539.81,
+    "cout_3_ans_promo_deduite": 4619.43,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 1539.81,
     "cout_annuel_promo_deduite": 1539.81,
@@ -10982,7 +11202,7 @@
     "cout_annuel_promo_deduite": 1623.66,
     "cout_3_ans_promo_deduite": 4870.98,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -10993,18 +11213,18 @@
     "cout_annuel_promo_deduite": 1639.77,
     "cout_3_ans_promo_deduite": 4919.31,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 1674.51,
-    "cout_annuel_promo_deduite": 1674.51,
-    "cout_3_ans_promo_deduite": 5023.53,
+    "cout_annuel": 1707.36,
+    "cout_annuel_promo_deduite": 1707.36,
+    "cout_3_ans_promo_deduite": 5122.08,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -11033,9 +11253,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2138.25,
-    "cout_annuel_promo_deduite": 2138.25,
-    "cout_3_ans_promo_deduite": 6414.75,
+    "cout_annuel": 2268.75,
+    "cout_annuel_promo_deduite": 2268.75,
+    "cout_3_ans_promo_deduite": 6806.25,
     "promo_an1": 0,
     "verification": "confirme"
    }
@@ -11079,9 +11299,9 @@
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
     "option": "base",
-    "cout_annuel": 2109.04,
-    "cout_annuel_promo_deduite": 2109.04,
-    "cout_3_ans_promo_deduite": 6327.12,
+    "cout_annuel": 2104.96,
+    "cout_annuel_promo_deduite": 2104.96,
+    "cout_3_ans_promo_deduite": 6314.88,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11104,17 +11324,6 @@
     "cout_annuel": 2126.1,
     "cout_annuel_promo_deduite": 2126.1,
     "cout_3_ans_promo_deduite": 6378.29,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "geg-elec-verte-fixe-3-ans-hphc",
-    "fournisseur": "GEG",
-    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
-    "option": "hphc",
-    "cout_annuel": 2134.64,
-    "cout_annuel_promo_deduite": 2134.64,
-    "cout_3_ans_promo_deduite": 6403.92,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11163,6 +11372,17 @@
     "verification": "confirme"
    },
    {
+    "id": "llum-particuliers-base",
+    "fournisseur": "LLUM",
+    "offre": "Électricité Particuliers",
+    "option": "base",
+    "cout_annuel": 2166.56,
+    "cout_annuel_promo_deduite": 2166.56,
+    "cout_3_ans_promo_deduite": 6499.68,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-base",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -11196,6 +11416,17 @@
     "verification": "confirme"
    },
    {
+    "id": "geg-elec-verte-fixe-3-ans-hphc",
+    "fournisseur": "GEG",
+    "offre": "Mon Offre Elec Verte – Fixe 3 ans",
+    "option": "hphc",
+    "cout_annuel": 2179.43,
+    "cout_annuel_promo_deduite": 2179.43,
+    "cout_3_ans_promo_deduite": 6538.3,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "octopus-intelligent-hphc",
     "fournisseur": "Octopus Energy",
     "offre": "Intelligent Octopus",
@@ -11225,17 +11456,6 @@
     "cout_annuel": 2198.56,
     "cout_annuel_promo_deduite": 2198.56,
     "cout_3_ans_promo_deduite": 6595.68,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "la-bellenergie-prudence-base",
-    "fournisseur": "la bellenergie",
-    "offre": "Prudence",
-    "option": "base",
-    "cout_annuel": 2202.84,
-    "cout_annuel_promo_deduite": 2202.84,
-    "cout_3_ans_promo_deduite": 6608.52,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11287,6 +11507,17 @@
     "id": "edf-tarif-bleu-base",
     "fournisseur": "EDF",
     "offre": "Tarif Bleu",
+    "option": "base",
+    "cout_annuel": 2234.56,
+    "cout_annuel_promo_deduite": 2234.56,
+    "cout_3_ans_promo_deduite": 6703.68,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "la-bellenergie-prudence-base",
+    "fournisseur": "la bellenergie",
+    "offre": "Prudence",
     "option": "base",
     "cout_annuel": 2234.56,
     "cout_annuel_promo_deduite": 2234.56,
@@ -11391,7 +11622,7 @@
     "cout_annuel_promo_deduite": 2406.68,
     "cout_3_ans_promo_deduite": 7220.04,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "happ-e-1-an-base",
@@ -11402,18 +11633,18 @@
     "cout_annuel_promo_deduite": 2435.32,
     "cout_3_ans_promo_deduite": 7305.96,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "conflit"
    },
    {
     "id": "engie-elec-reference-3-ans-base",
     "fournisseur": "Engie",
     "offre": "Elec Référence 3 ans",
     "option": "base",
-    "cout_annuel": 2495.96,
-    "cout_annuel_promo_deduite": 2495.96,
-    "cout_3_ans_promo_deduite": 7487.88,
+    "cout_annuel": 2554.36,
+    "cout_annuel_promo_deduite": 2554.36,
+    "cout_3_ans_promo_deduite": 7663.08,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "enercoop-base",
@@ -11442,9 +11673,9 @@
     "fournisseur": "ilek",
     "offre": "ÉnRFixe+ Élec",
     "option": "base",
-    "cout_annuel": 2973.0,
-    "cout_annuel_promo_deduite": 2973.0,
-    "cout_3_ans_promo_deduite": 8919.0,
+    "cout_annuel": 3205.0,
+    "cout_annuel_promo_deduite": 3205.0,
+    "cout_3_ans_promo_deduite": 9615.0,
     "promo_an1": 0,
     "verification": "confirme"
    }

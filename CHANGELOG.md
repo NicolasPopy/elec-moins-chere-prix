@@ -1,5 +1,13 @@
 # Évolution des prix
 
+## 2026-11-12
+- `engie-elec-reference-3-ans-base` base (6 kVA) : 0.233 → 0.2403
+- `geg-elec-verte-fixe-3-ans-base` abonnement (6 kVA) : 15.9 → 15.86
+- `geg-elec-verte-fixe-3-ans-hphc` abonnement (6 kVA) : 15.9 → 16.05
+- `geg-elec-verte-fixe-3-ans-hphc` hc (6 kVA) : 0.1583 → 0.1584
+- `ilek-enrfixe-plus-base` base (6 kVA) : 0.24 → 0.2691
+- `la-bellenergie-prudence-base` abonnement (6 kVA) : 15.36 → 15.86
+- `la-bellenergie-prudence-base` base (6 kVA) : 0.1968 → 0.2001
 ## 2026-11-11
 - Aucun changement de prix.
 ## 2026-11-10
