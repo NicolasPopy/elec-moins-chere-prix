@@ -4,7 +4,6 @@
 - `gaz-de-bordeaux-novafixe-base` base (6 kVA) : 0.1837 → 0.1919
 - `gaz-de-bordeaux-novafixe-hphc` hc (6 kVA) : 0.1467 → 0.1528
 - `gaz-de-bordeaux-novafixe-hphc` hp (6 kVA) : 0.1965 → 0.2054
-
 ## 2026-11-12
 - `engie-elec-reference-3-ans-base` base (6 kVA) : 0.233 → 0.2403
 - `geg-elec-verte-fixe-3-ans-base` abonnement (6 kVA) : 15.9 → 15.86
