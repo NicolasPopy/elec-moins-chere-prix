@@ -1,5 +1,5 @@
 {
- "mis_a_jour_le": "2026-11-12",
+ "mis_a_jour_le": "2026-11-13",
  "hypotheses": {
   "part_heures_creuses_hphc": 0.32,
   "consommations_kwh": [
@@ -41,17 +41,6 @@
     "cout_annuel": 583.81,
     "cout_annuel_promo_deduite": 583.81,
     "cout_3_ans_promo_deduite": 1751.43,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 604.81,
-    "cout_annuel_promo_deduite": 604.81,
-    "cout_3_ans_promo_deduite": 1814.43,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -129,6 +118,17 @@
     "cout_annuel": 621.11,
     "cout_annuel_promo_deduite": 621.11,
     "cout_3_ans_promo_deduite": 1863.33,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 625.31,
+    "cout_annuel_promo_deduite": 625.31,
+    "cout_3_ans_promo_deduite": 1875.93,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -421,17 +421,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 972.21,
-    "cout_annuel_promo_deduite": 972.21,
-    "cout_3_ans_promo_deduite": 2916.63,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-base",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -527,6 +516,17 @@
     "cout_annuel": 1002.51,
     "cout_annuel_promo_deduite": 1002.51,
     "cout_3_ans_promo_deduite": 3007.53,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1009.11,
+    "cout_annuel_promo_deduite": 1009.11,
+    "cout_3_ans_promo_deduite": 3027.33,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -797,17 +797,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1615.16,
-    "cout_annuel_promo_deduite": 1615.16,
-    "cout_3_ans_promo_deduite": 4845.48,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-base",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -914,6 +903,17 @@
     "cout_annuel": 1675.7,
     "cout_annuel_promo_deduite": 1675.7,
     "cout_3_ans_promo_deduite": 5027.11,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1680.76,
+    "cout_annuel_promo_deduite": 1680.76,
+    "cout_3_ans_promo_deduite": 5042.28,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1184,17 +1184,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 641.85,
-    "cout_annuel_promo_deduite": 641.85,
-    "cout_3_ans_promo_deduite": 1925.55,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-base",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -1213,17 +1202,6 @@
     "cout_annuel": 649.57,
     "cout_annuel_promo_deduite": 649.57,
     "cout_3_ans_promo_deduite": 1948.71,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 649.69,
-    "cout_annuel_promo_deduite": 649.69,
-    "cout_3_ans_promo_deduite": 1949.07,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1272,6 +1250,17 @@
     "verification": "confirme"
    },
    {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 661.86,
+    "cout_annuel_promo_deduite": 661.86,
+    "cout_3_ans_promo_deduite": 1985.58,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-zen-online-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Online",
@@ -1312,6 +1301,17 @@
     "cout_annuel": 670.07,
     "cout_annuel_promo_deduite": 670.07,
     "cout_3_ans_promo_deduite": 2010.21,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 670.19,
+    "cout_annuel_promo_deduite": 670.19,
+    "cout_3_ans_promo_deduite": 2010.57,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1659,17 +1659,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1002.98,
-    "cout_annuel_promo_deduite": 1002.98,
-    "cout_3_ans_promo_deduite": 3008.93,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-base",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -1688,17 +1677,6 @@
     "cout_annuel": 1016.97,
     "cout_annuel_promo_deduite": 1016.97,
     "cout_3_ans_promo_deduite": 3050.91,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1017.09,
-    "cout_annuel_promo_deduite": 1017.09,
-    "cout_3_ans_promo_deduite": 3051.27,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -1758,6 +1736,17 @@
     "verification": "confirme"
    },
    {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1039.0,
+    "cout_annuel_promo_deduite": 1039.0,
+    "cout_3_ans_promo_deduite": 3116.99,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-zen-online-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Online",
@@ -1809,6 +1798,17 @@
     "cout_annuel": 1053.87,
     "cout_annuel_promo_deduite": 1053.87,
     "cout_3_ans_promo_deduite": 3161.61,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1053.99,
+    "cout_annuel_promo_deduite": 1053.99,
+    "cout_3_ans_promo_deduite": 3161.97,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2134,17 +2134,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1634.95,
-    "cout_annuel_promo_deduite": 1634.95,
-    "cout_3_ans_promo_deduite": 4904.86,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-base",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -2163,17 +2152,6 @@
     "cout_annuel": 1659.92,
     "cout_annuel_promo_deduite": 1659.92,
     "cout_3_ans_promo_deduite": 4979.76,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1660.04,
-    "cout_annuel_promo_deduite": 1660.04,
-    "cout_3_ans_promo_deduite": 4980.12,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2244,6 +2222,17 @@
     "verification": "confirme"
    },
    {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1698.98,
+    "cout_annuel_promo_deduite": 1698.98,
+    "cout_3_ans_promo_deduite": 5096.95,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "edf-zen-online-hphc",
     "fournisseur": "EDF",
     "offre": "Zen Online",
@@ -2295,6 +2284,17 @@
     "cout_annuel": 1725.52,
     "cout_annuel_promo_deduite": 1725.52,
     "cout_3_ans_promo_deduite": 5176.56,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1725.64,
+    "cout_annuel_promo_deduite": 1725.64,
+    "cout_3_ans_promo_deduite": 5176.92,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2587,17 +2587,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 689.97,
-    "cout_annuel_promo_deduite": 689.97,
-    "cout_3_ans_promo_deduite": 2069.91,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-hphc",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -2605,17 +2594,6 @@
     "cout_annuel": 693.33,
     "cout_annuel_promo_deduite": 693.33,
     "cout_3_ans_promo_deduite": 2079.99,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 694.31,
-    "cout_annuel_promo_deduite": 694.31,
-    "cout_3_ans_promo_deduite": 2082.93,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -2664,6 +2642,17 @@
     "verification": "confirme"
    },
    {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 709.98,
+    "cout_annuel_promo_deduite": 709.98,
+    "cout_3_ans_promo_deduite": 2129.94,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-hphc",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -2704,6 +2693,17 @@
     "cout_annuel": 713.56,
     "cout_annuel_promo_deduite": 713.56,
     "cout_3_ans_promo_deduite": 2140.68,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 714.56,
+    "cout_annuel_promo_deduite": 714.56,
+    "cout_3_ans_promo_deduite": 2143.68,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3051,17 +3051,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1051.1,
-    "cout_annuel_promo_deduite": 1051.1,
-    "cout_3_ans_promo_deduite": 3153.29,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-hphc",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -3069,17 +3058,6 @@
     "cout_annuel": 1054.46,
     "cout_annuel_promo_deduite": 1054.46,
     "cout_3_ans_promo_deduite": 3163.37,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1058.91,
-    "cout_annuel_promo_deduite": 1058.91,
-    "cout_3_ans_promo_deduite": 3176.73,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3139,6 +3117,17 @@
     "verification": "confirme"
    },
    {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1087.12,
+    "cout_annuel_promo_deduite": 1087.12,
+    "cout_3_ans_promo_deduite": 3261.35,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-hphc",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -3190,6 +3179,17 @@
     "cout_annuel": 1093.56,
     "cout_annuel_promo_deduite": 1093.56,
     "cout_3_ans_promo_deduite": 3280.68,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1095.36,
+    "cout_annuel_promo_deduite": 1095.36,
+    "cout_3_ans_promo_deduite": 3286.08,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3515,17 +3515,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1683.07,
-    "cout_annuel_promo_deduite": 1683.07,
-    "cout_3_ans_promo_deduite": 5049.22,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-hphc",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -3533,17 +3522,6 @@
     "cout_annuel": 1686.43,
     "cout_annuel_promo_deduite": 1686.43,
     "cout_3_ans_promo_deduite": 5059.3,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1696.96,
-    "cout_annuel_promo_deduite": 1696.96,
-    "cout_3_ans_promo_deduite": 5090.88,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3614,6 +3592,17 @@
     "verification": "confirme"
    },
    {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1747.1,
+    "cout_annuel_promo_deduite": 1747.1,
+    "cout_3_ans_promo_deduite": 5241.31,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-hphc",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -3654,6 +3643,17 @@
     "cout_annuel": 1760.32,
     "cout_annuel_promo_deduite": 1760.32,
     "cout_3_ans_promo_deduite": 5280.96,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1761.76,
+    "cout_annuel_promo_deduite": 1761.76,
+    "cout_3_ans_promo_deduite": 5285.28,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -3979,28 +3979,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 736.53,
-    "cout_annuel_promo_deduite": 736.53,
-    "cout_3_ans_promo_deduite": 2209.59,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 740.87,
-    "cout_annuel_promo_deduite": 740.87,
-    "cout_3_ans_promo_deduite": 2222.61,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-base",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -4041,6 +4019,17 @@
     "cout_annuel": 744.09,
     "cout_annuel_promo_deduite": 744.09,
     "cout_3_ans_promo_deduite": 2232.27,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 756.54,
+    "cout_annuel_promo_deduite": 756.54,
+    "cout_3_ans_promo_deduite": 2269.62,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4096,6 +4085,17 @@
     "cout_annuel": 760.12,
     "cout_annuel_promo_deduite": 760.12,
     "cout_3_ans_promo_deduite": 2280.36,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 761.12,
+    "cout_annuel_promo_deduite": 761.12,
+    "cout_3_ans_promo_deduite": 2283.36,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4443,17 +4443,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1097.66,
-    "cout_annuel_promo_deduite": 1097.66,
-    "cout_3_ans_promo_deduite": 3292.97,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-hphc",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -4461,17 +4450,6 @@
     "cout_annuel": 1105.22,
     "cout_annuel_promo_deduite": 1105.22,
     "cout_3_ans_promo_deduite": 3315.65,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1105.47,
-    "cout_annuel_promo_deduite": 1105.47,
-    "cout_3_ans_promo_deduite": 3316.41,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4516,6 +4494,17 @@
     "cout_annuel": 1126.39,
     "cout_annuel_promo_deduite": 1126.39,
     "cout_3_ans_promo_deduite": 3379.18,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1133.68,
+    "cout_annuel_promo_deduite": 1133.68,
+    "cout_3_ans_promo_deduite": 3401.03,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4582,6 +4571,17 @@
     "cout_annuel": 1140.12,
     "cout_annuel_promo_deduite": 1140.12,
     "cout_3_ans_promo_deduite": 3420.36,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1141.92,
+    "cout_annuel_promo_deduite": 1141.92,
+    "cout_3_ans_promo_deduite": 3425.76,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -4907,17 +4907,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1729.63,
-    "cout_annuel_promo_deduite": 1729.63,
-    "cout_3_ans_promo_deduite": 5188.9,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "totalenergies-access-hphc",
     "fournisseur": "TotalEnergies",
     "offre": "Access Électricité",
@@ -4925,17 +4914,6 @@
     "cout_annuel": 1737.19,
     "cout_annuel_promo_deduite": 1737.19,
     "cout_3_ans_promo_deduite": 5211.58,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1743.52,
-    "cout_annuel_promo_deduite": 1743.52,
-    "cout_3_ans_promo_deduite": 5230.56,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5006,6 +4984,17 @@
     "verification": "confirme"
    },
    {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1793.66,
+    "cout_annuel_promo_deduite": 1793.66,
+    "cout_3_ans_promo_deduite": 5380.99,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-hphc",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -5046,6 +5035,17 @@
     "cout_annuel": 1805.44,
     "cout_annuel_promo_deduite": 1805.44,
     "cout_3_ans_promo_deduite": 5416.32,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1808.32,
+    "cout_annuel_promo_deduite": 1808.32,
+    "cout_3_ans_promo_deduite": 5424.96,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5371,17 +5371,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 780.21,
-    "cout_annuel_promo_deduite": 780.21,
-    "cout_3_ans_promo_deduite": 2340.63,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -5389,17 +5378,6 @@
     "cout_annuel": 784.37,
     "cout_annuel_promo_deduite": 784.37,
     "cout_3_ans_promo_deduite": 2353.11,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 784.55,
-    "cout_annuel_promo_deduite": 784.55,
-    "cout_3_ans_promo_deduite": 2353.65,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5422,6 +5400,17 @@
     "cout_annuel": 798.83,
     "cout_annuel_promo_deduite": 798.83,
     "cout_3_ans_promo_deduite": 2396.49,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 800.22,
+    "cout_annuel_promo_deduite": 800.22,
+    "cout_3_ans_promo_deduite": 2400.66,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5466,6 +5455,17 @@
     "cout_annuel": 803.8,
     "cout_annuel_promo_deduite": 803.8,
     "cout_3_ans_promo_deduite": 2411.4,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 804.8,
+    "cout_annuel_promo_deduite": 804.8,
+    "cout_3_ans_promo_deduite": 2414.4,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5802,28 +5802,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1141.34,
-    "cout_annuel_promo_deduite": 1141.34,
-    "cout_3_ans_promo_deduite": 3424.01,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1149.15,
-    "cout_annuel_promo_deduite": 1149.15,
-    "cout_3_ans_promo_deduite": 3447.45,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -5853,6 +5831,17 @@
     "cout_annuel": 1170.03,
     "cout_annuel_promo_deduite": 1170.03,
     "cout_3_ans_promo_deduite": 3510.1,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1177.36,
+    "cout_annuel_promo_deduite": 1177.36,
+    "cout_3_ans_promo_deduite": 3532.07,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -5919,6 +5908,17 @@
     "cout_annuel": 1183.8,
     "cout_annuel_promo_deduite": 1183.8,
     "cout_3_ans_promo_deduite": 3551.4,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1185.6,
+    "cout_annuel_promo_deduite": 1185.6,
+    "cout_3_ans_promo_deduite": 3556.8,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6233,28 +6233,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1773.31,
-    "cout_annuel_promo_deduite": 1773.31,
-    "cout_3_ans_promo_deduite": 5319.94,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
-    "id": "gaz-de-bordeaux-novafixe-base",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "base",
-    "cout_annuel": 1787.2,
-    "cout_annuel_promo_deduite": 1787.2,
-    "cout_3_ans_promo_deduite": 5361.6,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -6310,6 +6288,17 @@
     "verification": "confirme"
    },
    {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1837.34,
+    "cout_annuel_promo_deduite": 1837.34,
+    "cout_3_ans_promo_deduite": 5512.03,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
     "id": "primeo-essentielle-verte-hphc",
     "fournisseur": "Primeo Énergie",
     "offre": "Essentielle Verte",
@@ -6350,6 +6339,17 @@
     "cout_annuel": 1848.8,
     "cout_annuel_promo_deduite": 1848.8,
     "cout_3_ans_promo_deduite": 5546.4,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-base",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "base",
+    "cout_annuel": 1852.0,
+    "cout_annuel_promo_deduite": 1852.0,
+    "cout_3_ans_promo_deduite": 5556.0,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -6664,17 +6664,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 825.09,
-    "cout_annuel_promo_deduite": 825.09,
-    "cout_3_ans_promo_deduite": 2475.27,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -6704,6 +6693,17 @@
     "cout_annuel": 842.63,
     "cout_annuel_promo_deduite": 842.63,
     "cout_3_ans_promo_deduite": 2527.89,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 845.1,
+    "cout_annuel_promo_deduite": 845.1,
+    "cout_3_ans_promo_deduite": 2535.3,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7084,17 +7084,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1186.22,
-    "cout_annuel_promo_deduite": 1186.22,
-    "cout_3_ans_promo_deduite": 3558.65,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -7124,6 +7113,17 @@
     "cout_annuel": 1214.97,
     "cout_annuel_promo_deduite": 1214.97,
     "cout_3_ans_promo_deduite": 3644.92,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1222.24,
+    "cout_annuel_promo_deduite": 1222.24,
+    "cout_3_ans_promo_deduite": 3666.71,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7504,17 +7504,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1818.19,
-    "cout_annuel_promo_deduite": 1818.19,
-    "cout_3_ans_promo_deduite": 5454.58,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -7555,6 +7544,17 @@
     "cout_annuel": 1861.15,
     "cout_annuel_promo_deduite": 1861.15,
     "cout_3_ans_promo_deduite": 5583.45,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1882.22,
+    "cout_annuel_promo_deduite": 1882.22,
+    "cout_3_ans_promo_deduite": 5646.67,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -7924,17 +7924,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 920.97,
-    "cout_annuel_promo_deduite": 920.97,
-    "cout_3_ans_promo_deduite": 2762.91,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -7964,6 +7953,17 @@
     "cout_annuel": 935.63,
     "cout_annuel_promo_deduite": 935.63,
     "cout_3_ans_promo_deduite": 2806.89,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 940.98,
+    "cout_annuel_promo_deduite": 940.98,
+    "cout_3_ans_promo_deduite": 2822.94,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8344,17 +8344,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1282.1,
-    "cout_annuel_promo_deduite": 1282.1,
-    "cout_3_ans_promo_deduite": 3846.29,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -8395,6 +8384,17 @@
     "cout_annuel": 1317.03,
     "cout_annuel_promo_deduite": 1317.03,
     "cout_3_ans_promo_deduite": 3951.09,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1318.12,
+    "cout_annuel_promo_deduite": 1318.12,
+    "cout_3_ans_promo_deduite": 3954.35,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -8764,17 +8764,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1914.07,
-    "cout_annuel_promo_deduite": 1914.07,
-    "cout_3_ans_promo_deduite": 5742.22,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -8815,6 +8804,17 @@
     "cout_annuel": 1957.07,
     "cout_annuel_promo_deduite": 1957.07,
     "cout_3_ans_promo_deduite": 5871.21,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1978.1,
+    "cout_annuel_promo_deduite": 1978.1,
+    "cout_3_ans_promo_deduite": 5934.31,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9195,17 +9195,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1008.93,
-    "cout_annuel_promo_deduite": 1008.93,
-    "cout_3_ans_promo_deduite": 3026.79,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -9224,6 +9213,17 @@
     "cout_annuel": 1021.19,
     "cout_annuel_promo_deduite": 1021.19,
     "cout_3_ans_promo_deduite": 3063.57,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1028.94,
+    "cout_annuel_promo_deduite": 1028.94,
+    "cout_3_ans_promo_deduite": 3086.82,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -9604,17 +9604,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1370.06,
-    "cout_annuel_promo_deduite": 1370.06,
-    "cout_3_ans_promo_deduite": 4110.17,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -9655,6 +9644,17 @@
     "cout_annuel": 1402.59,
     "cout_annuel_promo_deduite": 1402.59,
     "cout_3_ans_promo_deduite": 4207.77,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1406.08,
+    "cout_annuel_promo_deduite": 1406.08,
+    "cout_3_ans_promo_deduite": 4218.23,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10024,17 +10024,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 2002.03,
-    "cout_annuel_promo_deduite": 2002.03,
-    "cout_3_ans_promo_deduite": 6006.1,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -10075,6 +10064,17 @@
     "cout_annuel": 2045.08,
     "cout_annuel_promo_deduite": 2045.08,
     "cout_3_ans_promo_deduite": 6135.24,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 2066.06,
+    "cout_annuel_promo_deduite": 2066.06,
+    "cout_3_ans_promo_deduite": 6198.19,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10455,17 +10455,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1097.97,
-    "cout_annuel_promo_deduite": 1097.97,
-    "cout_3_ans_promo_deduite": 3293.91,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -10484,6 +10473,17 @@
     "cout_annuel": 1107.23,
     "cout_annuel_promo_deduite": 1107.23,
     "cout_3_ans_promo_deduite": 3321.69,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1117.98,
+    "cout_annuel_promo_deduite": 1117.98,
+    "cout_3_ans_promo_deduite": 3353.94,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -10864,17 +10864,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 1459.1,
-    "cout_annuel_promo_deduite": 1459.1,
-    "cout_3_ans_promo_deduite": 4377.29,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "dyneff-contrat-plus-hphc",
     "fournisseur": "Dyneff",
     "offre": "Contrat+ Électricité",
@@ -10915,6 +10904,17 @@
     "cout_annuel": 1494.18,
     "cout_annuel_promo_deduite": 1494.18,
     "cout_3_ans_promo_deduite": 4482.55,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 1495.12,
+    "cout_annuel_promo_deduite": 1495.12,
+    "cout_3_ans_promo_deduite": 4485.35,
     "promo_an1": 0,
     "verification": "confirme"
    },
@@ -11284,17 +11284,6 @@
     "verification": "confirme"
    },
    {
-    "id": "gaz-de-bordeaux-novafixe-hphc",
-    "fournisseur": "Gaz de Bordeaux",
-    "offre": "Novafixe Élec",
-    "option": "hphc",
-    "cout_annuel": 2091.07,
-    "cout_annuel_promo_deduite": 2091.07,
-    "cout_3_ans_promo_deduite": 6273.22,
-    "promo_an1": 0,
-    "verification": "confirme"
-   },
-   {
     "id": "geg-elec-verte-fixe-3-ans-base",
     "fournisseur": "GEG",
     "offre": "Mon Offre Elec Verte – Fixe 3 ans",
@@ -11335,6 +11324,17 @@
     "cout_annuel": 2140.36,
     "cout_annuel_promo_deduite": 2140.36,
     "cout_3_ans_promo_deduite": 6421.08,
+    "promo_an1": 0,
+    "verification": "confirme"
+   },
+   {
+    "id": "gaz-de-bordeaux-novafixe-hphc",
+    "fournisseur": "Gaz de Bordeaux",
+    "offre": "Novafixe Élec",
+    "option": "hphc",
+    "cout_annuel": 2155.1,
+    "cout_annuel_promo_deduite": 2155.1,
+    "cout_3_ans_promo_deduite": 6465.31,
     "promo_an1": 0,
     "verification": "confirme"
    },

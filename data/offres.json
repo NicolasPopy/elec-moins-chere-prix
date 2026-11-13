@@ -2,7 +2,7 @@
  "meta": {
   "nom": "ElecMoinsChere — base des prix de l'électricité",
   "version_schema": 1,
-  "mis_a_jour_le": "2026-11-12",
+  "mis_a_jour_le": "2026-11-13",
   "zone": "France métropolitaine continentale (hors Corse et DOM)",
   "unites": {
    "abonnement_mois": "€ TTC par mois",
@@ -793,13 +793,19 @@
      "url": "https://selectra.info/energie/fournisseurs/edf/tarifs",
      "type": "comparateur",
      "consulte_le": "2026-11-02"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/edf/heures-creuses",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
     "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
-    "02/11/2026 : HP 0,2059 € et HC 0,1531 € reconfirmés à 9 kVA par Selectra."
+    "02/11/2026 : HP 0,2059 € et HC 0,1531 € reconfirmés à 9 kVA par Selectra.",
+    "13/11/2026 : HP 0,2059 € et HC 0,1531 € reconfirmés par deux pages Selectra (relevé du 04/11/2026) ; abonnements non relus (widget). Horaires HC saisonniers EDF pour les souscriptions depuis le 06/10/2026, sans changement de prix signalé."
    ],
-   "derniere_verif": "2026-11-02"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "edf-zen-fixe-base",
@@ -1330,14 +1336,25 @@
      "url": "https://selectra.info/energie/fournisseurs/edf/tarifs/zen-week-end",
      "type": "comparateur",
      "consulte_le": "2026-11-02"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/edf/tarifs/zen-week-end",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/edf/prix/zen-week-end",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
     "Week-end ≈ -30 % HT par rapport au prix semaine.",
     "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
-    "02/11/2026 : grille officielle EDF TTC applicable au 15/09/2026 (3 à 36 kVA) : semaine 0,2285 €, week-end 0,1710 €, abonnements identiques ; confirmé par fournisseurs-electricite.com et Selectra. Une variante HC + WE existe (HP sem. 0,2359 €, HC 0,1762 €, 6 à 36 kVA), non suivie ici."
+    "02/11/2026 : grille officielle EDF TTC applicable au 15/09/2026 (3 à 36 kVA) : semaine 0,2285 €, week-end 0,1710 €, abonnements identiques ; confirmé par fournisseurs-electricite.com et Selectra. Une variante HC + WE existe (HP sem. 0,2359 €, HC 0,1762 €, 6 à 36 kVA), non suivie ici.",
+    "13/11/2026 : semaine 0,2285 € et week-end 0,1710 € reconfirmés par Kelwatt (vérifié le 11/11, abonnements 3 à 36 kVA identiques) et fournisseurs-electricite.com (6 kVA) ; grille du 15/09/2026. PDF officiel non relu aujourd'hui."
    ],
-   "derniere_verif": "2026-11-02"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "edf-zen-week-end-plus",
@@ -1439,14 +1456,25 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/edf/tarifs/zen-week-end-plus",
      "type": "comparateur",
      "consulte_le": "2026-11-02"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/edf/tarifs/zen-week-end-plus",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/edf/prix/zen-week-end-plus",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
     "Une variante avec heures creuses en semaine existe (HP sem. 0,2314 €, HC 0,1731 €).",
     "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
-    "02/11/2026 : grille officielle EDF TTC applicable au 15/09/2026 : semaine 0,2259 €, week-end et jour choisi (lundi, mercredi ou vendredi) 0,1691 € ; confirmé par fournisseurs-electricite.com. La grille officielle commence à 6 kVA : ligne 3 kVA retirée."
+    "02/11/2026 : grille officielle EDF TTC applicable au 15/09/2026 : semaine 0,2259 €, week-end et jour choisi (lundi, mercredi ou vendredi) 0,1691 € ; confirmé par fournisseurs-electricite.com. La grille officielle commence à 6 kVA : ligne 3 kVA retirée.",
+    "13/11/2026 : semaine 0,2259 €, week-end et jour choisi 0,1691 €, abonnements 6 à 36 kVA reconfirmés par Selectra (relevé du 04/11) et Kelwatt (grille du 15/09/2026). Selectra signale 80 € offerts jusqu'au 15/11/2026 pour une souscription via son numéro 3404 (non retenu : canal partenaire)."
    ],
-   "derniere_verif": "2026-11-02"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "edf-vert-electrique-week-end",
@@ -1463,14 +1491,6 @@
    "engagement": "sans engagement",
    "plages_horaires": "Tarif réduit le week-end et les jours fériés.",
    "grille": [
-    {
-     "kva": 3,
-     "abonnement_mois": 12.13,
-     "prix_kwh": {
-      "semaine": 0.2171,
-      "week_end": 0.163
-     }
-    },
     {
      "kva": 6,
      "abonnement_mois": 15.86,
@@ -1538,7 +1558,7 @@
    ],
    "promotions": [],
    "avantages": [],
-   "verification": "source_unique",
+   "verification": "confirme",
    "sources": [
     {
      "url": "https://selectra.info/energie/fournisseurs/edf/tarifs",
@@ -1549,14 +1569,30 @@
      "url": "https://selectra.info/energie/fournisseurs/edf/tarifs",
      "type": "comparateur",
      "consulte_le": "2026-11-02"
+    },
+    {
+     "url": "https://particulier.edf.fr/fr/accueil/electricite-gaz/offres-electricite/offres-marche/electricite-verte/vert-electrique-week-end.html",
+     "type": "officiel",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/edf/prix/vert-electrique-week-end",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/edf/tarifs/vert-electrique-week-end",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
     "Prix relevés à 9 kVA.",
     "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
-    "02/11/2026 : semaine 0,2171 € et week-end 0,1630 € à 9 kVA reconfirmés sur la page d'ensemble Selectra ; fiche dédiée et grille officielle non lues (accès refusé) : reste source unique."
+    "02/11/2026 : semaine 0,2171 € et week-end 0,1630 € à 9 kVA reconfirmés sur la page d'ensemble Selectra ; fiche dédiée et grille officielle non lues (accès refusé) : reste source unique.",
+    "13/11/2026 : page officielle EDF (TTC, applicable au 15/09/2026) : semaine 0,2171 €, week-end 0,1630 €, abonnements 6 à 36 kVA identiques à la base ; confirmé par Kelwatt et JeChange. L'offre n'existe pas en 3 kVA : ligne retirée. Bannière EDF : souscription en ligne temporairement indisponible."
    ],
-   "derniere_verif": "2026-11-02"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "edf-zen-flex",
@@ -1570,16 +1606,6 @@
    "engagement": "sans engagement",
    "plages_horaires": "Jours Éco (HP/HC classiques) et jusqu'à 20 jours Sobriété par an, annoncés la veille.",
    "grille": [
-    {
-     "kva": 3,
-     "abonnement_mois": 12.13,
-     "prix_kwh": {
-      "eco_hp": 0.2142,
-      "eco_hc": 0.1595,
-      "sobriete_hp": 0.7467,
-      "sobriete_hc": 0.2142
-     }
-    },
     {
      "kva": 6,
      "abonnement_mois": 15.86,
@@ -1689,13 +1715,24 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/edf/tarifs/zen-flex",
      "type": "comparateur",
      "consulte_le": "2026-11-02"
+    },
+    {
+     "url": "https://particulier.edf.fr/fr/accueil/electricite-gaz/offres-electricite/offres-marche/electricite-weekend/zen-flex.html",
+     "type": "officiel",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/edf/prix/edf-zen-week-end-option-flex",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
     "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
-    "02/11/2026 : kWh et abonnements 6 à 36 kVA reconfirmés par Selectra, Kelwatt et fournisseurs-electricite.com (grille du 15/09/2026). Aucune de ces sources ne liste 3 kVA : la ligne 3 kVA n'est pas confirmée. Selectra signale 80 € offerts jusqu'au 15/11/2026 pour une souscription par téléphone via son numéro (non retenu : canal partenaire, source unique)."
+    "02/11/2026 : kWh et abonnements 6 à 36 kVA reconfirmés par Selectra, Kelwatt et fournisseurs-electricite.com (grille du 15/09/2026). Aucune de ces sources ne liste 3 kVA : la ligne 3 kVA n'est pas confirmée. Selectra signale 80 € offerts jusqu'au 15/11/2026 pour une souscription par téléphone via son numéro (non retenu : canal partenaire, source unique).",
+    "13/11/2026 : page officielle EDF (offre désormais présentée sous le nom « Zen Week-End - Option Flex », grille TTC applicable au 15/09/2026) et Kelwatt confirment Éco HP 0,2142 / HC 0,1595, Sobriété HP 0,7467 / HC 0,2142 et les abonnements 6 à 36 kVA. Aucune source, officielle comprise, ne propose 3 kVA : ligne 3 kVA retirée (non confirmée depuis le 02/11)."
    ],
-   "derniere_verif": "2026-11-02"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "edf-zen-estival",
@@ -1836,13 +1873,34 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/edf/tarifs/zen-estival",
      "type": "comparateur",
      "consulte_le": "2026-11-02"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/edf/tarifs/zen-estival",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/edf/prix/zen-estival",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/edf/tarifs/zen-estival",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/edf/tarifs/zen-estival",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
     "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
-    "02/11/2026 : kWh été/hiver et abonnement 6 kVA reconfirmés par fournisseurs-electricite.com (grille du 15/09/2026, vérifiée le 01/11/2026). Souscriptions en nombre limité."
+    "02/11/2026 : kWh été/hiver et abonnement 6 kVA reconfirmés par fournisseurs-electricite.com (grille du 15/09/2026, vérifiée le 01/11/2026). Souscriptions en nombre limité.",
+    "13/11/2026 : kWh été/hiver (HP, HC, HSC) et abonnements 3 à 36 kVA reconfirmés par Selectra, Kelwatt et JeChange (grille du 15/09/2026, vérifiée les 4 et 12/11) ; fournisseurs-electricite.com concorde à 6 kVA."
    ],
-   "derniere_verif": "2026-11-02"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "octopus-octosaisons",
@@ -2605,35 +2663,35 @@
      "kva": 3,
      "abonnement_mois": 12.13,
      "prix_kwh": {
-      "base": 0.1837
+      "base": 0.1919
      }
     },
     {
      "kva": 6,
      "abonnement_mois": 15.87,
      "prix_kwh": {
-      "base": 0.1837
+      "base": 0.1919
      }
     },
     {
      "kva": 9,
      "abonnement_mois": 19.88,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.1904
      }
     },
     {
      "kva": 12,
      "abonnement_mois": 23.76,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.1904
      }
     },
     {
      "kva": 15,
      "abonnement_mois": 27.4,
      "prix_kwh": {
-      "base": 0.1823
+      "base": 0.1904
      }
     }
    ],
@@ -2665,12 +2723,28 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/gaz-de-bordeaux/tarifs/novafixe-elec",
      "type": "comparateur",
      "consulte_le": "2026-11-03"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/gaz-de-bordeaux/tarifs/novafixe-elec",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/gaz-de-bordeaux/prix",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/gaz-de-bordeaux/tarifs/novafixe-elec",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
-    "03/11/2026 : grille du 22/10/2026 confirmée par JeChange et Selectra (0,1837 € à 3-6 kVA, 0,1823 € à 9-15 kVA, abonnements identiques). L'option Base n'est proposée que de 3 à 15 kVA : lignes 18-36 kVA retirées."
+    "03/11/2026 : grille du 22/10/2026 confirmée par JeChange et Selectra (0,1837 € à 3-6 kVA, 0,1823 € à 9-15 kVA, abonnements identiques). L'option Base n'est proposée que de 3 à 15 kVA : lignes 18-36 kVA retirées.",
+    "13/11/2026 : nouvelle grille au 01/11/2026 (hausse d'environ 4,5 % pour les nouvelles souscriptions) : Base 0,1919 € (3-6 kVA) et 0,1904 € (9-15 kVA), confirmée par Selectra (relevé du 10/11), Kelwatt (09/11) et fournisseurs-electricite.com (12/11, 6 kVA) ; abonnements inchangés."
    ],
-   "derniere_verif": "2026-11-03"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "gaz-de-bordeaux-novafixe-bonus-hphc",
@@ -2824,64 +2898,64 @@
      "kva": 6,
      "abonnement_mois": 15.87,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.2054,
+      "hc": 0.1528
      }
     },
     {
      "kva": 9,
      "abonnement_mois": 19.88,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.2054,
+      "hc": 0.1528
      }
     },
     {
      "kva": 12,
      "abonnement_mois": 23.76,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.2054,
+      "hc": 0.1528
      }
     },
     {
      "kva": 15,
      "abonnement_mois": 27.4,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.2054,
+      "hc": 0.1528
      }
     },
     {
      "kva": 18,
      "abonnement_mois": 31.14,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.2054,
+      "hc": 0.1528
      }
     },
     {
      "kva": 24,
      "abonnement_mois": 39.13,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.2054,
+      "hc": 0.1528
      }
     },
     {
      "kva": 30,
      "abonnement_mois": 46.46,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.2054,
+      "hc": 0.1528
      }
     },
     {
      "kva": 36,
      "abonnement_mois": 53.88,
      "prix_kwh": {
-      "hp": 0.1965,
-      "hc": 0.1467
+      "hp": 0.2054,
+      "hc": 0.1528
      }
     }
    ],
@@ -2913,12 +2987,28 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/gaz-de-bordeaux/tarifs/novafixe-elec",
      "type": "comparateur",
      "consulte_le": "2026-11-03"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/gaz-de-bordeaux/tarifs/novafixe-elec",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/gaz-de-bordeaux/prix",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/gaz-de-bordeaux/tarifs/novafixe-elec",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
-    "03/11/2026 : grille du 22/10/2026 confirmée (HP 0,1965 / HC 0,1467 € chez JeChange et fournisseurs-electricite.com, HC 0,1467 € et abonnements identiques chez Selectra). L'option HP/HC n'est pas proposée en 3 kVA : ligne retirée. Durée de blocage du prix HT : 3 ans selon Selectra et fournisseurs-electricite.com (JeChange se contredit entre 2 et 3 ans)."
+    "03/11/2026 : grille du 22/10/2026 confirmée (HP 0,1965 / HC 0,1467 € chez JeChange et fournisseurs-electricite.com, HC 0,1467 € et abonnements identiques chez Selectra). L'option HP/HC n'est pas proposée en 3 kVA : ligne retirée. Durée de blocage du prix HT : 3 ans selon Selectra et fournisseurs-electricite.com (JeChange se contredit entre 2 et 3 ans).",
+    "13/11/2026 : nouvelle grille au 01/11/2026 (hausse d'environ 4,5 %) : HP 0,2054 € / HC 0,1528 € chez Kelwatt (09/11) et fournisseurs-electricite.com (12/11), HC 0,1528 € chez Selectra ; abonnements 6 à 36 kVA inchangés."
    ],
-   "derniere_verif": "2026-11-03"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "totalenergies-access-base",
@@ -5098,14 +5188,40 @@
      "url": "https://www.jechange.fr/energie/happ-e/tarifs/electricite-fixe",
      "type": "comparateur",
      "consulte_le": "2026-11-12"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/happ-e/prix/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/happ-e/tarifs/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/happ-e/tarifs/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/happ-e/tarifs/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://particuliers.engie.fr/content/dam/happe-public/pdf/grille_tarifaire.pdf",
+     "type": "officiel",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
     "Abonnements corrigés le 31/10/2026 (environ 3 €/mois de moins que l'ancien relevé) : tableaux Kelwatt et JeChange identiques (abonnement annuel / 12 ; 6 kVA 185,52 €/an = 15,46 €/mois), même abonnement en Base et HP/HC.",
     "kWh inchangés, confirmés par les deux comparateurs (grille du 01/10/2026). Pas d'électricité verte (option Vertelec à part).",
-    "12/11/2026 : Kelwatt et JeChange (vérifiés le 11/11) confirment la grille ci-dessus (Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnement 6 kVA 185,52 €/an). La grille officielle Happ-e « prix en vigueur au 01/11/2026 » (PDF, extraction partielle) donne des kWh TTC plus bas (Base 0,20942 ; HP 0,21751 ; HC 0,18829) et aucun abonnement lisible par puissance. Valeurs conservées, à trancher."
+    "12/11/2026 : Kelwatt et JeChange (vérifiés le 11/11) confirment la grille ci-dessus (Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnement 6 kVA 185,52 €/an). La grille officielle Happ-e « prix en vigueur au 01/11/2026 » (PDF, extraction partielle) donne des kWh TTC plus bas (Base 0,20942 ; HP 0,21751 ; HC 0,18829) et aucun abonnement lisible par puissance. Valeurs conservées, à trancher.",
+    "13/11/2026 : quatre comparateurs (Kelwatt et JeChange vérifiés le 11/11, Selectra et fournisseurs-electricite.com mis à jour le 10/11) concordent : Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnements 3 à 36 kVA identiques (6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » relue donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 TTC, avec un bloc abonnement inexploitable (extraction désordonnée, attribution incertaine). Valeurs conservées, reste en conflit."
    ],
-   "derniere_verif": "2026-11-12"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "happ-e-1-an-hphc",
@@ -5210,14 +5326,40 @@
      "url": "https://www.jechange.fr/energie/happ-e/tarifs/electricite-fixe",
      "type": "comparateur",
      "consulte_le": "2026-11-12"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/happ-e/prix/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/happ-e/tarifs/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/happ-e/tarifs/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/happ-e/tarifs/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-13"
+    },
+    {
+     "url": "https://particuliers.engie.fr/content/dam/happe-public/pdf/grille_tarifaire.pdf",
+     "type": "officiel",
+     "consulte_le": "2026-11-13"
     }
    ],
    "notes": [
     "Abonnements corrigés le 31/10/2026 (environ 3 €/mois de moins que l'ancien relevé) : tableaux Kelwatt et JeChange identiques (abonnement annuel / 12 ; 6 kVA 185,52 €/an = 15,46 €/mois), même abonnement en Base et HP/HC.",
     "kWh inchangés, confirmés par les deux comparateurs (grille du 01/10/2026). Pas d'électricité verte (option Vertelec à part).",
-    "12/11/2026 : Kelwatt et JeChange (vérifiés le 11/11) confirment la grille ci-dessus (Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnement 6 kVA 185,52 €/an). La grille officielle Happ-e « prix en vigueur au 01/11/2026 » (PDF, extraction partielle) donne des kWh TTC plus bas (Base 0,20942 ; HP 0,21751 ; HC 0,18829) et aucun abonnement lisible par puissance. Valeurs conservées, à trancher."
+    "12/11/2026 : Kelwatt et JeChange (vérifiés le 11/11) confirment la grille ci-dessus (Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnement 6 kVA 185,52 €/an). La grille officielle Happ-e « prix en vigueur au 01/11/2026 » (PDF, extraction partielle) donne des kWh TTC plus bas (Base 0,20942 ; HP 0,21751 ; HC 0,18829) et aucun abonnement lisible par puissance. Valeurs conservées, à trancher.",
+    "13/11/2026 : quatre comparateurs (Kelwatt et JeChange vérifiés le 11/11, Selectra et fournisseurs-electricite.com mis à jour le 10/11) concordent : Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnements 3 à 36 kVA identiques (6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » relue donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 TTC, avec un bloc abonnement inexploitable (extraction désordonnée, attribution incertaine). Valeurs conservées, reste en conflit."
    ],
-   "derniere_verif": "2026-11-12"
+   "derniere_verif": "2026-11-13"
   },
   {
    "id": "engie-elec-reference-3-ans-base",
