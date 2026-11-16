@@ -1,5 +1,8 @@
 # Évolution des prix
 
+## 2026-11-16
+- Aucun changement de prix.
+
 ## 2026-11-13
 - `gaz-de-bordeaux-novafixe-base` base (6 kVA) : 0.1837 → 0.1919
 - `gaz-de-bordeaux-novafixe-hphc` hc (6 kVA) : 0.1467 → 0.1528
