@@ -2,7 +2,7 @@
  "meta": {
   "nom": "ElecMoinsChere — base des prix de l'électricité",
   "version_schema": 1,
-  "mis_a_jour_le": "2026-11-16",
+  "mis_a_jour_le": "2026-11-17",
   "zone": "France métropolitaine continentale (hors Corse et DOM)",
   "unites": {
    "abonnement_mois": "€ TTC par mois",
@@ -704,7 +704,8 @@
    "notes": [
     "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
     "01/11/2026 : 0,1925 € TTC à 6 kVA reconfirmé (fournisseurs-electricite.com).",
-    "06/11/2026 : 3-12 kVA (0,1925 € à 3-6 kVA, 0,1909 € à 9-12 kVA ; abonnements 12,13 / 15,86 / 19,88 / 23,76 €/mois) reconfirmés par fournisseurs-electricite.com (tarifs vérifiés le 04/11/2026). 15-36 kVA non revus."
+    "06/11/2026 : 3-12 kVA (0,1925 € à 3-6 kVA, 0,1909 € à 9-12 kVA ; abonnements 12,13 / 15,86 / 19,88 / 23,76 €/mois) reconfirmés par fournisseurs-electricite.com (tarifs vérifiés le 04/11/2026). 15-36 kVA non revus.",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-06"
   },
@@ -2412,7 +2413,8 @@
     "Grille officielle applicable au 01/08/2026 (prix HT bloqués 2 ans), concordante avec Selectra (30/10/2026). Ligne 36 kVA incohérente dans le PDF (TTC 54,41 € en Base et 53,88 € en HP/HC pour le même HTT) : 53,88 € conservé.",
     "Recharge à 0,08 €/kWh TTC : d'après Selectra seul (absent du PDF).",
     "04/11/2026 : kWh confirmés par JeChange (vérifié le 02/11) et Selectra ; aucune grille Intelligent Octopus plus récente que celle d'août 2026 trouvée. Fiche descriptive officielle : abonnement HT = TRV 01/02/2026, kWh HT = TRV 01/08/2026 − 2 %.",
-    "04/11/2026 : JeChange et Selectra donnent 54,41 € à 36 kVA en Base ; 53,88 € conservé (incohérence du PDF officiel)."
+    "04/11/2026 : JeChange et Selectra donnent 54,41 € à 36 kVA en Base ; 53,88 € conservé (incohérence du PDF officiel).",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-04"
   },
@@ -2534,7 +2536,8 @@
     "Grille officielle applicable au 01/08/2026 (prix HT bloqués 2 ans), concordante avec Selectra (30/10/2026). Ligne 36 kVA incohérente dans le PDF (TTC 54,41 € en Base et 53,88 € en HP/HC pour le même HTT) : 53,88 € conservé.",
     "Recharge à 0,08 €/kWh TTC : d'après Selectra seul (absent du PDF).",
     "04/11/2026 : kWh confirmés par JeChange (vérifié le 02/11) et Selectra ; aucune grille Intelligent Octopus plus récente que celle d'août 2026 trouvée. Fiche descriptive officielle : abonnement HT = TRV 01/02/2026, kWh HT = TRV 01/08/2026 − 2 %.",
-    "04/11/2026 : JeChange et Selectra affichent pour le HP/HC de 9 à 30 kVA les mêmes abonnements qu'en Base (19,88 à 46,47 €), écart de 1,4 à 2 % avec la grille officielle lue le 31/10 ; valeurs de la grille officielle conservées."
+    "04/11/2026 : JeChange et Selectra affichent pour le HP/HC de 9 à 30 kVA les mêmes abonnements qu'en Base (19,88 à 46,47 €), écart de 1,4 à 2 % avec la grille officielle lue le 31/10 ; valeurs de la grille officielle conservées.",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-04"
   },
@@ -4344,7 +4347,8 @@
     "Prix confirmés par Kelwatt et JeChange (vérifiés le 30/10/2026) ; abonnement identique au TRV.",
     "Durée de blocage du prix incertaine : Kelwatt indique un kWh HT fixé jusqu'au 30/09/2029, JeChange « prix fixes 1 an ».",
     "04/11/2026 : prix confirmés par Kelwatt (vérifié le 01/11) et Hellowatt (03/11) ; Selectra indique un kWh HT fixe jusqu'au 30/09/2029. Commercialisation incertaine : Selectra (liste du 02/11) et JeChange ne listent plus qu'Alpiq « Sérénité » (mêmes prix, révisés en février/août). Grille officielle Alpiq non lisible ; offre conservée en attendant confirmation.",
-    "04/11/2026 : Hellowatt donne 0,1992 € (3-6 kVA) contre 0,1993 € chez Kelwatt et Selectra ; 0,1993 conservé."
+    "04/11/2026 : Hellowatt donne 0,1992 € (3-6 kVA) contre 0,1993 € chez Kelwatt et Selectra ; 0,1993 conservé.",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-04"
   },
@@ -4453,7 +4457,8 @@
    "notes": [
     "Prix confirmés par Kelwatt et JeChange (vérifiés le 30/10/2026) ; abonnement identique au TRV.",
     "Durée de blocage du prix incertaine : Kelwatt indique un kWh HT fixé jusqu'au 30/09/2029, JeChange « prix fixes 1 an ».",
-    "04/11/2026 : prix confirmés par Kelwatt (vérifié le 01/11) et Hellowatt (03/11) ; Selectra indique un kWh HT fixe jusqu'au 30/09/2029. Commercialisation incertaine : Selectra (liste du 02/11) et JeChange ne listent plus qu'Alpiq « Sérénité » (mêmes prix, révisés en février/août). Grille officielle Alpiq non lisible ; offre conservée en attendant confirmation."
+    "04/11/2026 : prix confirmés par Kelwatt (vérifié le 01/11) et Hellowatt (03/11) ; Selectra indique un kWh HT fixe jusqu'au 30/09/2029. Commercialisation incertaine : Selectra (liste du 02/11) et JeChange ne listent plus qu'Alpiq « Sérénité » (mêmes prix, révisés en février/août). Grille officielle Alpiq non lisible ; offre conservée en attendant confirmation.",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-04"
   },
@@ -4515,7 +4520,8 @@
    "notes": [
     "Prix 9 kVA et plus non repris : JeChange (grille du 01/10/2026, vérifiée le 01/11) donne 0,1908 € TTC/kWh de 9 à 36 kVA, sans seconde source.",
     "03/11/2026 : 3 et 6 kVA confirmés (0,1753 €, abonnement 6 kVA 15,86 €/mois) par JeChange et fournisseurs-electricite.com. Garantie de 12 mois sur le kWh HT ; l'abonnement en est exclu selon fournisseurs-electricite.com (JeChange dit l'inverse).",
-    "16/11/2026 : non revérifiée (page de l'offre inaccessible). Selectra (04/11) indique qu'ekwateur ne prend plus de nouveaux clients particuliers pour le moment."
+    "16/11/2026 : non revérifiée (page de l'offre inaccessible). Selectra (04/11) indique qu'ekwateur ne prend plus de nouveaux clients particuliers pour le moment.",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-03",
    "mentions": [
@@ -5131,7 +5137,8 @@
     "03/11/2026 : la grille officielle la plus récente (applicable au 23/10/2026) confirme les abonnements TTC de 3 à 36 kVA (identiques à Kelwatt, tarifs vérifiés le 03/11). Le kWh Base y figure en deux couples HT/TTC (13,61/20,01 c€ et 15,37/22,12 c€) sans puissance associée ; Kelwatt donne toujours 0,2001 € (3 kVA) et 0,2183 € (6-36 kVA). Écart 0,2183/0,2212 non résolu : valeurs inchangées, conflit maintenu.",
     "04/11/2026 : contrôle arithmétique de la grille officielle du 23/10/2026 avec l'accise qu'elle indique (3,062 c€/kWh) : (13,61+3,062)×1,2 = 20,01 et (15,37+3,062)×1,2 = 22,12 c€ TTC ; 0,2183 € (15,13 c€ HT) n'y figure pas. Les comparateurs (Kelwatt vérifié le 04/11, Selectra, JeChange) citent tous une grille antérieure du 19/10/2026. Kwh Base passé à 0,2212 € de 9 à 36 kVA (valeur commune aux deux lectures possibles de la grille, confirmée par Hellowatt du 02/11). 6 kVA inchangé à 0,2183 : la grille donne 0,2001 ou 0,2212 selon la lecture (Hellowatt : 0,2001) ; conflit maintenu jusqu'à lecture visuelle du PDF.",
     "06/11/2026 : grille officielle et comparateurs inaccessibles (accès web refusé pendant la tâche planifiée) ; valeurs inchangées, conflit maintenu.",
-    "07/11/2026 : conflit levé. Grille officielle applicable au 23/10/2026 (kWh Base 20,01 c€ TTC pour la seule ligne 3 kVA, 22,12 c€ TTC de 6 à 36 kVA, d'après la mise en page), confirmée par Kelwatt (tarifs TTC vérifiés le 06/11/2026, 0,2212 € de 6 à 36 kVA) et Selectra (relevé du 04/11/2026, « 6 à 36 kVA 0,2212 € »). 6 kVA passé de 0,2183 à 0,2212 € ; abonnements inchangés."
+    "07/11/2026 : conflit levé. Grille officielle applicable au 23/10/2026 (kWh Base 20,01 c€ TTC pour la seule ligne 3 kVA, 22,12 c€ TTC de 6 à 36 kVA, d'après la mise en page), confirmée par Kelwatt (tarifs TTC vérifiés le 06/11/2026, 0,2212 € de 6 à 36 kVA) et Selectra (relevé du 04/11/2026, « 6 à 36 kVA 0,2212 € »). 6 kVA passé de 0,2183 à 0,2212 € ; abonnements inchangés.",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-07"
   },
@@ -5276,7 +5283,8 @@
     "kWh inchangés, confirmés par les deux comparateurs (grille du 01/10/2026). Pas d'électricité verte (option Vertelec à part).",
     "12/11/2026 : Kelwatt et JeChange (vérifiés le 11/11) confirment la grille ci-dessus (Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnement 6 kVA 185,52 €/an). La grille officielle Happ-e « prix en vigueur au 01/11/2026 » (PDF, extraction partielle) donne des kWh TTC plus bas (Base 0,20942 ; HP 0,21751 ; HC 0,18829) et aucun abonnement lisible par puissance. Valeurs conservées, à trancher.",
     "13/11/2026 : quatre comparateurs (Kelwatt et JeChange vérifiés le 11/11, Selectra et fournisseurs-electricite.com mis à jour le 10/11) concordent : Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnements 3 à 36 kVA identiques (6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » relue donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 TTC, avec un bloc abonnement inexploitable (extraction désordonnée, attribution incertaine). Valeurs conservées, reste en conflit.",
-    "16/11/2026 : Kelwatt (tarifs vérifiés le 15/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements (3 kVA 11,87 à 36 kVA 51,41 €/mois ; 6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » relue donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 TTC ; son tableau d'abonnement (44,35 € TTC identique à toutes les puissances, unité non précisée) reste inexploitable. Valeurs conservées, toujours en conflit (écart Base de 8,5 % entre grille officielle et comparateurs)."
+    "16/11/2026 : Kelwatt (tarifs vérifiés le 15/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements (3 kVA 11,87 à 36 kVA 51,41 €/mois ; 6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » relue donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 TTC ; son tableau d'abonnement (44,35 € TTC identique à toutes les puissances, unité non précisée) reste inexploitable. Valeurs conservées, toujours en conflit (écart Base de 8,5 % entre grille officielle et comparateurs).",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées, conflit maintenu."
    ],
    "derniere_verif": "2026-11-16"
   },
@@ -5430,7 +5438,8 @@
     "kWh inchangés, confirmés par les deux comparateurs (grille du 01/10/2026). Pas d'électricité verte (option Vertelec à part).",
     "12/11/2026 : Kelwatt et JeChange (vérifiés le 11/11) confirment la grille ci-dessus (Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnement 6 kVA 185,52 €/an). La grille officielle Happ-e « prix en vigueur au 01/11/2026 » (PDF, extraction partielle) donne des kWh TTC plus bas (Base 0,20942 ; HP 0,21751 ; HC 0,18829) et aucun abonnement lisible par puissance. Valeurs conservées, à trancher.",
     "13/11/2026 : quatre comparateurs (Kelwatt et JeChange vérifiés le 11/11, Selectra et fournisseurs-electricite.com mis à jour le 10/11) concordent : Base 0,2273 ; HP 0,2402 ; HC 0,1887 ; abonnements 3 à 36 kVA identiques (6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » relue donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 TTC, avec un bloc abonnement inexploitable (extraction désordonnée, attribution incertaine). Valeurs conservées, reste en conflit.",
-    "16/11/2026 : Kelwatt (tarifs vérifiés le 15/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements (3 kVA 11,87 à 36 kVA 51,41 €/mois ; 6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » relue donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 TTC ; son tableau d'abonnement (44,35 € TTC identique à toutes les puissances, unité non précisée) reste inexploitable. Valeurs conservées, toujours en conflit (écart Base de 8,5 % entre grille officielle et comparateurs)."
+    "16/11/2026 : Kelwatt (tarifs vérifiés le 15/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements (3 kVA 11,87 à 36 kVA 51,41 €/mois ; 6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » relue donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 TTC ; son tableau d'abonnement (44,35 € TTC identique à toutes les puissances, unité non précisée) reste inexploitable. Valeurs conservées, toujours en conflit (écart Base de 8,5 % entre grille officielle et comparateurs).",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées, conflit maintenu."
    ],
    "derniere_verif": "2026-11-16"
   },
@@ -6005,7 +6014,8 @@
    ],
    "notes": [
     "Pertinente surtout avec des panneaux solaires.",
-    "04/11/2026 : prix confirmés par Kelwatt (vérifié le 02/11) et Selectra (relevé du 03/08/2026). Frais en sus : 299 € TTC de mise en service et 1 € HT/kWc/mois de stockage virtuel (Kelwatt, Selectra)."
+    "04/11/2026 : prix confirmés par Kelwatt (vérifié le 02/11) et Selectra (relevé du 03/08/2026). Frais en sus : 299 € TTC de mise en service et 1 € HT/kWc/mois de stockage virtuel (Kelwatt, Selectra).",
+    "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-04"
   },
