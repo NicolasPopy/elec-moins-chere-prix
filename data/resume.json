@@ -1,5 +1,5 @@
 {
- "mis_a_jour_le": "2026-11-17",
+ "mis_a_jour_le": "2026-11-18",
  "hypotheses": {
   "part_heures_creuses_hphc": 0.32,
   "consommations_kwh": [
@@ -240,7 +240,7 @@
     "cout_annuel_promo_deduite": 643.81,
     "cout_3_ans_promo_deduite": 1931.43,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -627,7 +627,7 @@
     "cout_annuel_promo_deduite": 1042.41,
     "cout_3_ans_promo_deduite": 3127.23,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -1003,7 +1003,7 @@
     "cout_annuel_promo_deduite": 1739.96,
     "cout_3_ans_promo_deduite": 5219.88,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -1368,7 +1368,7 @@
     "cout_annuel_promo_deduite": 679.57,
     "cout_3_ans_promo_deduite": 2038.71,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -1412,7 +1412,7 @@
     "cout_annuel_promo_deduite": 688.57,
     "cout_3_ans_promo_deduite": 2065.71,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-vert-electrique-hphc",
@@ -1854,7 +1854,7 @@
     "cout_annuel_promo_deduite": 1070.97,
     "cout_3_ans_promo_deduite": 3212.91,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -1898,7 +1898,7 @@
     "cout_annuel_promo_deduite": 1087.17,
     "cout_3_ans_promo_deduite": 3261.51,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-vert-electrique-hphc",
@@ -2340,7 +2340,7 @@
     "cout_annuel_promo_deduite": 1755.92,
     "cout_3_ans_promo_deduite": 5267.76,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -2373,7 +2373,7 @@
     "cout_annuel_promo_deduite": 1784.72,
     "cout_3_ans_promo_deduite": 5354.16,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-vert-electrique-hphc",
@@ -2793,7 +2793,7 @@
     "cout_annuel_promo_deduite": 727.81,
     "cout_3_ans_promo_deduite": 2183.43,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -2815,7 +2815,7 @@
     "cout_annuel_promo_deduite": 732.81,
     "cout_3_ans_promo_deduite": 2198.43,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -3257,7 +3257,7 @@
     "cout_annuel_promo_deduite": 1119.21,
     "cout_3_ans_promo_deduite": 3357.63,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -3301,7 +3301,7 @@
     "cout_annuel_promo_deduite": 1128.21,
     "cout_3_ans_promo_deduite": 3384.63,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -3743,7 +3743,7 @@
     "cout_annuel_promo_deduite": 1804.16,
     "cout_3_ans_promo_deduite": 5412.48,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -3765,7 +3765,7 @@
     "cout_annuel_promo_deduite": 1820.16,
     "cout_3_ans_promo_deduite": 5460.48,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -4185,7 +4185,7 @@
     "cout_annuel_promo_deduite": 774.37,
     "cout_3_ans_promo_deduite": 2323.11,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -4207,7 +4207,7 @@
     "cout_annuel_promo_deduite": 779.37,
     "cout_3_ans_promo_deduite": 2338.11,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -4649,7 +4649,7 @@
     "cout_annuel_promo_deduite": 1165.77,
     "cout_3_ans_promo_deduite": 3497.31,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -4693,7 +4693,7 @@
     "cout_annuel_promo_deduite": 1174.77,
     "cout_3_ans_promo_deduite": 3524.31,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -5135,7 +5135,7 @@
     "cout_annuel_promo_deduite": 1850.72,
     "cout_3_ans_promo_deduite": 5552.16,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -5157,7 +5157,7 @@
     "cout_annuel_promo_deduite": 1866.72,
     "cout_3_ans_promo_deduite": 5600.16,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -5555,7 +5555,7 @@
     "cout_annuel_promo_deduite": 818.05,
     "cout_3_ans_promo_deduite": 2454.15,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -5577,7 +5577,7 @@
     "cout_annuel_promo_deduite": 823.05,
     "cout_3_ans_promo_deduite": 2469.15,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -5986,7 +5986,7 @@
     "cout_annuel_promo_deduite": 1209.45,
     "cout_3_ans_promo_deduite": 3628.35,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -6030,7 +6030,7 @@
     "cout_annuel_promo_deduite": 1218.45,
     "cout_3_ans_promo_deduite": 3655.35,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -6439,7 +6439,7 @@
     "cout_annuel_promo_deduite": 1894.4,
     "cout_3_ans_promo_deduite": 5683.2,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -6461,7 +6461,7 @@
     "cout_annuel_promo_deduite": 1910.4,
     "cout_3_ans_promo_deduite": 5731.2,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -6826,7 +6826,7 @@
     "cout_annuel_promo_deduite": 862.93,
     "cout_3_ans_promo_deduite": 2588.79,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -6859,7 +6859,7 @@
     "cout_annuel_promo_deduite": 867.93,
     "cout_3_ans_promo_deduite": 2603.79,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -7257,7 +7257,7 @@
     "cout_annuel_promo_deduite": 1254.33,
     "cout_3_ans_promo_deduite": 3762.99,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -7301,7 +7301,7 @@
     "cout_annuel_promo_deduite": 1263.33,
     "cout_3_ans_promo_deduite": 3789.99,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -7699,7 +7699,7 @@
     "cout_annuel_promo_deduite": 1939.28,
     "cout_3_ans_promo_deduite": 5817.84,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -7721,7 +7721,7 @@
     "cout_annuel_promo_deduite": 1955.28,
     "cout_3_ans_promo_deduite": 5865.84,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -8086,7 +8086,7 @@
     "cout_annuel_promo_deduite": 958.93,
     "cout_3_ans_promo_deduite": 2876.79,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -8119,7 +8119,7 @@
     "cout_annuel_promo_deduite": 963.93,
     "cout_3_ans_promo_deduite": 2891.79,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -8517,7 +8517,7 @@
     "cout_annuel_promo_deduite": 1350.33,
     "cout_3_ans_promo_deduite": 4050.99,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -8561,7 +8561,7 @@
     "cout_annuel_promo_deduite": 1359.33,
     "cout_3_ans_promo_deduite": 4077.99,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -8959,7 +8959,7 @@
     "cout_annuel_promo_deduite": 2035.28,
     "cout_3_ans_promo_deduite": 6105.84,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -8981,7 +8981,7 @@
     "cout_annuel_promo_deduite": 2051.28,
     "cout_3_ans_promo_deduite": 6153.84,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -9346,7 +9346,7 @@
     "cout_annuel_promo_deduite": 1046.89,
     "cout_3_ans_promo_deduite": 3140.67,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -9368,7 +9368,7 @@
     "cout_annuel_promo_deduite": 1051.89,
     "cout_3_ans_promo_deduite": 3155.67,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -9766,7 +9766,7 @@
     "cout_annuel_promo_deduite": 1438.29,
     "cout_3_ans_promo_deduite": 4314.87,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "octopus-intelligent-hphc",
@@ -9821,7 +9821,7 @@
     "cout_annuel_promo_deduite": 1447.29,
     "cout_3_ans_promo_deduite": 4341.87,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -10219,7 +10219,7 @@
     "cout_annuel_promo_deduite": 2123.24,
     "cout_3_ans_promo_deduite": 6369.72,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -10241,7 +10241,7 @@
     "cout_annuel_promo_deduite": 2139.24,
     "cout_3_ans_promo_deduite": 6417.72,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
@@ -10606,7 +10606,7 @@
     "cout_annuel_promo_deduite": 1135.81,
     "cout_3_ans_promo_deduite": 3407.43,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "plenitude-pleniweb-base",
@@ -10639,7 +10639,7 @@
     "cout_annuel_promo_deduite": 1140.81,
     "cout_3_ans_promo_deduite": 3422.43,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "ohm-serenite-fixe-base",
@@ -11037,7 +11037,7 @@
     "cout_annuel_promo_deduite": 1527.21,
     "cout_3_ans_promo_deduite": 4581.63,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -11070,7 +11070,7 @@
     "cout_annuel_promo_deduite": 1536.21,
     "cout_3_ans_promo_deduite": 4608.63,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "alterna-fixe-1-an-hphc",
@@ -11479,7 +11479,7 @@
     "cout_annuel_promo_deduite": 2212.16,
     "cout_3_ans_promo_deduite": 6636.48,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-hphc",
@@ -11501,7 +11501,7 @@
     "cout_annuel_promo_deduite": 2228.16,
     "cout_3_ans_promo_deduite": 6684.48,
     "promo_an1": 0,
-    "verification": "confirme"
+    "verification": "source_unique"
    },
    {
     "id": "edf-tarif-bleu-base",
