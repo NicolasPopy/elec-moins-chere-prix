@@ -1,5 +1,8 @@
 # Évolution des prix
 
+## 2026-11-20
+- `engie-elec-reference-3-ans-base` promotions : aucune → ['100 € TTC offerts']
+
 ## 2026-11-19
 - Aucun changement de prix.
 ## 2026-11-18
