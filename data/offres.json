@@ -2,7 +2,7 @@
  "meta": {
   "nom": "ElecMoinsChere — base des prix de l'électricité",
   "version_schema": 1,
-  "mis_a_jour_le": "2026-11-22",
+  "mis_a_jour_le": "2026-11-23",
   "zone": "France métropolitaine continentale (hors Corse et DOM)",
   "unites": {
    "abonnement_mois": "€ TTC par mois",
@@ -316,6 +316,11 @@
      "url": "https://selectra.info/energie/fournisseurs/edf/tarifs/tarif-bleu",
      "type": "comparateur",
      "consulte_le": "2026-11-16"
+    },
+    {
+     "url": "https://selectra.info/energie/actualites/marche/electricite-hausse-fevrier-2027-deja-programmee-cre",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
@@ -324,9 +329,10 @@
     "Prochaine révision attendue au 01/02/2027.",
     "01/11/2026 : aucune révision du TRV annoncée ; 6 kVA (15,86 €/mois, 0,2001 €) reconfirmé par fournisseurs-electricite.com.",
     "03/11/2026 : aucune révision du Tarif Bleu en vigueur ou annoncée depuis le 1er août 2026 (prochaine échéance 1er février 2027, la CRE n'a rien proposé) ; 6 kVA Base 0,2001 €/kWh et 190,35 €/an confirmés par Selectra.",
-    "16/11/2026 : grille complète 3 à 36 kVA (abonnements 12,13 à 53,88 €, kWh 0,2001 jusqu'à 6 kVA puis 0,1985 €) reconfirmée par Selectra (grille en vigueur au 01/08/2026, page mise à jour le 28/09). Aucune révision avant le 01/02/2027."
+    "16/11/2026 : grille complète 3 à 36 kVA (abonnements 12,13 à 53,88 €, kWh 0,2001 jusqu'à 6 kVA puis 0,1985 €) reconfirmée par Selectra (grille en vigueur au 01/08/2026, page mise à jour le 28/09). Aucune révision avant le 01/02/2027.",
+    "23/11/2026 : aucune révision du Tarif Bleu en vigueur ou décidée depuis le 01/08/2026 (délibération CRE 2026-147). Selectra (16/07) annonce une hausse « probable » au 01/02/2027, sans montant ni proposition CRE publiée ; grille inchangée."
    ],
-   "derniere_verif": "2026-11-16"
+   "derniere_verif": "2026-11-23"
   },
   {
    "id": "edf-tarif-bleu-hphc",
@@ -446,6 +452,11 @@
      "url": "https://selectra.info/energie/fournisseurs/edf/tarifs/tarif-bleu",
      "type": "comparateur",
      "consulte_le": "2026-11-16"
+    },
+    {
+     "url": "https://selectra.info/energie/actualites/marche/electricite-hausse-fevrier-2027-deja-programmee-cre",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
@@ -453,9 +464,10 @@
     "Abonnement identique à l'option Base depuis août 2025.",
     "01/11/2026 : 6 kVA (HP 0,2142 / HC 0,1589 €) reconfirmé par fournisseurs-electricite.com.",
     "06/11/2026 : 6 kVA (HP 0,2142 / HC 0,1589 €, abonnement 15,86 €/mois) reconfirmé par fournisseurs-electricite.com ; aucune révision du TRV annoncée avant février 2027.",
-    "16/11/2026 : abonnements 3 à 36 kVA (identiques à la Base) et HC 0,1589 € reconfirmés par Selectra ; HP non affiché sur la page lue, 0,2142 € conservé (confirmé le 06/11). Aucune révision avant le 01/02/2027."
+    "16/11/2026 : abonnements 3 à 36 kVA (identiques à la Base) et HC 0,1589 € reconfirmés par Selectra ; HP non affiché sur la page lue, 0,2142 € conservé (confirmé le 06/11). Aucune révision avant le 01/02/2027.",
+    "23/11/2026 : aucune révision du Tarif Bleu en vigueur ou décidée depuis le 01/08/2026 (délibération CRE 2026-147). Selectra (16/07) annonce une hausse « probable » au 01/02/2027, sans montant ni proposition CRE publiée ; grille inchangée."
    ],
-   "derniere_verif": "2026-11-16"
+   "derniere_verif": "2026-11-23"
   },
   {
    "id": "edf-tempo",
@@ -594,14 +606,20 @@
      "url": "https://www.effy.fr/energie/comparateur-fournisseur-electricite/tempo-edf/tarif",
      "type": "comparateur",
      "consulte_le": "2026-11-16"
+    },
+    {
+     "url": "https://selectra.info/energie/actualites/marche/electricite-hausse-fevrier-2027-deja-programmee-cre",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
     "Non disponible en 3 kVA.",
     "02/11/2026 : kWh des 6 postes et abonnement 9 kVA (19,70 €) reconfirmés par Selectra. Aucune révision du TRV annoncée avant le 01/02/2027 ; jours rouges possibles depuis le 01/11.",
-    "16/11/2026 : les 6 prix du kWh et les abonnements 6 à 36 kVA (6 kVA 15,80 €) reconfirmés par Effy (tarifs en vigueur depuis le 01/08/2026). Aucune révision du TRV en vigueur avant le 01/02/2027 (article Selectra sur février 2027 : hausse probable, non chiffrée)."
+    "16/11/2026 : les 6 prix du kWh et les abonnements 6 à 36 kVA (6 kVA 15,80 €) reconfirmés par Effy (tarifs en vigueur depuis le 01/08/2026). Aucune révision du TRV en vigueur avant le 01/02/2027 (article Selectra sur février 2027 : hausse probable, non chiffrée).",
+    "23/11/2026 : aucune révision du Tarif Bleu en vigueur ou décidée depuis le 01/08/2026 (délibération CRE 2026-147). Selectra (16/07) annonce une hausse « probable » au 01/02/2027, sans montant ni proposition CRE publiée ; grille inchangée."
    ],
-   "derniere_verif": "2026-11-16"
+   "derniere_verif": "2026-11-23"
   },
   {
    "id": "edf-zen-online-base",
@@ -723,6 +741,16 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/edf/tarifs/zen-online",
      "type": "comparateur",
      "consulte_le": "2026-11-18"
+    },
+    {
+     "url": "https://particulier.edf.fr/fr/accueil/electricite-gaz/zen-online.html",
+     "type": "officiel",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/edf/tarifs/zen-online",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
@@ -730,9 +758,10 @@
     "01/11/2026 : 0,1925 € TTC à 6 kVA reconfirmé (fournisseurs-electricite.com).",
     "06/11/2026 : 3-12 kVA (0,1925 € à 3-6 kVA, 0,1909 € à 9-12 kVA ; abonnements 12,13 / 15,86 / 19,88 / 23,76 €/mois) reconfirmés par fournisseurs-electricite.com (tarifs vérifiés le 04/11/2026). 15-36 kVA non revus.",
     "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées.",
-    "18/11/2026 : grille confirmée par la page officielle EDF (prix applicables au 01/08/2026), Selectra (relevé du 04/11) et JeChange (vérifié le 16/11) : 0,1925 € à 3-6 kVA, 0,1909 € dès 9 kVA, abonnements inchangés. EDF indique que les puissances 18 à 36 kVA sont en extinction et fermées à la souscription : lignes marquées fermées aux nouveaux clients, prix inchangés."
+    "18/11/2026 : grille confirmée par la page officielle EDF (prix applicables au 01/08/2026), Selectra (relevé du 04/11) et JeChange (vérifié le 16/11) : 0,1925 € à 3-6 kVA, 0,1909 € dès 9 kVA, abonnements inchangés. EDF indique que les puissances 18 à 36 kVA sont en extinction et fermées à la souscription : lignes marquées fermées aux nouveaux clients, prix inchangés.",
+    "23/11/2026 : grille confirmée par la page officielle EDF (prix applicables au 01/08/2026 ; Base 18 à 36 kVA en extinction), Selectra (relevé du 04/11) et JeChange (vérifié le 21/11) : 0,1925 € à 3-6 kVA, 0,1909 € dès 9 kVA, abonnements 12,13 à 53,88 €/mois inchangés. Aucune promotion."
    ],
-   "derniere_verif": "2026-11-18"
+   "derniere_verif": "2026-11-23"
   },
   {
    "id": "edf-zen-online-hphc",
@@ -4496,6 +4525,16 @@
      "url": "https://www.hellowatt.fr/fournisseurs/alpiq/electricite-horizon",
      "type": "comparateur",
      "consulte_le": "2026-11-18"
+    },
+    {
+     "url": "https://www.hellowatt.fr/fournisseurs/alpiq/electricite-horizon",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/alpiq/tarifs/serenite",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
@@ -4504,9 +4543,10 @@
     "04/11/2026 : prix confirmés par Kelwatt (vérifié le 01/11) et Hellowatt (03/11) ; Selectra indique un kWh HT fixe jusqu'au 30/09/2029. Commercialisation incertaine : Selectra (liste du 02/11) et JeChange ne listent plus qu'Alpiq « Sérénité » (mêmes prix, révisés en février/août). Grille officielle Alpiq non lisible ; offre conservée en attendant confirmation.",
     "04/11/2026 : Hellowatt donne 0,1992 € (3-6 kVA) contre 0,1993 € chez Kelwatt et Selectra ; 0,1993 conservé.",
     "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées.",
-    "18/11/2026 : seul Hello Watt (grille du 06/11) publie encore une grille Horizon : abonnements identiques, HP 0,2133 / HC 0,1583, Base 0,1992 € à 3-6 kVA (0,1993 conservé) et 0,1977 € dès 9 kVA. Les pages Horizon de Kelwatt (relevé du 17/11), Selectra (17/11) et fournisseurs-electricite.com renvoient vers la fiche Alpiq, qui ne présente plus que l'offre Sérénité (mêmes prix). Retrait non décidé faute de confirmation explicite ou de grille officielle lue ; verification passée à source_unique."
+    "18/11/2026 : seul Hello Watt (grille du 06/11) publie encore une grille Horizon : abonnements identiques, HP 0,2133 / HC 0,1583, Base 0,1992 € à 3-6 kVA (0,1993 conservé) et 0,1977 € dès 9 kVA. Les pages Horizon de Kelwatt (relevé du 17/11), Selectra (17/11) et fournisseurs-electricite.com renvoient vers la fiche Alpiq, qui ne présente plus que l'offre Sérénité (mêmes prix). Retrait non décidé faute de confirmation explicite ou de grille officielle lue ; verification passée à source_unique.",
+    "23/11/2026 : Hello Watt (grille du 06/11) publie toujours la grille Horizon (Base 0,1992 € à 3-6 kVA — 0,1993 conservé, comme JeChange —, 0,1977 € dès 9 kVA ; HP 0,2133 / HC 0,1583 ; abonnements identiques au TRV). JeChange (vérifié le 20/11) indique qu'Alpiq ne commercialise plus que Sérénité, aux mêmes prix à toutes les puissances. Prix inchangés ; retrait non décidé faute de grille officielle lue, toujours source_unique."
    ],
-   "derniere_verif": "2026-11-18",
+   "derniere_verif": "2026-11-23",
    "mentions": [
     "Commercialisation à confirmer (Alpiq ne listerait plus que Sérénité)"
    ]
@@ -4611,6 +4651,16 @@
      "url": "https://www.hellowatt.fr/fournisseurs/alpiq/electricite-horizon",
      "type": "comparateur",
      "consulte_le": "2026-11-18"
+    },
+    {
+     "url": "https://www.hellowatt.fr/fournisseurs/alpiq/electricite-horizon",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/alpiq/tarifs/serenite",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
@@ -4618,9 +4668,10 @@
     "Durée de blocage du prix incertaine : Kelwatt indique un kWh HT fixé jusqu'au 30/09/2029, JeChange « prix fixes 1 an ».",
     "04/11/2026 : prix confirmés par Kelwatt (vérifié le 01/11) et Hellowatt (03/11) ; Selectra indique un kWh HT fixe jusqu'au 30/09/2029. Commercialisation incertaine : Selectra (liste du 02/11) et JeChange ne listent plus qu'Alpiq « Sérénité » (mêmes prix, révisés en février/août). Grille officielle Alpiq non lisible ; offre conservée en attendant confirmation.",
     "17/11/2026 : non revérifiée (grille officielle et comparateurs inaccessibles, accès web refusé pendant la tâche planifiée) ; valeurs inchangées.",
-    "18/11/2026 : seul Hello Watt (grille du 06/11) publie encore une grille Horizon : abonnements identiques, HP 0,2133 / HC 0,1583, Base 0,1992 € à 3-6 kVA (0,1993 conservé) et 0,1977 € dès 9 kVA. Les pages Horizon de Kelwatt (relevé du 17/11), Selectra (17/11) et fournisseurs-electricite.com renvoient vers la fiche Alpiq, qui ne présente plus que l'offre Sérénité (mêmes prix). Retrait non décidé faute de confirmation explicite ou de grille officielle lue ; verification passée à source_unique."
+    "18/11/2026 : seul Hello Watt (grille du 06/11) publie encore une grille Horizon : abonnements identiques, HP 0,2133 / HC 0,1583, Base 0,1992 € à 3-6 kVA (0,1993 conservé) et 0,1977 € dès 9 kVA. Les pages Horizon de Kelwatt (relevé du 17/11), Selectra (17/11) et fournisseurs-electricite.com renvoient vers la fiche Alpiq, qui ne présente plus que l'offre Sérénité (mêmes prix). Retrait non décidé faute de confirmation explicite ou de grille officielle lue ; verification passée à source_unique.",
+    "23/11/2026 : Hello Watt (grille du 06/11) publie toujours la grille Horizon (Base 0,1992 € à 3-6 kVA — 0,1993 conservé, comme JeChange —, 0,1977 € dès 9 kVA ; HP 0,2133 / HC 0,1583 ; abonnements identiques au TRV). JeChange (vérifié le 20/11) indique qu'Alpiq ne commercialise plus que Sérénité, aux mêmes prix à toutes les puissances. Prix inchangés ; retrait non décidé faute de grille officielle lue, toujours source_unique."
    ],
-   "derniere_verif": "2026-11-18",
+   "derniere_verif": "2026-11-23",
    "mentions": [
     "Commercialisation à confirmer (Alpiq ne listerait plus que Sérénité)"
    ]
@@ -4814,17 +4865,29 @@
      "url": "https://selectra.info/energie/fournisseurs/ekwateur/tarifs/ekwateur-electricite-100-renouvelable-france",
      "type": "comparateur",
      "consulte_le": "2026-11-16"
+    },
+    {
+     "url": "https://www.fournisseurs-electricite.com/fournisseurs/ekwateur/tarifs/ekwateur-electricite-100-renouvelable-france",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/ekwateur/tarifs/ekwateur-electricite-100-renouvelable-france",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
     "Prix 9 kVA+ issus d'un seul comparateur.",
     "03/11/2026 : JeChange (grille du 01/10/2026, vérifiée le 02/11) confirme toute la grille (0,1838 € à 3-6 kVA, 0,1906 € à 9-36 kVA). Page officielle ekwateur sans tableau lisible : toujours une seule source pour 9 kVA et plus.",
-    "16/11/2026 : JeChange (grille du 01/10/2026, vérifiée le 02/11) confirme toute la grille ; fournisseurs-electricite.com (vérifié le 05/11) confirme le 6 kVA (0,1838 €, 190,32 €/an). 9 kVA et plus toujours d'une seule source. Selectra (04/11) et fournisseurs-electricite.com indiquent qu'ekwateur ne prend plus de nouveaux clients particuliers pour le moment (souscription suspendue) ; JeChange ne le mentionne pas. Offre conservée, à retirer si la suspension se confirme durablement."
+    "16/11/2026 : JeChange (grille du 01/10/2026, vérifiée le 02/11) confirme toute la grille ; fournisseurs-electricite.com (vérifié le 05/11) confirme le 6 kVA (0,1838 €, 190,32 €/an). 9 kVA et plus toujours d'une seule source. Selectra (04/11) et fournisseurs-electricite.com indiquent qu'ekwateur ne prend plus de nouveaux clients particuliers pour le moment (souscription suspendue) ; JeChange ne le mentionne pas. Offre conservée, à retirer si la suspension se confirme durablement.",
+    "23/11/2026 : fournisseurs-electricite.com (tarifs vérifiés le 22/11, grille du 01/10/2026) confirme le 6 kVA (0,1838 €, 190,32 €/an) et indique « Souscription suspendue » (aucun nouveau contrat, pas de date de reprise) ; Selectra (données du 22/11) confirme qu'ekwateur ne prend plus de nouveaux clients particuliers. Suspension constatée depuis le 04/11 : offre marquée fermée aux nouveaux clients, comme l'offre Europe. Prix conservés."
    ],
-   "derniere_verif": "2026-11-16",
+   "derniere_verif": "2026-11-23",
    "mentions": [
     "Souscription suspendue aux nouveaux clients (selon 2 comparateurs)"
-   ]
+   ],
+   "ouvert_nouveaux_clients": false
   },
   {
    "id": "ekwateur-hphc",
@@ -5498,6 +5561,21 @@
      "url": "https://selectra.info/energie/fournisseurs/happ-e/tarifs/electricite-fixe",
      "type": "comparateur",
      "consulte_le": "2026-11-22"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/happ-e/prix/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://www.hellowatt.fr/fournisseurs/happ-e/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://particuliers.engie.fr/content/dam/happe-public/pdf/grille_tarifaire.pdf",
+     "type": "officiel",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
@@ -5511,9 +5589,10 @@
     "19/11/2026 : Kelwatt (tarifs vérifiés le 18/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements 3 à 36 kVA (6 kVA 185,52 €/an). La grille officielle « en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, avec un abonnement constant de 44,35 € TTC/an inexploitable. Valeurs des comparateurs conservées, conflit maintenu.",
     "20/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs des comparateurs conservées, conflit maintenu.",
     "21/11/2026 : non revérifiée (aucun outil de lecture de pages disponible pendant la tâche planifiée, recherche web sans contenu) ; valeurs des comparateurs conservées, conflit maintenu.",
-    "22/11/2026 : Kelwatt (tarifs vérifiés le 21/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements 3 à 36 kVA (6 kVA 15,46 €/mois). La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement constant 44,35 € TTC inexploitable. Valeurs des comparateurs conservées, conflit maintenu."
+    "22/11/2026 : Kelwatt (tarifs vérifiés le 21/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements 3 à 36 kVA (6 kVA 15,46 €/mois). La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement constant 44,35 € TTC inexploitable. Valeurs des comparateurs conservées, conflit maintenu.",
+    "23/11/2026 : Kelwatt (tarifs vérifiés le 21/11) redonne Base 0,2273 / HP 0,2402 / HC 0,1887 et les abonnements 3 à 36 kVA (6 kVA 185,52 €/an), prix en vigueur depuis le 01/09/2026. Hello Watt (mis à jour le 03/11) affiche une grille plus ancienne (Base 0,2108, celle de février 2026 selon l'historique Kelwatt), écartée. La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement non attribuable par puissance. Valeurs des comparateurs conservées, conflit maintenu. Aucune promotion hors parrainage."
    ],
-   "derniere_verif": "2026-11-22"
+   "derniere_verif": "2026-11-23"
   },
   {
    "id": "happ-e-1-an-hphc",
@@ -5683,6 +5762,21 @@
      "url": "https://selectra.info/energie/fournisseurs/happ-e/tarifs/electricite-fixe",
      "type": "comparateur",
      "consulte_le": "2026-11-22"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/happ-e/prix/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://www.hellowatt.fr/fournisseurs/happ-e/electricite-fixe",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://particuliers.engie.fr/content/dam/happe-public/pdf/grille_tarifaire.pdf",
+     "type": "officiel",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
@@ -5696,9 +5790,10 @@
     "19/11/2026 : Kelwatt (tarifs vérifiés le 18/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements 3 à 36 kVA (6 kVA 185,52 €/an). La grille officielle « en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, avec un abonnement constant de 44,35 € TTC/an inexploitable. Valeurs des comparateurs conservées, conflit maintenu.",
     "20/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs des comparateurs conservées, conflit maintenu.",
     "21/11/2026 : non revérifiée (aucun outil de lecture de pages disponible pendant la tâche planifiée, recherche web sans contenu) ; valeurs des comparateurs conservées, conflit maintenu.",
-    "22/11/2026 : Kelwatt (tarifs vérifiés le 21/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements 3 à 36 kVA (6 kVA 15,46 €/mois). La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement constant 44,35 € TTC inexploitable. Valeurs des comparateurs conservées, conflit maintenu."
+    "22/11/2026 : Kelwatt (tarifs vérifiés le 21/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements 3 à 36 kVA (6 kVA 15,46 €/mois). La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement constant 44,35 € TTC inexploitable. Valeurs des comparateurs conservées, conflit maintenu.",
+    "23/11/2026 : Kelwatt (tarifs vérifiés le 21/11) redonne Base 0,2273 / HP 0,2402 / HC 0,1887 et les abonnements 3 à 36 kVA (6 kVA 185,52 €/an), prix en vigueur depuis le 01/09/2026. Hello Watt (mis à jour le 03/11) affiche une grille plus ancienne (Base 0,2108, celle de février 2026 selon l'historique Kelwatt), écartée. La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement non attribuable par puissance. Valeurs des comparateurs conservées, conflit maintenu. Aucune promotion hors parrainage."
    ],
-   "derniere_verif": "2026-11-22"
+   "derniere_verif": "2026-11-23"
   },
   {
    "id": "engie-elec-reference-3-ans-base",
@@ -6056,15 +6151,26 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/enercoop/tarifs/enercoop-offre-base",
      "type": "comparateur",
      "consulte_le": "2026-11-16"
+    },
+    {
+     "url": "https://www.faq.enercoop.fr/hc/fr/article_attachments/37607556170770",
+     "type": "officiel",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/enercoop/tarifs/enercoop-offre-base",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
     "Grille officielle Enercoop (annexe tarifaire applicable au 1er août 2026, offre Basic Watt) : 0,25406 € TTC/kWh de 1 à 6 kVA, 0,25714 € à partir de 7 kVA ; abonnements TTC identiques à la base, y compris 9,77 €/mois à 3 kVA (vérifié le 03/11/2026).",
     "03/11/2026 : page de la promotion TOASTY26 illisible ; promotion conservée telle quelle, à reconfirmer.",
     "12/11/2026 : code TOASTY26 cité par Selectra (article de novembre 2025) comme code de parrainage à 20 € pour le filleul, et non 40 € : montant et validité de la promotion à reconfirmer sur la page Enercoop (non lue ce jour).",
-    "16/11/2026 : grille officielle (annexe particuliers applicable au 01/08/2026) relue : kWh et abonnements inchangés à toutes les puissances ; fournisseurs-electricite.com (tarifs vérifiés le 15/11) confirme 0,25406 € et 15,16 €/mois à 6 kVA (Base). Aucune nouvelle grille trouvée. Promotion TOASTY26 toujours non reconfirmée (absente des pages lues), conservée en attente."
+    "16/11/2026 : grille officielle (annexe particuliers applicable au 01/08/2026) relue : kWh et abonnements inchangés à toutes les puissances ; fournisseurs-electricite.com (tarifs vérifiés le 15/11) confirme 0,25406 € et 15,16 €/mois à 6 kVA (Base). Aucune nouvelle grille trouvée. Promotion TOASTY26 toujours non reconfirmée (absente des pages lues), conservée en attente.",
+    "23/11/2026 : grille officielle (annexe particuliers applicable au 01/08/2026) relue : kWh (Base 0,25406 € de 1 à 6 kVA, 0,25714 € dès 7 kVA ; HP 0,27764 / HC 0,18983 €) et abonnements 3 à 36 kVA inchangés ; JeChange (vérifié le 10/11) confirme la grille Base. Code TOASTY26 absent de toutes les pages lues : promotion conservée en attente, toujours non reconfirmée."
    ],
-   "derniere_verif": "2026-11-16"
+   "derniere_verif": "2026-11-23"
   },
   {
    "id": "enercoop-hphc",
@@ -6187,6 +6293,16 @@
      "url": "https://www.fournisseurs-electricite.com/fournisseurs/enercoop/tarifs/enercoop-offre-base",
      "type": "comparateur",
      "consulte_le": "2026-11-16"
+    },
+    {
+     "url": "https://www.faq.enercoop.fr/hc/fr/article_attachments/37607556170770",
+     "type": "officiel",
+     "consulte_le": "2026-11-23"
+    },
+    {
+     "url": "https://www.jechange.fr/energie/enercoop/tarifs/enercoop-offre-base",
+     "type": "comparateur",
+     "consulte_le": "2026-11-23"
     }
    ],
    "notes": [
@@ -6194,9 +6310,10 @@
     "Grille nationale : seuls le montant des taxes locales inclus dans le TTC et le créneau d'heures creuses (fixé par Enedis) peuvent varier selon la commune.",
     "03/11/2026 : page de la promotion TOASTY26 illisible ; promotion conservée telle quelle, à reconfirmer.",
     "12/11/2026 : code TOASTY26 cité par Selectra (article de novembre 2025) comme code de parrainage à 20 € pour le filleul, et non 40 € : montant et validité de la promotion à reconfirmer sur la page Enercoop (non lue ce jour).",
-    "16/11/2026 : grille officielle (annexe particuliers applicable au 01/08/2026) relue : kWh et abonnements inchangés à toutes les puissances ; fournisseurs-electricite.com (tarifs vérifiés le 15/11) confirme 0,25406 € et 15,16 €/mois à 6 kVA (Base). Aucune nouvelle grille trouvée. Promotion TOASTY26 toujours non reconfirmée (absente des pages lues), conservée en attente."
+    "16/11/2026 : grille officielle (annexe particuliers applicable au 01/08/2026) relue : kWh et abonnements inchangés à toutes les puissances ; fournisseurs-electricite.com (tarifs vérifiés le 15/11) confirme 0,25406 € et 15,16 €/mois à 6 kVA (Base). Aucune nouvelle grille trouvée. Promotion TOASTY26 toujours non reconfirmée (absente des pages lues), conservée en attente.",
+    "23/11/2026 : grille officielle (annexe particuliers applicable au 01/08/2026) relue : kWh (Base 0,25406 € de 1 à 6 kVA, 0,25714 € dès 7 kVA ; HP 0,27764 / HC 0,18983 €) et abonnements 3 à 36 kVA inchangés ; JeChange (vérifié le 10/11) confirme la grille Base. Code TOASTY26 absent de toutes les pages lues : promotion conservée en attente, toujours non reconfirmée."
    ],
-   "derniere_verif": "2026-11-16"
+   "derniere_verif": "2026-11-23"
   },
   {
    "id": "urban-solar-base",
