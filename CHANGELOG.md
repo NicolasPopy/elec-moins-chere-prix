@@ -1,5 +1,8 @@
 # Évolution des prix
 
+## 2026-11-24
+- Aucun changement de prix.
+
 ## 2026-11-23
 - Aucun changement de prix.
 ## 2026-11-22
