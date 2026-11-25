@@ -723,15 +723,15 @@ happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;30;44.22;hp;0.2402;conflit;
 happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;30;44.22;hc;0.1887;conflit;2026-11-24
 happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;36;51.41;hp;0.2402;conflit;2026-11-24
 happ-e-1-an-hphc;Happ-e;Électricité 1 an;hphc;fixe;36;51.41;hc;0.1887;conflit;2026-11-24
-engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;3;11.99;base;0.2403;source_unique;2026-11-20
-engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;6;15.58;base;0.2403;source_unique;2026-11-20
-engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;9;19.18;base;0.242;source_unique;2026-11-20
-engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;12;22.77;base;0.242;source_unique;2026-11-20
-engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;15;26.37;base;0.242;source_unique;2026-11-20
-engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;18;29.96;base;0.242;source_unique;2026-11-20
-engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;24;37.15;base;0.242;source_unique;2026-11-20
-engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;30;44.34;base;0.242;source_unique;2026-11-20
-engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;36;51.53;base;0.242;source_unique;2026-11-20
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;3;11.99;base;0.2403;source_unique;2026-11-25
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;6;15.58;base;0.2403;source_unique;2026-11-25
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;9;19.18;base;0.242;source_unique;2026-11-25
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;12;22.77;base;0.242;source_unique;2026-11-25
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;15;26.37;base;0.242;source_unique;2026-11-25
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;18;29.96;base;0.242;source_unique;2026-11-25
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;24;37.15;base;0.242;source_unique;2026-11-25
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;30;44.34;base;0.242;source_unique;2026-11-25
+engie-elec-reference-3-ans-base;Engie;Elec Référence 3 ans;base;fixe;36;51.53;base;0.242;source_unique;2026-11-25
 ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;3;18.24;base;0.2691;confirme;2026-11-20
 ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;6;25.1;base;0.2691;confirme;2026-11-20
 ilek-enrfixe-plus-base;ilek;ÉnRFixe+ Élec;base;fixe;9;34.1;base;0.2675;confirme;2026-11-20
@@ -777,12 +777,12 @@ urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;ind
 urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;24;40.62;base;0.1985;confirme;2026-11-22
 urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;30;48.05;base;0.1985;confirme;2026-11-22
 urban-solar-base;Urban Solar Energy;Électricité avec stockage virtuel;base;indexe_trv;36;55.54;base;0.1985;confirme;2026-11-22
-llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;3;12.13;base;0.19;confirme;2026-11-20
-llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;6;15.86;base;0.19;confirme;2026-11-20
-llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;9;19.88;base;0.19;confirme;2026-11-20
-llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;12;23.76;base;0.19;confirme;2026-11-20
-llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;15;27.4;base;0.19;confirme;2026-11-20
-llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;18;31.14;base;0.19;confirme;2026-11-20
-llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;24;39.14;base;0.19;confirme;2026-11-20
-llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;30;46.47;base;0.19;confirme;2026-11-20
-llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;36;53.88;base;0.19;confirme;2026-11-20
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;3;12.13;base;0.19;confirme;2026-11-25
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;6;15.86;base;0.19;confirme;2026-11-25
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;9;19.88;base;0.19;confirme;2026-11-25
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;12;23.76;base;0.19;confirme;2026-11-25
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;15;27.4;base;0.19;confirme;2026-11-25
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;18;31.14;base;0.19;confirme;2026-11-25
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;24;39.14;base;0.19;confirme;2026-11-25
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;30;46.47;base;0.19;confirme;2026-11-25
+llum-particuliers-base;LLUM;Électricité Particuliers;base;indexe_trv;36;53.88;base;0.19;confirme;2026-11-25

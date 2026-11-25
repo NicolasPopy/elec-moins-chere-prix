@@ -2,7 +2,7 @@
  "meta": {
   "nom": "ElecMoinsChere — base des prix de l'électricité",
   "version_schema": 1,
-  "mis_a_jour_le": "2026-11-24",
+  "mis_a_jour_le": "2026-11-25",
   "zone": "France métropolitaine continentale (hors Corse et DOM)",
   "unites": {
    "abonnement_mois": "€ TTC par mois",
@@ -5101,7 +5101,8 @@
     "Abonnements corrigés le 31/10/2026 (environ 5 €/mois de moins que l'ancien relevé) : 6 kVA 184,32 €/an confirmé par Kelwatt et Selectra, autres puissances d'après le tableau Kelwatt (abonnement annuel / 12).",
     "kWh Base 0,1968 € (3-6 kVA) confirmé par deux comparateurs ; 0,1953 € (9 kVA+) d'après Kelwatt seul. Grille du 01/10/2026. Pas de grille officielle trouvée.",
     "12/11/2026 : nouvelle grille au 01/11/2026. 6 kVA (190,32 €/an, 0,2001 €/kWh) confirmé par Kelwatt (vérifié le 09/11) et fournisseurs-electricite.com (12/11) ; autres puissances d'après Kelwatt seul (abonnement annuel / 12, kWh 0,1985 € à partir de 9 kVA). Pas de grille officielle consultée.",
-    "20/11/2026 : grille complète inchangée chez Kelwatt (tarifs vérifiés le 19/11 : 3 kVA 145,56 à 36 kVA 646,56 €/an ; 0,2001 € en 3-6 kVA, 0,1985 € à partir de 9 kVA) ; 6 kVA (15,86 €/mois, 0,2001 €) confirmé par fournisseurs-electricite.com. Pas de promotion."
+    "20/11/2026 : grille complète inchangée chez Kelwatt (tarifs vérifiés le 19/11 : 3 kVA 145,56 à 36 kVA 646,56 €/an ; 0,2001 € en 3-6 kVA, 0,1985 € à partir de 9 kVA) ; 6 kVA (15,86 €/mois, 0,2001 €) confirmé par fournisseurs-electricite.com. Pas de promotion.",
+    "25/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-20"
   },
@@ -5663,7 +5664,8 @@
     "21/11/2026 : non revérifiée (aucun outil de lecture de pages disponible pendant la tâche planifiée, recherche web sans contenu) ; valeurs des comparateurs conservées, conflit maintenu.",
     "22/11/2026 : Kelwatt (tarifs vérifiés le 21/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements 3 à 36 kVA (6 kVA 15,46 €/mois). La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement constant 44,35 € TTC inexploitable. Valeurs des comparateurs conservées, conflit maintenu.",
     "23/11/2026 : Kelwatt (tarifs vérifiés le 21/11) redonne Base 0,2273 / HP 0,2402 / HC 0,1887 et les abonnements 3 à 36 kVA (6 kVA 185,52 €/an), prix en vigueur depuis le 01/09/2026. Hello Watt (mis à jour le 03/11) affiche une grille plus ancienne (Base 0,2108, celle de février 2026 selon l'historique Kelwatt), écartée. La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement non attribuable par puissance. Valeurs des comparateurs conservées, conflit maintenu. Aucune promotion hors parrainage.",
-    "24/11/2026 : Kelwatt (tarifs vérifiés le 21/11) et JeChange (vérifiés le 22/11, prix au 10/11) redonnent Base 0,2273 / HP 0,2402 / HC 0,1887 et les abonnements 3 à 36 kVA (6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » donne toujours des valeurs non attribuables (0,20942 / 0,21751 / 0,18829 ; abonnement 44,35 € TTC constant). Valeurs des comparateurs conservées, conflit maintenu. Aucune promotion hors parrainage."
+    "24/11/2026 : Kelwatt (tarifs vérifiés le 21/11) et JeChange (vérifiés le 22/11, prix au 10/11) redonnent Base 0,2273 / HP 0,2402 / HC 0,1887 et les abonnements 3 à 36 kVA (6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » donne toujours des valeurs non attribuables (0,20942 / 0,21751 / 0,18829 ; abonnement 44,35 € TTC constant). Valeurs des comparateurs conservées, conflit maintenu. Aucune promotion hors parrainage.",
+    "25/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-24"
   },
@@ -5880,7 +5882,8 @@
     "21/11/2026 : non revérifiée (aucun outil de lecture de pages disponible pendant la tâche planifiée, recherche web sans contenu) ; valeurs des comparateurs conservées, conflit maintenu.",
     "22/11/2026 : Kelwatt (tarifs vérifiés le 21/11) et Selectra (relevé du 10/11) redonnent Base 0,2273 / HP 0,2402 (HC 0,1887 chez Kelwatt) et les mêmes abonnements 3 à 36 kVA (6 kVA 15,46 €/mois). La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement constant 44,35 € TTC inexploitable. Valeurs des comparateurs conservées, conflit maintenu.",
     "23/11/2026 : Kelwatt (tarifs vérifiés le 21/11) redonne Base 0,2273 / HP 0,2402 / HC 0,1887 et les abonnements 3 à 36 kVA (6 kVA 185,52 €/an), prix en vigueur depuis le 01/09/2026. Hello Watt (mis à jour le 03/11) affiche une grille plus ancienne (Base 0,2108, celle de février 2026 selon l'historique Kelwatt), écartée. La grille officielle « prix en vigueur au 01/11/2026 » donne toujours Base 0,20942 / HP 0,21751 / HC 0,18829 € TTC, abonnement non attribuable par puissance. Valeurs des comparateurs conservées, conflit maintenu. Aucune promotion hors parrainage.",
-    "24/11/2026 : Kelwatt (21/11) et JeChange (22/11) redonnent HP 0,2402 / HC 0,1887 et les mêmes abonnements 3 à 36 kVA que la Base ; grille officielle du 01/11/2026 toujours non attribuable (HP 0,21751 / HC 0,18829). Valeurs des comparateurs conservées, conflit maintenu."
+    "24/11/2026 : Kelwatt (21/11) et JeChange (22/11) redonnent HP 0,2402 / HC 0,1887 et les mêmes abonnements 3 à 36 kVA que la Base ; grille officielle du 01/11/2026 toujours non attribuable (HP 0,21751 / HC 0,18829). Valeurs des comparateurs conservées, conflit maintenu.",
+    "25/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-24"
   },
@@ -5967,7 +5970,7 @@
      "type": "bonus_facture",
      "nouveaux_clients": true,
      "date_fin": "2026-12-20",
-     "conditions": "Bannière de la page Engie « jusqu'au 20 décembre » (100 € sur Élec Référence 3 ans, Gaz Référence 3 ans et Happy Week-End ; 200 € sur Duo Référence 3 ans), « 100 € offerts » aussi affiché par HelloWatt. Conditions détaillées non lues : réservé aux nouvelles souscriptions par hypothèse, à confirmer. Relevée le 20/11/2026.",
+     "conditions": "Bannière de la page Engie « jusqu'au 20 décembre » (100 € sur Élec Référence 3 ans, Gaz Référence 3 ans et Happy Week-End ; 200 € sur Duo Référence 3 ans), « 100 € offerts » aussi affiché par HelloWatt. Conditions détaillées non lues : réservé aux nouvelles souscriptions par hypothèse, à confirmer. Relevée le 20/11/2026, toujours affichée le 25/11/2026.",
      "source": "https://particuliers.engie.fr/content/engie/particuliers/electricite/elec-reference.html"
     }
    ],
@@ -5993,6 +5996,16 @@
      "url": "https://particuliers.engie.fr/content/engie/particuliers/electricite/elec-reference.html",
      "type": "officielle",
      "consulte_le": "2026-11-20"
+    },
+    {
+     "url": "https://selectra.info/energie/fournisseurs/engie/tarifs/elec-reference",
+     "type": "comparateur",
+     "consulte_le": "2026-11-25"
+    },
+    {
+     "url": "https://particuliers.engie.fr/electricite/elec-reference.html",
+     "type": "officielle",
+     "consulte_le": "2026-11-25"
     }
    ],
    "notes": [
@@ -6001,9 +6014,10 @@
     "L'ancien « autre relevé » à 0,2099 € correspond au texte d'introduction de JeChange, contredit par sa propre grille.",
     "08/11/2026 : promotion « 2 mois d'abonnement offerts » retirée (date de fin 07/11/2026 dépassée). Grille non revérifiée ce jour (pages web inaccessibles).",
     "12/11/2026 : évolution de prix au 01/11/2026. kWh 0,2403 € (3-6 kVA) / 0,2420 € (9 kVA+) d'après Selectra (relevé le 02/11 dans la grille Engie de novembre) ; abonnements inchangés et identiques chez Selectra. La page Engie publie la grille par composante (fourniture, acheminement, obligations) sans total : pas recoupée. Kelwatt inaccessible ce jour.",
-    "20/11/2026 : 3 et 6 kVA confirmés par HelloWatt (mise à jour du 03/11 : 11,99 et 15,58 €/mois, 0,2403 €/kWh), en plus de Selectra. À partir de 9 kVA, HelloWatt donne d'autres valeurs (abonnement 21,32 à 60,10 €/mois, kWh 0,2389 €) que Selectra (19,18 à 51,53 €/mois, 0,2420 €) : valeurs Selectra conservées, à trancher avec la grille officielle. La page Engie (prix de novembre 2026) ne publie toujours que les composantes (fourniture 45,79 €/an et 0,17110 €/kWh TTC, acheminement, obligations) sans total : non recoupée. Statut source_unique maintenu."
+    "20/11/2026 : 3 et 6 kVA confirmés par HelloWatt (mise à jour du 03/11 : 11,99 et 15,58 €/mois, 0,2403 €/kWh), en plus de Selectra. À partir de 9 kVA, HelloWatt donne d'autres valeurs (abonnement 21,32 à 60,10 €/mois, kWh 0,2389 €) que Selectra (19,18 à 51,53 €/mois, 0,2420 €) : valeurs Selectra conservées, à trancher avec la grille officielle. La page Engie (prix de novembre 2026) ne publie toujours que les composantes (fourniture 45,79 €/an et 0,17110 €/kWh TTC, acheminement, obligations) sans total : non recoupée. Statut source_unique maintenu.",
+    "25/11/2026 : Selectra (mis à jour le 02/11, dernière évolution au 01/11/2026) redonne la grille complète 3 à 36 kVA inchangée (0,2403 € en 3-6 kVA, 0,2420 € à partir de 9 kVA ; 6 kVA 15,58 €/mois). La page Engie (prix de novembre 2026) ne publie toujours que les composantes (fourniture 45,79 €/an et 0,17110 €/kWh TTC, acheminement, obligations), sans total : non recoupée. Promotion 100 € TTC toujours affichée « jusqu'au 20 décembre » (conditions détaillées non lues). Statut source_unique maintenu."
    ],
-   "derniere_verif": "2026-11-20"
+   "derniere_verif": "2026-11-25"
   },
   {
    "id": "ilek-enrfixe-plus-base",
@@ -6119,7 +6133,8 @@
     "Prix HT fixes 2 ans (les deux comparateurs). L'ancien relevé à 0,2172 € n'est retrouvé nulle part.",
     "Abonnement nettement au-dessus du TRV.",
     "12/11/2026 : hausse du kWh au 02/11/2026 (+12 %) : 0,2691 € (3-6 kVA) et 0,2675 € (9 kVA+), grille complète identique chez Kelwatt (11/11) et Selectra (05/11), 6 kVA confirmé aussi par fournisseurs-electricite.com (12/11). Abonnements inchangés.",
-    "20/11/2026 : grille complète inchangée chez Kelwatt (vérifiée le 19/11 : 3 kVA 218,88 à 36 kVA 1 065,00 €/an ; 0,2691 € en 3-6 kVA, 0,2675 € à partir de 9 kVA) ; 6 kVA (301,20 €/an, 0,2691 €) confirmé par fournisseurs-electricite.com (18/11). Pas de promotion."
+    "20/11/2026 : grille complète inchangée chez Kelwatt (vérifiée le 19/11 : 3 kVA 218,88 à 36 kVA 1 065,00 €/an ; 0,2691 € en 3-6 kVA, 0,2675 € à partir de 9 kVA) ; 6 kVA (301,20 €/an, 0,2691 €) confirmé par fournisseurs-electricite.com (18/11). Pas de promotion.",
+    "25/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-20"
   },
@@ -6636,15 +6651,21 @@
      "url": "https://www.jechange.fr/energie/llum/tarifs/electricite-particuliers",
      "type": "comparateur",
      "consulte_le": "2026-11-20"
+    },
+    {
+     "url": "https://www.kelwatt.fr/fournisseurs/llum/prix/electricite-particuliers",
+     "type": "comparateur",
+     "consulte_le": "2026-11-25"
     }
    ],
    "notes": [
     "Abonnement relevé à 6 kVA uniquement (190,32 €/an TTC, fournisseurs-electricite.com, 01/11/2026) ; autres puissances non relevées.",
     "kWh 0,1900 € TTC reconfirmé à 6 kVA le 01/11/2026 (tarifs vérifiés le 25/09/2026 par le comparateur).",
     "12/11/2026 : abonnements de toutes les puissances ajoutés, identiques chez Kelwatt (07/11) et JeChange (11/11) ; kWh 0,1900 € confirmé par les trois comparateurs. Offre pour compteur classique ; une variante « compteur communiquant » existe (non suivie).",
-    "20/11/2026 : grille complète 3 à 36 kVA inchangée et identique chez Kelwatt (vérifiée le 19/11) et JeChange (prix à jour au 18/11) : 0,1900 €/kWh, 6 kVA 190,32 €/an. Pas de promotion."
+    "20/11/2026 : grille complète 3 à 36 kVA inchangée et identique chez Kelwatt (vérifiée le 19/11) et JeChange (prix à jour au 18/11) : 0,1900 €/kWh, 6 kVA 190,32 €/an. Pas de promotion.",
+    "25/11/2026 : grille complète 3 à 36 kVA inchangée chez Kelwatt (tarifs TTC vérifiés le 24/11/2026) : 0,1900 €/kWh, 6 kVA 190,32 €/an, 36 kVA 646,56 €/an. Seconde source non relue ce jour ; grille identique à celle confirmée par JeChange le 20/11. Pas de promotion."
    ],
-   "derniere_verif": "2026-11-20"
+   "derniere_verif": "2026-11-25"
   }
  ]
 }
