@@ -2,7 +2,7 @@
  "meta": {
   "nom": "ElecMoinsChere — base des prix de l'électricité",
   "version_schema": 1,
-  "mis_a_jour_le": "2026-11-27",
+  "mis_a_jour_le": "2026-11-28",
   "zone": "France métropolitaine continentale (hors Corse et DOM)",
   "unites": {
    "abonnement_mois": "€ TTC par mois",
@@ -1848,7 +1848,8 @@
     "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
     "02/11/2026 : kWh et abonnements 6 à 36 kVA reconfirmés par Selectra, Kelwatt et fournisseurs-electricite.com (grille du 15/09/2026). Aucune de ces sources ne liste 3 kVA : la ligne 3 kVA n'est pas confirmée. Selectra signale 80 € offerts jusqu'au 15/11/2026 pour une souscription par téléphone via son numéro (non retenu : canal partenaire, source unique).",
     "13/11/2026 : page officielle EDF (offre désormais présentée sous le nom « Zen Week-End - Option Flex », grille TTC applicable au 15/09/2026) et Kelwatt confirment Éco HP 0,2142 / HC 0,1595, Sobriété HP 0,7467 / HC 0,2142 et les abonnements 6 à 36 kVA. Aucune source, officielle comprise, ne propose 3 kVA : ligne 3 kVA retirée (non confirmée depuis le 02/11).",
-    "22/11/2026 : Kelwatt (24/09) confirme Éco HP 0,2142 / HC 0,1595, Sobriété HP 0,7467 / HC 0,2142, abonnements 6 à 36 kVA inchangés."
+    "22/11/2026 : Kelwatt (24/09) confirme Éco HP 0,2142 / HC 0,1595, Sobriété HP 0,7467 / HC 0,2142, abonnements 6 à 36 kVA inchangés.",
+    "28/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-22"
   },
@@ -2027,7 +2028,8 @@
     "Abonnement aligné sur le Tarif Bleu (relevé à 6 et 9 kVA).",
     "02/11/2026 : kWh été/hiver et abonnement 6 kVA reconfirmés par fournisseurs-electricite.com (grille du 15/09/2026, vérifiée le 01/11/2026). Souscriptions en nombre limité.",
     "13/11/2026 : kWh été/hiver (HP, HC, HSC) et abonnements 3 à 36 kVA reconfirmés par Selectra, Kelwatt et JeChange (grille du 15/09/2026, vérifiée les 4 et 12/11) ; fournisseurs-electricite.com concorde à 6 kVA.",
-    "22/11/2026 : Selectra (relevé du 04/11) et Kelwatt (vérifié le 18/11) concordent : été HP 0,1588 / HC 0,1405 / HSC 0,0991, hiver HP 0,2722 / HC 0,2131 / HSC 0,1992, abonnements 3 à 36 kVA inchangés. Aucune promotion."
+    "22/11/2026 : Selectra (relevé du 04/11) et Kelwatt (vérifié le 18/11) concordent : été HP 0,1588 / HC 0,1405 / HSC 0,0991, hiver HP 0,2722 / HC 0,2131 / HSC 0,1992, abonnements 3 à 36 kVA inchangés. Aucune promotion.",
+    "28/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-22"
   },
@@ -2911,7 +2913,8 @@
     "03/11/2026 : grille du 22/10/2026 confirmée par JeChange et Selectra (0,1837 € à 3-6 kVA, 0,1823 € à 9-15 kVA, abonnements identiques). L'option Base n'est proposée que de 3 à 15 kVA : lignes 18-36 kVA retirées.",
     "13/11/2026 : nouvelle grille au 01/11/2026 (hausse d'environ 4,5 % pour les nouvelles souscriptions) : Base 0,1919 € (3-6 kVA) et 0,1904 € (9-15 kVA), confirmée par Selectra (relevé du 10/11), Kelwatt (09/11) et fournisseurs-electricite.com (12/11, 6 kVA) ; abonnements inchangés.",
     "21/11/2026 : non revérifiée (aucun outil de lecture de pages disponible pendant la tâche planifiée, recherche web sans contenu) ; valeurs inchangées.",
-    "22/11/2026 : Kelwatt (vérifié le 21/11) et Selectra (relevé du 10/11) confirment Base 0,1919 (3-6 kVA) / 0,1904 (9-15 kVA), HP 0,2054 (Kelwatt) / HC 0,1528 et les abonnements. Pas de bonus de bienvenue sur cette offre (le bonus de 100 € concerne Novafixe Bonus)."
+    "22/11/2026 : Kelwatt (vérifié le 21/11) et Selectra (relevé du 10/11) confirment Base 0,1919 (3-6 kVA) / 0,1904 (9-15 kVA), HP 0,2054 (Kelwatt) / HC 0,1528 et les abonnements. Pas de bonus de bienvenue sur cette offre (le bonus de 100 € concerne Novafixe Bonus).",
+    "28/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-22"
   },
@@ -3187,7 +3190,8 @@
     "03/11/2026 : grille du 22/10/2026 confirmée (HP 0,1965 / HC 0,1467 € chez JeChange et fournisseurs-electricite.com, HC 0,1467 € et abonnements identiques chez Selectra). L'option HP/HC n'est pas proposée en 3 kVA : ligne retirée. Durée de blocage du prix HT : 3 ans selon Selectra et fournisseurs-electricite.com (JeChange se contredit entre 2 et 3 ans).",
     "13/11/2026 : nouvelle grille au 01/11/2026 (hausse d'environ 4,5 %) : HP 0,2054 € / HC 0,1528 € chez Kelwatt (09/11) et fournisseurs-electricite.com (12/11), HC 0,1528 € chez Selectra ; abonnements 6 à 36 kVA inchangés.",
     "21/11/2026 : non revérifiée (aucun outil de lecture de pages disponible pendant la tâche planifiée, recherche web sans contenu) ; valeurs inchangées.",
-    "22/11/2026 : Kelwatt (vérifié le 21/11) et Selectra (relevé du 10/11) confirment Base 0,1919 (3-6 kVA) / 0,1904 (9-15 kVA), HP 0,2054 (Kelwatt) / HC 0,1528 et les abonnements. Pas de bonus de bienvenue sur cette offre (le bonus de 100 € concerne Novafixe Bonus)."
+    "22/11/2026 : Kelwatt (vérifié le 21/11) et Selectra (relevé du 10/11) confirment Base 0,1919 (3-6 kVA) / 0,1904 (9-15 kVA), HP 0,2054 (Kelwatt) / HC 0,1528 et les abonnements. Pas de bonus de bienvenue sur cette offre (le bonus de 100 € concerne Novafixe Bonus).",
+    "28/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-22"
   },
@@ -4799,7 +4803,8 @@
     "19/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées.",
     "20/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées.",
     "21/11/2026 : non revérifiée (aucun outil de lecture de pages disponible pendant la tâche planifiée, recherche web sans contenu) ; valeurs inchangées.",
-    "22/11/2026 : grille non revérifiée (page Selectra sans grille, JeChange sans l'offre). Selectra (mis à jour le 04/11, toujours affiché le 22/11) indique qu'ekwateur ne prend plus de nouveaux clients particuliers : offre marquée fermée aux nouveaux clients. Prix conservés."
+    "22/11/2026 : grille non revérifiée (page Selectra sans grille, JeChange sans l'offre). Selectra (mis à jour le 04/11, toujours affiché le 22/11) indique qu'ekwateur ne prend plus de nouveaux clients particuliers : offre marquée fermée aux nouveaux clients. Prix conservés.",
+    "28/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-22",
    "mentions": [
@@ -5677,7 +5682,8 @@
     "24/11/2026 : Kelwatt (tarifs vérifiés le 21/11) et JeChange (vérifiés le 22/11, prix au 10/11) redonnent Base 0,2273 / HP 0,2402 / HC 0,1887 et les abonnements 3 à 36 kVA (6 kVA 185,52 €/an). La grille officielle « prix en vigueur au 01/11/2026 » donne toujours des valeurs non attribuables (0,20942 / 0,21751 / 0,18829 ; abonnement 44,35 € TTC constant). Valeurs des comparateurs conservées, conflit maintenu. Aucune promotion hors parrainage.",
     "25/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées.",
     "26/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, délégation refusée, recherche web sans contenu) ; valeurs inchangées. Conflit maintenu.",
-    "27/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées. Conflit maintenu."
+    "27/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées. Conflit maintenu.",
+    "28/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées. Conflit maintenu."
    ],
    "derniere_verif": "2026-11-24"
   },
@@ -5897,7 +5903,8 @@
     "24/11/2026 : Kelwatt (21/11) et JeChange (22/11) redonnent HP 0,2402 / HC 0,1887 et les mêmes abonnements 3 à 36 kVA que la Base ; grille officielle du 01/11/2026 toujours non attribuable (HP 0,21751 / HC 0,18829). Valeurs des comparateurs conservées, conflit maintenu.",
     "25/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées.",
     "26/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, délégation refusée, recherche web sans contenu) ; valeurs inchangées. Conflit maintenu.",
-    "27/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées. Conflit maintenu."
+    "27/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées. Conflit maintenu.",
+    "28/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées. Conflit maintenu."
    ],
    "derniere_verif": "2026-11-24"
   },
@@ -6556,7 +6563,8 @@
     "19/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées.",
     "20/11/2026 : non revérifiée (lecture des pages refusée pendant la tâche planifiée) ; valeurs inchangées.",
     "21/11/2026 : non revérifiée (aucun outil de lecture de pages disponible pendant la tâche planifiée, recherche web sans contenu) ; valeurs inchangées.",
-    "22/11/2026 : Kelwatt (vérifié le 21/11) et Selectra (relevé du 10/11) confirment la grille Base 3 à 36 kVA (0,2001 jusqu'à 6 kVA, 0,1985 au-delà). Réservée aux foyers équipés de panneaux ; 299 € TTC de mise en place et 1 € HT/kWc/mois de stockage (Selectra). Une option HP/HC existe (HP 0,2142 / HC 0,1589), non ajoutée faute de seconde source pour le HP."
+    "22/11/2026 : Kelwatt (vérifié le 21/11) et Selectra (relevé du 10/11) confirment la grille Base 3 à 36 kVA (0,2001 jusqu'à 6 kVA, 0,1985 au-delà). Réservée aux foyers équipés de panneaux ; 299 € TTC de mise en place et 1 € HT/kWc/mois de stockage (Selectra). Une option HP/HC existe (HP 0,2142 / HC 0,1589), non ajoutée faute de seconde source pour le HP.",
+    "28/11/2026 : non revérifiée (lecture des pages impossible pendant la tâche planifiée : aucun outil WebFetch disponible, recherche web limitée aux titres et URL) ; valeurs inchangées."
    ],
    "derniere_verif": "2026-11-22"
   },
